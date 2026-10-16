@@ -59,29 +59,6 @@
         "stories": 15,
         "posts": 112
       }
-    },
-    {
-      "at": "2026-10-16T13:12:00Z",
-      "job": "cloud_refresh",
-      "step": "content_packs",
-      "status": "ok",
-      "duration_s": 61,
-      "message": "Sample: wrote 3 packs"
-    },
-    {
-      "at": "2026-10-16T13:01:00Z",
-      "job": "cloud_refresh",
-      "step": "youtube_coverage",
-      "status": "ok",
-      "duration_s": 42,
-      "message": "Sample: checked 7 stories"
-    },
-    {
-      "at": "2026-10-16T12:30:00Z",
-      "job": "x_scan",
-      "status": "ok",
-      "duration_s": 95,
-      "message": "Sample: 7 stories from 3 queries"
     }
   ]
 }
