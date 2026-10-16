@@ -1,7 +1,18 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T20:31:38Z",
+  "generated_at": "2026-10-16T20:33:11Z",
   "entries": [
+    {
+      "at": "2026-10-16T20:33:11Z",
+      "job": "x_scan",
+      "status": "ok",
+      "duration_s": 0,
+      "message": "15 stories from 110 posts across 5 searches",
+      "counts": {
+        "stories": 15,
+        "posts": 110
+      }
+    },
     {
       "at": "2026-10-16T20:31:38Z",
       "job": "x_scan",

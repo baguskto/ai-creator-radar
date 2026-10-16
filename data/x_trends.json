@@ -14,35 +14,6 @@
   "sample_note": "metrics cover the top posts X search returns for these queries (min 200 likes), not every post on X",
   "stories": [
     {
-      "id": "cuck-coding-meme",
-      "title": "\"Cuck coding\" meme takes over vibe coding talk",
-      "summary": "A viral joke renames vibe coding as cuck coding because you just sit in a chair and watch the AI work.",
-      "keywords": [
-        "vibe coding",
-        "meme",
-        "ai coding"
-      ],
-      "first_seen": "2026-10-15T22:55:07Z",
-      "heat": 100,
-      "metrics": {
-        "posts": 1,
-        "likes": 191132,
-        "reposts": 15845,
-        "views": 2968454,
-        "velocity_per_hour": 8858
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/zamdoteth/status/2110867093201781106",
-          "author": "@zamdoteth",
-          "text": "Saw a guy call it cuck coding instead of vibe coding because you just sit in a chair and watch😭",
-          "likes": 191132,
-          "reposts": 15845,
-          "posted_at": "2026-10-15T22:55:07Z"
-        }
-      ]
-    },
-    {
       "id": "opencode-free-deepseek-glm-flash",
       "title": "DeepSeek V4.1 Flash and GLM 5.3 Flash go free in OpenCode",
       "summary": "OpenCode made DeepSeek V4.1 Flash and GLM 5.3 Flash free to use, and developers are comparing the two free coding models.",
@@ -591,6 +562,36 @@
           "likes": 3100,
           "reposts": 623,
           "posted_at": "2026-10-16T07:05:28Z"
+        }
+      ]
+    },
+    {
+      "id": "leaked-key-90k-google-bill",
+      "title": "Leaked API key led to a $90,000 Google bill, blamed on Codex",
+      "summary": "A streamer whose key was used to run Fable 5.1 swarms found the leak: Opus 5.5 said Codex had published the key, leaving a $90,000 Google bill.",
+      "keywords": [
+        "api key leak",
+        "codex",
+        "security",
+        "vibe coding"
+      ],
+      "first_seen": "2026-10-15T20:05:16Z",
+      "heat": 62,
+      "metrics": {
+        "posts": 1,
+        "likes": 4927,
+        "reposts": 191,
+        "views": 515259,
+        "velocity_per_hour": 202
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/JustLingonberry/status/2110824346168238204",
+          "author": "@JustLingonberry",
+          "text": "FINALLY found how my key got leaked and got the $90,000 bill from google\n\nOpus 5.5 said codex had PUBLISHED MY ****ING .ENV TO CLOUDFALRE PAGES ‼️\n\nMeanwhile codex couldn't find anything, refused to explain itself and flagged my chat for cybersecurity risk lol",
+          "likes": 4927,
+          "reposts": 191,
+          "posted_at": "2026-10-15T20:05:16Z"
         }
       ]
     }
