@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-16T13:00:00Z",
+  "sample": true,
+  "x_trends_generated_at": "2026-10-16T12:30:00Z",
+  "lookback_hours": 72,
+  "stories": [
+    {
+      "story_id": "sample-agent-browser-launch",
+      "query": "agents browser",
+      "video_count": 1,
+      "total_views": 9000,
+      "coverage": "low",
+      "gap_score": 70,
+      "top_videos": [
+        {
+          "video_id": "sample00",
+          "title": "Sample video 1 on agents",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 9000,
+          "url": "https://www.youtube.com/"
+        }
+      ]
+    },
+    {
+      "story_id": "sample-open-weights-coder",
+      "query": "open weights coding",
+      "video_count": 0,
+      "total_views": 0,
+      "coverage": "none",
+      "gap_score": 88,
+      "top_videos": []
+    },
+    {
+      "story_id": "sample-video-model-realtime",
+      "query": "video realtime",
+      "video_count": 3,
+      "total_views": 27000,
+      "coverage": "low",
+      "gap_score": 40,
+      "top_videos": [
+        {
+          "video_id": "sample20",
+          "title": "Sample video 1 on video",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 9000,
+          "url": "https://www.youtube.com/"
+        },
+        {
+          "video_id": "sample21",
+          "title": "Sample video 2 on video",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 9000,
+          "url": "https://www.youtube.com/"
+        },
+        {
+          "video_id": "sample22",
+          "title": "Sample video 3 on video",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 9000,
+          "url": "https://www.youtube.com/"
+        }
+      ]
+    },
+    {
+      "story_id": "sample-claude-code-plugins",
+      "query": "claude code plugins",
+      "video_count": 2,
+      "total_views": 18000,
+      "coverage": "low",
+      "gap_score": 46,
+      "top_videos": [
+        {
+          "video_id": "sample30",
+          "title": "Sample video 1 on claude code",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 9000,
+          "url": "https://www.youtube.com/"
+        },
+        {
+          "video_id": "sample31",
+          "title": "Sample video 2 on claude code",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 9000,
+          "url": "https://www.youtube.com/"
+        }
+      ]
+    },
+    {
+      "story_id": "sample-ai-glasses-teardown",
+      "query": "hardware on-device",
+      "video_count": 9,
+      "total_views": 540000,
+      "coverage": "medium",
+      "gap_score": 9,
+      "top_videos": [
+        {
+          "video_id": "sample40",
+          "title": "Sample video 1 on hardware",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 60000,
+          "url": "https://www.youtube.com/"
+        },
+        {
+          "video_id": "sample41",
+          "title": "Sample video 2 on hardware",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 60000,
+          "url": "https://www.youtube.com/"
+        },
+        {
+          "video_id": "sample42",
+          "title": "Sample video 3 on hardware",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 60000,
+          "url": "https://www.youtube.com/"
+        }
+      ]
+    },
+    {
+      "story_id": "sample-voice-clone-policy",
+      "query": "policy voice",
+      "video_count": 14,
+      "total_views": 840000,
+      "coverage": "high",
+      "gap_score": 6,
+      "top_videos": [
+        {
+          "video_id": "sample50",
+          "title": "Sample video 1 on policy",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 60000,
+          "url": "https://www.youtube.com/"
+        },
+        {
+          "video_id": "sample51",
+          "title": "Sample video 2 on policy",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 60000,
+          "url": "https://www.youtube.com/"
+        },
+        {
+          "video_id": "sample52",
+          "title": "Sample video 3 on policy",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 60000,
+          "url": "https://www.youtube.com/"
+        }
+      ]
+    },
+    {
+      "story_id": "sample-gpu-price-drop",
+      "query": "gpu pricing",
+      "video_count": 22,
+      "total_views": 1320000,
+      "coverage": "high",
+      "gap_score": 4,
+      "top_videos": [
+        {
+          "video_id": "sample60",
+          "title": "Sample video 1 on gpu",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 60000,
+          "url": "https://www.youtube.com/"
+        },
+        {
+          "video_id": "sample61",
+          "title": "Sample video 2 on gpu",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 60000,
+          "url": "https://www.youtube.com/"
+        },
+        {
+          "video_id": "sample62",
+          "title": "Sample video 3 on gpu",
+          "channel": "Sample Channel",
+          "published_at": "2026-10-16T10:00:00Z",
+          "views": 60000,
+          "url": "https://www.youtube.com/"
+        }
+      ]
+    }
+  ]
+}

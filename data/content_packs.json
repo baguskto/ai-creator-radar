@@ -1,0 +1,193 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-16T13:10:00Z",
+  "sample": true,
+  "packs": [
+    {
+      "story_id": "sample-open-weights-coder",
+      "video": {
+        "title": "This Free Model Just Beat GPT at Coding",
+        "thumbnail_text": "FREE & IT WINS",
+        "hook": "An open model nobody had heard of yesterday just beat the closed giants at coding. I ran it on my own projects, and the results surprised me."
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "Everyone on X is talking about the new open-weights coding model. YouTube hasn't caught up.",
+            "visual": "Screen recording of the viral post"
+          },
+          {
+            "t": "3-12s",
+            "line": "Here's what it actually does, in one demo.",
+            "visual": "Side-by-side demo"
+          },
+          {
+            "t": "12-24s",
+            "line": "The part nobody's mentioning is what this means for your workflow.",
+            "visual": "Text callouts over B-roll"
+          },
+          {
+            "t": "24-30s",
+            "line": "Full breakdown on my channel. Follow so you catch the next one first.",
+            "visual": "Channel end card"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "FREE & IT WINS",
+            "body": "What just happened with the new open-weights coding model"
+          },
+          {
+            "heading": "What it is",
+            "body": "One sentence a beginner understands."
+          },
+          {
+            "heading": "Why X is losing it",
+            "body": "The demo that started it all."
+          },
+          {
+            "heading": "What it means for you",
+            "body": "Three ways to use this today."
+          },
+          {
+            "heading": "The catch",
+            "body": "What the hype threads skip."
+          },
+          {
+            "heading": "Watch the breakdown",
+            "body": "Full video on Chase AI. Link in bio."
+          }
+        ]
+      },
+      "x_post": "The new open-weights coding model is everywhere on X today and almost nobody on YouTube has covered it yet. Here's the 60-second version 🧵"
+    },
+    {
+      "story_id": "sample-agent-browser-launch",
+      "video": {
+        "title": "This AI Now Uses Your Browser For You",
+        "thumbnail_text": "IT CLICKS FOR YOU",
+        "hook": "I gave an AI agent my browser and walked away. Twenty minutes later it had booked a trip. Here's exactly what it did, and where it failed."
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "Everyone on X is talking about the browser agent launch. YouTube hasn't caught up.",
+            "visual": "Screen recording of the viral post"
+          },
+          {
+            "t": "3-12s",
+            "line": "Here's what it actually does, in one demo.",
+            "visual": "Side-by-side demo"
+          },
+          {
+            "t": "12-24s",
+            "line": "The part nobody's mentioning is what this means for your workflow.",
+            "visual": "Text callouts over B-roll"
+          },
+          {
+            "t": "24-30s",
+            "line": "Full breakdown on my channel. Follow so you catch the next one first.",
+            "visual": "Channel end card"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "IT CLICKS FOR YOU",
+            "body": "What just happened with the browser agent launch"
+          },
+          {
+            "heading": "What it is",
+            "body": "One sentence a beginner understands."
+          },
+          {
+            "heading": "Why X is losing it",
+            "body": "The demo that started it all."
+          },
+          {
+            "heading": "What it means for you",
+            "body": "Three ways to use this today."
+          },
+          {
+            "heading": "The catch",
+            "body": "What the hype threads skip."
+          },
+          {
+            "heading": "Watch the breakdown",
+            "body": "Full video on Chase AI. Link in bio."
+          }
+        ]
+      },
+      "x_post": "The browser agent launch is everywhere on X today and almost nobody on YouTube has covered it yet. Here's the 60-second version 🧵"
+    },
+    {
+      "story_id": "sample-claude-code-plugins",
+      "video": {
+        "title": "The Claude Code Plugins Pros Are Using",
+        "thumbnail_text": "STEAL THIS SETUP",
+        "hook": "The best Claude Code users aren't using it stock. These are the plugins and hooks I keep seeing in their setups, and how to install them in five minutes."
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "Everyone on X is talking about Claude Code plugins. YouTube hasn't caught up.",
+            "visual": "Screen recording of the viral post"
+          },
+          {
+            "t": "3-12s",
+            "line": "Here's what it actually does, in one demo.",
+            "visual": "Side-by-side demo"
+          },
+          {
+            "t": "12-24s",
+            "line": "The part nobody's mentioning is what this means for your workflow.",
+            "visual": "Text callouts over B-roll"
+          },
+          {
+            "t": "24-30s",
+            "line": "Full breakdown on my channel. Follow so you catch the next one first.",
+            "visual": "Channel end card"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "STEAL THIS SETUP",
+            "body": "What just happened with Claude Code plugins"
+          },
+          {
+            "heading": "What it is",
+            "body": "One sentence a beginner understands."
+          },
+          {
+            "heading": "Why X is losing it",
+            "body": "The demo that started it all."
+          },
+          {
+            "heading": "What it means for you",
+            "body": "Three ways to use this today."
+          },
+          {
+            "heading": "The catch",
+            "body": "What the hype threads skip."
+          },
+          {
+            "heading": "Watch the breakdown",
+            "body": "Full video on Chase AI. Link in bio."
+          }
+        ]
+      },
+      "x_post": "Claude code plugins is everywhere on X today and almost nobody on YouTube has covered it yet. Here's the 60-second version 🧵"
+    }
+  ]
+}

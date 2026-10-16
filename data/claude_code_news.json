@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-16T13:00:00Z",
+  "sample": true,
+  "latest_version": "0.0.0-sample",
+  "items": [
+    {
+      "version": "0.0.0-sample",
+      "date": "2026-10-15",
+      "title": "Sample release headline",
+      "highlights": [
+        "Sample highlight one",
+        "Sample highlight two",
+        "Sample highlight three"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "creator_angle": "Sample: a feature worth a quick tutorial."
+    },
+    {
+      "version": "0.0.-1-sample",
+      "date": "2026-10-11",
+      "title": "Earlier sample release",
+      "highlights": [
+        "Sample fix",
+        "Sample improvement"
+      ],
+      "url": "https://github.com/anthropics/claude-code/releases"
+    }
+  ]
+}

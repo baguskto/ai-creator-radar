@@ -1,0 +1,215 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-16T12:30:00Z",
+  "sample": true,
+  "window_hours": 24,
+  "queries": [
+    "ai agent",
+    "open weights",
+    "claude code"
+  ],
+  "stories": [
+    {
+      "id": "sample-agent-browser-launch",
+      "title": "A major lab ships an agent that drives your browser end to end",
+      "summary": "Demo clips of an agent booking travel and filling forms with no supervision are spreading fast.",
+      "keywords": [
+        "agents",
+        "browser",
+        "computer use"
+      ],
+      "first_seen": "2026-10-16T03:00:00Z",
+      "heat": 94,
+      "metrics": {
+        "posts": 2210,
+        "likes": 243100,
+        "reposts": 35360,
+        "views": 19890000,
+        "velocity_per_hour": 160
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/",
+          "author": "@sample_account",
+          "text": "Sample post about: a major lab ships an agent that drives your browser end to end.",
+          "likes": 13260,
+          "reposts": 2210,
+          "posted_at": "2026-10-16T08:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "sample-open-weights-coder",
+      "title": "New open-weights coding model tops a public leaderboard",
+      "summary": "A small lab released weights that beat closed models on a coding benchmark; devs are posting side-by-side runs.",
+      "keywords": [
+        "open weights",
+        "coding",
+        "benchmark"
+      ],
+      "first_seen": "2026-10-16T04:00:00Z",
+      "heat": 88,
+      "metrics": {
+        "posts": 1630,
+        "likes": 179300,
+        "reposts": 26080,
+        "views": 14670000,
+        "velocity_per_hour": 120
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/",
+          "author": "@sample_account",
+          "text": "Sample post about: new open-weights coding model tops a public leaderboard.",
+          "likes": 9780,
+          "reposts": 1630,
+          "posted_at": "2026-10-16T08:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "sample-video-model-realtime",
+      "title": "Real-time video generation demo goes viral",
+      "summary": "A live demo generates video from a webcam feed in real time.",
+      "keywords": [
+        "video",
+        "realtime",
+        "generation"
+      ],
+      "first_seen": "2026-10-16T05:00:00Z",
+      "heat": 81,
+      "metrics": {
+        "posts": 1290,
+        "likes": 141900,
+        "reposts": 20640,
+        "views": 11610000,
+        "velocity_per_hour": 100
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/",
+          "author": "@sample_account",
+          "text": "Sample post about: real-time video generation demo goes viral.",
+          "likes": 7740,
+          "reposts": 1290,
+          "posted_at": "2026-10-16T08:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "sample-claude-code-plugins",
+      "title": "Developers share Claude Code plugin setups",
+      "summary": "Threads of custom Claude Code plugins and hooks are trending among developers.",
+      "keywords": [
+        "claude code",
+        "plugins",
+        "hooks"
+      ],
+      "first_seen": "2026-10-16T06:00:00Z",
+      "heat": 76,
+      "metrics": {
+        "posts": 980,
+        "likes": 107800,
+        "reposts": 15680,
+        "views": 8820000,
+        "velocity_per_hour": 80
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/",
+          "author": "@sample_account",
+          "text": "Sample post about: developers share claude code plugin setups.",
+          "likes": 5880,
+          "reposts": 980,
+          "posted_at": "2026-10-16T08:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "sample-ai-glasses-teardown",
+      "title": "AI glasses teardown reveals on-device model",
+      "summary": "A teardown thread shows the glasses run a small model locally.",
+      "keywords": [
+        "hardware",
+        "on-device"
+      ],
+      "first_seen": "2026-10-16T07:00:00Z",
+      "heat": 63,
+      "metrics": {
+        "posts": 640,
+        "likes": 70400,
+        "reposts": 10240,
+        "views": 5760000,
+        "velocity_per_hour": 60
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/",
+          "author": "@sample_account",
+          "text": "Sample post about: ai glasses teardown reveals on-device model.",
+          "likes": 3840,
+          "reposts": 640,
+          "posted_at": "2026-10-16T08:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "sample-voice-clone-policy",
+      "title": "Platform changes its voice cloning policy",
+      "summary": "Creators debate a new rule on AI voice clones in uploads.",
+      "keywords": [
+        "policy",
+        "voice",
+        "creators"
+      ],
+      "first_seen": "2026-10-16T08:00:00Z",
+      "heat": 57,
+      "metrics": {
+        "posts": 520,
+        "likes": 57200,
+        "reposts": 8320,
+        "views": 4680000,
+        "velocity_per_hour": 40
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/",
+          "author": "@sample_account",
+          "text": "Sample post about: platform changes its voice cloning policy.",
+          "likes": 3120,
+          "reposts": 520,
+          "posted_at": "2026-10-16T08:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "sample-gpu-price-drop",
+      "title": "Cloud GPU prices drop sharply",
+      "summary": "Several providers cut H-class GPU prices; indie builders celebrate.",
+      "keywords": [
+        "gpu",
+        "pricing",
+        "cloud"
+      ],
+      "first_seen": "2026-10-16T03:00:00Z",
+      "heat": 49,
+      "metrics": {
+        "posts": 410,
+        "likes": 45100,
+        "reposts": 6560,
+        "views": 3690000,
+        "velocity_per_hour": 40
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/",
+          "author": "@sample_account",
+          "text": "Sample post about: cloud gpu prices drop sharply.",
+          "likes": 2460,
+          "reposts": 410,
+          "posted_at": "2026-10-16T08:00:00Z"
+        }
+      ]
+    }
+  ]
+}

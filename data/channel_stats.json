@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-16T13:00:00Z",
+  "sample": true,
+  "channel": {
+    "id": "sample",
+    "title": "Chase AI",
+    "handle": "@Chase-H-AI",
+    "subscribers": 0,
+    "total_views": 0,
+    "video_count": 0
+  },
+  "baseline": {
+    "description": "Sample baseline",
+    "median_views": 20000,
+    "median_views_per_day": 3000
+  },
+  "recent_videos": [
+    {
+      "video_id": "s0",
+      "title": "Sample video A",
+      "published_at": "2026-10-15T15:00:00Z",
+      "url": "https://www.youtube.com/@Chase-H-AI",
+      "views": 41000,
+      "likes": 2050,
+      "comments": 273,
+      "views_per_day": 9600,
+      "vs_baseline": 3.2
+    },
+    {
+      "video_id": "s1",
+      "title": "Sample video B",
+      "published_at": "2026-10-13T15:00:00Z",
+      "url": "https://www.youtube.com/@Chase-H-AI",
+      "views": 18000,
+      "likes": 900,
+      "comments": 120,
+      "views_per_day": 3300,
+      "vs_baseline": 1.1
+    },
+    {
+      "video_id": "s2",
+      "title": "Sample video C",
+      "published_at": "2026-10-11T15:00:00Z",
+      "url": "https://www.youtube.com/@Chase-H-AI",
+      "views": 12000,
+      "likes": 600,
+      "comments": 80,
+      "views_per_day": 2100,
+      "vs_baseline": 0.7
+    },
+    {
+      "video_id": "s3",
+      "title": "Sample video D",
+      "published_at": "2026-10-09T15:00:00Z",
+      "url": "https://www.youtube.com/@Chase-H-AI",
+      "views": 30000,
+      "likes": 1500,
+      "comments": 200,
+      "views_per_day": 4200,
+      "vs_baseline": 1.4
+    },
+    {
+      "video_id": "s4",
+      "title": "Sample video E",
+      "published_at": "2026-10-07T15:00:00Z",
+      "url": "https://www.youtube.com/@Chase-H-AI",
+      "views": 22000,
+      "likes": 1100,
+      "comments": 146,
+      "views_per_day": 2700,
+      "vs_baseline": 0.9
+    }
+  ]
+}
