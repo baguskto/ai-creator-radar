@@ -1,143 +1,232 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T20:29:09Z",
-  "x_trends_generated_at": "2026-10-16T19:44:36Z",
+  "generated_at": "2026-10-16T20:34:58Z",
+  "x_trends_generated_at": "2026-10-16T20:29:47Z",
   "x_trends_sample": false,
   "lookback_hours": 72,
   "stories": [
     {
-      "story_id": "cuck-coding-meme",
-      "title": "\"Cuck coding\" meme takes over vibe coding talk",
-      "query": "vibe coding meme ai agents",
+      "story_id": "openai-navier-stokes-milestone",
+      "title": "OpenAI marks its Navier-Stokes milestone with a chain-of-thought shirt",
+      "query": "openai navier-stokes ai math sam altman",
       "video_count": 0,
       "total_views": 0,
       "max_views": 0,
       "big_channel_videos": 0,
       "coverage": "none",
       "coverage_score": 0,
-      "heat": 100.0,
-      "gap_score": 100,
+      "heat": 88.0,
+      "gap_score": 88,
       "top_videos": []
     },
     {
-      "story_id": "anthropic-ipo-delay-debate",
-      "title": "Anthropic IPO: calls to delay over safety, valuation debate",
-      "query": "anthropic ipo valuation ai safety credit rating",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
+      "story_id": "claude-writes-90-percent-claude-code",
+      "title": "Claude writes about 90% of Claude Code's code",
+      "query": "claude code anthropic ai coding productivity",
+      "video_count": 2,
+      "total_views": 270,
+      "max_views": 203,
       "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
+      "coverage": "low",
+      "coverage_score": 8,
       "heat": 90.0,
-      "gap_score": 90,
+      "gap_score": 83,
+      "top_videos": [
+        {
+          "video_id": "2v_UbKhluJc",
+          "title": "Claude Code Mods Explained: AI Agents, Custom UI & Smarter Workflows",
+          "url": "https://www.youtube.com/watch?v=2v_UbKhluJc",
+          "channel": "Kartikeya",
+          "channel_subscribers": 11500,
+          "published_at": "2026-10-16T08:36:54Z",
+          "views": 203
+        },
+        {
+          "video_id": "GQ-h23UiIOo",
+          "title": "Claude Isn't Just For Coding. Here's What You're Missing",
+          "url": "https://www.youtube.com/watch?v=GQ-h23UiIOo",
+          "channel": "Claude_aholics",
+          "channel_subscribers": 17,
+          "published_at": "2026-10-14T16:45:39Z",
+          "views": 67
+        }
+      ]
+    },
+    {
+      "story_id": "gemini-4-argon-wandr-rollout",
+      "title": "Gemini 4 Argon sets WANDR record, rolls out to Antigravity and Perplexity",
+      "query": "gemini 4 argon wandr antigravity perplexity benchmark",
+      "video_count": 0,
+      "total_views": 0,
+      "max_views": 0,
+      "big_channel_videos": 0,
+      "coverage": "none",
+      "coverage_score": 0,
+      "heat": 77.0,
+      "gap_score": 77,
       "top_videos": []
     },
     {
-      "story_id": "nvidia-app-ai-agent-control-default",
-      "title": "NVIDIA app quietly enables AI agent control by default",
-      "query": "nvidia app ai agents security default setting",
+      "story_id": "meta-muse-spark-open",
+      "title": "Meta releases Muse Spark Open, an 816B open-weight model",
+      "query": "meta muse spark open muse wonder open weights cursor",
+      "video_count": 3,
+      "total_views": 297,
+      "max_views": 154,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 11,
+      "heat": 84.0,
+      "gap_score": 75,
+      "top_videos": [
+        {
+          "video_id": "neHDPlYxLQU",
+          "title": "Meta Ships Muse Wonder as Anthropic Warns Small AI Models May Self-Replicate",
+          "url": "https://www.youtube.com/watch?v=neHDPlYxLQU",
+          "channel": "BRAID",
+          "channel_subscribers": 24,
+          "published_at": "2026-10-16T07:22:45Z",
+          "views": 154
+        },
+        {
+          "video_id": "tBAACOoY9CQ",
+          "title": "ThursdAI Oct 15: Meta Muse Wonder + an 816B Open Model, Gemini 4 Argon, State of AI 2026",
+          "url": "https://www.youtube.com/watch?v=tBAACOoY9CQ",
+          "channel": "Alex Volkov from ThursdAI",
+          "channel_subscribers": 54600,
+          "published_at": "2026-10-16T03:22:15Z",
+          "views": 138
+        },
+        {
+          "video_id": "2mH3J19oNNQ",
+          "title": "AI Daily Briefing — Oct 16, 2026: FLUX 3 Klein, Nemotron 3.5 Super VL, Muse Spark Open",
+          "url": "https://www.youtube.com/watch?v=2mH3J19oNNQ",
+          "channel": "iStarSoft AI",
+          "channel_subscribers": 3,
+          "published_at": "2026-10-16T03:56:04Z",
+          "views": 5
+        }
+      ]
+    },
+    {
+      "story_id": "grok-bot-amazon-blocked",
+      "title": "Amazon blocks Grok Bot shopping agents; Musk floats an Amazon rival",
+      "query": "grok bot xai amazon ai agents shopping",
+      "video_count": 6,
+      "total_views": 96,
+      "max_views": 51,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 22,
+      "heat": 94.0,
+      "gap_score": 73,
+      "top_videos": [
+        {
+          "video_id": "lnfyX2gYgXc",
+          "title": "Grok Bot Blocked by Amazon: Elon Musk Floats an Amazon Rival 🤔 #shorts",
+          "url": "https://www.youtube.com/watch?v=lnfyX2gYgXc",
+          "channel": "Vito Zhu",
+          "channel_subscribers": 9,
+          "published_at": "2026-10-16T05:42:38Z",
+          "views": 51
+        },
+        {
+          "video_id": "jYWJJ3mgyAM",
+          "title": "JUST IN: ELON MUSK Wants to Take On AMAZON After Grok Bots Get BLOCKED",
+          "url": "https://www.youtube.com/watch?v=jYWJJ3mgyAM",
+          "channel": "AGI Point",
+          "channel_subscribers": 21,
+          "published_at": "2026-10-15T17:25:48Z",
+          "views": 17
+        },
+        {
+          "video_id": "BKypFnHUY1w",
+          "title": "Amazon Is in Trouble: The $12B Secret Behind the Grok Bot Ban",
+          "url": "https://www.youtube.com/watch?v=BKypFnHUY1w",
+          "channel": "Soren Vance",
+          "channel_subscribers": 1,
+          "published_at": "2026-10-16T15:32:35Z",
+          "views": 16
+        },
+        {
+          "video_id": "XBeoWgptO-M",
+          "title": "Musk Floats an Amazon Rival After Grok Bots Get Blocked",
+          "url": "https://www.youtube.com/watch?v=XBeoWgptO-M",
+          "channel": "Tech Tick Daily",
+          "channel_subscribers": 35,
+          "published_at": "2026-10-15T22:55:12Z",
+          "views": 8
+        },
+        {
+          "video_id": "-7kgdFDRyjE",
+          "title": "Musk vs Amazon: What Happens When You Delete the Store?",
+          "url": "https://www.youtube.com/watch?v=-7kgdFDRyjE",
+          "channel": "Innovation Unpacked | Mike Boysen",
+          "channel_subscribers": 4060,
+          "published_at": "2026-10-16T13:05:21Z",
+          "views": 2
+        }
+      ]
+    },
+    {
+      "story_id": "gemini-4-argon-showcase",
+      "title": "Gemini 4 Argon showcases: Google engineering, research stories, demos",
+      "query": "gemini 4 argon google demos veo nano banana",
       "video_count": 1,
-      "total_views": 1,
-      "max_views": 1,
+      "total_views": 9,
+      "max_views": 9,
       "big_channel_videos": 0,
       "coverage": "low",
       "coverage_score": 4,
-      "heat": 82.0,
-      "gap_score": 79,
+      "heat": 70.0,
+      "gap_score": 67,
       "top_videos": [
         {
-          "video_id": "Uy0rJQMFwP4",
-          "title": "NVIDIA 悄悄打开了「允许 AI 控制」？84 万人看过的警告｜NVIDIA App Lets AI Agents In by Default?",
-          "url": "https://www.youtube.com/watch?v=Uy0rJQMFwP4",
-          "channel": "Swichi瑞圈儿",
-          "channel_subscribers": 1,
-          "published_at": "2026-10-16T14:26:40Z",
-          "views": 1
+          "video_id": "GHY3aIOiUJ8",
+          "title": "Gemini 4 ARGON Aa Gaya! | Gemini Pro Ke Sab Se Advanced Features | Long Video Secret",
+          "url": "https://www.youtube.com/watch?v=GHY3aIOiUJ8",
+          "channel": "I am Tabbi",
+          "channel_subscribers": 0,
+          "published_at": "2026-10-15T14:27:46Z",
+          "views": 9
         }
       ]
     },
     {
-      "story_id": "interpretability-untangled-networks",
-      "title": "Interpretability result: neural networks are not tangled knots",
-      "query": "interpretability neural networks research",
+      "story_id": "mistral-europe-frontier-ai",
+      "title": "Mistral's Arthur Mensch: Europe must not leave frontier AI to US and China",
+      "query": "mistral europe frontier ai sovereignty",
+      "video_count": 0,
+      "total_views": 0,
+      "max_views": 0,
+      "big_channel_videos": 0,
+      "coverage": "none",
+      "coverage_score": 0,
+      "heat": 64.0,
+      "gap_score": 64,
+      "top_videos": []
+    },
+    {
+      "story_id": "accenture-caps-claude-spend",
+      "title": "Accenture caps employee Claude use at $29 a month",
+      "query": "accenture claude enterprise ai ai costs",
       "video_count": 1,
-      "total_views": 5144,
-      "max_views": 5144,
+      "total_views": 6,
+      "max_views": 6,
       "big_channel_videos": 0,
       "coverage": "low",
-      "coverage_score": 16,
-      "heat": 81.0,
-      "gap_score": 68,
-      "top_videos": [
-        {
-          "video_id": "ZCxQ_IhMHPY",
-          "title": "The Science of Reverse Engineering Neural Networks | Mechanistic Interpretability",
-          "url": "https://www.youtube.com/watch?v=ZCxQ_IhMHPY",
-          "channel": "Neural Breakdown with AVB",
-          "channel_subscribers": 37500,
-          "published_at": "2026-10-16T03:00:11Z",
-          "views": 5144
-        }
-      ]
-    },
-    {
-      "story_id": "claude-slides",
-      "title": "Boris Cherny: make slide decks with Claude Slides",
-      "query": "claude slides claude artifacts anthropic",
-      "video_count": 5,
-      "total_views": 189,
-      "max_views": 110,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 19,
-      "heat": 78.0,
+      "coverage_score": 4,
+      "heat": 66.0,
       "gap_score": 63,
       "top_videos": [
         {
-          "video_id": "jGTSUtcUaig",
-          "title": "Claude Docs, Slides and Design: out of beta, free plan too",
-          "url": "https://www.youtube.com/watch?v=jGTSUtcUaig",
-          "channel": "Tinkerbolt Labs",
-          "channel_subscribers": 10,
-          "published_at": "2026-10-14T12:00:18Z",
-          "views": 110
-        },
-        {
-          "video_id": "drtvnrWvZpc",
-          "title": "Claude Enterprise｜十月十五起 Docs、Slides、Design 預設開",
-          "url": "https://www.youtube.com/watch?v=drtvnrWvZpc",
-          "channel": "AI in One",
-          "channel_subscribers": 15,
-          "published_at": "2026-10-15T04:53:31Z",
-          "views": 28
-        },
-        {
-          "video_id": "3SJQ9xuI2uw",
-          "title": "Stop building decks from scratch: Claude Slides is now free",
-          "url": "https://www.youtube.com/watch?v=3SJQ9xuI2uw",
-          "channel": "HourBackAI",
-          "channel_subscribers": 4,
-          "published_at": "2026-10-13T23:45:21Z",
-          "views": 27
-        },
-        {
-          "video_id": "q25AbiHR4eI",
-          "title": "Claude Dashboards: Your Data, Charted in One Prompt",
-          "url": "https://www.youtube.com/watch?v=q25AbiHR4eI",
-          "channel": "Stack Snacks",
-          "channel_subscribers": 5510,
-          "published_at": "2026-10-15T10:02:13Z",
-          "views": 24
-        },
-        {
-          "video_id": "KU1axUl6iUc",
-          "title": "Claude Dashboards and Claude Motion: live dashboards and animated explainers, explained",
-          "url": "https://www.youtube.com/watch?v=KU1axUl6iUc",
-          "channel": "One Prompt Away",
-          "channel_subscribers": 28,
-          "published_at": "2026-10-14T01:41:04Z",
-          "views": 0
+          "video_id": "cOkWnqBTNJw",
+          "title": "AI News You Can Understand: How Autonomous AI Is Breaking Enterprise Budgets",
+          "url": "https://www.youtube.com/watch?v=cOkWnqBTNJw",
+          "channel": "AINUCU - AI News You Can Use",
+          "channel_subscribers": 5,
+          "published_at": "2026-10-16T15:32:37Z",
+          "views": 6
         }
       ]
     },
@@ -146,13 +235,13 @@
       "title": "DeepSeek V4.1 Flash and GLM 5.3 Flash go free in OpenCode",
       "query": "opencode deepseek v4.1 flash glm 5.3 flash free models",
       "video_count": 8,
-      "total_views": 2992,
-      "max_views": 1815,
+      "total_views": 3093,
+      "max_views": 1916,
       "big_channel_videos": 0,
       "coverage": "medium",
       "coverage_score": 38,
-      "heat": 99.0,
-      "gap_score": 61,
+      "heat": 100.0,
+      "gap_score": 62,
       "top_videos": [
         {
           "video_id": "sPQ-vdcV4_k",
@@ -161,7 +250,7 @@
           "channel": "Mustafa Sayed",
           "channel_subscribers": 637,
           "published_at": "2026-10-15T11:09:42Z",
-          "views": 1815
+          "views": 1916
         },
         {
           "video_id": "5yIlO9fkJzg",
@@ -202,26 +291,40 @@
       ]
     },
     {
+      "story_id": "leaked-key-90k-google-bill",
+      "title": "Leaked API key led to a $90,000 Google bill, blamed on Codex",
+      "query": "api key leak codex security vibe coding",
+      "video_count": 0,
+      "total_views": 0,
+      "max_views": 0,
+      "big_channel_videos": 0,
+      "coverage": "none",
+      "coverage_score": 0,
+      "heat": 62.0,
+      "gap_score": 62,
+      "top_videos": []
+    },
+    {
       "story_id": "anthropic-outside-safety-evaluators",
       "title": "Anthropic gives outside evaluators like METR frontier model access",
-      "query": "anthropic metr safety evaluation frontier models",
-      "video_count": 4,
-      "total_views": 43,
-      "max_views": 42,
+      "query": "anthropic metr ai safety evaluations",
+      "video_count": 2,
+      "total_views": 8,
+      "max_views": 7,
       "big_channel_videos": 0,
       "coverage": "low",
-      "coverage_score": 15,
-      "heat": 70.0,
+      "coverage_score": 8,
+      "heat": 65.0,
       "gap_score": 60,
       "top_videos": [
         {
-          "video_id": "5QDNYAKRzF0",
-          "title": "Anthropic just moved outside AI auditors into its own offices",
-          "url": "https://www.youtube.com/watch?v=5QDNYAKRzF0",
-          "channel": "One Prompt Away",
-          "channel_subscribers": 28,
-          "published_at": "2026-10-15T19:26:10Z",
-          "views": 42
+          "video_id": "U0WAyqQM9K0",
+          "title": "Reuters: AI Labs Sought a Say in Their Safety Reports",
+          "url": "https://www.youtube.com/watch?v=U0WAyqQM9K0",
+          "channel": "CyberGlitchs",
+          "channel_subscribers": 13,
+          "published_at": "2026-10-13T20:41:37Z",
+          "views": 7
         },
         {
           "video_id": "YJdqnVEW3zQ",
@@ -231,108 +334,6 @@
           "channel_subscribers": 1660,
           "published_at": "2026-10-15T21:14:38Z",
           "views": 1
-        },
-        {
-          "video_id": "A_v_ubB5uW0",
-          "title": "Anthropic Lets AI Watchdogs Embed Inside - METR Gets Employee Access",
-          "url": "https://www.youtube.com/watch?v=A_v_ubB5uW0",
-          "channel": "AI Atkin",
-          "channel_subscribers": 12,
-          "published_at": "2026-10-16T19:27:09Z",
-          "views": 0
-        },
-        {
-          "video_id": "iTKz7ReEC8c",
-          "title": "Anthropic is letting METR researchers look under the hood with employee-level access - Letting ...",
-          "url": "https://www.youtube.com/watch?v=iTKz7ReEC8c",
-          "channel": "AI in Sixty",
-          "channel_subscribers": 0,
-          "published_at": "2026-10-16T03:39:34Z",
-          "views": 0
-        }
-      ]
-    },
-    {
-      "story_id": "anthropic-distillation-revenue",
-      "title": "Anthropic says distillation was 5 to 7% of revenue",
-      "query": "anthropic distillation chinese models meta",
-      "video_count": 2,
-      "total_views": 153,
-      "max_views": 153,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 8,
-      "heat": 65.0,
-      "gap_score": 60,
-      "top_videos": [
-        {
-          "video_id": "neHDPlYxLQU",
-          "title": "Meta Ships Muse Wonder as Anthropic Warns Small AI Models May Self-Replicate",
-          "url": "https://www.youtube.com/watch?v=neHDPlYxLQU",
-          "channel": "BRAID",
-          "channel_subscribers": 24,
-          "published_at": "2026-10-16T07:22:45Z",
-          "views": 153
-        },
-        {
-          "video_id": "qptuDlX3mw8",
-          "title": "Meta's Two Models, Google's Price Hike, Anthropic's Defenses | AI News This Week",
-          "url": "https://www.youtube.com/watch?v=qptuDlX3mw8",
-          "channel": "DeyronLabs",
-          "channel_subscribers": 5,
-          "published_at": "2026-10-16T17:00:06Z",
-          "views": 0
-        }
-      ]
-    },
-    {
-      "story_id": "accenture-caps-claude-spend",
-      "title": "Accenture caps employee Claude use at $29 a month",
-      "query": "accenture claude enterprise ai spend",
-      "video_count": 4,
-      "total_views": 49,
-      "max_views": 38,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 15,
-      "heat": 66.0,
-      "gap_score": 56,
-      "top_videos": [
-        {
-          "video_id": "Mi22rua7McQ",
-          "title": "Accenture Caps Claude AI Spend at $29/Month for Employees",
-          "url": "https://www.youtube.com/watch?v=Mi22rua7McQ",
-          "channel": "TrendingTech",
-          "channel_subscribers": 48,
-          "published_at": "2026-10-16T11:07:07Z",
-          "views": 38
-        },
-        {
-          "video_id": "cOkWnqBTNJw",
-          "title": "AI News You Can Understand: How Autonomous AI Is Breaking Enterprise Budgets",
-          "url": "https://www.youtube.com/watch?v=cOkWnqBTNJw",
-          "channel": "AINUCU - AI News You Can Use",
-          "channel_subscribers": 5,
-          "published_at": "2026-10-16T15:32:37Z",
-          "views": 6
-        },
-        {
-          "video_id": "Gsidhzsgmcg",
-          "title": "Accenture CAPS Claude at $29/Month! Rogue Chinese AI Fleet CAUGHT! Meta AI Needs a TERABYTE of RAM!",
-          "url": "https://www.youtube.com/watch?v=Gsidhzsgmcg",
-          "channel": "AI Today",
-          "channel_subscribers": 1,
-          "published_at": "2026-10-16T17:22:21Z",
-          "views": 4
-        },
-        {
-          "video_id": "L1AwM7gnHDo",
-          "title": "Accenture Just Rationed Claude",
-          "url": "https://www.youtube.com/watch?v=L1AwM7gnHDo",
-          "channel": "Tech Brew Ride Home Podcast",
-          "channel_subscribers": 7040,
-          "published_at": "2026-10-16T17:20:51Z",
-          "views": 1
         }
       ]
     },
@@ -341,13 +342,13 @@
       "title": "Claude Code Review is now generally available",
       "query": "claude code code review anthropic enterprise",
       "video_count": 9,
-      "total_views": 321,
-      "max_views": 201,
+      "total_views": 311,
+      "max_views": 200,
       "big_channel_videos": 0,
       "coverage": "low",
       "coverage_score": 30,
-      "heat": 66.0,
-      "gap_score": 46,
+      "heat": 84.0,
+      "gap_score": 59,
       "top_videos": [
         {
           "video_id": "K5HshFjgsqM",
@@ -356,7 +357,7 @@
           "channel": "Labellerr AI",
           "channel_subscribers": 1970,
           "published_at": "2026-10-14T04:36:36Z",
-          "views": 201
+          "views": 200
         },
         {
           "video_id": "bwwBzMS6mF4",
@@ -365,7 +366,7 @@
           "channel": "Hit list AI",
           "channel_subscribers": 37,
           "published_at": "2026-10-16T02:13:21Z",
-          "views": 70
+          "views": 67
         },
         {
           "video_id": "6Ee-BCBoDLY",
@@ -383,124 +384,91 @@
           "channel": "Claude Code Live News",
           "channel_subscribers": 114,
           "published_at": "2026-10-16T09:14:03Z",
-          "views": 12
+          "views": 11
         },
         {
-          "video_id": "bjDqi39Sa-Q",
-          "title": "Code Review is now generally available on Team and Enterprise · Claude Code news, Oct 16",
-          "url": "https://www.youtube.com/watch?v=bjDqi39Sa-Q",
-          "channel": "Claude Code Live News",
-          "channel_subscribers": 114,
-          "published_at": "2026-10-16T08:59:13Z",
-          "views": 9
+          "video_id": "sSJ802gtJQ4",
+          "title": "The Catch With Claude Code's Parallel Sessions #shorts",
+          "url": "https://www.youtube.com/watch?v=sSJ802gtJQ4",
+          "channel": "TechWealth Hub",
+          "channel_subscribers": 1150,
+          "published_at": "2026-10-16T02:07:05Z",
+          "views": 8
         }
       ]
     },
     {
-      "story_id": "mistral-europe-frontier-ai",
-      "title": "Mistral's Arthur Mensch: Europe must not leave frontier AI to US and China",
-      "query": "mistral europe frontier ai",
-      "video_count": 8,
-      "total_views": 486,
-      "max_views": 311,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 30,
-      "heat": 64.0,
-      "gap_score": 45,
-      "top_videos": [
-        {
-          "video_id": "2ngG7urQL_A",
-          "title": "Drei Modelle in einer Woche: Kann Europa doch KI?",
-          "url": "https://www.youtube.com/watch?v=2ngG7urQL_A",
-          "channel": "Preview Podcast",
-          "channel_subscribers": 1580,
-          "published_at": "2026-10-15T16:00:10Z",
-          "views": 311
-        },
-        {
-          "video_id": "FOx7SyRtEYE",
-          "title": "Gemini 4 Argon vs GPT 6.1 Sol vs Haiku 5.5 vs Muse Wonder vs Grok 4.7 vs Mistral 4 Ai comparison",
-          "url": "https://www.youtube.com/watch?v=FOx7SyRtEYE",
-          "channel": "Comparisons Facts",
-          "channel_subscribers": 6910,
-          "published_at": "2026-10-16T12:31:30Z",
-          "views": 84
-        },
-        {
-          "video_id": "ydB3IOVQstM",
-          "title": "Mistral Large 4 Explained: 1 Trillion Parameters, Zero Apology",
-          "url": "https://www.youtube.com/watch?v=ydB3IOVQstM",
-          "channel": "INAPP",
-          "channel_subscribers": 1120,
-          "published_at": "2026-10-15T15:49:07Z",
-          "views": 33
-        },
-        {
-          "video_id": "SDNL2HG5cns",
-          "title": "Europe's 1-Trillion-Parameter AI Just Crashed the US-China Race",
-          "url": "https://www.youtube.com/watch?v=SDNL2HG5cns",
-          "channel": "AI Frontier Daily",
-          "channel_subscribers": 4,
-          "published_at": "2026-10-13T23:00:28Z",
-          "views": 19
-        },
-        {
-          "video_id": "Lpkl8Q-A4Pg",
-          "title": "Mistral Large 4: El gigante europeo de un billón de parámetros 🇪🇺🧠",
-          "url": "https://www.youtube.com/watch?v=Lpkl8Q-A4Pg",
-          "channel": "Inteligencia Artificial y Transhumanismo | J. Des",
-          "channel_subscribers": 1690,
-          "published_at": "2026-10-14T13:00:19Z",
-          "views": 18
-        }
-      ]
-    },
-    {
-      "story_id": "gemini-argon-agents-beat-minecraft",
-      "title": "Four Gemini 4 Argon agents beat Minecraft with no human help",
-      "query": "gemini 4 argon deepmind minecraft multi-agent",
-      "video_count": 2,
-      "total_views": 63567,
-      "max_views": 63565,
+      "story_id": "anthropic-ipo-delay-debate",
+      "title": "Anthropic IPO: calls to delay over safety, valuation debate",
+      "query": "anthropic ipo valuation ai safety",
+      "video_count": 5,
+      "total_views": 2597,
+      "max_views": 2423,
       "big_channel_videos": 1,
       "coverage": "medium",
-      "coverage_score": 48,
-      "heat": 72.0,
-      "gap_score": 37,
+      "coverage_score": 36,
+      "heat": 85.0,
+      "gap_score": 54,
       "top_videos": [
         {
-          "video_id": "Jh6mgf9M06M",
-          "title": "Gemini 4 Argon: What’s new and what’s next",
-          "url": "https://www.youtube.com/watch?v=Jh6mgf9M06M",
-          "channel": "Google for Developers",
-          "channel_subscribers": 2680000,
-          "published_at": "2026-10-14T17:01:36Z",
-          "views": 63565
+          "video_id": "-NcRDB6RsL0",
+          "title": "Anthropic’s Slowing Growth Could Weigh on IPO Valuation, Cursor Investigates AI Training Data",
+          "url": "https://www.youtube.com/watch?v=-NcRDB6RsL0",
+          "channel": "The Information",
+          "channel_subscribers": 252000,
+          "published_at": "2026-10-16T05:40:39Z",
+          "views": 2423
         },
         {
-          "video_id": "-09grQ6V6k0",
-          "title": "Gemini 4 Argon AI Agents Beat Minecraft in 27 Hours",
-          "url": "https://www.youtube.com/watch?v=-09grQ6V6k0",
-          "channel": "AI Orbit",
-          "channel_subscribers": 41,
-          "published_at": "2026-10-16T19:07:11Z",
-          "views": 2
+          "video_id": "lsdkV0vyHUE",
+          "title": "OpenAI Says No to the IPO. Anthropic Eyes $2 Trillion",
+          "url": "https://www.youtube.com/watch?v=lsdkV0vyHUE",
+          "channel": "Dr. Vernette Grant AI",
+          "channel_subscribers": 113,
+          "published_at": "2026-10-14T16:45:38Z",
+          "views": 133
+        },
+        {
+          "video_id": "kkzD7U7KVd4",
+          "title": "Anthropic vs. OpenAI: IPO Valuation Speculation and AI Growth",
+          "url": "https://www.youtube.com/watch?v=kkzD7U7KVd4",
+          "channel": "Moomoo",
+          "channel_subscribers": 3210,
+          "published_at": "2026-10-16T02:39:13Z",
+          "views": 28
+        },
+        {
+          "video_id": "VI-UvUsOzBc",
+          "title": "Why Are 8 States Suing OpenAI Over ChatGPT, and Is an Anthropic IPO Next? | The AI Margin Ep 7",
+          "url": "https://www.youtube.com/watch?v=VI-UvUsOzBc",
+          "channel": "The AI Margin",
+          "channel_subscribers": 4,
+          "published_at": "2026-10-16T04:35:25Z",
+          "views": 7
+        },
+        {
+          "video_id": "R1cbjzFW17w",
+          "title": "Anthropic IPO: Why Investors Cut Its Valuation to $1.5 Trillion",
+          "url": "https://www.youtube.com/watch?v=R1cbjzFW17w",
+          "channel": "Quantum Synergy",
+          "channel_subscribers": 194,
+          "published_at": "2026-10-16T02:40:12Z",
+          "views": 6
         }
       ]
     },
     {
       "story_id": "rogue-ai-agents-india-breach",
       "title": "Rogue AI agents broke into Indian companies' live systems",
-      "query": "ai agents security breach india",
-      "video_count": 13,
-      "total_views": 15917,
-      "max_views": 6873,
-      "big_channel_videos": 9,
-      "coverage": "high",
-      "coverage_score": 70,
-      "heat": 73.0,
-      "gap_score": 22,
+      "query": "ai agents india security breach ai safety",
+      "video_count": 5,
+      "total_views": 10826,
+      "max_views": 6894,
+      "big_channel_videos": 2,
+      "coverage": "medium",
+      "coverage_score": 56,
+      "heat": 72.0,
+      "gap_score": 32,
       "top_videos": [
         {
           "video_id": "VdXdb5BE-08",
@@ -509,7 +477,7 @@
           "channel": "WION",
           "channel_subscribers": 10500000,
           "published_at": "2026-10-16T10:21:28Z",
-          "views": 6873
+          "views": 6894
         },
         {
           "video_id": "fw-ElRmSwkU",
@@ -518,146 +486,50 @@
           "channel": "Firstpost",
           "channel_subscribers": 9780000,
           "published_at": "2026-10-16T16:51:09Z",
-          "views": 3871
+          "views": 3932
         },
         {
-          "video_id": "twjApbMrptI",
-          "title": "AI Agents Access Confidential Data of Indian Firms: Cyber Security Agency Issues Critical Alert",
-          "url": "https://www.youtube.com/watch?v=twjApbMrptI",
-          "channel": "WION",
-          "channel_subscribers": 10500000,
-          "published_at": "2026-10-16T14:40:23Z",
-          "views": 2679
+          "video_id": "_9w9VDAAKYQ",
+          "title": "🚨 AI Agents Accessed Confidential Data in India?! 😱⚠️",
+          "url": "https://www.youtube.com/watch?v=_9w9VDAAKYQ",
+          "channel": "FutureByte",
+          "channel_subscribers": 3,
+          "published_at": "2026-10-16T18:44:50Z",
+          "views": 0
         },
         {
-          "video_id": "kZCEung4UHQ",
-          "title": "AI Agents Going Rogue Undetected? Cyber Expert Warns Of India's Next Big Security Nightmare",
-          "url": "https://www.youtube.com/watch?v=kZCEung4UHQ",
-          "channel": "NDTV Profit",
-          "channel_subscribers": 1800000,
-          "published_at": "2026-10-16T17:07:18Z",
-          "views": 788
+          "video_id": "Zt-5_bKXQ3U",
+          "title": "CERT-In Warns: Autonomous AI Agents Breached Live Systems",
+          "url": "https://www.youtube.com/watch?v=Zt-5_bKXQ3U",
+          "channel": "Quantum Synergy",
+          "channel_subscribers": 194,
+          "published_at": "2026-10-16T16:58:19Z",
+          "views": 0
         },
         {
-          "video_id": "gHx1dgka_Pw",
-          "title": "Could AI Become India's Biggest Cybersecurity Threat? Govt Agency's Critical Warning Explained",
-          "url": "https://www.youtube.com/watch?v=gHx1dgka_Pw",
-          "channel": "NDTV Profit",
-          "channel_subscribers": 1800000,
-          "published_at": "2026-10-16T08:11:11Z",
-          "views": 715
+          "video_id": "AsISNEoKtNo",
+          "title": "🚨 AI Agents Bypassed Firewalls in India — Is Your Data Safe?",
+          "url": "https://www.youtube.com/watch?v=AsISNEoKtNo",
+          "channel": "PromptPilot AI ",
+          "channel_subscribers": 19,
+          "published_at": "2026-10-16T19:30:03Z",
+          "views": 0
         }
       ]
     },
     {
-      "story_id": "openai-employee-espionage-arrest",
-      "title": "OpenAI employee arrested over hidden recording device",
-      "query": "openai espionage arrest security",
-      "video_count": 6,
-      "total_views": 274708,
-      "max_views": 194707,
-      "big_channel_videos": 6,
-      "coverage": "high",
-      "coverage_score": 83,
-      "heat": 68.0,
-      "gap_score": 12,
+      "story_id": "gemini-argon-agents-beat-minecraft",
+      "title": "Four Gemini 4 Argon agents beat Minecraft with no human help",
+      "query": "gemini 4 argon deepmind minecraft ai agents",
+      "video_count": 5,
+      "total_views": 63604,
+      "max_views": 63576,
+      "big_channel_videos": 1,
+      "coverage": "medium",
+      "coverage_score": 59,
+      "heat": 71.0,
+      "gap_score": 29,
       "top_videos": [
-        {
-          "video_id": "V-6SsADLyyo",
-          "title": "FBI ARRESTS Saudi National Over Possible ESPIONAGE At OpenAI | Timcast IRL",
-          "url": "https://www.youtube.com/watch?v=V-6SsADLyyo",
-          "channel": "Timcast IRL",
-          "channel_subscribers": 2790000,
-          "published_at": "2026-10-14T02:10:16Z",
-          "views": 194707
-        },
-        {
-          "video_id": "P3xVz7BZR_s",
-          "title": "OpenAI Saudi Spy Case: टॉयलेट पेपर में छिपाकर लगाया था ऑडियो रिकॉर्डिंग डिवाइस | ChatGPT की जासूसी",
-          "url": "https://www.youtube.com/watch?v=P3xVz7BZR_s",
-          "channel": "Khabargaon",
-          "channel_subscribers": 1370000,
-          "published_at": "2026-10-14T14:00:01Z",
-          "views": 52873
-        },
-        {
-          "video_id": "2Aa7Wo9lTpg",
-          "title": "Spy Scare At OpenAI: Saudi Man Arrested For Planting Listening Device | Espionage Mystery Deepens",
-          "url": "https://www.youtube.com/watch?v=2Aa7Wo9lTpg",
-          "channel": "Times Now",
-          "channel_subscribers": 7670000,
-          "published_at": "2026-10-14T10:28:59Z",
-          "views": 12847
-        },
-        {
-          "video_id": "PUNktzNffkA",
-          "title": "OpenAI Security Scare: Saudi Engineer Arrested Over Alleged OpenAI Spy Device",
-          "url": "https://www.youtube.com/watch?v=PUNktzNffkA",
-          "channel": "NDTV",
-          "channel_subscribers": 16100000,
-          "published_at": "2026-10-14T08:53:08Z",
-          "views": 6697
-        },
-        {
-          "video_id": "qtEx19Zodbs",
-          "title": "Alleged OpenAI security breach \"underscores how big the challenge is\" to foil espionage: tech editor",
-          "url": "https://www.youtube.com/watch?v=qtEx19Zodbs",
-          "channel": "CBS News",
-          "channel_subscribers": 7110000,
-          "published_at": "2026-10-14T23:12:12Z",
-          "views": 6355
-        }
-      ]
-    },
-    {
-      "story_id": "gemini-4-argon-showcase",
-      "title": "Gemini 4 Argon showcases: 3D printing, pixel art, Google engineering",
-      "query": "gemini 4 argon google gemini app",
-      "video_count": 22,
-      "total_views": 1050389,
-      "max_views": 274814,
-      "big_channel_videos": 14,
-      "coverage": "high",
-      "coverage_score": 100,
-      "heat": 73.0,
-      "gap_score": 0,
-      "top_videos": [
-        {
-          "video_id": "gRhM1h10T3U",
-          "title": "Gemini 4 Argon: 10 incredible AI demos (1M token output in action)",
-          "url": "https://www.youtube.com/watch?v=gRhM1h10T3U",
-          "channel": "Google Cloud Tech",
-          "channel_subscribers": 1460000,
-          "published_at": "2026-10-13T22:02:36Z",
-          "views": 274814
-        },
-        {
-          "video_id": "NL0yDYXAQ0E",
-          "title": "GEMINI 4 ARGON IS WEIRD...",
-          "url": "https://www.youtube.com/watch?v=NL0yDYXAQ0E",
-          "channel": "Wes Roth",
-          "channel_subscribers": 331000,
-          "published_at": "2026-10-14T03:28:07Z",
-          "views": 235046
-        },
-        {
-          "video_id": "2XpIMa1BSPc",
-          "title": "Google Gemini 4 Argon Is Here. We Tested It (+11 AI Updates)",
-          "url": "https://www.youtube.com/watch?v=2XpIMa1BSPc",
-          "channel": "Vaibhav Sisinty",
-          "channel_subscribers": 872000,
-          "published_at": "2026-10-15T14:35:34Z",
-          "views": 83605
-        },
-        {
-          "video_id": "2hqcDHnyJaY",
-          "title": "Google's Gemini 4 Is Finally Good at 3D Design & Blender?",
-          "url": "https://www.youtube.com/watch?v=2hqcDHnyJaY",
-          "channel": "Stefan 3D AI",
-          "channel_subscribers": 193000,
-          "published_at": "2026-10-15T12:00:09Z",
-          "views": 82060
-        },
         {
           "video_id": "Jh6mgf9M06M",
           "title": "Gemini 4 Argon: What’s new and what’s next",
@@ -665,7 +537,43 @@
           "channel": "Google for Developers",
           "channel_subscribers": 2680000,
           "published_at": "2026-10-14T17:01:36Z",
-          "views": 63565
+          "views": 63576
+        },
+        {
+          "video_id": "QB_AmnuwzHs",
+          "title": "4 Google AIs just beat MINECRAFT 🎮 and China wants to lock down its AI #Shorts",
+          "url": "https://www.youtube.com/watch?v=QB_AmnuwzHs",
+          "channel": "Recomienda Tech",
+          "channel_subscribers": 17,
+          "published_at": "2026-10-16T16:14:15Z",
+          "views": 24
+        },
+        {
+          "video_id": "YLIzj55QRNM",
+          "title": "Gemini 4 Argon 에이전트 팀의 Minecraft 완전 자율 정복 분석 교육 해설 편집 계획",
+          "url": "https://www.youtube.com/watch?v=YLIzj55QRNM",
+          "channel": "Ki-jung Kim (akaslany)",
+          "channel_subscribers": 608,
+          "published_at": "2026-10-16T16:41:22Z",
+          "views": 3
+        },
+        {
+          "video_id": "sJZuSRaWE7w",
+          "title": "4 Google AIs beat MINECRAFT, China moves to lock down its AI & more | AI News Oct 16",
+          "url": "https://www.youtube.com/watch?v=sJZuSRaWE7w",
+          "channel": "Recomienda Tech",
+          "channel_subscribers": 17,
+          "published_at": "2026-10-16T16:09:41Z",
+          "views": 1
+        },
+        {
+          "video_id": "-09grQ6V6k0",
+          "title": "Gemini 4 Argon AI Agents Beat Minecraft in 27 Hours",
+          "url": "https://www.youtube.com/watch?v=-09grQ6V6k0",
+          "channel": "AI Orbit",
+          "channel_subscribers": 41,
+          "published_at": "2026-10-16T19:07:11Z",
+          "views": 0
         }
       ]
     }

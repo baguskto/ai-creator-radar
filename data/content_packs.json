@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T20:30:30Z",
+  "generated_at": "2026-10-16T20:36:14Z",
   "sample": false,
   "packs": [
     {
-      "story_id": "cuck-coding-meme",
-      "why_now": "A joke about agents doing the coding while you watch hit about 188K likes in a day and nobody on YouTube has touched it. It is the perfect hook for an honest video on how much you should actually sit back.",
+      "story_id": "openai-navier-stokes-milestone",
+      "fingerprint": "57a4ac6e363d05ce",
+      "why_now": "Sam Altman's post about OpenAI's Navier-Stokes milestone shirt pulled about 380K views and zero YouTube videos cover it. Math results from AI are a story most of your audience has not had explained plainly yet.",
       "video": {
-        "title": "Vibe Coding Got a New Name. Is Watching the Agent Enough?",
-        "thumbnail_text": "JUST SIT AND WATCH?",
-        "hook": "The internet just renamed vibe coding. The joke is you sit in a chair and watch the agent do everything. It's funny because it's kind of true. So I tested it: one build where I only watched, and one where I actually steered. Here's what each one got me.",
+        "title": "OpenAI's Navier-Stokes Milestone: What It Means for You",
+        "thumbnail_text": "AI DID THE MATH?",
+        "hook": "OpenAI just printed the last line of an AI's reasoning on a T-shirt. The shirt marks what they're calling a Navier-Stokes milestone, one of the hardest areas in math. I'm going to break down what we actually know, what we don't yet, and why it matters if you build with AI.",
         "alt_titles": [
-          "I Let the AI Agent Code While I Just Watched",
-          "The Vibe Coding Joke That's Actually a Warning"
+          "AI Just Hit a Navier-Stokes Milestone. Here's the Plain Version",
+          "Why OpenAI Put Its Model's Reasoning on a Shirt"
         ],
         "outline": [
-          "Where the meme came from and why it landed with builders",
-          "Build 1: hands-off, accept everything the agent does",
-          "Build 2: same task, but I plan, review and test",
-          "Side by side: what broke, what took longer, what I'd ship",
-          "When watching is fine and when it costs you",
-          "My actual workflow for agent coding today"
+          "What Navier-Stokes is, in plain words, and why mathematicians care",
+          "What OpenAI and Sam Altman have actually said about the milestone",
+          "The chain-of-thought shirt: what showing the reasoning tells us",
+          "What's still unclear and what I'd want verified before calling it solved",
+          "What stronger reasoning models mean for the tools you use day to day"
         ]
       },
       "short": {
@@ -28,350 +28,88 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "They're calling vibe coding something new now.",
-            "visual": "Chase in chair, arms crossed, agent typing on screen"
+            "line": "OpenAI just put an AI's reasoning on a T-shirt.",
+            "visual": "Sam Altman's post with the shirt photo"
           },
           {
             "t": "3-10s",
-            "line": "The joke: you just sit in a chair and watch the agent code. Almost two hundred thousand people liked it. It's a joke, but it says something real about how we work now.",
-            "visual": "The viral X post, like count highlighted"
+            "line": "The shirt celebrates a Navier-Stokes milestone. That's the math behind how fluids move, and it's famously hard.",
+            "visual": "Simple fluid flow animation with the equation on screen"
           },
           {
             "t": "10-20s",
-            "line": "And honestly, for small stuff, that works. But on a real project, the hands-off build is where bugs pile up quietly.",
-            "visual": "Split screen: clean demo vs error log"
+            "line": "The back prints the last line of the model's chain of thought, the step where it reached the answer.",
+            "visual": "Zoom on the shirt back, caption 'last line of the reasoning'"
           },
           {
             "t": "20-27s",
-            "line": "Watching is fine. Reviewing is the job. Plan first, check the diff, run the tests.",
-            "visual": "Three checkboxes appear one by one"
+            "line": "What exactly was proven still needs checking, and I'll dig into that in the full video.",
+            "visual": "Checklist: what we know, what we don't"
           },
           {
             "t": "27-30s",
-            "line": "Full test on my channel.",
-            "visual": "Channel handle on screen"
+            "line": "Follow so you don't miss it.",
+            "visual": "Chase on camera, channel name"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "Vibe coding has a new name",
-            "body": "The meme: you sit in a chair and watch the agent work."
+            "heading": "AI hit a Navier-Stokes milestone",
+            "body": "OpenAI marked it with a shirt. Here's the plain version."
           },
           {
-            "heading": "Why it went viral",
-            "body": "Roughly 188K likes on one post. It hit a nerve with builders."
+            "heading": "What is Navier-Stokes?",
+            "body": "The equations for how fluids like air and water move."
           },
           {
-            "heading": "The part that's true",
-            "body": "For small scripts, letting the agent run works fine."
+            "heading": "Why it's a big deal",
+            "body": "It's one of the hardest problem areas in math."
           },
           {
-            "heading": "The part that bites",
-            "body": "On real projects, unchecked changes stack up into bugs."
-          },
-          {
-            "heading": "Watch less, review more",
-            "body": "Plan the task, read the diff, run the tests."
-          },
-          {
-            "heading": "Where do you land?",
-            "body": "Full hands-off, or steering every step? Tell me below."
-          }
-        ],
-        "caption": "The internet renamed vibe coding to a joke about sitting back and watching the agent. Funny, and partly right. Here's where watching works and where it costs you."
-      },
-      "x_post": "The new name for vibe coding is a joke about sitting in a chair while the agent works.\n\nFunny. Also a decent test: if you can't explain the diff, you didn't build it, you watched it.\n\nI'm testing hands-off vs steered on the same build. Results soon.",
-      "x_thread": [
-        "Hands-off is fine for throwaway scripts. For anything you'll maintain, plan first and review every change.",
-        "What's your ratio? How much of your agent's output do you actually read?"
-      ],
-      "fingerprint": "ee42782a85feddfa"
-    },
-    {
-      "story_id": "anthropic-ipo-delay-debate",
-      "why_now": "Reports of a call to delay Anthropic's IPO over safety, plus a public valuation fight, are all over X with zero YouTube coverage. Builders who rely on Claude want to know what an IPO could mean for them.",
-      "video": {
-        "title": "Anthropic's IPO: The Delay Call and What It Means for Claude Users",
-        "thumbnail_text": "DELAY THE IPO?",
-        "hook": "There's a reported push for Anthropic to delay its IPO over AI safety. Some people think it's real concern, some think it's about market timing. I'm a builder who uses Claude every day, so I want to know one thing: does any of this change the tools you rely on?",
-        "alt_titles": [
-          "Should Anthropic Delay Its IPO? Both Sides",
-          "Anthropic IPO Drama, Explained for Builders"
-        ],
-        "outline": [
-          "What's being reported: the NYC Comptroller's call and the talks",
-          "The valuation debate people are having on X",
-          "The skeptic take: is safety a cover for timing?",
-          "What a public Anthropic could change for pricing and products, framed as open questions",
-          "What I'm watching as a Claude user",
-          "What I'd do now: nothing drastic, keep options open"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-4s",
-            "line": "Anthropic is reportedly being asked to delay its IPO.",
-            "visual": "Headline screenshot"
-          },
-          {
-            "t": "4-12s",
-            "line": "NYC Comptroller Mark Levine, who oversees big pension funds, reportedly wants it postponed until safety and governance risks are addressed.",
-            "visual": "Pension fund graphic"
-          },
-          {
-            "t": "12-20s",
-            "line": "Meanwhile people on X are arguing over the valuation, and some say the safety angle is cover for bad market timing.",
-            "visual": "Two X posts side by side"
-          },
-          {
-            "t": "20-27s",
-            "line": "If you build on Claude, the real question is whether going public changes pricing or priorities.",
-            "visual": "Claude logo, question mark"
-          },
-          {
-            "t": "27-30s",
-            "line": "I break it down on the channel. Link's in my profile, go check it out.",
-            "visual": "Channel handle"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "Anthropic's IPO, in question",
-            "body": "Reports say there's a call to delay it."
-          },
-          {
-            "heading": "Who's asking",
-            "body": "NYC Comptroller Mark Levine, per the reports, citing safety and governance."
-          },
-          {
-            "heading": "Anthropic is talking",
-            "body": "It has reportedly opened discussions with him."
-          },
-          {
-            "heading": "The skeptics",
-            "body": "Some on X say safety is cover for market timing."
-          },
-          {
-            "heading": "The valuation fight",
-            "body": "Investors are publicly debating what it's worth."
-          },
-          {
-            "heading": "Why builders care",
-            "body": "Public companies face pressure on pricing and priorities."
-          },
-          {
-            "heading": "What do you think?",
-            "body": "Delay or go? Drop your take below."
-          }
-        ],
-        "caption": "A reported call to delay Anthropic's IPO over safety, and a loud valuation debate. Here's what matters if you build on Claude."
-      },
-      "x_post": "Reports say Anthropic is being asked to delay its IPO over AI safety and governance, and it's talking with NYC's Comptroller about it.\n\nIf you build on Claude, the question that matters: does going public change pricing or priorities?\n\nBreaking it down this week.",
-      "x_thread": [
-        "The skeptic take on X: safety is cover for market timing. Worth taking seriously, but nobody outside knows yet."
-      ],
-      "fingerprint": "73975cacde394ed1"
-    },
-    {
-      "story_id": "nvidia-app-ai-agent-control-default",
-      "why_now": "A PSA that the NVIDIA app turned on AI agent control by default has 1.3M views on X and only one tiny video on YouTube. Tons of gamers and creators run this app, so a quick check-and-fix video is useful today.",
-      "video": {
-        "title": "Check Your NVIDIA App: AI Agent Control Was Turned On",
-        "thumbnail_text": "TURN THIS OFF?",
-        "hook": "If you have the NVIDIA app installed, a user is reporting an update switched on a setting that lets AI agents control the app, and it was on by default. I'm going to check my own machine, show you where the setting is, and talk about whether you should leave it on.",
-        "alt_titles": [
-          "NVIDIA App Enabled AI Agent Access by Default",
-          "The NVIDIA App Setting You Should Check Today"
-        ],
-        "outline": [
-          "What the PSA says and why it spread",
-          "Checking my own NVIDIA app: is the setting there and is it on?",
-          "What agent control could let software do, and what we can't confirm yet",
-          "Why opt-out defaults for agent access are a bad pattern",
-          "How to turn it off, and what you lose if you do",
-          "The bigger trend: apps adding agent hooks quietly"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-3s",
-            "line": "Got the NVIDIA app? Check this.",
-            "visual": "NVIDIA app icon, warning sign"
-          },
-          {
-            "t": "3-11s",
-            "line": "A user reports an update turned on a setting that lets AI agents control the app, and it was on by default.",
-            "visual": "The PSA post, 1.3M views highlighted"
-          },
-          {
-            "t": "11-20s",
-            "line": "He calls it a security risk. Even if it's harmless today, agent access should be something you opt into, not something you discover.",
-            "visual": "Settings toggle switching on by itself"
-          },
-          {
-            "t": "20-27s",
-            "line": "Open the app, check the settings, and decide for yourself. It only takes a minute, so do it before you forget.",
-            "visual": "Screen recording finding the setting"
-          },
-          {
-            "t": "27-30s",
-            "line": "Full walkthrough on my channel. Link in my profile.",
-            "visual": "Channel handle"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "Check your NVIDIA app",
-            "body": "A setting for AI agent control was reportedly on by default."
-          },
-          {
-            "heading": "What happened",
-            "body": "A user says an auto-update enabled it with broad permissions."
-          },
-          {
-            "heading": "Why it matters",
-            "body": "Agent access to an app is a security decision. It should be yours."
+            "heading": "The shirt",
+            "body": "Its back prints the last line of the model's chain of thought."
           },
           {
             "heading": "What we don't know yet",
-            "body": "Exactly what agents can do through it. Worth testing."
+            "body": "Exactly what was proven, and how it gets verified."
           },
           {
-            "heading": "What to do",
-            "body": "Open the app settings and check whether it's on."
+            "heading": "Why builders should care",
+            "body": "Better reasoning shows up in the models you use next."
           },
           {
-            "heading": "Bigger picture",
-            "body": "More apps are adding agent hooks. Defaults matter."
-          },
-          {
-            "heading": "Did yours have it on?",
-            "body": "Tell me what you found."
+            "heading": "Want the full breakdown?",
+            "body": "Follow Chase AI for the video."
           }
         ],
-        "caption": "A PSA says the NVIDIA app enabled AI agent control by default after an update. Here's why you should check yours."
+        "caption": "OpenAI is celebrating a Navier-Stokes milestone with the model's own reasoning printed on a shirt. Here's what that means, and what still needs checking."
       },
-      "x_post": "PSA going around: an NVIDIA app update reportedly turned on a setting letting AI agents control the app, on by default.\n\nWhatever it does today, agent access should be opt-in.\n\nCheck your settings. I'm testing what it actually allows.",
-      "x_thread": [],
-      "fingerprint": "b90c7f542e6e52ef"
-    },
-    {
-      "story_id": "interpretability-untangled-networks",
-      "why_now": "An interpretability result is being called one of the most important in AI, with 3.4M views on X and one small explainer on YouTube. A plain-language take for builders fills a real gap.",
-      "video": {
-        "title": "New Research Says AI Neurons Aren't a Tangled Mess",
-        "thumbnail_text": "ONE NEURON, ONE JOB?",
-        "hook": "For years the story has been that AI models are tangled knots, where every neuron does a dozen jobs at once. A new result says that might be wrong. One summary claims 90% of neurons in Qwen-32B have one job. If that holds up, it matters for every tool you build on.",
-        "alt_titles": [
-          "Can We Finally Read What AI Models Are Thinking?",
-          "The Interpretability Result Everyone's Talking About"
-        ],
-        "outline": [
-          "The old view: polysemantic neurons, in plain English",
-          "What Nick Cammarata and coauthors are claiming",
-          "The 90% of Qwen-32B figure and what it would mean, if it holds",
-          "What experts and skeptics are asking about the result",
-          "Why builders should care: debugging, safety, trust",
-          "What I'll be watching as people try to reproduce it"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-4s",
-            "line": "We might be able to read AI models after all.",
-            "visual": "Glowing neural network untangling"
-          },
-          {
-            "t": "4-12s",
-            "line": "The common view: each neuron in a model does many jobs at once, so they're hard to study directly.",
-            "visual": "Knotted wires animation"
-          },
-          {
-            "t": "12-21s",
-            "line": "A new result says that's wrong. One summary claims 90 percent of neurons in Qwen-32B have one job.",
-            "visual": "Stat on screen: 90% one job"
-          },
-          {
-            "t": "21-27s",
-            "line": "If it holds up, understanding and fixing models gets a lot easier. That's still a big if, so watch for people trying to reproduce it.",
-            "visual": "Magnifying glass over a neuron"
-          },
-          {
-            "t": "27-30s",
-            "line": "I explain it on my channel. Link in my profile.",
-            "visual": "Channel handle"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "AI models aren't knots?",
-            "body": "A new interpretability result is getting big attention."
-          },
-          {
-            "heading": "The old view",
-            "body": "Each neuron does many jobs, so you can't read them directly."
-          },
-          {
-            "heading": "The new claim",
-            "body": "Neurons can be studied directly, without a second model."
-          },
-          {
-            "heading": "The headline number",
-            "body": "One summary: 90% of neurons in Qwen-32B have one job."
-          },
-          {
-            "heading": "Why it matters",
-            "body": "Easier debugging, better safety work, more trust."
-          },
-          {
-            "heading": "Still to check",
-            "body": "Big claims need reproduction. Watch for follow-ups."
-          },
-          {
-            "heading": "Want the breakdown?",
-            "body": "Follow for a plain-English explainer."
-          }
-        ],
-        "caption": "A new interpretability result says neural networks are far more structured than we thought. Here's the plain-English version."
-      },
-      "x_post": "Big interpretability claim this week: neurons in large models may mostly have one job, not dozens. One summary says 90% of neurons in Qwen-32B do.\n\nIf it reproduces, debugging and trusting models gets much easier.\n\nPlain-English breakdown coming.",
+      "x_post": "OpenAI is marking a Navier-Stokes milestone with a shirt printing the last line of the model's chain of thought.\n\nBefore anyone calls it solved, I want to know exactly what was proven and how it's being checked. Breaking it down in plain English.",
       "x_thread": [
-        "The old idea was polysemanticity: every neuron tangled up in many concepts. This result argues you can read neurons directly."
-      ],
-      "fingerprint": "a54cd288a60d10ca"
+        "Navier-Stokes describes how fluids move. It's one of the hardest problem areas in math, which is why any AI result here gets attention.",
+        "The part I find most interesting: they chose to show the reasoning, not just the answer. That's the bar AI math results should be held to."
+      ]
     },
     {
-      "story_id": "claude-slides",
-      "why_now": "Boris Cherny is publicly saying Claude Slides is how he makes decks now, and the few YouTube videos are mostly news recaps with almost no views. A hands-on build of a real deck is the open angle.",
+      "story_id": "claude-writes-90-percent-claude-code",
+      "fingerprint": "6e5c7b60e3962b8b",
+      "why_now": "Anthropic says Claude writes about 90% of Claude Code's code, and the two small YouTube videos nearby don't cover it. The interesting part is the code review change behind it, which your audience can copy.",
       "video": {
-        "title": "I Built a Real Slide Deck With Claude Slides",
-        "thumbnail_text": "DECK IN ONE PROMPT?",
-        "hook": "Boris Cherny from Claude Code says Claude Slides is how he makes slide decks now. Big claim. So I gave it a real deck I actually need to present, start to finish, and I'm going to show you what it nailed, what I had to fix, and whether I'd use it again.",
+        "title": "Claude Writes 90% of Claude Code. Here's the Review Process",
+        "thumbnail_text": "90% WRITTEN BY AI",
+        "hook": "Anthropic says Claude now writes about 90% of Claude Code's own code. Merged PRs more than doubled from June to September, and the share that got reverted fell by more than 40%. The number is the headline. The part you can use is how they changed code review to get there, so let's go through it.",
         "alt_titles": [
-          "Claude Slides Hands-On: Is It Worth Switching?",
-          "Claude Slides vs My Usual Deck Workflow"
+          "How Anthropic Lets Claude Write 90% of Its Code",
+          "The Code Review Change Behind Claude Writing 90% of Claude Code"
         ],
         "outline": [
-          "What Claude Slides is and where you find it",
-          "Build: one prompt to a first draft of my deck",
-          "Editing: changing layouts, visuals and copy",
-          "What it got wrong and how I fixed it",
-          "Exporting and sharing the finished deck",
-          "Who should use it and who shouldn't yet"
+          "The numbers Anthropic shared: 90%, PRs doubled, reverts down 40%+",
+          "Why the revert rate matters more than the 90%",
+          "What changed in their code review process, from their write-up",
+          "How I'd adopt it on a small team or solo project",
+          "Where this breaks down and what I'd watch for"
         ]
       },
       "short": {
@@ -379,67 +117,316 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "The guy behind Claude Code makes his decks like this now.",
-            "visual": "Boris Cherny's post"
+            "line": "Claude writes about ninety percent of Claude Code.",
+            "visual": "Big '90%' over the Claude Code logo"
           },
           {
             "t": "3-10s",
-            "line": "Claude Slides. You describe the deck, it builds the slides.",
-            "visual": "Prompt typed, slides appear"
+            "line": "That's Anthropic's own number. Merged PRs more than doubled from June to September.",
+            "visual": "Simple bar chart: June vs September PRs"
           },
           {
-            "t": "10-21s",
-            "line": "I tried it on a real presentation. The first draft was fast. The layouts were clean. A few slides needed my edits. That's normal, and it still saved me a lot of time.",
-            "visual": "Before and after slide edits"
+            "t": "10-18s",
+            "line": "And the share that got reverted fell by more than forty percent. More code, fewer rollbacks.",
+            "visual": "Revert rate line dropping"
           },
           {
-            "t": "21-27s",
-            "line": "No more hunting for phone frame graphics, which is what Boris called out. It handles the visuals for you, so you can focus on the story.",
-            "visual": "Phone mockup slide"
+            "t": "18-26s",
+            "line": "The trick wasn't a better model alone. They changed how code review works, and they wrote up how to adopt it.",
+            "visual": "Screenshot of the post, review highlighted"
           },
           {
-            "t": "27-30s",
-            "line": "Full build on my channel.",
-            "visual": "Channel handle"
+            "t": "26-30s",
+            "line": "Full breakdown on my channel.",
+            "visual": "Chase on camera, channel name"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "Claude Slides, tested",
-            "body": "I built a real deck with it."
+            "heading": "Claude writes 90% of Claude Code",
+            "body": "Anthropic's own number. Here's what's behind it."
           },
           {
-            "heading": "Why I tried it",
-            "body": "Boris Cherny says it's how he makes decks now."
+            "heading": "Merged PRs more than doubled",
+            "body": "From June to September."
           },
           {
-            "heading": "Step 1: describe it",
-            "body": "Tell Claude the audience, goal and key points."
+            "heading": "Reverts fell by over 40%",
+            "body": "More code shipped, less of it rolled back."
           },
           {
-            "heading": "Step 2: edit",
-            "body": "Fix copy and layouts slide by slide."
+            "heading": "The real change: code review",
+            "body": "They reworked how review works for AI-written code."
           },
           {
-            "heading": "What it's good at",
-            "body": "Fast first drafts and clean visuals."
+            "heading": "You can adopt it",
+            "body": "Anthropic wrote up how. I'm testing it on my projects."
           },
           {
-            "heading": "Where I stepped in",
-            "body": "Specific numbers and my own examples."
-          },
-          {
-            "heading": "Try it yourself",
-            "body": "Save this and build your next deck with it."
+            "heading": "Want the walkthrough?",
+            "body": "Follow Chase AI for the full video."
           }
         ],
-        "caption": "Boris Cherny says Claude Slides is how he makes decks now. I put it through a real presentation. Here's how it went."
+        "caption": "Claude writes about 90% of Claude Code's code, and reverts went down, not up. The interesting part is how they changed code review."
       },
-      "x_post": "Boris Cherny says Claude Slides is how he makes decks now.\n\nSo I'm building a real presentation with it, start to finish: what it nails, what I have to fix, and whether it replaces my usual workflow.\n\nResults soon.",
-      "x_thread": [],
-      "fingerprint": "53d722d106217b55"
+      "x_post": "Claude writes about 90% of Claude Code's code.\n\nThe stat I care about more: merged PRs doubled June to September while the reverted share fell 40%+.\n\nMore AI code with fewer rollbacks means the review process changed. Digging into how you can copy it.",
+      "x_thread": [
+        "The 90% number gets the clicks, but without the revert rate it means nothing. Shipping more and rolling back less is the actual result."
+      ]
+    },
+    {
+      "story_id": "gemini-4-argon-wandr-rollout",
+      "fingerprint": "64ffdc92d8afc945",
+      "why_now": "Gemini 4 Argon just landed for all Pro users in Antigravity and for Perplexity users, with a new top score on the WANDR deep research benchmark, and YouTube has no videos on it yet. People with access want to know if it's worth switching.",
+      "video": {
+        "title": "Gemini 4 Argon Is in Antigravity and Perplexity. I Tested It",
+        "thumbnail_text": "GEMINI 4 ARGON TESTED",
+        "hook": "Gemini 4 Argon is now live for every Pro user in Antigravity, and it's in Perplexity too. It just set a new state of the art on WANDR, a deep research benchmark. Benchmarks are one thing. I'm going to put it on real research and real coding tasks and tell you if it's worth your quota.",
+        "alt_titles": [
+          "Gemini 4 Argon: Real Tests in Antigravity and Perplexity",
+          "Is Gemini 4 Argon Worth Switching To?"
+        ],
+        "outline": [
+          "Where you can use Argon right now: Antigravity Pro and Perplexity",
+          "What WANDR measures and what a top score does and doesn't tell you",
+          "Test 1: a deep research question in Perplexity",
+          "Test 2: a real build in Antigravity, and how the separate weekly quota works",
+          "Verdict: who should switch and who shouldn't bother"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "Gemini 4 Argon is live, and you might already have it.",
+            "visual": "Argon name over Antigravity and Perplexity logos"
+          },
+          {
+            "t": "3-10s",
+            "line": "All Pro users get it in Antigravity, with its own weekly quota so it doesn't eat your Flash usage.",
+            "visual": "Antigravity model picker showing Argon"
+          },
+          {
+            "t": "10-18s",
+            "line": "It's also in Perplexity, in fast search and Computer mode.",
+            "visual": "Perplexity screen recording"
+          },
+          {
+            "t": "18-26s",
+            "line": "It set a new top score on WANDR, a deep research benchmark. I'm testing whether that holds up on real work.",
+            "visual": "Benchmark name on screen, then Chase typing a prompt"
+          },
+          {
+            "t": "26-30s",
+            "line": "Results in the full video.",
+            "visual": "Chase on camera, channel name"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "Gemini 4 Argon is here",
+            "body": "And you may already have access."
+          },
+          {
+            "heading": "In Antigravity",
+            "body": "Available to all Pro users, with a separate weekly quota."
+          },
+          {
+            "heading": "In Perplexity",
+            "body": "Fast search and Computer agent mode."
+          },
+          {
+            "heading": "New top score on WANDR",
+            "body": "A benchmark for wide and deep research."
+          },
+          {
+            "heading": "Benchmarks aren't your work",
+            "body": "So I'm testing it on real research and coding."
+          },
+          {
+            "heading": "See the results",
+            "body": "Follow Chase AI for the full test."
+          }
+        ],
+        "caption": "Gemini 4 Argon is live in Antigravity for Pro users and in Perplexity. I'm testing whether the WANDR benchmark win shows up on real work."
+      },
+      "x_post": "Gemini 4 Argon is now in Antigravity for all Pro users (with its own weekly quota) and in Perplexity.\n\nIt set a new top score on the WANDR deep research benchmark. I'm testing it on real research and real builds to see if that holds up.",
+      "x_thread": []
+    },
+    {
+      "story_id": "meta-muse-spark-open",
+      "fingerprint": "38a3602d100a083d",
+      "why_now": "Meta's Muse Spark Open is the biggest US open-weight release in a while and it's already getting pushback, but the few YouTube videos are news roundups. A hands-on, honest take on whether it's worth running fills the gap.",
+      "video": {
+        "title": "Meta's 816B Open Model: Is Muse Spark Open Worth It?",
+        "thumbnail_text": "816B OPEN. WORTH IT?",
+        "hook": "Meta just released Muse Spark Open. 816 billion parameters, 42 billion active, a million-token context, and open weights. Meta calls it the most capable US open-weight model yet. But people are already saying a much smaller model beats it. So I'm checking what it's actually good for, and whether you should care.",
+        "alt_titles": [
+          "Muse Spark Open vs the Hype: Honest Take",
+          "Meta's Biggest Open Model Is Here. Here's the Catch"
+        ],
+        "outline": [
+          "What Meta released: Muse Spark Open specs in plain words",
+          "Muse Wonder in Cursor: how it relates and what it costs",
+          "The criticism: claims it's nerfed and that GLM 5.3 Flash beats it",
+          "What it takes to actually run an 816B model, and who it's for",
+          "My take: when open weights matter for builders and when they don't"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "Meta just dropped an 816 billion parameter open model.",
+            "visual": "Muse Spark Open name with '816B' big on screen"
+          },
+          {
+            "t": "3-10s",
+            "line": "Muse Spark Open. 42 billion active, a million-token context, built for coding and agents.",
+            "visual": "Spec card"
+          },
+          {
+            "t": "10-18s",
+            "line": "Meta says it's the most capable US open-weight model yet. Critics say a much smaller model beats it.",
+            "visual": "Split screen: Meta claim vs critic post"
+          },
+          {
+            "t": "18-26s",
+            "line": "And their stronger model, Muse Wonder, is paid in Cursor. So what's the open one for? I'm checking.",
+            "visual": "Cursor model picker with Muse Wonder"
+          },
+          {
+            "t": "26-30s",
+            "line": "Full breakdown on my channel.",
+            "visual": "Chase on camera, channel name"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "Meta released an 816B open model",
+            "body": "Muse Spark Open. Here's the honest take."
+          },
+          {
+            "heading": "The specs",
+            "body": "816B total, 42B active, 1M-token context."
+          },
+          {
+            "heading": "Meta's claim",
+            "body": "The most capable US open-weight model to date."
+          },
+          {
+            "heading": "The pushback",
+            "body": "Critics say it's nerfed and a smaller GLM model beats it."
+          },
+          {
+            "heading": "Muse Wonder is in Cursor",
+            "body": "$4/M input, $20/M output tokens."
+          },
+          {
+            "heading": "Who it's really for",
+            "body": "Teams that need weights they control, not most solo builders."
+          },
+          {
+            "heading": "Want the full test?",
+            "body": "Follow Chase AI."
+          }
+        ],
+        "caption": "Meta's Muse Spark Open is big, open and already controversial. Here's who it's actually for."
+      },
+      "x_post": "Meta's Muse Spark Open: 816B params, 42B active, 1M context, open weights.\n\nMeta calls it the best US open model. Critics say GLM 5.3 Flash beats it at a fraction of the size.\n\nI'm checking what it's actually good for and who should bother running it.",
+      "x_thread": [
+        "Meanwhile Muse Wonder is in Cursor at $4/M input and $20/M output. The open release and the paid one are clearly not the same tier."
+      ]
+    },
+    {
+      "story_id": "grok-bot-amazon-blocked",
+      "fingerprint": "07b755908a02a88f",
+      "why_now": "Amazon blocking Grok Bot shopping agents pulled tens of millions of views on X, and the YouTube videos so far are tiny and mostly reaction. The bigger question for builders is what happens when sites block AI agents.",
+      "video": {
+        "title": "Amazon Blocked Grok's Shopping Agents. What It Means for AI Agents",
+        "thumbnail_text": "AMAZON BLOCKS AI AGENTS",
+        "hook": "Amazon just cut off Grok Bot agents from shopping on its site. Elon Musk's answer: ask Grok to buy somewhere else, and maybe launch an Amazon rival. Forget the feud for a second. If you're building or using AI agents, this is the real question: what happens when the sites you need start saying no?",
+        "alt_titles": [
+          "Amazon vs Grok Bot: The AI Agent Fight Starts Here",
+          "Your AI Agent Just Got Blocked. Now What?"
+        ],
+        "outline": [
+          "What happened: Amazon blocks Grok Bot, Musk responds",
+          "Why big retailers don't want AI agents shopping for you",
+          "What this means for agents that browse and buy on your behalf",
+          "How builders can design agents that don't depend on one site",
+          "Where I think this goes next, and what's still unclear"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "Amazon just blocked Grok's shopping agents.",
+            "visual": "Amazon logo with a block icon over Grok"
+          },
+          {
+            "t": "3-10s",
+            "line": "Grok Bot agents can't shop on Amazon anymore. Elon's reply: just buy somewhere else.",
+            "visual": "Musk's post on screen"
+          },
+          {
+            "t": "10-18s",
+            "line": "He even floated launching an Amazon alternative. That's the headline. Here's the part that matters.",
+            "visual": "Kalshi post, then cut to Chase"
+          },
+          {
+            "t": "18-26s",
+            "line": "If big sites block AI agents, every agent you build or use needs a plan B.",
+            "visual": "Diagram: agent with several store options"
+          },
+          {
+            "t": "26-30s",
+            "line": "I break it down on my channel.",
+            "visual": "Chase on camera, channel name"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "Amazon blocked Grok's shopping agents",
+            "body": "And it matters beyond the feud."
+          },
+          {
+            "heading": "What happened",
+            "body": "Grok Bot agents can no longer shop on Amazon."
+          },
+          {
+            "heading": "Musk's response",
+            "body": "Buy elsewhere, and maybe launch an Amazon rival."
+          },
+          {
+            "heading": "The bigger question",
+            "body": "What happens when sites block AI agents?"
+          },
+          {
+            "heading": "For builders",
+            "body": "Don't build agents that depend on one site."
+          },
+          {
+            "heading": "More on this",
+            "body": "Follow Chase AI for the full breakdown."
+          }
+        ],
+        "caption": "Amazon blocking Grok Bot is the first big fight over who gets to shop for you. Here's what it means if you build or use AI agents."
+      },
+      "x_post": "Amazon blocked Grok Bot agents from shopping on its site. Musk says buy elsewhere and floated an Amazon rival.\n\nThe feud is the headline. The real story: big sites can block AI agents whenever they want. If you build agents, plan for that now.",
+      "x_thread": []
     }
   ]
 }
