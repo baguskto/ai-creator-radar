@@ -1,193 +1,445 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T13:10:00Z",
-  "sample": true,
+  "generated_at": "2026-10-16T20:30:30Z",
+  "sample": false,
   "packs": [
     {
-      "story_id": "sample-open-weights-coder",
+      "story_id": "cuck-coding-meme",
+      "why_now": "A joke about agents doing the coding while you watch hit about 188K likes in a day and nobody on YouTube has touched it. It is the perfect hook for an honest video on how much you should actually sit back.",
       "video": {
-        "title": "This Free Model Just Beat GPT at Coding",
-        "thumbnail_text": "FREE & IT WINS",
-        "hook": "An open model nobody had heard of yesterday just beat the closed giants at coding. I ran it on my own projects, and the results surprised me."
+        "title": "Vibe Coding Got a New Name. Is Watching the Agent Enough?",
+        "thumbnail_text": "JUST SIT AND WATCH?",
+        "hook": "The internet just renamed vibe coding. The joke is you sit in a chair and watch the agent do everything. It's funny because it's kind of true. So I tested it: one build where I only watched, and one where I actually steered. Here's what each one got me.",
+        "alt_titles": [
+          "I Let the AI Agent Code While I Just Watched",
+          "The Vibe Coding Joke That's Actually a Warning"
+        ],
+        "outline": [
+          "Where the meme came from and why it landed with builders",
+          "Build 1: hands-off, accept everything the agent does",
+          "Build 2: same task, but I plan, review and test",
+          "Side by side: what broke, what took longer, what I'd ship",
+          "When watching is fine and when it costs you",
+          "My actual workflow for agent coding today"
+        ]
       },
       "short": {
         "duration_s": 30,
         "beats": [
           {
             "t": "0-3s",
-            "line": "Everyone on X is talking about the new open-weights coding model. YouTube hasn't caught up.",
-            "visual": "Screen recording of the viral post"
+            "line": "They're calling vibe coding something new now.",
+            "visual": "Chase in chair, arms crossed, agent typing on screen"
           },
           {
-            "t": "3-12s",
-            "line": "Here's what it actually does, in one demo.",
-            "visual": "Side-by-side demo"
+            "t": "3-10s",
+            "line": "The joke: you just sit in a chair and watch the agent code. Almost two hundred thousand people liked it. It's a joke, but it says something real about how we work now.",
+            "visual": "The viral X post, like count highlighted"
           },
           {
-            "t": "12-24s",
-            "line": "The part nobody's mentioning is what this means for your workflow.",
-            "visual": "Text callouts over B-roll"
+            "t": "10-20s",
+            "line": "And honestly, for small stuff, that works. But on a real project, the hands-off build is where bugs pile up quietly.",
+            "visual": "Split screen: clean demo vs error log"
           },
           {
-            "t": "24-30s",
-            "line": "Full breakdown on my channel. Follow so you catch the next one first.",
-            "visual": "Channel end card"
+            "t": "20-27s",
+            "line": "Watching is fine. Reviewing is the job. Plan first, check the diff, run the tests.",
+            "visual": "Three checkboxes appear one by one"
+          },
+          {
+            "t": "27-30s",
+            "line": "Full test on my channel.",
+            "visual": "Channel handle on screen"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "FREE & IT WINS",
-            "body": "What just happened with the new open-weights coding model"
+            "heading": "Vibe coding has a new name",
+            "body": "The meme: you sit in a chair and watch the agent work."
           },
           {
-            "heading": "What it is",
-            "body": "One sentence a beginner understands."
+            "heading": "Why it went viral",
+            "body": "Roughly 188K likes on one post. It hit a nerve with builders."
           },
           {
-            "heading": "Why X is losing it",
-            "body": "The demo that started it all."
+            "heading": "The part that's true",
+            "body": "For small scripts, letting the agent run works fine."
           },
           {
-            "heading": "What it means for you",
-            "body": "Three ways to use this today."
+            "heading": "The part that bites",
+            "body": "On real projects, unchecked changes stack up into bugs."
           },
           {
-            "heading": "The catch",
-            "body": "What the hype threads skip."
+            "heading": "Watch less, review more",
+            "body": "Plan the task, read the diff, run the tests."
           },
           {
-            "heading": "Watch the breakdown",
-            "body": "Full video on Chase AI. Link in bio."
+            "heading": "Where do you land?",
+            "body": "Full hands-off, or steering every step? Tell me below."
           }
-        ]
+        ],
+        "caption": "The internet renamed vibe coding to a joke about sitting back and watching the agent. Funny, and partly right. Here's where watching works and where it costs you."
       },
-      "x_post": "The new open-weights coding model is everywhere on X today and almost nobody on YouTube has covered it yet. Here's the 60-second version 🧵"
+      "x_post": "The new name for vibe coding is a joke about sitting in a chair while the agent works.\n\nFunny. Also a decent test: if you can't explain the diff, you didn't build it, you watched it.\n\nI'm testing hands-off vs steered on the same build. Results soon.",
+      "x_thread": [
+        "Hands-off is fine for throwaway scripts. For anything you'll maintain, plan first and review every change.",
+        "What's your ratio? How much of your agent's output do you actually read?"
+      ],
+      "fingerprint": "ee42782a85feddfa"
     },
     {
-      "story_id": "sample-agent-browser-launch",
+      "story_id": "anthropic-ipo-delay-debate",
+      "why_now": "Reports of a call to delay Anthropic's IPO over safety, plus a public valuation fight, are all over X with zero YouTube coverage. Builders who rely on Claude want to know what an IPO could mean for them.",
       "video": {
-        "title": "This AI Now Uses Your Browser For You",
-        "thumbnail_text": "IT CLICKS FOR YOU",
-        "hook": "I gave an AI agent my browser and walked away. Twenty minutes later it had booked a trip. Here's exactly what it did, and where it failed."
+        "title": "Anthropic's IPO: The Delay Call and What It Means for Claude Users",
+        "thumbnail_text": "DELAY THE IPO?",
+        "hook": "There's a reported push for Anthropic to delay its IPO over AI safety. Some people think it's real concern, some think it's about market timing. I'm a builder who uses Claude every day, so I want to know one thing: does any of this change the tools you rely on?",
+        "alt_titles": [
+          "Should Anthropic Delay Its IPO? Both Sides",
+          "Anthropic IPO Drama, Explained for Builders"
+        ],
+        "outline": [
+          "What's being reported: the NYC Comptroller's call and the talks",
+          "The valuation debate people are having on X",
+          "The skeptic take: is safety a cover for timing?",
+          "What a public Anthropic could change for pricing and products, framed as open questions",
+          "What I'm watching as a Claude user",
+          "What I'd do now: nothing drastic, keep options open"
+        ]
       },
       "short": {
         "duration_s": 30,
         "beats": [
           {
-            "t": "0-3s",
-            "line": "Everyone on X is talking about the browser agent launch. YouTube hasn't caught up.",
-            "visual": "Screen recording of the viral post"
+            "t": "0-4s",
+            "line": "Anthropic is reportedly being asked to delay its IPO.",
+            "visual": "Headline screenshot"
           },
           {
-            "t": "3-12s",
-            "line": "Here's what it actually does, in one demo.",
-            "visual": "Side-by-side demo"
+            "t": "4-12s",
+            "line": "NYC Comptroller Mark Levine, who oversees big pension funds, reportedly wants it postponed until safety and governance risks are addressed.",
+            "visual": "Pension fund graphic"
           },
           {
-            "t": "12-24s",
-            "line": "The part nobody's mentioning is what this means for your workflow.",
-            "visual": "Text callouts over B-roll"
+            "t": "12-20s",
+            "line": "Meanwhile people on X are arguing over the valuation, and some say the safety angle is cover for bad market timing.",
+            "visual": "Two X posts side by side"
           },
           {
-            "t": "24-30s",
-            "line": "Full breakdown on my channel. Follow so you catch the next one first.",
-            "visual": "Channel end card"
+            "t": "20-27s",
+            "line": "If you build on Claude, the real question is whether going public changes pricing or priorities.",
+            "visual": "Claude logo, question mark"
+          },
+          {
+            "t": "27-30s",
+            "line": "I break it down on the channel. Link's in my profile, go check it out.",
+            "visual": "Channel handle"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "IT CLICKS FOR YOU",
-            "body": "What just happened with the browser agent launch"
+            "heading": "Anthropic's IPO, in question",
+            "body": "Reports say there's a call to delay it."
           },
           {
-            "heading": "What it is",
-            "body": "One sentence a beginner understands."
+            "heading": "Who's asking",
+            "body": "NYC Comptroller Mark Levine, per the reports, citing safety and governance."
           },
           {
-            "heading": "Why X is losing it",
-            "body": "The demo that started it all."
+            "heading": "Anthropic is talking",
+            "body": "It has reportedly opened discussions with him."
           },
           {
-            "heading": "What it means for you",
-            "body": "Three ways to use this today."
+            "heading": "The skeptics",
+            "body": "Some on X say safety is cover for market timing."
           },
           {
-            "heading": "The catch",
-            "body": "What the hype threads skip."
+            "heading": "The valuation fight",
+            "body": "Investors are publicly debating what it's worth."
           },
           {
-            "heading": "Watch the breakdown",
-            "body": "Full video on Chase AI. Link in bio."
+            "heading": "Why builders care",
+            "body": "Public companies face pressure on pricing and priorities."
+          },
+          {
+            "heading": "What do you think?",
+            "body": "Delay or go? Drop your take below."
           }
-        ]
+        ],
+        "caption": "A reported call to delay Anthropic's IPO over safety, and a loud valuation debate. Here's what matters if you build on Claude."
       },
-      "x_post": "The browser agent launch is everywhere on X today and almost nobody on YouTube has covered it yet. Here's the 60-second version 🧵"
+      "x_post": "Reports say Anthropic is being asked to delay its IPO over AI safety and governance, and it's talking with NYC's Comptroller about it.\n\nIf you build on Claude, the question that matters: does going public change pricing or priorities?\n\nBreaking it down this week.",
+      "x_thread": [
+        "The skeptic take on X: safety is cover for market timing. Worth taking seriously, but nobody outside knows yet."
+      ],
+      "fingerprint": "73975cacde394ed1"
     },
     {
-      "story_id": "sample-claude-code-plugins",
+      "story_id": "nvidia-app-ai-agent-control-default",
+      "why_now": "A PSA that the NVIDIA app turned on AI agent control by default has 1.3M views on X and only one tiny video on YouTube. Tons of gamers and creators run this app, so a quick check-and-fix video is useful today.",
       "video": {
-        "title": "The Claude Code Plugins Pros Are Using",
-        "thumbnail_text": "STEAL THIS SETUP",
-        "hook": "The best Claude Code users aren't using it stock. These are the plugins and hooks I keep seeing in their setups, and how to install them in five minutes."
+        "title": "Check Your NVIDIA App: AI Agent Control Was Turned On",
+        "thumbnail_text": "TURN THIS OFF?",
+        "hook": "If you have the NVIDIA app installed, a user is reporting an update switched on a setting that lets AI agents control the app, and it was on by default. I'm going to check my own machine, show you where the setting is, and talk about whether you should leave it on.",
+        "alt_titles": [
+          "NVIDIA App Enabled AI Agent Access by Default",
+          "The NVIDIA App Setting You Should Check Today"
+        ],
+        "outline": [
+          "What the PSA says and why it spread",
+          "Checking my own NVIDIA app: is the setting there and is it on?",
+          "What agent control could let software do, and what we can't confirm yet",
+          "Why opt-out defaults for agent access are a bad pattern",
+          "How to turn it off, and what you lose if you do",
+          "The bigger trend: apps adding agent hooks quietly"
+        ]
       },
       "short": {
         "duration_s": 30,
         "beats": [
           {
             "t": "0-3s",
-            "line": "Everyone on X is talking about Claude Code plugins. YouTube hasn't caught up.",
-            "visual": "Screen recording of the viral post"
+            "line": "Got the NVIDIA app? Check this.",
+            "visual": "NVIDIA app icon, warning sign"
           },
           {
-            "t": "3-12s",
-            "line": "Here's what it actually does, in one demo.",
-            "visual": "Side-by-side demo"
+            "t": "3-11s",
+            "line": "A user reports an update turned on a setting that lets AI agents control the app, and it was on by default.",
+            "visual": "The PSA post, 1.3M views highlighted"
           },
           {
-            "t": "12-24s",
-            "line": "The part nobody's mentioning is what this means for your workflow.",
-            "visual": "Text callouts over B-roll"
+            "t": "11-20s",
+            "line": "He calls it a security risk. Even if it's harmless today, agent access should be something you opt into, not something you discover.",
+            "visual": "Settings toggle switching on by itself"
           },
           {
-            "t": "24-30s",
-            "line": "Full breakdown on my channel. Follow so you catch the next one first.",
-            "visual": "Channel end card"
+            "t": "20-27s",
+            "line": "Open the app, check the settings, and decide for yourself. It only takes a minute, so do it before you forget.",
+            "visual": "Screen recording finding the setting"
+          },
+          {
+            "t": "27-30s",
+            "line": "Full walkthrough on my channel. Link in my profile.",
+            "visual": "Channel handle"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "STEAL THIS SETUP",
-            "body": "What just happened with Claude Code plugins"
+            "heading": "Check your NVIDIA app",
+            "body": "A setting for AI agent control was reportedly on by default."
           },
           {
-            "heading": "What it is",
-            "body": "One sentence a beginner understands."
+            "heading": "What happened",
+            "body": "A user says an auto-update enabled it with broad permissions."
           },
           {
-            "heading": "Why X is losing it",
-            "body": "The demo that started it all."
+            "heading": "Why it matters",
+            "body": "Agent access to an app is a security decision. It should be yours."
           },
           {
-            "heading": "What it means for you",
-            "body": "Three ways to use this today."
+            "heading": "What we don't know yet",
+            "body": "Exactly what agents can do through it. Worth testing."
           },
           {
-            "heading": "The catch",
-            "body": "What the hype threads skip."
+            "heading": "What to do",
+            "body": "Open the app settings and check whether it's on."
           },
           {
-            "heading": "Watch the breakdown",
-            "body": "Full video on Chase AI. Link in bio."
+            "heading": "Bigger picture",
+            "body": "More apps are adding agent hooks. Defaults matter."
+          },
+          {
+            "heading": "Did yours have it on?",
+            "body": "Tell me what you found."
+          }
+        ],
+        "caption": "A PSA says the NVIDIA app enabled AI agent control by default after an update. Here's why you should check yours."
+      },
+      "x_post": "PSA going around: an NVIDIA app update reportedly turned on a setting letting AI agents control the app, on by default.\n\nWhatever it does today, agent access should be opt-in.\n\nCheck your settings. I'm testing what it actually allows.",
+      "x_thread": [],
+      "fingerprint": "b90c7f542e6e52ef"
+    },
+    {
+      "story_id": "interpretability-untangled-networks",
+      "why_now": "An interpretability result is being called one of the most important in AI, with 3.4M views on X and one small explainer on YouTube. A plain-language take for builders fills a real gap.",
+      "video": {
+        "title": "New Research Says AI Neurons Aren't a Tangled Mess",
+        "thumbnail_text": "ONE NEURON, ONE JOB?",
+        "hook": "For years the story has been that AI models are tangled knots, where every neuron does a dozen jobs at once. A new result says that might be wrong. One summary claims 90% of neurons in Qwen-32B have one job. If that holds up, it matters for every tool you build on.",
+        "alt_titles": [
+          "Can We Finally Read What AI Models Are Thinking?",
+          "The Interpretability Result Everyone's Talking About"
+        ],
+        "outline": [
+          "The old view: polysemantic neurons, in plain English",
+          "What Nick Cammarata and coauthors are claiming",
+          "The 90% of Qwen-32B figure and what it would mean, if it holds",
+          "What experts and skeptics are asking about the result",
+          "Why builders should care: debugging, safety, trust",
+          "What I'll be watching as people try to reproduce it"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-4s",
+            "line": "We might be able to read AI models after all.",
+            "visual": "Glowing neural network untangling"
+          },
+          {
+            "t": "4-12s",
+            "line": "The common view: each neuron in a model does many jobs at once, so they're hard to study directly.",
+            "visual": "Knotted wires animation"
+          },
+          {
+            "t": "12-21s",
+            "line": "A new result says that's wrong. One summary claims 90 percent of neurons in Qwen-32B have one job.",
+            "visual": "Stat on screen: 90% one job"
+          },
+          {
+            "t": "21-27s",
+            "line": "If it holds up, understanding and fixing models gets a lot easier. That's still a big if, so watch for people trying to reproduce it.",
+            "visual": "Magnifying glass over a neuron"
+          },
+          {
+            "t": "27-30s",
+            "line": "I explain it on my channel. Link in my profile.",
+            "visual": "Channel handle"
           }
         ]
       },
-      "x_post": "Claude code plugins is everywhere on X today and almost nobody on YouTube has covered it yet. Here's the 60-second version 🧵"
+      "carousel": {
+        "slides": [
+          {
+            "heading": "AI models aren't knots?",
+            "body": "A new interpretability result is getting big attention."
+          },
+          {
+            "heading": "The old view",
+            "body": "Each neuron does many jobs, so you can't read them directly."
+          },
+          {
+            "heading": "The new claim",
+            "body": "Neurons can be studied directly, without a second model."
+          },
+          {
+            "heading": "The headline number",
+            "body": "One summary: 90% of neurons in Qwen-32B have one job."
+          },
+          {
+            "heading": "Why it matters",
+            "body": "Easier debugging, better safety work, more trust."
+          },
+          {
+            "heading": "Still to check",
+            "body": "Big claims need reproduction. Watch for follow-ups."
+          },
+          {
+            "heading": "Want the breakdown?",
+            "body": "Follow for a plain-English explainer."
+          }
+        ],
+        "caption": "A new interpretability result says neural networks are far more structured than we thought. Here's the plain-English version."
+      },
+      "x_post": "Big interpretability claim this week: neurons in large models may mostly have one job, not dozens. One summary says 90% of neurons in Qwen-32B do.\n\nIf it reproduces, debugging and trusting models gets much easier.\n\nPlain-English breakdown coming.",
+      "x_thread": [
+        "The old idea was polysemanticity: every neuron tangled up in many concepts. This result argues you can read neurons directly."
+      ],
+      "fingerprint": "a54cd288a60d10ca"
+    },
+    {
+      "story_id": "claude-slides",
+      "why_now": "Boris Cherny is publicly saying Claude Slides is how he makes decks now, and the few YouTube videos are mostly news recaps with almost no views. A hands-on build of a real deck is the open angle.",
+      "video": {
+        "title": "I Built a Real Slide Deck With Claude Slides",
+        "thumbnail_text": "DECK IN ONE PROMPT?",
+        "hook": "Boris Cherny from Claude Code says Claude Slides is how he makes slide decks now. Big claim. So I gave it a real deck I actually need to present, start to finish, and I'm going to show you what it nailed, what I had to fix, and whether I'd use it again.",
+        "alt_titles": [
+          "Claude Slides Hands-On: Is It Worth Switching?",
+          "Claude Slides vs My Usual Deck Workflow"
+        ],
+        "outline": [
+          "What Claude Slides is and where you find it",
+          "Build: one prompt to a first draft of my deck",
+          "Editing: changing layouts, visuals and copy",
+          "What it got wrong and how I fixed it",
+          "Exporting and sharing the finished deck",
+          "Who should use it and who shouldn't yet"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "The guy behind Claude Code makes his decks like this now.",
+            "visual": "Boris Cherny's post"
+          },
+          {
+            "t": "3-10s",
+            "line": "Claude Slides. You describe the deck, it builds the slides.",
+            "visual": "Prompt typed, slides appear"
+          },
+          {
+            "t": "10-21s",
+            "line": "I tried it on a real presentation. The first draft was fast. The layouts were clean. A few slides needed my edits. That's normal, and it still saved me a lot of time.",
+            "visual": "Before and after slide edits"
+          },
+          {
+            "t": "21-27s",
+            "line": "No more hunting for phone frame graphics, which is what Boris called out. It handles the visuals for you, so you can focus on the story.",
+            "visual": "Phone mockup slide"
+          },
+          {
+            "t": "27-30s",
+            "line": "Full build on my channel.",
+            "visual": "Channel handle"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "Claude Slides, tested",
+            "body": "I built a real deck with it."
+          },
+          {
+            "heading": "Why I tried it",
+            "body": "Boris Cherny says it's how he makes decks now."
+          },
+          {
+            "heading": "Step 1: describe it",
+            "body": "Tell Claude the audience, goal and key points."
+          },
+          {
+            "heading": "Step 2: edit",
+            "body": "Fix copy and layouts slide by slide."
+          },
+          {
+            "heading": "What it's good at",
+            "body": "Fast first drafts and clean visuals."
+          },
+          {
+            "heading": "Where I stepped in",
+            "body": "Specific numbers and my own examples."
+          },
+          {
+            "heading": "Try it yourself",
+            "body": "Save this and build your next deck with it."
+          }
+        ],
+        "caption": "Boris Cherny says Claude Slides is how he makes decks now. I put it through a real presentation. Here's how it went."
+      },
+      "x_post": "Boris Cherny says Claude Slides is how he makes decks now.\n\nSo I'm building a real presentation with it, start to finish: what it nails, what I have to fix, and whether it replaces my usual workflow.\n\nResults soon.",
+      "x_thread": [],
+      "fingerprint": "53d722d106217b55"
     }
   ]
 }
