@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T20:34:57Z",
+  "generated_at": "2026-10-16T22:53:40Z",
   "sample": false,
-  "latest_version": "2.1.301",
+  "latest_version": "2.1.302",
   "dist_tags": {
-    "latest": "2.1.301",
+    "latest": "2.1.302",
     "stable": "2.1.292",
     "next": "2.1.302"
   },
   "items": [
+    {
+      "version": "2.1.302",
+      "date": "2026-10-16",
+      "title": "4 new features, 7 improvements, 9 changes, 43 fixes",
+      "highlights": [
+        "Added CLAUDE_CODE_AUTO_MODE_MODEL to choose the model the client-side auto mode classifier uses; it does not change the model for…",
+        "Added an Idle compaction row to /config for turning idle compaction off or back on; the notices shown after an idle compaction now say how…",
+        "Added a notice to /design-sync and /design-login that standalone Claude Design (claude.ai/design) closes by December 14, 2026",
+        "Cloud sessions: Added a banner on a routine's page that says why its last run didn't start, such as your organization reaching its limit on…",
+        "Improved startup time with many plugins enabled: plugin command and agent files now take far fewer file system calls to load, most of all…"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.302",
+      "released_at": "2026-10-16T16:48:28.057Z",
+      "summary": "4 added, 7 improved, 9 changed, 43 fixed",
+      "counts": {
+        "added": 4,
+        "improved": 7,
+        "changed": 9,
+        "fixed": 43,
+        "removed": 0,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.301",
       "date": "2026-10-15",
@@ -163,29 +186,6 @@
         "improved": 7,
         "changed": 8,
         "fixed": 38,
-        "removed": 0,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.292",
-      "date": "2026-10-06",
-      "title": "8 new features, 13 improvements, 7 changes, 64 fixes",
-      "highlights": [
-        "Added --marketplace <source> to claude plugin install: adds the marketplace if needed, under the same policy checks as claude plugin…",
-        "Added an effort parameter to the Agent tool, so Claude runs a sub-agent at the effort level you ask for",
-        "Added CLAUDE_CODE_OVERLOADED_RETRY_BASE_DELAY_MS environment variable to set a longer base delay for the backoff when retrying an…",
-        "Added prompt.autocomplete, an event a mod hooks to add its own rows to the prompt box's autocomplete list",
-        "Added prompt caching to $.model.complete for mods: prompt and system take blocks of text, and cache: true on a block caches the request up…"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.292",
-      "released_at": "2026-10-06T17:10:31.715Z",
-      "summary": "8 added, 13 improved, 7 changed, 64 fixed",
-      "counts": {
-        "added": 8,
-        "improved": 13,
-        "changed": 7,
-        "fixed": 64,
         "removed": 0,
         "other": 0
       }
