@@ -25,8 +25,8 @@ VELOCITY_FOR_100 = 5000
 HEAT_FORMULA = ("velocity = sum of likes per hour (likes / post age) over the story's posts; "
                 f"heat = 100 * log10(1+velocity)/log10(1+{VELOCITY_FOR_100}), "
                 "+5% per extra author up to +20%")
-SAMPLE_NOTE = ("metrics cover the most relevant posts the X API recent search returns for these queries "
-               "(min {min_likes} likes), not every post on X")
+SAMPLE_NOTE = ("metrics cover the top posts xAI's X Search returns for these queries (min {min_likes} likes), "
+               "not every post on X; a count X Search didn't show is taken as the minimum")
 
 
 def check(doc, posts):
@@ -144,10 +144,13 @@ def main(argv=None):
     })
     errors = fetched.get("errors", [])
     msg = f"{len(stories)} stories from {len(posts)} posts across {fetched['searches_ok']} searches"
+    if fetched.get("cost_usd"):
+        msg += f" (xAI ${fetched['cost_usd']:.2f})"
     if errors:
         msg += f"; {len(errors)} failed: {errors[0]}"
     log_x_scan(args.data, "partial" if errors else "ok", msg, fetched.get("duration_s", 0),
-               {"stories": len(stories), "posts": len(posts), "posts_read": fetched.get("posts_read", 0)})
+               {"stories": len(stories), "posts": len(posts), "posts_fetched": fetched.get("posts_fetched", 0),
+                "cost_usd": fetched.get("cost_usd", 0)})
     print(f"x_scan {'partial' if errors else 'ok'}: {msg}")
     return 0
 
