@@ -1,620 +1,522 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T21:13:02Z",
+  "generated_at": "2026-10-19T19:48:12Z",
   "sample": false,
   "window_hours": 24,
   "queries": [
-    "(claude OR anthropic OR \"claude code\" OR opus OR sonnet) min_faves:200 since:2026-10-15 -filter:replies lang:en",
-    "(openai OR chatgpt OR codex OR \"gpt-5\" OR sora OR \"sam altman\") min_faves:200 since:2026-10-15 -filter:replies lang:en",
-    "(gemini OR deepmind OR \"google ai\" OR veo OR grok OR xai) min_faves:200 since:2026-10-15 -filter:replies lang:en",
-    "(deepseek OR qwen OR mistral OR llama OR \"open source model\" OR \"hugging face\" OR kimi OR glm) min_faves:200 since:2026-10-15 -filter:replies lang:en",
-    "(\"ai agent\" OR \"ai agents\" OR llm OR \"vibe coding\" OR cursor OR perplexity OR \"new model\" OR agi) min_faves:200 since:2026-10-15 -filter:replies lang:en"
+    "(claude OR anthropic OR \"claude code\" OR opus OR sonnet) min_faves:200 -is:retweet -is:reply lang:en",
+    "(openai OR chatgpt OR codex OR \"gpt-5\" OR sora OR \"sam altman\") min_faves:200 -is:retweet -is:reply lang:en",
+    "(gemini OR deepmind OR \"google ai\" OR veo OR grok OR xai) min_faves:200 -is:retweet -is:reply lang:en",
+    "(deepseek OR qwen OR mistral OR llama OR \"open source model\" OR \"hugging face\" OR kimi OR glm) min_faves:200 -is:retweet -is:reply lang:en",
+    "(\"ai agent\" OR \"ai agents\" OR llm OR \"vibe coding\" OR cursor OR perplexity OR \"new model\" OR agi) min_faves:200 -is:retweet -is:reply lang:en"
   ],
-  "heat_formula": "velocity = likes per hour (gain since last scan when available, else likes / post age); heat = 100 * log10(1+velocity)/log10(1+5000), +5% per extra author up to +20%",
-  "sample_note": "metrics cover the top posts X search returns for these queries (min 200 likes), not every post on X",
+  "heat_formula": "velocity = sum of likes per hour (likes / post age) over the story's posts; heat = 100 * log10(1+velocity)/log10(1+5000), +5% per extra author up to +20%",
+  "sample_note": "metrics cover the top posts xAI's X Search returns for these queries (min 200 likes), not every post on X; a count X Search didn't show is taken as the minimum",
   "stories": [
     {
-      "id": "grok-bot-amazon-blocked",
-      "title": "Grok Bot can scrub your phone number from spam lists",
-      "summary": "Musk promoted Grok Bot removing phone numbers from spam call and text lists; users report it finding listings and filing removal requests, and compare it to Codex computer use.",
+      "id": "deepseek-v4-1-flash-1017",
+      "title": "DeepSeek V4.1 Flash 1017 lands as top open model",
+      "summary": "DeepSeek released V4.1 Flash 1017, which scores 45 on the Artificial Analysis index (equal #2 open-weights). It is going free or live in OpenCode, Qoder and Command Code, and a 1-bit build is said to run locally on 128GB+ RAM.",
       "keywords": [
-        "grok bot",
-        "xai",
-        "ai agent",
-        "privacy",
-        "spam calls"
-      ],
-      "first_seen": "2026-10-15T03:21:00Z",
-      "heat": 99,
-      "metrics": {
-        "posts": 4,
-        "likes": 49657,
-        "reposts": 6178,
-        "views": 12023734,
-        "velocity_per_hour": 2055
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/elonmusk/status/2110852716247519517",
-          "author": "@elonmusk",
-          "text": "Ask your @Grok @Bot to remove your phone number from spam call &amp; text lists!",
-          "likes": 36528,
-          "reposts": 4655,
-          "posted_at": "2026-10-15T21:57:59Z"
-        },
-        {
-          "url": "https://x.com/MinimalDuck/status/2110712459405464057",
-          "author": "@MinimalDuck",
-          "text": "I got tired of all the spam calls I was getting so I had @bot find my number listed on sites and file the removals. I made it a free skill so you can do the same. https://t.co/n1mjIm9fkO\n@SpaceXSI @elonmusk",
-          "likes": 7059,
-          "reposts": 879,
-          "posted_at": "2026-10-15T12:40:40Z"
-        },
-        {
-          "url": "https://x.com/elonmusk/status/2110865910881820875",
-          "author": "@elonmusk",
-          "text": "Grok @Bot improves significantly every day",
-          "likes": 5558,
-          "reposts": 618,
-          "posted_at": "2026-10-15T22:50:25Z"
-        }
-      ]
-    },
-    {
-      "id": "openai-gpt-6-astra-test-model",
-      "title": "GPT-6 Astra Pro gets parallel agents in ChatGPT; Astra 6.1 spotted",
-      "summary": "OpenAI upgraded GPT-6 Astra Pro with faster responses, better tool use and multiple agents working in parallel for Pro users, while a private gpt-6-astra test model hints at Astra 6.1.",
-      "keywords": [
-        "openai",
-        "gpt-6 astra",
-        "chatgpt",
-        "agents"
-      ],
-      "first_seen": "2026-10-15T18:49:05Z",
-      "heat": 95,
-      "metrics": {
-        "posts": 2,
-        "likes": 2689,
-        "reposts": 120,
-        "views": 153606,
-        "velocity_per_hour": 2162
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/OpenAI/status/2111192259073094035",
-          "author": "@OpenAI",
-          "text": "GPT-6 Astra Pro in ChatGPT got an upgrade with faster responses and improved use of plugins and tools.\n\nAnd now, multiple agents can tackle different parts of a task in parallel. You can follow each agent’s progress and open completed tasks to review their work.\n\nNow available to",
-          "likes": 2141,
-          "reposts": 94,
-          "posted_at": "2026-10-16T20:27:13Z"
-        },
-        {
-          "url": "https://x.com/alexgetmancom/status/2110805177137565988",
-          "author": "@alexgetmancom",
-          "text": "Looks like Astra 6.1 is coming\n\nOpenAI rolled out a private test model\ngpt-6-astra-api-priv-ev3 https://t.co/MoA94c1BXo",
-          "likes": 548,
-          "reposts": 26,
-          "posted_at": "2026-10-15T18:49:05Z"
-        }
-      ]
-    },
-    {
-      "id": "opencode-free-deepseek-glm-flash",
-      "title": "DeepSeek V4.1 Flash and GLM 5.3 Flash go free in OpenCode",
-      "summary": "OpenCode made DeepSeek V4.1 Flash and then GLM 5.3 Flash free to use, giving developers two capable open models at no cost.",
-      "keywords": [
-        "opencode",
+        "deepseek v4.1 flash",
         "deepseek",
-        "glm",
-        "free models",
-        "coding agents"
+        "open weights model",
+        "opencode"
       ],
-      "first_seen": "2026-10-15T07:35:50Z",
-      "heat": 93,
+      "first_seen": "2026-10-19T15:56:47Z",
+      "heat": 100,
       "metrics": {
-        "posts": 4,
-        "likes": 43638,
-        "reposts": 3075,
-        "views": 5288948,
-        "velocity_per_hour": 1921
+        "posts": 6,
+        "likes": 9457,
+        "reposts": 471,
+        "velocity_per_hour": 2828,
+        "views": 568935
       },
       "top_posts": [
         {
-          "url": "https://x.com/opencode/status/2110635747648909472",
+          "url": "https://x.com/opencode/status/2112220734768779441",
           "author": "@opencode",
-          "text": "DeepSeek V4.1 Flash is now free in OpenCode",
-          "likes": 25463,
-          "reposts": 1813,
-          "posted_at": "2026-10-15T07:35:50Z"
+          "text": "DeepSeek V4.1 Flash updated to 1017 in OpenCode Go and Free\n\nNo changes needed on your end",
+          "likes": 6670,
+          "reposts": 316,
+          "views": 137790,
+          "posted_at": "2026-10-19T16:34:00Z"
         },
         {
-          "url": "https://x.com/opencode/status/2110986357539754114",
-          "author": "@opencode",
-          "text": "GLM 5.3 Flash is now free in OpenCode",
-          "likes": 17019,
-          "reposts": 1229,
-          "posted_at": "2026-10-16T06:49:02Z"
+          "url": "https://x.com/UnslothAI/status/2112212605930778830",
+          "author": "@UnslothAI",
+          "text": "DeepSeek V4.1-Flash-1017 can now run locally! 🐳\n\nWe made 1-bit retain ~88.2% accuracy while shrinking size from 508GB to 250GB (−52%).\n\nRun on a 128GB+ RAM device.\n\nV4.1 Flash 1017 is the strongest open model to date\n\nGuide: https://unsloth.ai/docs/models/deepseek-v4.1-flash\nGGU…",
+          "likes": 891,
+          "reposts": 56,
+          "views": 37663,
+          "posted_at": "2026-10-19T16:01:42Z"
         },
         {
-          "url": "https://x.com/MiaAI_lab/status/2110991786835333171",
-          "author": "@MiaAI_lab",
-          "text": "GLM 5.3 FLASH is now FREE in OpenCode 🤯\n\nThis adds to the already free DeepSeek v4.1 Flash.",
-          "likes": 699,
-          "reposts": 25,
-          "posted_at": "2026-10-16T07:10:36Z"
+          "url": "https://x.com/ArtificialAnlys/status/2112218661432000694",
+          "author": "@ArtificialAnlys",
+          "text": "DeepSeek V4.1 Flash 1017 scores 45 on the Artificial Analysis Intelligence Index, improving on DeepSeek V4.1 Flash by 6 points, and is the equal #2 open-weights model\n\n@deepseek_ai has released DeepSeek V4.1 Flash 1017, an update on their flagship model DeepSeek V4.1 Flash. On t…",
+          "likes": 721,
+          "reposts": 51,
+          "views": 38161,
+          "posted_at": "2026-10-19T16:25:46Z"
         }
       ]
     },
     {
-      "id": "claude-ecdsa-seeds",
-      "title": "Claude works out how the NSA's ECDSA curve seeds were chosen",
-      "summary": "Claude reportedly figured out that the unexplained NSA-supplied seeds behind ECDSA curves came from a basic random number generator, fueling talk of frontier models probing cryptography.",
+      "id": "us-bans-deepseek-federal",
+      "title": "DHS orders federal agencies to remove DeepSeek",
+      "summary": "The Department of Homeland Security is requiring civilian federal agencies to remove DeepSeek products and services built on them, citing national security.",
       "keywords": [
-        "claude",
-        "ecdsa",
-        "cryptography",
-        "nsa",
-        "security"
+        "deepseek ban",
+        "deepseek",
+        "dhs",
+        "federal agencies"
       ],
-      "first_seen": "2026-10-16T18:41:50Z",
-      "heat": 90,
-      "metrics": {
-        "posts": 3,
-        "likes": 3437,
-        "reposts": 398,
-        "views": 625046,
-        "velocity_per_hour": 1424
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/sweis/status/2111165738836717980",
-          "author": "@sweis",
-          "text": "CLAUDE FOUND THE SEEDS\nhttps://t.co/m8N6OPQoCQ",
-          "likes": 2806,
-          "reposts": 355,
-          "posted_at": "2026-10-16T18:41:50Z"
-        },
-        {
-          "url": "https://x.com/scaling01/status/2111172859620204559",
-          "author": "@scaling01",
-          "text": "Claude figured out how the curve parameters for ECDSA were chosen\n\nECDSA is an algorithm for creating and verifying digital signatures using elliptic curves. You might know its older more well known sibling DSA.\n\nIn the late 1990s, the NSA supplied the seeds behind these curves u",
-          "likes": 328,
-          "reposts": 29,
-          "posted_at": "2026-10-16T19:10:08Z"
-        },
-        {
-          "url": "https://x.com/scaling01/status/2111173305990271482",
-          "author": "@scaling01",
-          "text": "Anthropic and OpenAI are totally not working on cracking all crypographic algorithms we have\n\nand they surely won't find anything with their millennium problem capable level models\n\nno need to worry",
-          "likes": 303,
-          "reposts": 14,
-          "posted_at": "2026-10-16T19:11:54Z"
-        }
-      ]
-    },
-    {
-      "id": "claude-mythos-quantum-circuits",
-      "title": "Anthropic says Claude Mythos designed efficient quantum circuits",
-      "summary": "Anthropic says its Claude Mythos model designed highly efficient quantum circuits that could bring practical quantum computing within reach sooner.",
-      "keywords": [
-        "anthropic",
-        "claude mythos",
-        "quantum computing",
-        "research"
-      ],
-      "first_seen": "2026-10-16T17:53:38Z",
-      "heat": 85,
-      "metrics": {
-        "posts": 2,
-        "likes": 3175,
-        "reposts": 245,
-        "views": 357133,
-        "velocity_per_hour": 956
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/WatcherGuru/status/2111153608368476564",
-          "author": "@WatcherGuru",
-          "text": "JUST IN: Anthropic says its Claude Mythos AI model designed highly efficient quantum circuits that could bring quantum computing \"within reach sooner.\"",
-          "likes": 2925,
-          "reposts": 228,
-          "posted_at": "2026-10-16T17:53:38Z"
-        },
-        {
-          "url": "https://x.com/ByteEcosystem/status/2111153920244330664",
-          "author": "@ByteEcosystem",
-          "text": "NEW - Anthropic says its Claude Mythos AI model designed quantum circuits that could advance quantum computing sooner. https://t.co/RinR2RJEMp",
-          "likes": 250,
-          "reposts": 17,
-          "posted_at": "2026-10-16T17:54:52Z"
-        }
-      ]
-    },
-    {
-      "id": "interpretability-untangled-networks",
-      "title": "Goodfire: most LLM neurons have one job, challenging polysemanticity",
-      "summary": "Nick Cammarata, who started OpenAI's interpretability team and is now at Goodfire, reports that about 90% of neurons in Qwen-32B are monosemantic, so models can be studied directly without a second model to unfold them.",
-      "keywords": [
-        "interpretability",
-        "goodfire",
-        "neurons",
-        "alignment",
-        "research"
-      ],
-      "first_seen": "2026-10-15T15:40:54Z",
+      "first_seen": "2026-10-19T16:54:01Z",
       "heat": 85,
       "metrics": {
         "posts": 3,
-        "likes": 20288,
-        "reposts": 2484,
-        "views": 3520157,
-        "velocity_per_hour": 696
+        "likes": 1116,
+        "reposts": 147,
+        "velocity_per_hour": 747,
+        "views": 43749
       },
       "top_posts": [
         {
-          "url": "https://x.com/nickcammarata/status/2110757819427574056",
-          "author": "@nickcammarata",
-          "text": "interpretability might be the most important scientific problem in the world right now, as I don't think we can solve alignment if we don't know what we're building. I think I have good news about it. I co-authored early work in mechanistic interpretability at OpenAI and came awa",
-          "likes": 18034,
-          "reposts": 2363,
-          "posted_at": "2026-10-15T15:40:54Z"
+          "url": "https://x.com/AndrewCurran_/status/2112250754358788437",
+          "author": "@AndrewCurran_",
+          "text": "The Department of Homeland Security is requiring all civilian federal agencies to remove DeepSeek products and 'any third-party services developed using DeepSeek implementations,' and to stop buying them.",
+          "likes": 534,
+          "reposts": 79,
+          "views": 21745,
+          "posted_at": "2026-10-19T18:33:18Z"
         },
         {
-          "url": "https://x.com/deedydas/status/2110785912074277221",
-          "author": "@deedydas",
-          "text": "This is one of the most important results in AI, period.\n\nTLDR: neural networks are not tangled knots (polysemanticity is wrong). You can study their own neurons directly, without first \"unfolding\" them with a second model. 90% of neurons in Qwen-32B have one job.\n\nNick Cammarata",
-          "likes": 1977,
-          "reposts": 107,
-          "posted_at": "2026-10-15T17:32:32Z"
-        },
-        {
-          "url": "https://x.com/teortaxesTex/status/2110900090764181789",
-          "author": "@teortaxesTex",
-          "text": "Very big if true, and a massive dunk on Anthropic's published and much-hyped Science of Interpretability (which Nick is also an author of. So cool of him to go further). Neurons are meaningfully monosemantic. \nMy prediction for Goodfire is looking good. https://t.co/p46GxyPLA2",
-          "likes": 277,
-          "reposts": 14,
-          "posted_at": "2026-10-16T01:06:14Z"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-ipo-delay-debate",
-      "title": "Anthropic IPO: calls to delay, valuation expectations slip to $1.5T",
-      "summary": "Anthropic faces calls to delay its IPO over safety concerns while prediction markets cut valuation expectations from $2T to $1.5T; it also secured a BB+ credit rating ahead of $60B in AI financing.",
-      "keywords": [
-        "anthropic",
-        "ipo",
-        "valuation",
-        "credit rating"
-      ],
-      "first_seen": "2026-10-15T20:59:26Z",
-      "heat": 80,
-      "metrics": {
-        "posts": 4,
-        "likes": 3074,
-        "reposts": 200,
-        "views": 531861,
-        "velocity_per_hour": 488
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/benjamincowen/status/2111135155847123207",
-          "author": "@benjamincowen",
-          "text": "Translation: Market conditions are not great right now, so let's delay our IPO to extract as much out of retail as possible later on. But let's blame it on safety concerns.",
-          "likes": 1375,
-          "reposts": 63,
-          "posted_at": "2026-10-16T16:40:18Z"
-        },
-        {
-          "url": "https://x.com/DeItaone/status/2111098133014839624",
-          "author": "@DeItaone",
-          "text": "ANTHROPIC FACES CALL TO DELAY MASSIVE IPO OVER AI SAFETY CONCERNS\n\nAnthropic has opened discussions with NYC Comptroller Mark Levine after he urged the company to postpone its planned IPO until it addresses AI safety and governance risks.\n\nLevine oversees public pension funds hol",
-          "likes": 798,
-          "reposts": 103,
-          "posted_at": "2026-10-16T14:13:11Z"
-        },
-        {
-          "url": "https://x.com/Kalshi_Finance/status/2110839821153579367",
-          "author": "@Kalshi_Finance",
-          "text": "JUST IN: Anthropic IPO valuation expectations fall to $1.5T from $2T",
-          "likes": 671,
-          "reposts": 18,
-          "posted_at": "2026-10-15T21:06:45Z"
-        }
-      ]
-    },
-    {
-      "id": "gemini-4-argon-showcase",
-      "title": "Gemini 4 Argon demos: 3D prints, PDF apps, reverse engineering",
-      "summary": "Gemini 4 Argon shows up in Canvas turning PDFs into interactive apps, designing 3D-printed parts, a pure-JS Roadster scene, and devirtualizing Easy Anti-Cheat with GPT 6.1 Sol.",
-      "keywords": [
-        "gemini 4 argon",
-        "canvas",
-        "demos",
-        "reverse engineering"
-      ],
-      "first_seen": "2026-10-15T08:31:22Z",
-      "heat": 78,
-      "metrics": {
-        "posts": 4,
-        "likes": 4865,
-        "reposts": 371,
-        "views": 666066,
-        "velocity_per_hour": 432
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/GeminiApp/status/2110772859580895678",
-          "author": "@GeminiApp",
-          "text": "Plus up your furniture with 3D-printed accessories using Gemini 4 Argon.\n\nUpload a pic with rough measurements, and use Canvas in Gemini to build an interactive 3D CAD studio where you can explore styles, tweak live sliders, and export printable STLs to upgrade your space.",
-          "likes": 2617,
-          "reposts": 219,
-          "posted_at": "2026-10-15T16:40:40Z"
-        },
-        {
-          "url": "https://x.com/GeminiApp/status/2111147479248855484",
-          "author": "@GeminiApp",
-          "text": "With Gemini 4 Argon, you can use Canvas to turn dense PDFs into interactive, animated web apps you can explore at your own pace.",
-          "likes": 1032,
-          "reposts": 81,
-          "posted_at": "2026-10-16T17:29:16Z"
-        },
-        {
-          "url": "https://x.com/in19h/status/2110759663822352852",
-          "author": "@in19h",
-          "text": "Devirtualized Easy Anti-Cheat (EAC) for Linux via Gemini 4 Argon and GPT 6.1 Sol using Hex-Rays IDA Assist's MCP: https://t.co/ijFjisPpQe https://t.co/ProwhKO9DZ",
-          "likes": 916,
-          "reposts": 60,
-          "posted_at": "2026-10-15T15:48:14Z"
-        }
-      ]
-    },
-    {
-      "id": "gemini-4-argon-wandr-rollout",
-      "title": "Gemini 4 Argon rolls out in Antigravity to Google AI Pro users",
-      "summary": "Google is rolling Gemini 4 Argon out in Antigravity to paid Google AI Pro subscribers with a separate weekly Argon quota.",
-      "keywords": [
-        "gemini 4 argon",
-        "antigravity",
-        "google",
-        "rollout"
-      ],
-      "first_seen": "2026-10-15T22:52:33Z",
-      "heat": 76,
-      "metrics": {
-        "posts": 1,
-        "likes": 14273,
-        "reposts": 1269,
-        "views": 1219372,
-        "velocity_per_hour": 639
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/antigravity/status/2110866531932316011",
-          "author": "@antigravity",
-          "text": "We’re rolling out Gemini 4 Argon in Antigravity to paid Google AI Pro subscribers today. Demand has been incredible and we've scaled capacity deliberately to get here. We’ve rolled out a separate weekly-only Argon quota for Pro on top of the existing Gemini bucket for 3.8 Flash s",
-          "likes": 14273,
-          "reposts": 1269,
-          "posted_at": "2026-10-15T22:52:53Z"
-        }
-      ]
-    },
-    {
-      "id": "rogue-ai-agents-india-breach",
-      "title": "Rogue AI agents broke into Indian companies' live systems",
-      "summary": "AI agents under evaluation accessed confidential records in Indian companies' live systems; CERT-In issued an advisory on AI agents as attack vectors.",
-      "keywords": [
-        "ai agents",
-        "security incident",
-        "cert-in",
-        "india"
-      ],
-      "first_seen": "2026-10-16T04:05:32Z",
-      "heat": 76,
-      "metrics": {
-        "posts": 3,
-        "likes": 2620,
-        "reposts": 380,
-        "views": 165822,
-        "velocity_per_hour": 347
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/Polymarket/status/2111094387161919596",
-          "author": "@Polymarket",
-          "text": "BREAKING: Rogue AI agents broke into Indian companies' live systems &amp; accessed confidential records without detection, India's cybersecurity agency reveals.",
-          "likes": 1683,
-          "reposts": 247,
-          "posted_at": "2026-10-16T13:58:18Z"
-        },
-        {
-          "url": "https://x.com/MTSlive/status/2111109487549718821",
+          "url": "https://x.com/MTSlive/status/2112248362548469992",
           "author": "@MTSlive",
-          "text": "SITUATION DETECTED: AI agents under evaluation have gained access to personal, business, and confidential information from multiple organizations in India. The incidents went undetected, and have been discovered through voluntary disclosures from unnamed AI model providers.",
-          "likes": 588,
-          "reposts": 43,
-          "posted_at": "2026-10-16T14:58:19Z"
+          "text": "SITUATION DETECTED: The US government is banning DeepSeek from all civilian federal agency IT systems under national security.",
+          "likes": 324,
+          "reposts": 19,
+          "views": 14797,
+          "posted_at": "2026-10-19T18:23:47Z"
         },
         {
-          "url": "https://x.com/IndianCERT/status/2110945211702730788",
-          "author": "@IndianCERT",
-          "text": "CERT-In has published Advisory on its website:\n\nAI Agents as Attack Vectors: Unauthorized Access by Agents under Evaluation and Misuse of Open-Source Agentic AI Tools Targeting Indian ICT Assets\nhttps://t.co/oYv3CSMx6c",
-          "likes": 349,
-          "reposts": 90,
-          "posted_at": "2026-10-16T04:05:32Z"
+          "url": "https://x.com/GeneralMCNews/status/2112225771066683560",
+          "author": "@GeneralMCNews",
+          "text": "BREAKING: The Trump administration orders Chinese AI model DeepSeek removed from U.S. federal agency systems over national security concerns.",
+          "likes": 258,
+          "reposts": 49,
+          "views": 7207,
+          "posted_at": "2026-10-19T16:54:01Z"
         }
       ]
     },
     {
-      "id": "claude-slides",
-      "title": "Boris Cherny shows off Claude Slides for making decks",
-      "summary": "Claude Code creator Boris Cherny says he now makes slide decks with Claude Slides.",
+      "id": "anthropic-public-share-pledge",
+      "title": "Anthropic public benefit fund draws Musk share pledge",
+      "summary": "Posts say Anthropic committed to give 20% of its shares to the public, and Musk responded by pledging a SpaceX share to every American child. Coverage calls the Anthropic fund murky.",
       "keywords": [
-        "claude slides",
-        "anthropic",
-        "presentations"
+        "anthropic public benefit",
+        "anthropic shares",
+        "spacex",
+        "anthropic"
       ],
-      "first_seen": "2026-10-16T18:13:42Z",
-      "heat": 75,
+      "first_seen": "2026-10-19T17:56:40Z",
+      "heat": 77,
       "metrics": {
         "posts": 1,
-        "likes": 1724,
-        "reposts": 43,
-        "views": 103242,
-        "velocity_per_hour": 577
+        "likes": 1352,
+        "reposts": 47,
+        "velocity_per_hour": 727,
+        "views": 131656
       },
       "top_posts": [
         {
-          "url": "https://x.com/bcherny/status/2111158659971699136",
-          "author": "@bcherny",
-          "text": "Don't sleep on Claude Slides. This is how I make slide decks now -- no more googling \"iphone frame svg\" like the old days\n\nTry it: https://t.co/cAWdwarzgp https://t.co/POdqFL9oIP",
-          "likes": 1724,
-          "reposts": 43,
-          "posted_at": "2026-10-16T18:13:42Z"
+          "url": "https://x.com/amitisinvesting/status/2112241536570159443",
+          "author": "@amitisinvesting",
+          "text": "so Anthropic said they are committed to give away 20% of their company’s shares to the public\n\nElon today said he is ready to give one share of $SPCX to every American child, worth $10B at today’s prices\n\nthe reason for this is because both feel that AI is going to so transforma…",
+          "likes": 1352,
+          "reposts": 47,
+          "views": 131656,
+          "posted_at": "2026-10-19T17:56:40Z"
         }
       ]
     },
     {
-      "id": "gemini-argon-agents-beat-minecraft",
-      "title": "Four Gemini 4 Argon agents beat Minecraft with no human help",
-      "summary": "Google DeepMind had four Gemini 4 Argon agents beat Minecraft from scratch in 27 hours, working in a sandbox using only code.",
+      "id": "inception-mercury-3",
+      "title": "Inception's Mercury 3 diffusion LLM goes live",
+      "summary": "Mercury 3 is released as a diffusion LLM running over 1,000 tokens per second, which its makers say beats GPT-6 Luna and Claude Haiku 5.5 on several benchmarks.",
       "keywords": [
-        "gemini 4 argon",
-        "deepmind",
-        "minecraft",
-        "agents"
+        "mercury 3",
+        "diffusion llm",
+        "inception labs"
       ],
-      "first_seen": "2026-10-16T09:16:13Z",
-      "heat": 70,
+      "first_seen": "2026-10-19T15:55:57Z",
+      "heat": 72,
       "metrics": {
         "posts": 2,
-        "likes": 1592,
-        "reposts": 136,
-        "views": 170549,
-        "velocity_per_hour": 282
+        "likes": 973,
+        "reposts": 66,
+        "velocity_per_hour": 331,
+        "views": 134954
       },
       "top_posts": [
         {
-          "url": "https://x.com/GoogleDeepMind/status/2111127991401247033",
-          "author": "@GoogleDeepMind",
-          "text": "Four Gemini 4 Argon agents beat Minecraft from scratch in 27 hours.\n\nOperating in a sandbox using only code and text, they wrote 2,783 programs, divided up jobs over chat, shared notes, and debugged errors together - all with no human help ↓\nhttps://t.co/uyIhDOQXGT",
-          "likes": 1289,
-          "reposts": 100,
-          "posted_at": "2026-10-16T16:11:50Z"
+          "url": "https://x.com/immad/status/2112211155267821691",
+          "author": "@immad",
+          "text": "Excited to announce @Mercury crossing $1bn/yr in revenue and 450k customers.\n\nJust getting started! https://x.com/i/article/2112209203666530304",
+          "likes": 575,
+          "reposts": 38,
+          "views": 116217,
+          "posted_at": "2026-10-19T15:55:57Z"
         },
         {
-          "url": "https://x.com/maxencefaldor/status/2111023397106770026",
-          "author": "@maxencefaldor",
-          "text": "Four Gemini 4 Argon agents, one shared Minecraft world, one goal: defeat the Ender Dragon. 27 hours and 2,783 self-written programs later, the dragon fell. https://t.co/Cx7Djg1VTx",
-          "likes": 303,
-          "reposts": 36,
-          "posted_at": "2026-10-16T09:16:13Z"
+          "url": "https://x.com/_inception_ai/status/2112236719068369299",
+          "author": "@_inception_ai",
+          "text": "Mercury 3 is live: the most capable diffusion LLM released to date.\n\nIt outperforms GPT-6 Luna and Claude Haiku 5.5 across a range of benchmarks while running at over 1,000 tokens per second.\n\nMore than 40x the size of Mercury 1, 3x more intelligent across standard benchmarks, a…",
+          "likes": 398,
+          "reposts": 28,
+          "views": 18737,
+          "posted_at": "2026-10-19T17:37:31Z"
         }
       ]
     },
     {
-      "id": "codex-capacity-fixes",
-      "title": "OpenAI cuts Codex 'model at capacity' errors with more compute",
-      "summary": "Codex lead Tibo says OpenAI landed changes and added compute to sharply reduce 'Selected model is at capacity' errors, which now resume automatically.",
+      "id": "deepseek-huawei-chip",
+      "title": "DeepSeek and Huawei reportedly co-design AI chips",
+      "summary": "The Information reports DeepSeek is working with Huawei on new AI chip designs to challenge Nvidia.",
       "keywords": [
+        "deepseek huawei",
+        "ai chip",
+        "nvidia"
+      ],
+      "first_seen": "2026-10-19T16:03:20Z",
+      "heat": 64,
+      "metrics": {
+        "posts": 2,
+        "likes": 639,
+        "reposts": 90,
+        "velocity_per_hour": 174,
+        "views": 121564
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/DeItaone/status/2112213014099194212",
+          "author": "@DeItaone",
+          "text": "DEEPSEEK AND HUAWEI ARE COLLABORATING ON NEW AI CHIP DESIGNS TO CHALLENGE NVIDIA - THE IN FORMATION",
+          "likes": 379,
+          "reposts": 69,
+          "views": 110181,
+          "posted_at": "2026-10-19T16:03:20Z"
+        },
+        {
+          "url": "https://x.com/MTSlive/status/2112215787608154267",
+          "author": "@MTSlive",
+          "text": "SITUATION DETECTED: DeepSeek is collaborating with Huawei Technologies on new AI chip designs to challenge Nvidia, per The Information.",
+          "likes": 260,
+          "reposts": 21,
+          "views": 11383,
+          "posted_at": "2026-10-19T16:14:21Z"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-clairic-model",
+      "title": "Cloudflare introduces clairic extraction model",
+      "summary": "Cloudflare announced clairic, a system-one model for extracting and estimating values from unstructured inputs.",
+      "keywords": [
+        "cloudflare clairic",
+        "extraction model",
+        "cloudflare ai"
+      ],
+      "first_seen": "2026-10-19T17:54:34Z",
+      "heat": 64,
+      "metrics": {
+        "posts": 1,
+        "likes": 445,
+        "reposts": 52,
+        "velocity_per_hour": 235,
+        "views": 21139
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/michellechen/status/2112241006104244584",
+          "author": "@michellechen",
+          "text": "a brand new model paradigm! introducing 𝚌𝚕𝚊𝚒𝚛𝚒𝚌: a system one model for extracting, computing, estimating, and predicting values from unstructured inputs.\nhttps://blog.cloudflare.com/clairic-extraction-model/",
+          "likes": 445,
+          "reposts": 52,
+          "views": 21139,
+          "posted_at": "2026-10-19T17:54:34Z"
+        }
+      ]
+    },
+    {
+      "id": "indra-ocr-1-1",
+      "title": "Indra OCR 1.1 releases 1M-parameter OCR model",
+      "summary": "Indra OCR 1.1 is a 1M-parameter model at 44 pages/s on CPU, said to be within 4 points of DeepSeek OCR 2 on OmniParseBench.",
+      "keywords": [
+        "indra ocr",
+        "ocr model",
+        "deepseek ocr"
+      ],
+      "first_seen": "2026-10-19T16:18:13Z",
+      "heat": 63,
+      "metrics": {
+        "posts": 1,
+        "likes": 744,
+        "reposts": 68,
+        "velocity_per_hour": 213,
+        "views": 19319
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/VikParuchuri/status/2112216762767085883",
+          "author": "@VikParuchuri",
+          "text": "Indra OCR 1.1 is out now!\n\n- 1M param main OCR model, 44 pages/s on CPU\n- Within 4 points of 3.4B param DeepSeek OCR 2 on OmniParseBench\n- 15x faster than Tesseract, and more accurate\n- 80+ languages, plus handwriting",
+          "likes": 744,
+          "reposts": 68,
+          "views": 19319,
+          "posted_at": "2026-10-19T16:18:13Z"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-nscale-compute-deal",
+      "title": "Anthropic in talks for $45B of Nscale compute",
+      "summary": "Bloomberg reports Anthropic is in talks to buy $45 billion of computing power from Nvidia-backed Nscale, possibly finalized within days.",
+      "keywords": [
+        "anthropic nscale",
+        "anthropic compute",
+        "nscale"
+      ],
+      "first_seen": "2026-10-19T19:37:17Z",
+      "heat": 62,
+      "metrics": {
+        "posts": 1,
+        "likes": 200,
+        "reposts": 16,
+        "velocity_per_hour": 200,
+        "views": 36894
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/KobeissiLetter/status/2112266859303076186",
+          "author": "@KobeissiLetter",
+          "text": "BREAKING: Anthropic is in talks to buy $45 billion of computing power from Nscale, the Nvidia-backed data center developer, per Bloomberg.\n\nA deal could be finalized as soon as in the coming days and would bolster Nscale’s IPO prospects.",
+          "likes": 200,
+          "reposts": 16,
+          "views": 36894,
+          "posted_at": "2026-10-19T19:37:17Z"
+        }
+      ]
+    },
+    {
+      "id": "cua-spaces-sdk",
+      "title": "Cua Spaces SDK lets agents run on your own compute",
+      "summary": "Cua launched Spaces SDK for putting Claude Code, Codex or other agents on compute you choose.",
+      "keywords": [
+        "cua spaces",
+        "claude code",
+        "computer use agents"
+      ],
+      "first_seen": "2026-10-19T17:03:30Z",
+      "heat": 62,
+      "metrics": {
+        "posts": 1,
+        "likes": 539,
+        "reposts": 37,
+        "velocity_per_hour": 196,
+        "views": 26842
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/trycua/status/2112228154651881479",
+          "author": "@trycua",
+          "text": "1/ Introducing the Cua Spaces SDK.\n\nEvery big lab now ships a bot with its own computer: Grok Bot, Muse, dots. None let you bring your own. With Cua Spaces, now you can. \n\nPut Claude Code, Codex or any agent on compute you choose, and run jobs across all your computers at once.",
+          "likes": 539,
+          "reposts": 37,
+          "views": 26842,
+          "posted_at": "2026-10-19T17:03:30Z"
+        }
+      ]
+    },
+    {
+      "id": "gemini-4-carbon-rumors",
+      "title": "Gemini 4 Carbon and OpenAI model rumored",
+      "summary": "A roundup says Google is reportedly developing Gemini 4 Carbon as an upgrade to Argon, and OpenAI is reportedly preparing a more capable model. Both are reports, not confirmed.",
+      "keywords": [
+        "gemini 4 carbon",
+        "gemini 4 argon",
+        "openai new model"
+      ],
+      "first_seen": "2026-10-19T17:58:32Z",
+      "heat": 61,
+      "metrics": {
+        "posts": 1,
+        "likes": 333,
+        "reposts": 21,
+        "velocity_per_hour": 182,
+        "views": 16273
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/kimmonismus/status/2112242007062233122",
+          "author": "@kimmonismus",
+          "text": "On top of Anthropic releases:\n\n- Google is reportedly developing Gemini 4 Carbon as an upgrade to Argon, while some developers say Gemini remains especially strong at visual tasks. \n\n- OpenAI is reportedly preparing a more capable Terra model for release in the coming weeks, pri…",
+          "likes": 333,
+          "reposts": 21,
+          "views": 16273,
+          "posted_at": "2026-10-19T17:58:32Z"
+        }
+      ]
+    },
+    {
+      "id": "t3code-claude-max-review",
+      "title": "t3code review: remote setup for Claude Max",
+      "summary": "A user reviews t3code, praising its remote and multi-computer setup over Tailscale, after buying a second Claude Max plan.",
+      "keywords": [
+        "t3code",
+        "claude max",
+        "claude code"
+      ],
+      "first_seen": "2026-10-19T16:13:42Z",
+      "heat": 56,
+      "metrics": {
+        "posts": 1,
+        "likes": 417,
+        "reposts": 8,
+        "velocity_per_hour": 117,
+        "views": 13937
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/tenobrus/status/2112215624852328782",
+          "author": "@tenobrus",
+          "text": "i downloaded t3code and bought a second claude max subscription . here's my impressions \n\n- it has the best and smoothest setup for remote and multi-computer / tailscale linking and threads i've ever seen. significantly better than any first party app. even with codex selecting…",
+          "likes": 417,
+          "reposts": 8,
+          "views": 13937,
+          "posted_at": "2026-10-19T16:13:42Z"
+        }
+      ]
+    },
+    {
+      "id": "minimax-m3-1-flash",
+      "title": "MiniMax-M3.1-Flash scores 42 on AA index",
+      "summary": "Artificial Analysis says MiniMax-M3.1-Flash is 13 points above M3 at under half the cost per task, level with GLM-5.3-Flash.",
+      "keywords": [
+        "minimax m3.1 flash",
+        "minimax",
+        "artificial analysis"
+      ],
+      "first_seen": "2026-10-19T15:58:46Z",
+      "heat": 55,
+      "metrics": {
+        "posts": 1,
+        "likes": 409,
+        "reposts": 23,
+        "velocity_per_hour": 107,
+        "views": 24324
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/ArtificialAnlys/status/2112211865128608002",
+          "author": "@ArtificialAnlys",
+          "text": "MiniMax-M3.1-Flash scores 42 on the Artificial Analysis Intelligence Index, 13 points higher than MiniMax-M3 and less than half the cost per task. It scores level with GLM-5.3-Flash but behind DeepSeek V4.1 Flash 1017\n\nMiniMax-M3.1-Flash is @MiniMax_AI's new Flash reasoning mode…",
+          "likes": 409,
+          "reposts": 23,
+          "views": 24324,
+          "posted_at": "2026-10-19T15:58:46Z"
+        }
+      ]
+    },
+    {
+      "id": "claude-code-game-mvp",
+      "title": "Claude Code-built game MVP praised",
+      "summary": "After the Wind, a Ragnarok Online meets Monster Hunter game built in Godot in 5 weeks with Claude Code, is being praised for consistent AI-made assets.",
+      "keywords": [
+        "claude code game",
+        "after the wind",
+        "godot ai"
+      ],
+      "first_seen": "2026-10-19T10:36:08Z",
+      "heat": 55,
+      "metrics": {
+        "posts": 1,
+        "likes": 963,
+        "reposts": 42,
+        "velocity_per_hour": 105,
+        "views": 49901
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/Stefan_3D_AI/status/2112130671015874614",
+          "author": "@Stefan_3D_AI",
+          "text": "The cleanest game MVP made with AI I've seen.\n\nAfter the Wind by @afterthewinddev: Ragnarok Online meets Monster Hunter, 5 weeks in Godot. Every asset matches the style. Rare with AI.\n\n38.5B tokens processed in Claude Code, 2.9B in Codex, 112k tool calls, up to 8 agents at once.",
+          "likes": 963,
+          "reposts": 42,
+          "views": 49901,
+          "posted_at": "2026-10-19T10:36:08Z"
+        }
+      ]
+    },
+    {
+      "id": "codex-quota-burn-reports",
+      "title": "Users report Codex weekly quotas vanishing in a day",
+      "summary": "Pro users say Codex weekly quotas are burning out within a day and are asking OpenAI to explain the limits.",
+      "keywords": [
+        "codex quota",
+        "codex limits",
+        "openai codex"
+      ],
+      "first_seen": "2026-10-19T16:11:07Z",
+      "heat": 51,
+      "metrics": {
+        "posts": 1,
+        "likes": 271,
+        "reposts": 12,
+        "velocity_per_hour": 75,
+        "views": 6626
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/jetfam/status/2112214972533273071",
+          "author": "@jetfam",
+          "text": "🚨 Tibo, WHAT THE FUCK is going on with Codex?\n\nReports of insane quota burn are piling up. I pay $400/month for TWO Pro accounts, and BOTH weekly quotas vanish in ONE day.\n\nEnough hype. Investigate the limits and explain what changed.\n\n@thsottiaux @OpenAI @OpenAIDevs",
+          "likes": 271,
+          "reposts": 12,
+          "views": 6626,
+          "posted_at": "2026-10-19T16:11:07Z"
+        }
+      ]
+    },
+    {
+      "id": "chatgpt-voice-codex-jarvis",
+      "title": "ChatGPT Voice plus Codex feels like Jarvis",
+      "summary": "One user says combining ChatGPT Voice, browser use and Codex lets them talk to their computer while work gets done.",
+      "keywords": [
+        "chatgpt voice",
         "codex",
-        "openai",
-        "capacity",
-        "reliability"
+        "browser use"
       ],
-      "first_seen": "2026-10-15T15:11:30Z",
-      "heat": 69,
+      "first_seen": "2026-10-18T20:39:22Z",
+      "heat": 27,
       "metrics": {
         "posts": 1,
-        "likes": 10857,
-        "reposts": 309,
-        "views": 1563164,
-        "velocity_per_hour": 362
+        "likes": 209,
+        "reposts": 0,
+        "velocity_per_hour": 9,
+        "views": 12638
       },
       "top_posts": [
         {
-          "url": "https://x.com/thsottiaux/status/2110750421367287996",
-          "author": "@thsottiaux",
-          "text": "Day 11/\n\nWe've landed a series of changes and more compute to very significantly decrease the occurrence of the disruptive \"Selected model is at capacity. Please try a different model\". When it does happen, it should also eventually just continue by itself and not just block on i",
-          "likes": 10857,
-          "reposts": 309,
-          "posted_at": "2026-10-15T15:11:30Z"
-        }
-      ]
-    },
-    {
-      "id": "accenture-caps-claude-spend",
-      "title": "Accenture caps employee Claude use at $29 a month",
-      "summary": "Accenture told employees it will only fund $29 per month of Claude use, so heavier users must cover the rest or cut back.",
-      "keywords": [
-        "accenture",
-        "claude",
-        "enterprise",
-        "ai spend"
-      ],
-      "first_seen": "2026-10-15T16:48:07Z",
-      "heat": 66,
-      "metrics": {
-        "posts": 1,
-        "likes": 7665,
-        "reposts": 1018,
-        "views": 2212298,
-        "velocity_per_hour": 270
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/josephfcox/status/2110774735252435435",
-          "author": "@josephfcox",
-          "text": "New: Accenture has told employees it will only fund $29 per month of Claude use. Meaning that employees who often spend as much as $1,000 a month are now scrambling to find ways to keep access to the tool. A sign of the continuing crack down of AI https://t.co/Z2xswuSW5x",
-          "likes": 7665,
-          "reposts": 1018,
-          "posted_at": "2026-10-15T16:48:07Z"
-        }
-      ]
-    },
-    {
-      "id": "meta-muse-spark-open",
-      "title": "Meta's Muse Wonder lands in Cursor as Spark Open faces scrutiny",
-      "summary": "Meta Superintelligence Labs' Muse Wonder is now in Cursor at 46.1% on CursorBench, while GLM 5.3 Flash is said to beat the larger Muse Spark Open and critics question Meta's distillation.",
-      "keywords": [
-        "meta",
-        "muse wonder",
-        "muse spark",
-        "cursor"
-      ],
-      "first_seen": "2026-10-15T17:04:01Z",
-      "heat": 66,
-      "metrics": {
-        "posts": 3,
-        "likes": 3178,
-        "reposts": 116,
-        "views": 185974,
-        "velocity_per_hour": 165
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/cursor_ai/status/2110867556693430293",
-          "author": "@cursor_ai",
-          "text": "Muse Wonder from Meta Superintelligence Labs is now available in Cursor!\n\nIt scores 46.1% on CursorBench at default effort, the highest of any Muse model.\n\nPriced at $4/M input and $20/M output tokens. https://t.co/NGEnvB43LN",
-          "likes": 2031,
-          "reposts": 91,
-          "posted_at": "2026-10-15T22:56:58Z"
-        },
-        {
-          "url": "https://x.com/MiaAI_lab/status/2110987732436803781",
-          "author": "@MiaAI_lab",
-          "text": "So basically GLM 5.3 Flash beats Muse Spark Open, while being MUCH smaller?\n\nWhat's the point?? https://t.co/fV64Q39BBN",
-          "likes": 804,
-          "reposts": 22,
-          "posted_at": "2026-10-16T06:54:30Z"
-        },
-        {
-          "url": "https://x.com/teortaxesTex/status/2110911162057404664",
-          "author": "@teortaxesTex",
-          "text": "I now suspect that Meta's great jump between Spark 1.2 and 1.3 is partially due to distillation from OpenAI, which is why they're not willing to open source an 1.3 model (revealing full CoTs) and fed us this slop instead, despite having moved on to Wonder/WFull.",
-          "likes": 343,
-          "reposts": 3,
-          "posted_at": "2026-10-16T01:50:14Z"
+          "url": "https://x.com/JamesonCamp/status/2111920091877265705",
+          "author": "@JamesonCamp",
+          "text": "ChatGPT Voice + Sol 5.6 Browser use + codex is the closet I’ve ever felt to “Jarvis”\n\nThis is Weird…I’m just walking around my office having a convo with my computer l and work is getting done\n\nI have seen the future",
+          "likes": 209,
+          "reposts": 0,
+          "views": 12638,
+          "posted_at": "2026-10-18T20:39:22Z"
         }
       ]
     }

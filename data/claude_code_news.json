@@ -1,14 +1,33 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T22:53:40Z",
+  "generated_at": "2026-10-19T19:53:13Z",
   "sample": false,
-  "latest_version": "2.1.302",
+  "latest_version": "2.1.303",
   "dist_tags": {
-    "latest": "2.1.302",
+    "latest": "2.1.303",
     "stable": "2.1.292",
-    "next": "2.1.302"
+    "next": "2.1.304"
   },
   "items": [
+    {
+      "version": "2.1.303",
+      "date": "2026-10-18",
+      "title": "1 changes",
+      "highlights": [
+        "Bug fixes and reliability improvements"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.303",
+      "released_at": "2026-10-18T21:15:23.178Z",
+      "summary": "1 changes",
+      "counts": {
+        "added": 0,
+        "improved": 0,
+        "changed": 0,
+        "fixed": 0,
+        "removed": 0,
+        "other": 1
+      }
+    },
     {
       "version": "2.1.302",
       "date": "2026-10-16",
@@ -163,29 +182,6 @@
         "improved": 1,
         "changed": 0,
         "fixed": 1,
-        "removed": 0,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.293",
-      "date": "2026-10-07",
-      "title": "3 new features, 7 improvements, 8 changes, 38 fixes",
-      "highlights": [
-        "Added Claude Haiku 5.5 (claude-haiku-5-5), now the default Haiku model on the Anthropic API — 1M context, $0.10/$0.50 per Mtok ($0.50/$2.50…",
-        "Added agentType to the subagentStatusLine payload, so scripts can tell custom subagent types apart",
-        "Added isDeferred to $.tool.register for mods: false lists the tool's schema in the prompt from the start instead of behind tool search",
-        "Improved startup for Team and Enterprise organizations: policy and managed settings are fetched earlier, and a stalled request is retried…",
-        "Improved Claude in Chrome: fewer page actions are refused when the browser is slow to report its tabs"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.293",
-      "released_at": "2026-10-07T17:18:04.464Z",
-      "summary": "3 added, 7 improved, 8 changed, 38 fixed",
-      "counts": {
-        "added": 3,
-        "improved": 7,
-        "changed": 8,
-        "fixed": 38,
         "removed": 0,
         "other": 0
       }

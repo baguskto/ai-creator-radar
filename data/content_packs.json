@@ -1,233 +1,450 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T22:58:00Z",
+  "generated_at": "2026-10-19T19:54:03Z",
   "sample": false,
   "packs": [
     {
-      "story_id": "grok-bot-amazon-blocked",
-      "fingerprint": "70e91d081cd03316",
-      "why_now": "Musk's post pushing Grok Bot to scrub phone numbers from spam lists has over 12M views across the conversation and nobody on YouTube has tested it yet. A real before-and-after test is the video people are searching for.",
+      "story_id": "us-bans-deepseek-federal",
+      "why_now": "DHS just ordered civilian agencies to drop DeepSeek, and the YouTube videos so far are news-desk reads with almost no views. Builders using DeepSeek models want to know if this touches them.",
       "video": {
-        "title": "I Let Grok Bot Remove My Number From Spam Lists",
-        "thumbnail_text": "NO MORE SPAM CALLS?",
-        "hook": "Elon says you can just ask Grok Bot to get your phone number off spam call lists. People are saying it actually finds the sites and files the removal requests for you. So I handed it my number. Here's what it found, what it filed, and whether my phone got any quieter.",
+        "title": "DHS Bans DeepSeek: What It Means If You Build With It",
+        "thumbnail_text": "DeepSeek Banned?",
+        "hook": "The US government just told every civilian agency to rip out DeepSeek, and anything built on it. If you use DeepSeek in your stack, here's what this does and doesn't mean for you.",
         "alt_titles": [
-          "Can Grok Bot Really Stop Spam Calls? I Tested It",
-          "Grok Bot vs Spam Calls: Honest Test"
+          "DeepSeek Ban: Should Builders Panic?",
+          "Can You Still Use DeepSeek After the DHS Order?"
         ],
         "outline": [
-          "What Grok Bot is and what Musk and users are claiming",
-          "Setup: giving it the task and what info it asks for",
-          "Live run: which listing sites it finds and the removal requests it files",
-          "Privacy check: what you hand over to an agent to do this",
-          "How it compares to doing it yourself or with Codex computer use",
-          "Verdict: worth it, and what to watch for over the next few weeks"
+          "What the DHS order says: civilian federal agencies, DeepSeek products and third-party services built on DeepSeek implementations",
+          "What it does not say: it is not a ban for private companies or individuals, based on the posts so far",
+          "Who is actually affected: contractors and tools selling into government",
+          "How to check your own stack for DeepSeek dependencies",
+          "Self-hosted vs hosted API: why the risk differs",
+          "What I'd do this week if I sold to government clients"
         ]
       },
       "short": {
         "duration_s": 30,
         "beats": [
-          { "t": "0-3s", "line": "Elon says Grok Bot can kill your spam calls. I tested it.", "visual": "Musk's post on screen, phone buzzing with spam calls" },
-          { "t": "3-10s", "line": "You ask it to find where your number is listed and file the removals. It goes site by site.", "visual": "Screen recording of the prompt and the agent starting work" },
-          { "t": "10-20s", "line": "Here's the list it found and the requests it actually filed. Some went through, some need you to confirm by email.", "visual": "List of sites with status checkmarks" },
-          { "t": "20-27s", "line": "Big catch: you're giving an agent your personal info, so know what you're sharing.", "visual": "Highlight on the info it asked for" },
-          { "t": "27-30s", "line": "Full test on my channel. Would you try it?", "visual": "End card" }
+          {
+            "t": "0-3s",
+            "line": "DHS just banned DeepSeek from federal agencies.",
+            "visual": "Headline text over a DeepSeek logo"
+          },
+          {
+            "t": "3-8s",
+            "line": "The order covers civilian agencies and any service built on DeepSeek.",
+            "visual": "Quote from the order on screen"
+          },
+          {
+            "t": "8-14s",
+            "line": "If you're a solo builder, this isn't a ban on you.",
+            "visual": "Chase to camera"
+          },
+          {
+            "t": "14-20s",
+            "line": "But if you sell to government, check your stack today.",
+            "visual": "Checklist appears"
+          },
+          {
+            "t": "20-25s",
+            "line": "Look for DeepSeek models behind any API or tool you use.",
+            "visual": "Screen recording of a dependency search"
+          },
+          {
+            "t": "25-30s",
+            "line": "I'll show you how to audit it. Follow for part two.",
+            "visual": "End card"
+          }
         ]
       },
       "carousel": {
         "slides": [
-          { "heading": "Can Grok Bot stop spam calls?", "body": "I tested the viral claim so you don't have to." },
-          { "heading": "The claim", "body": "Ask Grok Bot to remove your number from spam call and text lists." },
-          { "heading": "What it does", "body": "Finds sites listing your number and files removal requests." },
-          { "heading": "What to check", "body": "Which removals actually go through, and which need your confirmation." },
-          { "heading": "The trade-off", "body": "You hand personal info to an agent. Decide if that's worth it." },
-          { "heading": "Full test on YouTube", "body": "Follow for the results and the before and after." }
+          {
+            "heading": "DHS bans DeepSeek in federal agencies",
+            "body": "Civilian agencies must remove it and stop buying it."
+          },
+          {
+            "heading": "It covers third-party services too",
+            "body": "Anything built on DeepSeek implementations."
+          },
+          {
+            "heading": "Who is affected",
+            "body": "Agencies first. Vendors selling to them next."
+          },
+          {
+            "heading": "Who isn't, so far",
+            "body": "Nothing in the posts says private users are banned."
+          },
+          {
+            "heading": "Audit your stack",
+            "body": "Check which models sit behind your tools."
+          },
+          {
+            "heading": "Want the audit walkthrough?",
+            "body": "Follow for the step-by-step."
+          }
         ],
-        "caption": "Grok Bot says it can get your number off spam lists. Here's what to know before you try it."
+        "caption": "DHS ordered civilian agencies to remove DeepSeek. Here's the practical read for builders."
       },
-      "x_post": "Elon says Grok Bot can pull your phone number off spam call lists.\n\nI'm testing it end to end: which sites it finds, which removals actually go through, and what personal info you hand over to do it.\n\nResults soon. Anyone already tried it?",
+      "x_post": "DHS is requiring civilian federal agencies to remove DeepSeek and any third-party services built on it. If you sell to government, audit which models sit behind your stack today. Video on what it does and doesn't mean coming up.",
       "x_thread": [
-        "The part I care about most: does it file real removal requests, or just list sites for you to do it yourself?",
-        "And the privacy trade-off. To scrub your number it has to know your number and more. Worth checking what it stores."
-      ]
+        "Scope per the reports: civilian federal agencies, and they must stop buying it too.",
+        "Nothing I've seen says individuals or private companies are banned. I'll check the order text in the video."
+      ],
+      "fingerprint": "0c0fe03fa545d136"
     },
     {
-      "story_id": "opencode-free-deepseek-glm-flash",
-      "fingerprint": "d02f533b5a733217",
-      "why_now": "OpenCode made DeepSeek V4.1 Flash and GLM 5.3 Flash free back to back and the posts pulled over 5M views, while the two YouTube videos so far have under 30 views combined and just announce it. Nobody has shown how well they actually code.",
+      "story_id": "inception-mercury-3",
+      "why_now": "Mercury 3 launched today with big speed claims and only tiny-view coverage. Being first to test a 1,000 tokens/sec diffusion model is a real edge.",
       "video": {
-        "title": "Two Free Coding Models in OpenCode: Are They Any Good?",
-        "thumbnail_text": "FREE CODING AGENT",
-        "hook": "OpenCode just made two models free: DeepSeek V4.1 Flash and GLM 5.3 Flash. Free is great, but only if they can actually ship code. So I gave both the same real task, side by side, and I'll show you which one I'd actually use and where they both fall over.",
+        "title": "Mercury 3 Tested: Diffusion LLM at 1,000 Tokens/Sec",
+        "thumbnail_text": "1,000 Tokens/Sec",
+        "hook": "Inception says Mercury 3 beats Claude Haiku 5.5 and runs over 1,000 tokens a second. I'm going to put it through real coding and agent tasks and see where it holds up and where it breaks.",
         "alt_titles": [
-          "DeepSeek vs GLM Flash: Free in OpenCode, Tested",
-          "Free AI Coding in OpenCode: Real Project Test"
+          "I Tested the Fastest LLM Yet: Mercury 3",
+          "Is Diffusion the Future of LLMs? Mercury 3 Test"
         ],
         "outline": [
-          "What changed: both Flash models are now free in OpenCode",
-          "Setup in under two minutes: install OpenCode and pick the model",
-          "Same task, both models: build and fix a small real project",
-          "Where each one struggled and how many retries it needed",
-          "Who this is for: when free Flash models are enough, and when to pay for more",
-          "My pick and the setup I'd use"
+          "How a diffusion LLM differs from normal token-by-token models",
+          "The claims: speed, benchmarks vs GPT-6 Luna and Haiku 5.5",
+          "Speed test on a real coding task",
+          "Quality test: same prompts against Haiku 5.5",
+          "Where speed helps: agents and autocomplete",
+          "Verdict: who should switch, who shouldn't"
         ]
       },
       "short": {
         "duration_s": 30,
         "beats": [
-          { "t": "0-3s", "line": "Two coding models just went free in OpenCode.", "visual": "OpenCode's two announcement posts" },
-          { "t": "3-9s", "line": "DeepSeek V4.1 Flash and GLM 5.3 Flash. Same task, head to head.", "visual": "Split screen, both models running" },
-          { "t": "9-20s", "line": "I asked both to build and fix a small app. Here's what each got right, and where each one needed help.", "visual": "Result clips with pass and fail marks" },
-          { "t": "20-27s", "line": "If you've been paying for every coding session, this is worth ten minutes to set up.", "visual": "OpenCode model picker" },
-          { "t": "27-30s", "line": "Full comparison on my channel.", "visual": "End card" }
+          {
+            "t": "0-3s",
+            "line": "This model writes over 1,000 tokens a second.",
+            "visual": "Speed counter running on screen"
+          },
+          {
+            "t": "3-8s",
+            "line": "It's Mercury 3, a diffusion LLM, not a normal one.",
+            "visual": "Title card"
+          },
+          {
+            "t": "8-14s",
+            "line": "Inception says it beats Haiku 5.5 on benchmarks.",
+            "visual": "Benchmark claim on screen"
+          },
+          {
+            "t": "14-20s",
+            "line": "I'm testing that claim on a real coding task.",
+            "visual": "Screen recording"
+          },
+          {
+            "t": "20-25s",
+            "line": "Fast is only useful if the answer is right.",
+            "visual": "Chase to camera"
+          },
+          {
+            "t": "25-30s",
+            "line": "Full test is coming. Follow so you don't miss it.",
+            "visual": "End card"
+          }
         ]
       },
       "carousel": {
         "slides": [
-          { "heading": "Two free coding models", "body": "DeepSeek V4.1 Flash and GLM 5.3 Flash, now free in OpenCode." },
-          { "heading": "What changed", "body": "OpenCode made both free to use, one right after the other." },
-          { "heading": "How to try it", "body": "Install OpenCode, open the model picker, choose either Flash model." },
-          { "heading": "What I'm testing", "body": "Same real task on both. Speed, correctness, retries." },
-          { "heading": "Who it's for", "body": "Side projects and quick fixes where cost matters most." },
-          { "heading": "See the results", "body": "Full head-to-head on YouTube. Follow for more tool tests." }
+          {
+            "heading": "Mercury 3 is live",
+            "body": "A diffusion LLM from Inception."
+          },
+          {
+            "heading": "Over 1,000 tokens per second",
+            "body": "That's the claim. I'm testing it."
+          },
+          {
+            "heading": "Claimed to beat Haiku 5.5",
+            "body": "Inception also names GPT-6 Luna."
+          },
+          {
+            "heading": "Why diffusion is different",
+            "body": "It refines whole text at once, not one token at a time."
+          },
+          {
+            "heading": "What I'll check",
+            "body": "Speed, accuracy, and agent use."
+          },
+          {
+            "heading": "Want the test results?",
+            "body": "Follow for the full breakdown."
+          }
         ],
-        "caption": "Two capable open models just went free in OpenCode. Here's how to try them and what to test first."
+        "caption": "Mercury 3 claims 1,000+ tokens/sec. Testing it next."
       },
-      "x_post": "DeepSeek V4.1 Flash and GLM 5.3 Flash are both free in OpenCode now.\n\nFree only matters if they can ship. I'm putting both on the same real task, side by side, and posting which one I'd actually use.\n\nWhat task should I throw at them?"
+      "x_post": "Mercury 3 from Inception claims 1,000+ tokens/sec and beating Claude Haiku 5.5 on benchmarks. Fast is cheap to claim. I'm running it on real coding tasks to see if the answers hold up.",
+      "x_thread": [],
+      "fingerprint": "a28ba82e46650ead"
     },
     {
-      "story_id": "interpretability-untangled-networks",
-      "fingerprint": "dd366a9f5032aefb",
-      "why_now": "Nick Cammarata's claim that about 90% of neurons in Qwen-32B have one job pulled 3.5M views and big reactions, and there's zero YouTube coverage. A plain-English explainer of what it means and why people are arguing about it fills the gap.",
+      "story_id": "indra-ocr-1-1",
+      "why_now": "A 1M-parameter OCR model running on CPU is the kind of tool builders can use today, and nobody on YouTube has covered it yet.",
       "video": {
-        "title": "AI Models Might Be Easier to Read Than We Thought",
-        "thumbnail_text": "90% HAVE ONE JOB",
-        "hook": "For years the story was that AI models are tangled knots, where every neuron does a dozen things at once. Now Nick Cammarata, who started OpenAI's interpretability team and is now at Goodfire, says about 90% of neurons in Qwen-32B have one job. If that holds up, it changes how we check what these models are doing. Here's what it means in plain English.",
+        "title": "This 1M-Parameter OCR Model Runs on a CPU",
+        "thumbnail_text": "Tiny OCR, 44 Pages/s",
+        "hook": "A one-million-parameter model that reads documents at 44 pages a second on a CPU. Indra OCR 1.1 claims it's close to a model 3,400 times bigger. Let's see if your documents survive it.",
         "alt_titles": [
-          "Are AI Neurons Simpler Than We Thought? New Claim Explained",
-          "The Interpretability Result Everyone Is Talking About"
+          "Indra OCR 1.1 vs Tesseract: Real Test",
+          "Free Fast OCR for Your Projects: Indra OCR 1.1"
         ],
         "outline": [
-          "Interpretability in one minute: why we want to read a model's insides",
-          "The old view: polysemantic neurons and needing a second model to unfold them",
-          "The new claim: about 90% of Qwen-32B neurons are monosemantic",
-          "Why people are calling it big, and the pushback and open questions",
-          "What would need to happen for this to hold up",
-          "Why builders should care: safer, more checkable models"
+          "What Indra OCR 1.1 is and the claims: 44 pages/s CPU, 80+ languages, handwriting",
+          "Setup walkthrough",
+          "Test on clean PDFs",
+          "Test on messy scans and handwriting",
+          "Compare against Tesseract",
+          "Where it fits in a document pipeline"
         ]
       },
       "short": {
         "duration_s": 30,
         "beats": [
-          { "t": "0-4s", "line": "We've been told AI models are a black box. That might be wrong.", "visual": "Tangled knot animation" },
-          { "t": "4-12s", "line": "Nick Cammarata, who started OpenAI's interpretability team, now says about 90% of neurons in Qwen-32B have one job.", "visual": "His post on screen, 90% callout" },
-          { "t": "12-21s", "line": "That would mean you can study a model's own neurons directly, without training a second model to untangle them.", "visual": "Neuron diagram, one label per neuron" },
-          { "t": "21-27s", "line": "Big if true. It still needs other teams to check it.", "visual": "Reaction posts" },
-          { "t": "27-30s", "line": "Full breakdown on my channel.", "visual": "End card" }
+          {
+            "t": "0-3s",
+            "line": "An OCR model with one million parameters.",
+            "visual": "Parameter count on screen"
+          },
+          {
+            "t": "3-8s",
+            "line": "It runs at 44 pages a second on a plain CPU.",
+            "visual": "Terminal speed run"
+          },
+          {
+            "t": "8-14s",
+            "line": "It claims to be within 4 points of DeepSeek OCR 2.",
+            "visual": "Benchmark claim"
+          },
+          {
+            "t": "14-20s",
+            "line": "And 15x faster than Tesseract.",
+            "visual": "Side by side"
+          },
+          {
+            "t": "20-25s",
+            "line": "I'm testing it on messy scans and handwriting.",
+            "visual": "Scan samples"
+          },
+          {
+            "t": "25-30s",
+            "line": "Results soon. Follow to catch them.",
+            "visual": "End card"
+          }
         ]
       },
       "carousel": {
         "slides": [
-          { "heading": "AI models aren't tangled knots?", "body": "A new interpretability claim, explained simply." },
-          { "heading": "The old view", "body": "Each neuron does many jobs, so you need a second model to unfold them." },
-          { "heading": "The new claim", "body": "About 90% of neurons in Qwen-32B have one job." },
-          { "heading": "Who says so", "body": "Nick Cammarata, who started OpenAI's interpretability team, now at Goodfire." },
-          { "heading": "Why it matters", "body": "If models are easier to read, they're easier to check for safety." },
-          { "heading": "Still to prove", "body": "Other researchers need to test it on more models." },
-          { "heading": "Want the full breakdown?", "body": "Watch on YouTube and follow for more." }
+          {
+            "heading": "Indra OCR 1.1 is out",
+            "body": "A 1M-parameter OCR model."
+          },
+          {
+            "heading": "44 pages/s on CPU",
+            "body": "No GPU needed, per the release."
+          },
+          {
+            "heading": "Close to DeepSeek OCR 2",
+            "body": "Within 4 points on OmniParseBench, as claimed."
+          },
+          {
+            "heading": "15x faster than Tesseract",
+            "body": "And said to be more accurate."
+          },
+          {
+            "heading": "80+ languages and handwriting",
+            "body": "I'll test how well."
+          },
+          {
+            "heading": "Want the test?",
+            "body": "Follow for results."
+          }
         ],
-        "caption": "A big new claim in AI interpretability, explained without the jargon."
+        "caption": "Tiny OCR model, big claims. Testing Indra OCR 1.1."
       },
-      "x_post": "New interpretability claim from Nick Cammarata (Goodfire): about 90% of neurons in Qwen-32B have one job.\n\nIf it holds, you can study a model's own neurons directly instead of training a second model to untangle them.\n\nBig if true. Making a plain-English breakdown."
+      "x_post": "Indra OCR 1.1: 1M params, 44 pages/sec on CPU, claimed within 4 points of DeepSeek OCR 2. If it handles messy scans, that's a very cheap document pipeline. Testing it.",
+      "x_thread": [],
+      "fingerprint": "17a46a74b0353a99"
     },
     {
-      "story_id": "claude-ecdsa-seeds",
-      "fingerprint": "d734ea6e96b9fb1f",
-      "why_now": "This broke today and is moving fast on X, while the two YouTube videos have zero views and lean on shock headlines. A calm explainer of what was actually found and what it does and doesn't mean for security is the open angle.",
+      "story_id": "cloudflare-clairic-model",
+      "why_now": "Cloudflare is calling clairic a new model paradigm and YouTube has only a short. A hands-on explainer of what it's for gets ahead of the crowd.",
       "video": {
-        "title": "Claude and the NSA Curve Seeds: What It Actually Means",
-        "thumbnail_text": "CLAUDE FOUND THE SEEDS",
-        "hook": "In the late 1990s the NSA supplied the seeds behind the curves used in ECDSA, the system behind a lot of digital signatures, and nobody could explain where they came from. Now people are saying Claude worked it out, and that they came from a basic random number generator. Here's what was reportedly found, what it does and doesn't mean for your security, and what still needs checking.",
+        "title": "Cloudflare Clairic: A New Kind of AI Model?",
+        "thumbnail_text": "Cloudflare's New Model",
+        "hook": "Cloudflare just launched a model that doesn't chat. Clairic is built to pull values out of messy inputs. Is it actually better than just prompting a big LLM? Let's check.",
         "alt_titles": [
-          "Did Claude Crack a 25-Year Crypto Mystery?",
-          "Claude, ECDSA and the NSA Seeds, Explained"
+          "Clairic Explained: Cloudflare's System One Model",
+          "Should You Replace Your LLM Extraction Prompts?"
         ],
         "outline": [
-          "ECDSA in plain English: what digital signatures are and where you use them",
-          "The mystery: unexplained NSA-supplied seeds from the late 1990s",
-          "What Claude reportedly found: the seeds traced back to a basic random number generator",
-          "What this does not mean: no signal yet that signatures are broken",
-          "The bigger debate: frontier models probing cryptography",
-          "What to watch for as experts verify it"
+          "What Cloudflare says clairic is: a system one model for extracting, computing, estimating and predicting values",
+          "Why they say it beats a general chat model for this",
+          "Walk through the Cloudflare blog post",
+          "Try it on invoices or messy text if access is available",
+          "Compare cost and speed to a general LLM",
+          "Who should care"
         ]
       },
       "short": {
         "duration_s": 30,
         "beats": [
-          { "t": "0-3s", "line": "Claude may have solved a 25-year crypto mystery.", "visual": "\"CLAUDE FOUND THE SEEDS\" post" },
-          { "t": "3-12s", "line": "The NSA supplied the seeds behind ECDSA curves in the late nineties. Nobody knew where they came from.", "visual": "Timeline graphic" },
-          { "t": "12-20s", "line": "People are reporting Claude traced them back to a basic random number generator.", "visual": "Simple diagram: generator to seed to curve" },
-          { "t": "20-27s", "line": "Does that break your security? Not on its own. Experts still need to verify it.", "visual": "Lock icon, \"verify\" stamp" },
-          { "t": "27-30s", "line": "Full explainer on my channel.", "visual": "End card" }
+          {
+            "t": "0-3s",
+            "line": "Cloudflare launched a model that doesn't chat.",
+            "visual": "Cloudflare blog on screen"
+          },
+          {
+            "t": "3-8s",
+            "line": "It's called clairic.",
+            "visual": "Title card"
+          },
+          {
+            "t": "8-14s",
+            "line": "It extracts and estimates values from messy inputs.",
+            "visual": "Example input to output"
+          },
+          {
+            "t": "14-20s",
+            "line": "They call it a system one model.",
+            "visual": "Quote on screen"
+          },
+          {
+            "t": "20-25s",
+            "line": "I'm checking if it beats prompting a big LLM.",
+            "visual": "Chase to camera"
+          },
+          {
+            "t": "25-30s",
+            "line": "Follow for the comparison.",
+            "visual": "End card"
+          }
         ]
       },
       "carousel": {
         "slides": [
-          { "heading": "Claude and the NSA curve seeds", "body": "What was found and what it means." },
-          { "heading": "What ECDSA is", "body": "A way to create and verify digital signatures using elliptic curves." },
-          { "heading": "The mystery", "body": "In the late 1990s the NSA supplied the seeds. Their origin was never explained." },
-          { "heading": "The claim", "body": "Claude reportedly traced them to a basic random number generator." },
-          { "heading": "Is your security broken?", "body": "Nothing reported says so. This is about where the seeds came from." },
-          { "heading": "Still to check", "body": "Experts need to verify the finding." },
-          { "heading": "Get the full story", "body": "Explainer on YouTube. Follow for updates." }
+          {
+            "heading": "Cloudflare launches clairic",
+            "body": "A new model for data extraction."
+          },
+          {
+            "heading": "Not a chatbot",
+            "body": "Built for unstructured inputs to values."
+          },
+          {
+            "heading": "A system one model",
+            "body": "Fast and narrow by design, per Cloudflare."
+          },
+          {
+            "heading": "What it does",
+            "body": "Extract, compute, estimate, predict."
+          },
+          {
+            "heading": "The question",
+            "body": "Is it better than a big LLM prompt?"
+          },
+          {
+            "heading": "Want the comparison?",
+            "body": "Follow for the test."
+          }
         ],
-        "caption": "Claude reportedly figured out where the NSA's ECDSA seeds came from. Here's the calm version."
+        "caption": "Cloudflare's clairic: a model built just for extraction."
       },
-      "x_post": "People are saying Claude worked out where the NSA's ECDSA curve seeds came from: a basic random number generator.\n\nThat's a 1990s mystery, not proof your signatures are broken. Making a plain-English breakdown of what was found and what still needs checking."
+      "x_post": "Cloudflare introduced clairic, a model for extracting and estimating values from unstructured inputs rather than chatting. I want to see if it beats a good LLM prompt on cost and accuracy. Testing it.",
+      "x_thread": [],
+      "fingerprint": "567b339f0483b12b"
     },
     {
-      "story_id": "gemini-4-argon-showcase",
-      "fingerprint": "e3d0c151cccdbc5a",
-      "why_now": "Gemini 4 Argon demos are spreading on X, from 3D-printable parts to PDF-to-app in Canvas, and YouTube has nothing on them yet. Recreating the demos yourself and showing what's real is the video to make.",
+      "story_id": "anthropic-nscale-compute-deal",
+      "why_now": "Bloomberg says a $45B compute deal could close within days. The story is a report, not a done deal, so a clear explainer on what it means for Claude users lands now.",
       "video": {
-        "title": "I Tried the Viral Gemini 4 Argon Demos",
-        "thumbnail_text": "PDF TO APP?",
-        "hook": "Google is showing Gemini 4 Argon turning dense PDFs into interactive apps and designing 3D-printable parts from a photo and rough measurements, all inside Canvas. Demos always look great. So I tried them myself with my own files. Here's what worked, what didn't, and where I'd actually use it.",
+        "title": "Anthropic's $45B Compute Deal: What It Means for Claude",
+        "thumbnail_text": "$45B for Compute",
+        "hook": "Bloomberg says Anthropic is in talks to buy forty-five billion dollars of compute from Nscale. It's not signed yet. Here's what it could mean for rate limits and for you.",
         "alt_titles": [
-          "Gemini 4 Argon in Canvas: Real Test of the Demos",
-          "Gemini 4 Argon: PDF Apps and 3D Prints, Tested"
+          "Why Anthropic Wants $45B More Compute",
+          "Will This Fix Claude's Usage Limits?"
         ],
         "outline": [
-          "What Gemini 4 Argon is and where you use it (Canvas in Gemini)",
-          "Demo 1: turn a dense PDF into an interactive app",
-          "Demo 2: photo plus rough measurements to a printable STL with live sliders",
-          "What developers are pushing it to do, including reverse engineering work",
-          "Where it broke and what took extra prompting",
-          "Verdict: which demo is actually useful for you today"
+          "What Bloomberg reported: talks, not a signed deal, possibly final within days",
+          "Who Nscale is: Nvidia-backed data center developer eyeing an IPO",
+          "Why compute is the bottleneck for usage limits",
+          "What it could change for Claude Code users, flagged as speculation",
+          "Compare with other labs' compute moves",
+          "What to watch next"
         ]
       },
       "short": {
         "duration_s": 30,
         "beats": [
-          { "t": "0-3s", "line": "Gemini 4 Argon can turn a PDF into an app. I tested it.", "visual": "Dense PDF morphing into a web app" },
-          { "t": "3-12s", "line": "I uploaded a real PDF into Canvas. Here's the interactive app it built.", "visual": "Screen recording of the result" },
-          { "t": "12-21s", "line": "Then a photo and rough measurements. It built a little 3D CAD studio with sliders and an STL export.", "visual": "3D model with sliders" },
-          { "t": "21-27s", "line": "Some of it worked first try. Some of it needed fixing. I'll show you both.", "visual": "Side by side: first try vs fixed" },
-          { "t": "27-30s", "line": "Full test on my channel.", "visual": "End card" }
+          {
+            "t": "0-3s",
+            "line": "Anthropic may buy 45 billion dollars of compute.",
+            "visual": "Bloomberg headline"
+          },
+          {
+            "t": "3-8s",
+            "line": "That's from Nscale, an Nvidia-backed data center company.",
+            "visual": "Nscale logo"
+          },
+          {
+            "t": "8-14s",
+            "line": "It's talks only. Nothing is signed.",
+            "visual": "Caption: not final"
+          },
+          {
+            "t": "14-20s",
+            "line": "Compute is why you hit usage limits.",
+            "visual": "Claude limit screen"
+          },
+          {
+            "t": "20-25s",
+            "line": "More compute could mean more room, but that's not promised.",
+            "visual": "Chase to camera"
+          },
+          {
+            "t": "25-30s",
+            "line": "Follow for updates when it's official.",
+            "visual": "End card"
+          }
         ]
       },
       "carousel": {
         "slides": [
-          { "heading": "Gemini 4 Argon, tested", "body": "The viral demos, tried on real files." },
-          { "heading": "PDF to app", "body": "Canvas turns dense PDFs into interactive web apps." },
-          { "heading": "Photo to 3D print", "body": "Upload a pic and rough measurements, export printable STLs." },
-          { "heading": "Dev experiments", "body": "People are using it with other models on reverse engineering work." },
-          { "heading": "What to check", "body": "How much fixing it takes before the result is usable." },
-          { "heading": "Watch the full test", "body": "On YouTube. Follow for more AI tool tests." }
+          {
+            "heading": "Anthropic eyes $45B of compute",
+            "body": "Per Bloomberg, in talks with Nscale."
+          },
+          {
+            "heading": "Not signed yet",
+            "body": "Could be finalized in the coming days."
+          },
+          {
+            "heading": "Who is Nscale",
+            "body": "Nvidia-backed data center developer."
+          },
+          {
+            "heading": "Why it matters",
+            "body": "Compute limits how much Claude you can use."
+          },
+          {
+            "heading": "What's unknown",
+            "body": "Terms, timing, and any change for users."
+          },
+          {
+            "heading": "Stay tuned",
+            "body": "Follow for the update."
+          }
         ],
-        "caption": "Gemini 4 Argon's Canvas demos look great. Here's what I'm testing to see if they hold up."
+        "caption": "A reported $45B compute talk. Here's the builder's view."
       },
-      "x_post": "Gemini 4 Argon demos are everywhere: PDFs turned into interactive apps, 3D-printable parts from a photo and rough measurements.\n\nTesting both with my own files to see what works first try and what needs fixing. Which demo do you want to see first?"
+      "x_post": "Bloomberg: Anthropic is in talks to buy $45B of compute from Nscale. Talks, not signed. Compute is what sets your usage limits, so I'm watching this one. Breakdown in my next video.",
+      "x_thread": [],
+      "fingerprint": "5ed5bb90bc59ec9e"
     }
   ]
 }

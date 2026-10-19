@@ -1,615 +1,599 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T22:53:40Z",
-  "x_trends_generated_at": "2026-10-16T21:13:02Z",
+  "generated_at": "2026-10-19T19:53:13Z",
+  "x_trends_generated_at": "2026-10-19T19:48:12Z",
   "x_trends_sample": false,
   "lookback_hours": 72,
   "stories": [
     {
-      "story_id": "grok-bot-amazon-blocked",
-      "title": "Grok Bot can scrub your phone number from spam lists",
-      "query": "grok bot xai ai agent privacy spam calls",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
-      "heat": 99.0,
-      "gap_score": 99,
-      "top_videos": []
-    },
-    {
-      "story_id": "opencode-free-deepseek-glm-flash",
-      "title": "DeepSeek V4.1 Flash and GLM 5.3 Flash go free in OpenCode",
-      "query": "opencode deepseek glm free models coding agents",
-      "video_count": 2,
-      "total_views": 27,
-      "max_views": 16,
+      "story_id": "us-bans-deepseek-federal",
+      "title": "DHS orders federal agencies to remove DeepSeek",
+      "query": "deepseek ban deepseek dhs federal agencies",
+      "video_count": 6,
+      "total_views": 4,
+      "max_views": 3,
       "big_channel_videos": 0,
       "coverage": "low",
-      "coverage_score": 8,
-      "heat": 93.0,
-      "gap_score": 86,
-      "top_videos": [
-        {
-          "video_id": "56_4jSUVJ1I",
-          "title": "GLM 5.3 Flash Is Now Free Inside OpenCode",
-          "url": "https://www.youtube.com/watch?v=56_4jSUVJ1I",
-          "channel": "Julian Goldie",
-          "channel_subscribers": 67,
-          "published_at": "2026-10-16T11:03:58Z",
-          "views": 16
-        },
-        {
-          "video_id": "8c8ZpdRViVs",
-          "title": "DeepSeek V4.1 Flash & GLM 5.3 Flash Free on OpenCode",
-          "url": "https://www.youtube.com/watch?v=8c8ZpdRViVs",
-          "channel": "Kinda Into AI",
-          "channel_subscribers": 11,
-          "published_at": "2026-10-16T09:00:23Z",
-          "views": 11
-        }
-      ]
-    },
-    {
-      "story_id": "interpretability-untangled-networks",
-      "title": "Goodfire: most LLM neurons have one job, challenging polysemanticity",
-      "query": "interpretability goodfire neurons alignment research",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
+      "coverage_score": 22,
       "heat": 85.0,
-      "gap_score": 85,
-      "top_videos": []
-    },
-    {
-      "story_id": "claude-ecdsa-seeds",
-      "title": "Claude works out how the NSA's ECDSA curve seeds were chosen",
-      "query": "claude ecdsa cryptography nsa security",
-      "video_count": 2,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 8,
-      "heat": 90.0,
-      "gap_score": 83,
+      "gap_score": 66,
       "top_videos": [
         {
-          "video_id": "FYSr_k40pzg",
-          "title": "Claude AI Just Revealed ECDSA Curve Origins — Here's Why Security Experts Are Shocked",
-          "url": "https://www.youtube.com/watch?v=FYSr_k40pzg",
-          "channel": "AI Daily Drop",
-          "channel_subscribers": 1,
-          "published_at": "2026-10-16T22:26:17Z",
-          "views": 0
+          "video_id": "YcpEhpfP8gE",
+          "title": "BREAKING: DHS Bans DeepSeek From All Federal Agency Systems | Hosted by Dr. Vernette Grant",
+          "url": "https://www.youtube.com/watch?v=YcpEhpfP8gE",
+          "channel": "Morning AI Briefing with Dr. Vernette Grant",
+          "channel_subscribers": 6,
+          "published_at": "2026-10-19T16:58:16Z",
+          "views": 3
         },
         {
-          "video_id": "CtaWc_MpPMU",
-          "title": "Claude solved the decades-old mystery of NIST's ECDSA seeds",
-          "url": "https://www.youtube.com/watch?v=CtaWc_MpPMU",
-          "channel": "Hit list AI",
-          "channel_subscribers": 37,
-          "published_at": "2026-10-16T21:13:27Z",
-          "views": 0
-        }
-      ]
-    },
-    {
-      "story_id": "gemini-4-argon-showcase",
-      "title": "Gemini 4 Argon demos: 3D prints, PDF apps, reverse engineering",
-      "query": "gemini 4 argon canvas demos reverse engineering",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
-      "heat": 78.0,
-      "gap_score": 78,
-      "top_videos": []
-    },
-    {
-      "story_id": "claude-mythos-quantum-circuits",
-      "title": "Anthropic says Claude Mythos designed efficient quantum circuits",
-      "query": "anthropic claude mythos quantum computing research",
-      "video_count": 4,
-      "total_views": 25,
-      "max_views": 14,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 15,
-      "heat": 85.0,
-      "gap_score": 72,
-      "top_videos": [
-        {
-          "video_id": "_3O4sNkbea0",
-          "title": "Claude Mythos Quantum Circuits: 17x Fewer Steps",
-          "url": "https://www.youtube.com/watch?v=_3O4sNkbea0",
-          "channel": "Captain Fomo's",
-          "channel_subscribers": 2,
-          "published_at": "2026-10-16T19:06:58Z",
-          "views": 14
-        },
-        {
-          "video_id": "0MUE8Bjb4l0",
-          "title": "Claude Just Redesigned Quantum Circuits",
-          "url": "https://www.youtube.com/watch?v=0MUE8Bjb4l0",
-          "channel": "GobiDaily",
-          "channel_subscribers": 0,
-          "published_at": "2026-10-16T19:45:28Z",
-          "views": 5
-        },
-        {
-          "video_id": "RV6__Tttihw",
-          "title": "CLAUDE OUT-DESIGNED GOOGLE'S QUANTUM TEAM 12X",
-          "url": "https://www.youtube.com/watch?v=RV6__Tttihw",
-          "channel": "Orders of Magnitude",
+          "video_id": "kKxxwF3Ymck",
+          "title": "BREAKING (Oct 19): US Orders Federal Agencies to Strip DeepSeek from IT Systems | AI360",
+          "url": "https://www.youtube.com/watch?v=kKxxwF3Ymck",
+          "channel": "AI360",
           "channel_subscribers": 10,
-          "published_at": "2026-10-16T20:56:23Z",
-          "views": 4
+          "published_at": "2026-10-19T16:12:47Z",
+          "views": 1
         },
         {
-          "video_id": "ZVv4JGGPbkU",
-          "title": "Claude Mythos 5 improved on the best published quantum circuits",
-          "url": "https://www.youtube.com/watch?v=ZVv4JGGPbkU",
-          "channel": "Hit list AI",
-          "channel_subscribers": 37,
-          "published_at": "2026-10-16T19:34:30Z",
+          "video_id": "nCcRKL_jz5Y",
+          "title": "BREAKING: DeepSeek ban as DHS bans DeepSeek from federal agencies | Neon Bulletin Oct 19, 2026",
+          "url": "https://www.youtube.com/watch?v=nCcRKL_jz5Y",
+          "channel": "Neon Bulletin",
+          "channel_subscribers": 7,
+          "published_at": "2026-10-19T19:23:25Z",
+          "views": 0
+        },
+        {
+          "video_id": "xk-WThNbGoo",
+          "title": "US Bans China's DeepSeek From Government Systems — What It Means for AI Stocks",
+          "url": "https://www.youtube.com/watch?v=xk-WThNbGoo",
+          "channel": "Masked Trader",
+          "channel_subscribers": 7,
+          "published_at": "2026-10-19T17:52:26Z",
+          "views": 0
+        },
+        {
+          "video_id": "9OyOM7cFuCY",
+          "title": "BREAKING: DeepSeek ban as DHS bans DeepSeek from federal agencies #Shorts",
+          "url": "https://www.youtube.com/watch?v=9OyOM7cFuCY",
+          "channel": "Neon Bulletin",
+          "channel_subscribers": 7,
+          "published_at": "2026-10-19T19:31:37Z",
+          "views": 0
+        }
+      ]
+    },
+    {
+      "story_id": "inception-mercury-3",
+      "title": "Inception's Mercury 3 diffusion LLM goes live",
+      "query": "mercury 3 diffusion llm inception labs",
+      "video_count": 2,
+      "total_views": 1,
+      "max_views": 1,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 8,
+      "heat": 72.0,
+      "gap_score": 66,
+      "top_videos": [
+        {
+          "video_id": "RbWf6-rJO-g",
+          "title": "Mercury 3: 1,000 Tokens a Second… Until It Starts Thinking",
+          "url": "https://www.youtube.com/watch?v=RbWf6-rJO-g",
+          "channel": "The Intelligence Desk",
+          "channel_subscribers": 77,
+          "published_at": "2026-10-19T19:46:29Z",
+          "views": 1
+        },
+        {
+          "video_id": "PzrYyQR8J6g",
+          "title": "토큰 하나씩 안 뽑습니다 — 확산으로 텍스트를 만드는 Mercury 3 #Shorts",
+          "url": "https://www.youtube.com/watch?v=PzrYyQR8J6g",
+          "channel": "Lupa프로그램",
+          "channel_subscribers": 11,
+          "published_at": "2026-10-19T19:24:05Z",
+          "views": 0
+        }
+      ]
+    },
+    {
+      "story_id": "indra-ocr-1-1",
+      "title": "Indra OCR 1.1 releases 1M-parameter OCR model",
+      "query": "indra ocr ocr model deepseek ocr",
+      "video_count": 0,
+      "total_views": 0,
+      "max_views": 0,
+      "big_channel_videos": 0,
+      "coverage": "none",
+      "coverage_score": 0,
+      "heat": 63.0,
+      "gap_score": 63,
+      "top_videos": []
+    },
+    {
+      "story_id": "cloudflare-clairic-model",
+      "title": "Cloudflare introduces clairic extraction model",
+      "query": "cloudflare clairic extraction model cloudflare ai",
+      "video_count": 1,
+      "total_views": 2,
+      "max_views": 2,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 4,
+      "heat": 64.0,
+      "gap_score": 61,
+      "top_videos": [
+        {
+          "video_id": "ifaIpVYNmV4",
+          "title": "Cloudflare gives structured data tasks their own AI model with Clairic #Shorts",
+          "url": "https://www.youtube.com/watch?v=ifaIpVYNmV4",
+          "channel": "RuntimeWire",
+          "channel_subscribers": 25700,
+          "published_at": "2026-10-19T18:27:22Z",
           "views": 2
         }
       ]
     },
     {
-      "story_id": "codex-capacity-fixes",
-      "title": "OpenAI cuts Codex 'model at capacity' errors with more compute",
-      "query": "codex openai capacity reliability",
+      "story_id": "anthropic-nscale-compute-deal",
+      "title": "Anthropic in talks for $45B of Nscale compute",
+      "query": "anthropic nscale anthropic compute nscale",
+      "video_count": 1,
+      "total_views": 25,
+      "max_views": 25,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 4,
+      "heat": 62.0,
+      "gap_score": 60,
+      "top_videos": [
+        {
+          "video_id": "6_6Pe40GsAQ",
+          "title": "Nscale: $103B signed, $2.6B live. Is the $35B IPO fair? $NSCL",
+          "url": "https://www.youtube.com/watch?v=6_6Pe40GsAQ",
+          "channel": "ARROWKEEP",
+          "channel_subscribers": 709,
+          "published_at": "2026-10-18T19:04:02Z",
+          "views": 25
+        }
+      ]
+    },
+    {
+      "story_id": "cua-spaces-sdk",
+      "title": "Cua Spaces SDK lets agents run on your own compute",
+      "query": "cua spaces claude code computer use agents",
+      "video_count": 2,
+      "total_views": 8,
+      "max_views": 8,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 8,
+      "heat": 62.0,
+      "gap_score": 57,
+      "top_videos": [
+        {
+          "video_id": "JcBQ6lR9RY0",
+          "title": "【Cua・コンピュータ操作AIデイリー】2026-10-19（月） ChatGPTがタブを操作／SPACEを公開",
+          "url": "https://www.youtube.com/watch?v=JcBQ6lR9RY0",
+          "channel": "シンオン株式会社 (Synon,Inc) 公式",
+          "channel_subscribers": 15,
+          "published_at": "2026-10-18T19:36:20Z",
+          "views": 8
+        },
+        {
+          "video_id": "I9s1UKc5Lz4",
+          "title": "【Cua・コンピュータ操作AIデイリー】2026-10-20（火） OpenAIが事例を公開／サイトが締め出しへ",
+          "url": "https://www.youtube.com/watch?v=I9s1UKc5Lz4",
+          "channel": "シンオン株式会社 (Synon,Inc) 公式",
+          "channel_subscribers": 15,
+          "published_at": "2026-10-19T19:48:05Z",
+          "views": 0
+        }
+      ]
+    },
+    {
+      "story_id": "t3code-claude-max-review",
+      "title": "t3code review: remote setup for Claude Max",
+      "query": "t3code claude max claude code",
       "video_count": 0,
       "total_views": 0,
       "max_views": 0,
       "big_channel_videos": 0,
       "coverage": "none",
       "coverage_score": 0,
-      "heat": 69.0,
-      "gap_score": 69,
+      "heat": 56.0,
+      "gap_score": 56,
       "top_videos": []
     },
     {
-      "story_id": "openai-gpt-6-astra-test-model",
-      "title": "GPT-6 Astra Pro gets parallel agents in ChatGPT; Astra 6.1 spotted",
-      "query": "openai gpt-6 astra chatgpt agents",
-      "video_count": 7,
-      "total_views": 1668,
-      "max_views": 620,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 30,
-      "heat": 95.0,
-      "gap_score": 66,
-      "top_videos": [
-        {
-          "video_id": "LVuT9molFEE",
-          "title": "Can AI Direct a Comedy? Claude vs ChatGPT Short Film (Seedance 2.5)",
-          "url": "https://www.youtube.com/watch?v=LVuT9molFEE",
-          "channel": "Dom the AI Tutor | Tech Tutor Zones",
-          "channel_subscribers": 23400,
-          "published_at": "2026-10-15T14:28:37Z",
-          "views": 620
-        },
-        {
-          "video_id": "79JAwLJvafA",
-          "title": "GPT-6 Astra Solves 49 of 50 Physics Problems, AI Agents Write Back, Grok Voice 3 | Accel with Kitty",
-          "url": "https://www.youtube.com/watch?v=79JAwLJvafA",
-          "channel": "Accel with Kitty",
-          "channel_subscribers": 8,
-          "published_at": "2026-10-15T01:17:57Z",
-          "views": 537
-        },
-        {
-          "video_id": "IV_z2kb4j54",
-          "title": "Choosing Your GPT-6: Astra, Sol, or Luna? #atraai #sol  #luna",
-          "url": "https://www.youtube.com/watch?v=IV_z2kb4j54",
-          "channel": " Byte-Size AI Learning Hub",
-          "channel_subscribers": 1260,
-          "published_at": "2026-10-14T12:00:23Z",
-          "views": 192
-        },
-        {
-          "video_id": "RfFAvEnEkF0",
-          "title": "Did OpenAI Just Solve Robotics?",
-          "url": "https://www.youtube.com/watch?v=RfFAvEnEkF0",
-          "channel": "Bharat Jain | Robotics and AI",
-          "channel_subscribers": 1210,
-          "published_at": "2026-10-15T11:02:52Z",
-          "views": 127
-        },
-        {
-          "video_id": "L2ACXnzCEzU",
-          "title": "GPT-6 Astra Just Made Your Old AI Setup Obsolete",
-          "url": "https://www.youtube.com/watch?v=L2ACXnzCEzU",
-          "channel": "Cognileap",
-          "channel_subscribers": 8,
-          "published_at": "2026-10-14T13:36:32Z",
-          "views": 126
-        }
-      ]
-    },
-    {
-      "story_id": "anthropic-ipo-delay-debate",
-      "title": "Anthropic IPO: calls to delay, valuation expectations slip to $1.5T",
-      "query": "anthropic ipo valuation credit rating",
+      "story_id": "claude-code-game-mvp",
+      "title": "Claude Code-built game MVP praised",
+      "query": "claude code game after the wind godot ai",
       "video_count": 1,
-      "total_views": 14642,
-      "max_views": 14642,
+      "total_views": 246,
+      "max_views": 246,
       "big_channel_videos": 0,
       "coverage": "low",
-      "coverage_score": 23,
-      "heat": 80.0,
-      "gap_score": 62,
+      "coverage_score": 4,
+      "heat": 55.0,
+      "gap_score": 53,
       "top_videos": [
         {
-          "video_id": "xBcgC6dLUNI",
-          "title": "Anthropic Investors Push Back on IPO Valuation as Growth Slows",
-          "url": "https://www.youtube.com/watch?v=xBcgC6dLUNI",
-          "channel": "Nobody Special",
-          "channel_subscribers": 76800,
-          "published_at": "2026-10-16T14:01:19Z",
-          "views": 14642
-        }
-      ]
-    },
-    {
-      "story_id": "claude-slides",
-      "title": "Boris Cherny shows off Claude Slides for making decks",
-      "query": "claude slides anthropic presentations",
-      "video_count": 5,
-      "total_views": 1328,
-      "max_views": 1284,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 21,
-      "heat": 75.0,
-      "gap_score": 59,
-      "top_videos": [
-        {
-          "video_id": "tYGIAr85tFk",
-          "title": "Claude now works inside Google Sheets, Docs and Slides",
-          "url": "https://www.youtube.com/watch?v=tYGIAr85tFk",
-          "channel": "Baptiste ODonovan",
-          "channel_subscribers": 762,
-          "published_at": "2026-10-14T13:57:26Z",
-          "views": 1284
-        },
-        {
-          "video_id": "3SJQ9xuI2uw",
-          "title": "Stop building decks from scratch: Claude Slides is now free",
-          "url": "https://www.youtube.com/watch?v=3SJQ9xuI2uw",
-          "channel": "HourBackAI",
-          "channel_subscribers": 4,
-          "published_at": "2026-10-13T23:45:21Z",
-          "views": 27
-        },
-        {
-          "video_id": "ACODy_JvrBA",
-          "title": "Claude Docs, Slides & Design Are Now on the Free Plan #Shorts",
-          "url": "https://www.youtube.com/watch?v=ACODy_JvrBA",
-          "channel": "Agentic Ai",
-          "channel_subscribers": 998,
-          "published_at": "2026-10-16T07:30:09Z",
-          "views": 14
-        },
-        {
-          "video_id": "QewHZo0i5NI",
-          "title": "Claude Can Now Turn Your Report Into a Video | After Hours AI",
-          "url": "https://www.youtube.com/watch?v=QewHZo0i5NI",
-          "channel": "After Hours AI",
-          "channel_subscribers": 0,
-          "published_at": "2026-10-16T18:35:01Z",
-          "views": 3
-        },
-        {
-          "video_id": "KU1axUl6iUc",
-          "title": "Claude Dashboards and Claude Motion: live dashboards and animated explainers, explained",
-          "url": "https://www.youtube.com/watch?v=KU1axUl6iUc",
-          "channel": "One Prompt Away",
-          "channel_subscribers": 28,
-          "published_at": "2026-10-14T01:41:04Z",
-          "views": 0
-        }
-      ]
-    },
-    {
-      "story_id": "accenture-caps-claude-spend",
-      "title": "Accenture caps employee Claude use at $29 a month",
-      "query": "accenture claude enterprise ai spend",
-      "video_count": 4,
-      "total_views": 68,
-      "max_views": 36,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 15,
-      "heat": 66.0,
-      "gap_score": 56,
-      "top_videos": [
-        {
-          "video_id": "Mi22rua7McQ",
-          "title": "Accenture Caps Claude AI Spend at $29/Month for Employees",
-          "url": "https://www.youtube.com/watch?v=Mi22rua7McQ",
-          "channel": "TrendingTech",
-          "channel_subscribers": 48,
-          "published_at": "2026-10-16T11:07:07Z",
-          "views": 36
-        },
-        {
-          "video_id": "L1AwM7gnHDo",
-          "title": "Accenture Just Rationed Claude",
-          "url": "https://www.youtube.com/watch?v=L1AwM7gnHDo",
-          "channel": "Tech Brew Ride Home Podcast",
-          "channel_subscribers": 7040,
-          "published_at": "2026-10-16T17:20:51Z",
-          "views": 21
-        },
-        {
-          "video_id": "cOkWnqBTNJw",
-          "title": "AI News You Can Understand: How Autonomous AI Is Breaking Enterprise Budgets",
-          "url": "https://www.youtube.com/watch?v=cOkWnqBTNJw",
-          "channel": "AINUCU - AI News You Can Use",
+          "video_id": "38SCbs7VlKI",
+          "title": "Ragnarok Online meets Monster Hunter, made in 5 weeks with AI",
+          "url": "https://www.youtube.com/watch?v=38SCbs7VlKI",
+          "channel": "AI Games Spotlight",
           "channel_subscribers": 5,
-          "published_at": "2026-10-16T15:32:37Z",
-          "views": 6
-        },
-        {
-          "video_id": "Gsidhzsgmcg",
-          "title": "Accenture CAPS Claude at $29/Month! Rogue Chinese AI Fleet CAUGHT! Meta AI Needs a TERABYTE of RAM!",
-          "url": "https://www.youtube.com/watch?v=Gsidhzsgmcg",
-          "channel": "AI Today",
-          "channel_subscribers": 1,
-          "published_at": "2026-10-16T17:22:21Z",
-          "views": 5
+          "published_at": "2026-10-19T16:30:26Z",
+          "views": 246
         }
       ]
     },
     {
-      "story_id": "meta-muse-spark-open",
-      "title": "Meta's Muse Wonder lands in Cursor as Spark Open faces scrutiny",
-      "query": "meta muse wonder muse spark cursor",
-      "video_count": 5,
-      "total_views": 6498,
-      "max_views": 5789,
-      "big_channel_videos": 1,
-      "coverage": "medium",
-      "coverage_score": 42,
-      "heat": 66.0,
-      "gap_score": 38,
-      "top_videos": [
-        {
-          "video_id": "1d7P3ewd9AA",
-          "title": "Gemini 4 and Muse Wonder Dropped… But Fable 5.5 Is TERRIFYING",
-          "url": "https://www.youtube.com/watch?v=1d7P3ewd9AA",
-          "channel": "Riley Brown",
-          "channel_subscribers": 301000,
-          "published_at": "2026-10-16T17:30:21Z",
-          "views": 5789
-        },
-        {
-          "video_id": "s40tNUbYuRo",
-          "title": "🔴 Day 46 - Gemini 4 Argon & Meta Muse Wonder!",
-          "url": "https://www.youtube.com/watch?v=s40tNUbYuRo",
-          "channel": "Apoorv Jain",
-          "channel_subscribers": 549,
-          "published_at": "2026-10-14T06:28:40Z",
-          "views": 340
-        },
-        {
-          "video_id": "tBAACOoY9CQ",
-          "title": "ThursdAI Oct 15: Meta Muse Wonder + an 816B Open Model, Gemini 4 Argon, State of AI 2026",
-          "url": "https://www.youtube.com/watch?v=tBAACOoY9CQ",
-          "channel": "Alex Volkov from ThursdAI",
-          "channel_subscribers": 54600,
-          "published_at": "2026-10-16T03:22:15Z",
-          "views": 210
-        },
-        {
-          "video_id": "neHDPlYxLQU",
-          "title": "Meta Ships Muse Wonder as Anthropic Warns Small AI Models May Self-Replicate",
-          "url": "https://www.youtube.com/watch?v=neHDPlYxLQU",
-          "channel": "BRAID",
-          "channel_subscribers": 24,
-          "published_at": "2026-10-16T07:22:45Z",
-          "views": 154
-        },
-        {
-          "video_id": "2mH3J19oNNQ",
-          "title": "AI Daily Briefing — Oct 16, 2026: FLUX 3 Klein, Nemotron 3.5 Super VL, Muse Spark Open",
-          "url": "https://www.youtube.com/watch?v=2mH3J19oNNQ",
-          "channel": "iStarSoft AI",
-          "channel_subscribers": 3,
-          "published_at": "2026-10-16T03:56:04Z",
-          "views": 5
-        }
-      ]
-    },
-    {
-      "story_id": "gemini-4-argon-wandr-rollout",
-      "title": "Gemini 4 Argon rolls out in Antigravity to Google AI Pro users",
-      "query": "gemini 4 argon antigravity google rollout",
-      "video_count": 17,
-      "total_views": 20122,
-      "max_views": 9378,
+      "story_id": "codex-quota-burn-reports",
+      "title": "Users report Codex weekly quotas vanishing in a day",
+      "query": "codex quota codex limits openai codex",
+      "video_count": 1,
+      "total_views": 104,
+      "max_views": 104,
       "big_channel_videos": 0,
-      "coverage": "medium",
-      "coverage_score": 52,
-      "heat": 76.0,
-      "gap_score": 36,
+      "coverage": "low",
+      "coverage_score": 4,
+      "heat": 51.0,
+      "gap_score": 49,
       "top_videos": [
         {
-          "video_id": "I1OgM60mg74",
-          "title": "Gemini 4 Argon、ついに解禁｜3Dモデルが強い!?お寺もスマホの分解アニメもAIが自作。性能・料金・使い方を解説【Opus5.5 と比較】",
-          "url": "https://www.youtube.com/watch?v=I1OgM60mg74",
-          "channel": "SHISHIGAMI TECH CH",
-          "channel_subscribers": 4560,
-          "published_at": "2026-10-14T02:39:48Z",
-          "views": 9378
-        },
-        {
-          "video_id": "NWTc8j8b90E",
-          "title": "Gemini 4 Argon Is Way More Powerful Than We Thought!",
-          "url": "https://www.youtube.com/watch?v=NWTc8j8b90E",
-          "channel": "ByteForward",
-          "channel_subscribers": 2000,
-          "published_at": "2026-10-14T02:02:38Z",
-          "views": 5401
-        },
-        {
-          "video_id": "a2rdMXsrysg",
-          "title": "Google Gemini 4 Argon 全面评测:可用渠道,额度解析与性能体验排名",
-          "url": "https://www.youtube.com/watch?v=a2rdMXsrysg",
-          "channel": "DP IT",
-          "channel_subscribers": 2390,
-          "published_at": "2026-10-16T08:41:41Z",
-          "views": 1619
-        },
-        {
-          "video_id": "zmoNU6f2Na0",
-          "title": "Gemini 4 Argon is LIVE: Who Can Use It? (Pro, Ultra, Developers)",
-          "url": "https://www.youtube.com/watch?v=zmoNU6f2Na0",
-          "channel": "New Info Xplained",
-          "channel_subscribers": 361,
-          "published_at": "2026-10-14T12:20:01Z",
-          "views": 1264
-        },
-        {
-          "video_id": "q76Up0Mgn7c",
-          "title": "Gemini 4 Argon FREE in Antigravity? Pro Users Guide (2026)",
-          "url": "https://www.youtube.com/watch?v=q76Up0Mgn7c",
-          "channel": "The Tech King",
-          "channel_subscribers": 96,
-          "published_at": "2026-10-16T06:20:13Z",
-          "views": 1226
+          "video_id": "lQ3uwOkTYKk",
+          "title": "Web ChatGPT Sol 6 : Chat Is Included and Almost Unlimited. It Never Uses Your Work +Codex  Limit",
+          "url": "https://www.youtube.com/watch?v=lQ3uwOkTYKk",
+          "channel": "o0o0o0o",
+          "channel_subscribers": 3300,
+          "published_at": "2026-10-17T14:47:43Z",
+          "views": 104
         }
       ]
     },
     {
-      "story_id": "rogue-ai-agents-india-breach",
-      "title": "Rogue AI agents broke into Indian companies' live systems",
-      "query": "ai agents security incident cert-in india",
-      "video_count": 9,
-      "total_views": 7357,
-      "max_views": 7314,
-      "big_channel_videos": 1,
-      "coverage": "medium",
-      "coverage_score": 54,
-      "heat": 76.0,
-      "gap_score": 35,
+      "story_id": "gemini-4-carbon-rumors",
+      "title": "Gemini 4 Carbon and OpenAI model rumored",
+      "query": "gemini 4 carbon gemini 4 argon openai new model",
+      "video_count": 6,
+      "total_views": 1658,
+      "max_views": 1435,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 26,
+      "heat": 61.0,
+      "gap_score": 45,
       "top_videos": [
         {
-          "video_id": "VdXdb5BE-08",
-          "title": "AI Agents Bypass Firewalls, Steal Confidential Data Of Indian Firms | WION Breaking",
-          "url": "https://www.youtube.com/watch?v=VdXdb5BE-08",
-          "channel": "WION",
-          "channel_subscribers": 10500000,
-          "published_at": "2026-10-16T10:21:28Z",
-          "views": 7314
+          "video_id": "0h3XaFGMG7Y",
+          "title": "🔔 FILTRACIONES DE GEMINI 4 CARBON! 🤯 GOOGLE prepara un MODELO que podría SUPERAR a OPUS 5.5 y GPT-6",
+          "url": "https://www.youtube.com/watch?v=0h3XaFGMG7Y",
+          "channel": "Patricio Plus",
+          "channel_subscribers": 2820,
+          "published_at": "2026-10-19T14:24:15Z",
+          "views": 1435
         },
         {
-          "video_id": "64xs6CCB8gI",
-          "title": "AI Models Broke Into Indian Companies' Systems! 😱🤖 | CERT-In Alert #shorts",
-          "url": "https://www.youtube.com/watch?v=64xs6CCB8gI",
-          "channel": "Harish News Trail ",
-          "channel_subscribers": 1,
-          "published_at": "2026-10-16T13:20:14Z",
+          "video_id": "r64hIXp35cI",
+          "title": "Google Gemini 4 Argon, Carbon, Anthropic Claude Swap, Meta Muse Wonder, AI Ransomware",
+          "url": "https://www.youtube.com/watch?v=r64hIXp35cI",
+          "channel": "JohNews_AI",
+          "channel_subscribers": 4,
+          "published_at": "2026-10-17T14:55:08Z",
+          "views": 185
+        },
+        {
+          "video_id": "8-m8Gy5ig6I",
+          "title": "Google Ka Secret AI \"Gemini 4 Carbon\" Leaked! Sabka Khel Khatam? 😱",
+          "url": "https://www.youtube.com/watch?v=8-m8Gy5ig6I",
+          "channel": "Devesh AI",
+          "channel_subscribers": 42,
+          "published_at": "2026-10-19T09:04:36Z",
+          "views": 17
+        },
+        {
+          "video_id": "xronM3dHCEI",
+          "title": "谷歌内测Gemini 4 Carbon！员工称编程体验接近Opus 5.5，为什么还没开放？",
+          "url": "https://www.youtube.com/watch?v=xronM3dHCEI",
+          "channel": "每日AI创业知识分享",
+          "channel_subscribers": 331,
+          "published_at": "2026-10-17T07:22:47Z",
+          "views": 12
+        },
+        {
+          "video_id": "MRw-Rg7h4b0",
+          "title": "Gemini 4 Carbon VAZOU: A Resposta da Google ao Claude Fable 5.5",
+          "url": "https://www.youtube.com/watch?v=MRw-Rg7h4b0",
+          "channel": "MaskDevzera",
+          "channel_subscribers": 2810,
+          "published_at": "2026-10-19T17:45:03Z",
+          "views": 8
+        }
+      ]
+    },
+    {
+      "story_id": "deepseek-huawei-chip",
+      "title": "DeepSeek and Huawei reportedly co-design AI chips",
+      "query": "deepseek huawei ai chip nvidia",
+      "video_count": 4,
+      "total_views": 10033,
+      "max_views": 9995,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 32,
+      "heat": 64.0,
+      "gap_score": 44,
+      "top_videos": [
+        {
+          "video_id": "PvX5PggcGqk",
+          "title": "China Just Built The Chip That Could End NVIDIA's 5.27 Trillion Monopoly",
+          "url": "https://www.youtube.com/watch?v=PvX5PggcGqk",
+          "channel": "adrean alva",
+          "channel_subscribers": 119,
+          "published_at": "2026-10-18T12:30:23Z",
+          "views": 9995
+        },
+        {
+          "video_id": "AOWWWYkpnSc",
+          "title": "DeepSeek y Huawei: la carrera por una IA sin Nvidia",
+          "url": "https://www.youtube.com/watch?v=AOWWWYkpnSc",
+          "channel": "Solo en Bits",
+          "channel_subscribers": 41,
+          "published_at": "2026-10-17T13:00:26Z",
           "views": 20
         },
         {
-          "video_id": "KJqNLXIyaRs",
-          "title": "Spyware Hidden in Online Ads Infects With Zero Clicks | Cyber News",
-          "url": "https://www.youtube.com/watch?v=KJqNLXIyaRs",
-          "channel": "CyberQyven",
-          "channel_subscribers": 10,
-          "published_at": "2026-10-16T15:42:14Z",
-          "views": 10
+          "video_id": "Fs4EcJx3vO8",
+          "title": "China Just Replaced Nvidia—Without a Single American Chip",
+          "url": "https://www.youtube.com/watch?v=Fs4EcJx3vO8",
+          "channel": "Forge Front",
+          "channel_subscribers": 1050,
+          "published_at": "2026-10-19T13:03:17Z",
+          "views": 17
         },
         {
-          "video_id": "N0Fn7reeQTQ",
-          "title": "AI Agents Broke Into Indian Companies. Nobody Noticed.",
-          "url": "https://www.youtube.com/watch?v=N0Fn7reeQTQ",
-          "channel": "After the Demo",
-          "channel_subscribers": 4,
-          "published_at": "2026-10-16T18:38:48Z",
-          "views": 5
-        },
-        {
-          "video_id": "A3uhyGmwG8E",
-          "title": "Massive AI News: Meta's 816B Model, Rogue AI, MORE!",
-          "url": "https://www.youtube.com/watch?v=A3uhyGmwG8E",
-          "channel": "7EightMade",
-          "channel_subscribers": 0,
-          "published_at": "2026-10-16T13:00:02Z",
-          "views": 4
+          "video_id": "EhWZXPxXb5c",
+          "title": "Nvidia Just Lost Its Grip On China",
+          "url": "https://www.youtube.com/watch?v=EhWZXPxXb5c",
+          "channel": "Big Tech Files",
+          "channel_subscribers": 20,
+          "published_at": "2026-10-19T16:00:33Z",
+          "views": 1
         }
       ]
     },
     {
-      "story_id": "gemini-argon-agents-beat-minecraft",
-      "title": "Four Gemini 4 Argon agents beat Minecraft with no human help",
-      "query": "gemini 4 argon deepmind minecraft agents",
-      "video_count": 5,
-      "total_views": 64238,
-      "max_views": 64205,
-      "big_channel_videos": 1,
-      "coverage": "medium",
-      "coverage_score": 59,
-      "heat": 70.0,
-      "gap_score": 29,
+      "story_id": "minimax-m3-1-flash",
+      "title": "MiniMax-M3.1-Flash scores 42 on AA index",
+      "query": "minimax m3.1 flash minimax artificial analysis",
+      "video_count": 6,
+      "total_views": 74,
+      "max_views": 44,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 22,
+      "heat": 55.0,
+      "gap_score": 43,
       "top_videos": [
         {
-          "video_id": "Jh6mgf9M06M",
-          "title": "Gemini 4 Argon: What’s new and what’s next",
-          "url": "https://www.youtube.com/watch?v=Jh6mgf9M06M",
-          "channel": "Google for Developers",
-          "channel_subscribers": 2680000,
-          "published_at": "2026-10-14T17:01:36Z",
-          "views": 64205
+          "video_id": "hfUhvcPy_Wc",
+          "title": "MiniMax M3.1 Flash: a $0.15 coding model close to Opus 5 on one test #shorts",
+          "url": "https://www.youtube.com/watch?v=hfUhvcPy_Wc",
+          "channel": "Dreamestra",
+          "channel_subscribers": 0,
+          "published_at": "2026-10-19T14:18:35Z",
+          "views": 44
         },
         {
-          "video_id": "QB_AmnuwzHs",
-          "title": "4 Google AIs just beat MINECRAFT 🎮 and China wants to lock down its AI #Shorts",
-          "url": "https://www.youtube.com/watch?v=QB_AmnuwzHs",
-          "channel": "Recomienda Tech",
-          "channel_subscribers": 18,
-          "published_at": "2026-10-16T16:14:15Z",
-          "views": 24
+          "video_id": "gsW0_T1m3kY",
+          "title": "Space Bunny Was MiniMax All Along, and It's Twenty Times Cheaper Than Opus",
+          "url": "https://www.youtube.com/watch?v=gsW0_T1m3kY",
+          "channel": "The Intelligence Desk",
+          "channel_subscribers": 77,
+          "published_at": "2026-10-19T14:11:23Z",
+          "views": 17
         },
         {
-          "video_id": "-09grQ6V6k0",
-          "title": "Gemini 4 Argon AI Agents Beat Minecraft in 27 Hours",
-          "url": "https://www.youtube.com/watch?v=-09grQ6V6k0",
-          "channel": "AI Orbit",
-          "channel_subscribers": 41,
-          "published_at": "2026-10-16T19:07:11Z",
+          "video_id": "K6L76kDJWK0",
+          "title": "MiniMax M3.1 Flash: A Nova IA Barata que Surpreendeu!",
+          "url": "https://www.youtube.com/watch?v=K6L76kDJWK0",
+          "channel": "Skynet Notícias",
+          "channel_subscribers": 61,
+          "published_at": "2026-10-19T18:45:18Z",
+          "views": 6
+        },
+        {
+          "video_id": "R8aKWGECWhk",
+          "title": "China's MiniMax M3.1 Flash: 3X Faster AI at 70% Lower Cost?",
+          "url": "https://www.youtube.com/watch?v=R8aKWGECWhk",
+          "channel": "ByteAtlas",
+          "channel_subscribers": 15,
+          "published_at": "2026-10-19T16:18:59Z",
           "views": 5
         },
         {
-          "video_id": "YLIzj55QRNM",
-          "title": "Gemini 4 Argon 에이전트 팀의 Minecraft 완전 자율 정복 분석 교육 해설 편집 계획",
-          "url": "https://www.youtube.com/watch?v=YLIzj55QRNM",
-          "channel": "Ki-jung Kim (akaslany)",
-          "channel_subscribers": 608,
-          "published_at": "2026-10-16T16:41:22Z",
-          "views": 3
+          "video_id": "qZ7kmaRhbBI",
+          "title": "MiniMax M3.1 Flash 結局なに？DeepSeekより安い？",
+          "url": "https://www.youtube.com/watch?v=qZ7kmaRhbBI",
+          "channel": "門司",
+          "channel_subscribers": 6,
+          "published_at": "2026-10-19T18:05:43Z",
+          "views": 2
+        }
+      ]
+    },
+    {
+      "story_id": "anthropic-public-share-pledge",
+      "title": "Anthropic public benefit fund draws Musk share pledge",
+      "query": "anthropic public benefit anthropic shares spacex anthropic",
+      "video_count": 9,
+      "total_views": 2041,
+      "max_views": 1253,
+      "big_channel_videos": 3,
+      "coverage": "medium",
+      "coverage_score": 55,
+      "heat": 77.0,
+      "gap_score": 35,
+      "top_videos": [
+        {
+          "video_id": "LMJ5TXk3E4U",
+          "title": "You Can't Buy Anthropic Yet - But These 5 Proxy Stocks Are Set To Explode Before Anthropic's IPO",
+          "url": "https://www.youtube.com/watch?v=LMJ5TXk3E4U",
+          "channel": "Millionaires Investment Secrets",
+          "channel_subscribers": 402000,
+          "published_at": "2026-10-17T16:00:37Z",
+          "views": 1253
         },
         {
-          "video_id": "sJZuSRaWE7w",
-          "title": "4 Google AIs beat MINECRAFT, China moves to lock down its AI & more | AI News Oct 16",
-          "url": "https://www.youtube.com/watch?v=sJZuSRaWE7w",
-          "channel": "Recomienda Tech",
+          "video_id": "g6eFdjgPucc",
+          "title": "Musk Pledges to Give SpaceX Shares to ‘Every Kid in America’",
+          "url": "https://www.youtube.com/watch?v=g6eFdjgPucc",
+          "channel": "Bloomberg News",
+          "channel_subscribers": 2860000,
+          "published_at": "2026-10-19T18:00:02Z",
+          "views": 432
+        },
+        {
+          "video_id": "6vw2A8ZJiYo",
+          "title": "Anthropic, Musk Offer Competing Visions for Sharing AI Wealth",
+          "url": "https://www.youtube.com/watch?v=6vw2A8ZJiYo",
+          "channel": "Bloomberg Tech",
+          "channel_subscribers": 742000,
+          "published_at": "2026-10-19T18:07:16Z",
+          "views": 326
+        },
+        {
+          "video_id": "W7_pUaFuaww",
+          "title": "BREAKING: Anthropic Gives Away 5% of Itself, and Musk Has Notes | The Daily AI Stew, 19 Oct",
+          "url": "https://www.youtube.com/watch?v=W7_pUaFuaww",
+          "channel": "Agentic Stew",
           "channel_subscribers": 18,
-          "published_at": "2026-10-16T16:09:41Z",
-          "views": 1
+          "published_at": "2026-10-19T08:23:37Z",
+          "views": 18
+        },
+        {
+          "video_id": "o1hFWvQ-Pb0",
+          "title": "Elon and Anthropic GIVE BACK Billions. Will Anyone Give Them Credit? | October 19, 2026",
+          "url": "https://www.youtube.com/watch?v=o1hFWvQ-Pb0",
+          "channel": "The Morning Market Briefing",
+          "channel_subscribers": 266,
+          "published_at": "2026-10-19T15:48:33Z",
+          "views": 6
+        }
+      ]
+    },
+    {
+      "story_id": "deepseek-v4-1-flash-1017",
+      "title": "DeepSeek V4.1 Flash 1017 lands as top open model",
+      "query": "deepseek v4.1 flash deepseek open weights model opencode",
+      "video_count": 23,
+      "total_views": 71560,
+      "max_views": 27394,
+      "big_channel_videos": 2,
+      "coverage": "high",
+      "coverage_score": 81,
+      "heat": 100.0,
+      "gap_score": 19,
+      "top_videos": [
+        {
+          "video_id": "w2-R455hNjA",
+          "title": "DeepSeek Is Free Now. What’s the Catch?",
+          "url": "https://www.youtube.com/watch?v=w2-R455hNjA",
+          "channel": "Devsplainers",
+          "channel_subscribers": 21800,
+          "published_at": "2026-10-19T07:00:05Z",
+          "views": 27394
+        },
+        {
+          "video_id": "q2k5jW55Kcg",
+          "title": "AI 日報 10/18｜DeepSeek新模型更強還便宜10倍？｜Step5開源、Claude審查、誠實研究、Replit換OpenAI、模型越權、記憶圖解、證明爭議、OpenCode遭駭、A社法案",
+          "url": "https://www.youtube.com/watch?v=q2k5jW55Kcg",
+          "channel": "維維 AI 技術工坊",
+          "channel_subscribers": 3350,
+          "published_at": "2026-10-17T23:00:04Z",
+          "views": 22014
+        },
+        {
+          "video_id": "mWDDaaEy0Jw",
+          "title": "DeepSeek V4.1-Flash-1017 is INSANE!",
+          "url": "https://www.youtube.com/watch?v=mWDDaaEy0Jw",
+          "channel": "Julian Goldie SEO",
+          "channel_subscribers": 432000,
+          "published_at": "2026-10-17T16:07:17Z",
+          "views": 12634
+        },
+        {
+          "video_id": "9zIhlTnY4rw",
+          "title": "DeepSeek V4.1 Flash 1017 First Test | Better Than GPT-6 Luna? | Coding, Frontend & Backend Test",
+          "url": "https://www.youtube.com/watch?v=9zIhlTnY4rw",
+          "channel": "Venelin Valkov",
+          "channel_subscribers": 35500,
+          "published_at": "2026-10-17T21:47:12Z",
+          "views": 7950
+        },
+        {
+          "video_id": "-qxmn34xwJE",
+          "title": "Agora você desenvolve seu SaaS pagando quase nada (DeepSeek V4.1 Flash) #shorts",
+          "url": "https://www.youtube.com/watch?v=-qxmn34xwJE",
+          "channel": "Cléofas Rocha",
+          "channel_subscribers": 164000,
+          "published_at": "2026-10-17T14:11:13Z",
+          "views": 539
+        }
+      ]
+    },
+    {
+      "story_id": "chatgpt-voice-codex-jarvis",
+      "title": "ChatGPT Voice plus Codex feels like Jarvis",
+      "query": "chatgpt voice codex browser use",
+      "video_count": 4,
+      "total_views": 5692,
+      "max_views": 5609,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 28,
+      "heat": 27.0,
+      "gap_score": 19,
+      "top_videos": [
+        {
+          "video_id": "_PbDW3OyBiY",
+          "title": "How to Build Your Own AI Employee with GPT 6 Astra",
+          "url": "https://www.youtube.com/watch?v=_PbDW3OyBiY",
+          "channel": "James Blue",
+          "channel_subscribers": 41700,
+          "published_at": "2026-10-19T15:50:50Z",
+          "views": 5609
+        },
+        {
+          "video_id": "a0pH9IP_RBc",
+          "title": "ChatGPT's Chrome extension: what you're actually granting",
+          "url": "https://www.youtube.com/watch?v=a0pH9IP_RBc",
+          "channel": "Worthsi",
+          "channel_subscribers": 0,
+          "published_at": "2026-10-18T07:03:32Z",
+          "views": 77
+        },
+        {
+          "video_id": "1T8Y2XyVghc",
+          "title": "ChatGPT's Biggest Week Yet — It Can Control Your Browser Now",
+          "url": "https://www.youtube.com/watch?v=1T8Y2XyVghc",
+          "channel": "Tool Tested",
+          "channel_subscribers": 3,
+          "published_at": "2026-10-17T09:49:01Z",
+          "views": 6
+        },
+        {
+          "video_id": "vUBHdwAnxjw",
+          "title": "I tested every AI tool for 6 months. Now I use less AI",
+          "url": "https://www.youtube.com/watch?v=vUBHdwAnxjw",
+          "channel": "Sundayable",
+          "channel_subscribers": 3,
+          "published_at": "2026-10-18T16:00:30Z",
+          "views": 0
         }
       ]
     }
