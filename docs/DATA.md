@@ -6,7 +6,7 @@ The page never computes data itself beyond simple fallbacks noted below.
 
 | File | Producer | Runs |
 | --- | --- | --- |
-| `data/x_trends.json` | X scanner (local job on Chase's PC) | twice daily, before the cloud refresh |
+| `data/x_trends.json` | X scan (cloud refresh, `x/`) | twice daily, first step of the cloud refresh |
 | `data/youtube_coverage.json` | YouTube coverage (cloud refresh) | twice daily, after the X scan lands |
 | `data/channel_stats.json` | Channel stats (cloud refresh) | twice daily |
 | `data/content_packs.json` | Content packs (cloud refresh) | twice daily, after coverage |
@@ -245,7 +245,7 @@ One entry per job run, newest first, capped at 60 entries.
 }
 ```
 
-- `job`: `"x_scan"` (local) or `"cloud_refresh"`.
+- `job`: `"x_scan"` (the X scan) or `"cloud_refresh"` (everything after it).
 - `step`: optional, which part of the job (`youtube_coverage`, `channel_stats`, `content_packs`, `claude_code_news`).
 - `status`: `"ok"`, `"partial"`, or `"error"`. On error, keep the previous data file and log the error, so the page keeps showing the last good data.
 - Set top-level `generated_at` to the newest entry's `at`.
