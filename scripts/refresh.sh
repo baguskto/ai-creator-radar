@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Cloud refresh: YouTube coverage + channel stats and Claude Code news.
 # Content packs are written afterwards by the Claude session running this job.
-# Runs twice daily in a scheduled Claude cloud session (see docs/REFRESH.md).
+# Runs twice daily in a scheduled Claude cloud session, after scripts/x-scan.sh (see docs/REFRESH.md).
 # Each step is independent: a failed step keeps its last good file and logs the error.
 # Commits only data/ files, straight to main.
 set -uo pipefail
