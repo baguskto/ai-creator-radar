@@ -5,7 +5,7 @@
 
 Reads data/x_trends.json and writes, per docs/DATA.md:
   data/youtube_coverage.json   coverage + gap score per X story
-  data/channel_stats.json      @Chase-H-AI latest videos vs. usual
+  data/channel_stats.json      @baguskto latest videos vs. usual
   data/refresh_log.json        one entry per step (youtube_coverage, channel_stats)
   data/youtube_history.json    view snapshots for same-age comparisons (not read by the page)
 
@@ -97,7 +97,7 @@ def run_channel(client, args, now):
 def main(argv=None):
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("--data", default="data", help="data directory (default: data)")
-    p.add_argument("--handle", default="@Chase-H-AI")
+    p.add_argument("--handle", default="@baguskto")
     p.add_argument("--max-stories", type=int, default=15,
                    help="stories to search, hottest first (100 quota units each)")
     p.add_argument("--lookback-hours", type=int, default=72, help="how far back YouTube coverage counts")
