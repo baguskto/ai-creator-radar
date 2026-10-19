@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T19:53:13Z",
+  "generated_at": "2026-10-19T22:59:57Z",
   "sample": false,
-  "latest_version": "2.1.303",
+  "latest_version": "2.1.304",
   "dist_tags": {
-    "latest": "2.1.303",
-    "stable": "2.1.292",
+    "latest": "2.1.304",
+    "stable": "2.1.304",
     "next": "2.1.304"
   },
   "items": [
+    {
+      "version": "2.1.304",
+      "date": "2026-10-19",
+      "title": "10 new features, 12 improvements, 11 changes, 43 fixes",
+      "highlights": [
+        "Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin",
+        "Added decider: \"person\" to a mod's tool.check answer: only the permission dialog or a host's callback can approve the ask, and it is…",
+        "Added e.isReadOnly to a mod's tool.check event, set when the tool call is read-only",
+        "Added /auto-mode-setup: a guided setup that reads your project and recent sessions to teach auto mode about your environment, now also…",
+        "Added /claude-api managed-agents-secure, which compares a Managed Agents agent's settings with Anthropic's published security guide…"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.304",
+      "released_at": "2026-10-19T19:47:15.337Z",
+      "summary": "10 added, 12 improved, 9 changed, 43 fixed, 2 removed",
+      "counts": {
+        "added": 10,
+        "improved": 12,
+        "changed": 9,
+        "fixed": 43,
+        "removed": 2,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.303",
       "date": "2026-10-18",
@@ -162,26 +185,6 @@
         "improved": 13,
         "changed": 16,
         "fixed": 97,
-        "removed": 0,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.294",
-      "date": "2026-10-08",
-      "title": "1 improvement, 1 fix",
-      "highlights": [
-        "Improved how prompt hooks on Stop and SubagentStop written as instructions (such as \"Carry on if the build is broken\") are judged, so…",
-        "Fixed prompt and agent hooks written as instructions (such as \"Block commands that...\") allowing what they should block"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.294",
-      "released_at": "2026-10-08T03:42:57.084Z",
-      "summary": "1 improved, 1 fixed",
-      "counts": {
-        "added": 0,
-        "improved": 1,
-        "changed": 0,
-        "fixed": 1,
         "removed": 0,
         "other": 0
       }

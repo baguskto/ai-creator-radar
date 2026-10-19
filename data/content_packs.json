@@ -1,26 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T19:54:03Z",
+  "generated_at": "2026-10-19T23:00:39Z",
   "sample": false,
   "packs": [
     {
-      "story_id": "us-bans-deepseek-federal",
-      "why_now": "DHS just ordered civilian agencies to drop DeepSeek, and the YouTube videos so far are news-desk reads with almost no views. Builders using DeepSeek models want to know if this touches them.",
+      "story_id": "grok-bot-push",
+      "fingerprint": "c06e5689594a91b3",
+      "why_now": "Elon's 'Hire Grok @Bot' post pulled 12K+ likes and there is no YouTube coverage yet. Be the first to show what Grok Bot actually does when you set it up.",
       "video": {
-        "title": "DHS Bans DeepSeek: What It Means If You Build With It",
-        "thumbnail_text": "DeepSeek Banned?",
-        "hook": "The US government just told every civilian agency to rip out DeepSeek, and anything built on it. If you use DeepSeek in your stack, here's what this does and doesn't mean for you.",
+        "title": "I Tested Grok Bot: Can You Really 'Hire' It?",
+        "thumbnail_text": "HIRE GROK BOT?",
+        "hook": "Elon says you should hire Grok Bot today. Twelve thousand likes on that post, zero videos showing what it does. So I set one up, gave it real work, and I'm going to show you where it helps and where it falls over.",
         "alt_titles": [
-          "DeepSeek Ban: Should Builders Panic?",
-          "Can You Still Use DeepSeek After the DHS Order?"
+          "Grok Bot Setup: What Works, What Doesn't",
+          "I Gave Grok Bot a Week of Real Work"
         ],
         "outline": [
-          "What the DHS order says: civilian federal agencies, DeepSeek products and third-party services built on DeepSeek implementations",
-          "What it does not say: it is not a ban for private companies or individuals, based on the posts so far",
-          "Who is actually affected: contractors and tools selling into government",
-          "How to check your own stack for DeepSeek dependencies",
-          "Self-hosted vs hosted API: why the risk differs",
-          "What I'd do this week if I sold to government clients"
+          "What Grok Bot is, in plain words, and what xAI says version 0.71.2 added",
+          "Setup walkthrough: connect it, set notifications, send it a file",
+          "Three real tasks I hand it, with the results as they came",
+          "The multi-bot idea from the viral demo: one coordinator, several workers. Does it hold up?",
+          "Where it broke or needed babysitting",
+          "Verdict: who should try it this week"
         ]
       },
       "short": {
@@ -28,90 +29,78 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "DHS just banned DeepSeek from federal agencies.",
-            "visual": "Headline text over a DeepSeek logo"
+            "line": "Elon says hire Grok Bot. I did. Here's what happened.",
+            "visual": "Elon's post, then my screen"
           },
           {
-            "t": "3-8s",
-            "line": "The order covers civilian agencies and any service built on DeepSeek.",
-            "visual": "Quote from the order on screen"
+            "t": "3-10s",
+            "line": "Version 0.71.2 takes files up to 250 megabytes and sends smarter notifications. There's even an iPhone Action Button shortcut.",
+            "visual": "Changelog, then phone shortcut"
           },
           {
-            "t": "8-14s",
-            "line": "If you're a solo builder, this isn't a ban on you.",
-            "visual": "Chase to camera"
+            "t": "10-20s",
+            "line": "I gave it a real task and let it run. It handled the first one cleanly and stumbled on the second.",
+            "visual": "Screen recording of two tasks"
           },
           {
-            "t": "14-20s",
-            "line": "But if you sell to government, check your stack today.",
-            "visual": "Checklist appears"
-          },
-          {
-            "t": "20-25s",
-            "line": "Look for DeepSeek models behind any API or tool you use.",
-            "visual": "Screen recording of a dependency search"
-          },
-          {
-            "t": "25-30s",
-            "line": "I'll show you how to audit it. Follow for part two.",
-            "visual": "End card"
+            "t": "20-30s",
+            "line": "Worth setting up if you want a bot on your own tasks. Don't expect a coworker yet. Full test is on the channel.",
+            "visual": "Verdict card"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "DHS bans DeepSeek in federal agencies",
-            "body": "Civilian agencies must remove it and stop buying it."
+            "heading": "Hire Grok Bot?",
+            "body": "Elon says yes. We tested it."
           },
           {
-            "heading": "It covers third-party services too",
-            "body": "Anything built on DeepSeek implementations."
+            "heading": "What's new",
+            "body": "v0.71.2: bigger files, smarter notifications"
           },
           {
-            "heading": "Who is affected",
-            "body": "Agencies first. Vendors selling to them next."
+            "heading": "iPhone shortcut",
+            "body": "Talk to it from the Action Button"
           },
           {
-            "heading": "Who isn't, so far",
-            "body": "Nothing in the posts says private users are banned."
+            "heading": "The team idea",
+            "body": "One coordinator bot, many workers"
           },
           {
-            "heading": "Audit your stack",
-            "body": "Check which models sit behind your tools."
+            "heading": "What we checked",
+            "body": "Setup, real tasks, failures"
           },
           {
-            "heading": "Want the audit walkthrough?",
-            "body": "Follow for the step-by-step."
+            "heading": "Full test on Chase AI",
+            "body": "Follow for the results"
           }
         ],
-        "caption": "DHS ordered civilian agencies to remove DeepSeek. Here's the practical read for builders."
+        "caption": "Grok Bot is everywhere on X this week. Here's what's actually new and what we're testing."
       },
-      "x_post": "DHS is requiring civilian federal agencies to remove DeepSeek and any third-party services built on it. If you sell to government, audit which models sit behind your stack today. Video on what it does and doesn't mean coming up.",
+      "x_post": "Elon: 'Hire Grok @Bot today.' 12K likes. So I'm testing it on real work: setup, files up to 250 MB, notifications, the multi-bot team setup. Results on the channel soon.",
       "x_thread": [
-        "Scope per the reports: civilian federal agencies, and they must stop buying it too.",
-        "Nothing I've seen says individuals or private companies are banned. I'll check the order text in the video."
-      ],
-      "fingerprint": "0c0fe03fa545d136"
+        "Version 0.71.2 added smarter notifications and bigger file uploads. I'll check whether that changes daily use."
+      ]
     },
     {
-      "story_id": "inception-mercury-3",
-      "why_now": "Mercury 3 launched today with big speed claims and only tiny-view coverage. Being first to test a 1,000 tokens/sec diffusion model is a real edge.",
+      "story_id": "schmidt-anthropic-stake",
+      "fingerprint": "ac8c6b0ad9aba66b",
+      "why_now": "Bloomberg-sourced posts say Eric Schmidt owns about 1% of Anthropic, ahead of an IPO. Videos on this are not out yet and builders care about where the company is heading.",
       "video": {
-        "title": "Mercury 3 Tested: Diffusion LLM at 1,000 Tokens/Sec",
-        "thumbnail_text": "1,000 Tokens/Sec",
-        "hook": "Inception says Mercury 3 beats Claude Haiku 5.5 and runs over 1,000 tokens a second. I'm going to put it through real coding and agent tasks and see where it holds up and where it breaks.",
+        "title": "Eric Schmidt Owns 1% of Anthropic? What It Means for Builders",
+        "thumbnail_text": "SCHMIDT x ANTHROPIC",
+        "hook": "Reports say Eric Schmidt owns about one percent of Anthropic, a stake that could be worth around twenty billion dollars. If you build on Claude, here's what that does and doesn't tell you.",
         "alt_titles": [
-          "I Tested the Fastest LLM Yet: Mercury 3",
-          "Is Diffusion the Future of LLMs? Mercury 3 Test"
+          "Anthropic IPO Talk: What Builders Should Know",
+          "Schmidt's Anthropic Stake, Explained"
         ],
         "outline": [
-          "How a diffusion LLM differs from normal token-by-token models",
-          "The claims: speed, benchmarks vs GPT-6 Luna and Haiku 5.5",
-          "Speed test on a real coding task",
-          "Quality test: same prompts against Haiku 5.5",
-          "Where speed helps: agents and autocomplete",
-          "Verdict: who should switch, who shouldn't"
+          "What was reported, and by whom (Bloomberg, relayed on X)",
+          "What's confirmed vs what's the headline math",
+          "Why an IPO matters for API pricing and limits, framed as questions to watch",
+          "What changes for you if you build on Claude, and what doesn't",
+          "What I'll be watching next"
         ]
       },
       "short": {
@@ -119,87 +108,79 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "This model writes over 1,000 tokens a second.",
-            "visual": "Speed counter running on screen"
+            "line": "Eric Schmidt reportedly owns one percent of Anthropic.",
+            "visual": "Headline graphic"
           },
           {
-            "t": "3-8s",
-            "line": "It's Mercury 3, a diffusion LLM, not a normal one.",
-            "visual": "Title card"
+            "t": "3-12s",
+            "line": "That's per Bloomberg, and posts put it near twenty billion dollars ahead of an IPO.",
+            "visual": "Bloomberg quote"
           },
           {
-            "t": "8-14s",
-            "line": "Inception says it beats Haiku 5.5 on benchmarks.",
-            "visual": "Benchmark claim on screen"
+            "t": "12-22s",
+            "line": "It's an ownership number, not a product announcement. Nothing in your Claude setup changes today.",
+            "visual": "Your API dashboard"
           },
           {
-            "t": "14-20s",
-            "line": "I'm testing that claim on a real coding task.",
-            "visual": "Screen recording"
-          },
-          {
-            "t": "20-25s",
-            "line": "Fast is only useful if the answer is right.",
-            "visual": "Chase to camera"
-          },
-          {
-            "t": "25-30s",
-            "line": "Full test is coming. Follow so you don't miss it.",
-            "visual": "End card"
+            "t": "22-30s",
+            "line": "What to watch: IPO filing details, pricing, usage limits. I'll cover them as they land.",
+            "visual": "Watchlist"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "Mercury 3 is live",
-            "body": "A diffusion LLM from Inception."
+            "heading": "Schmidt owns ~1%?",
+            "body": "Reported via Bloomberg"
           },
           {
-            "heading": "Over 1,000 tokens per second",
-            "body": "That's the claim. I'm testing it."
+            "heading": "The number",
+            "body": "Potentially ~$20B, per posts"
           },
           {
-            "heading": "Claimed to beat Haiku 5.5",
-            "body": "Inception also names GPT-6 Luna."
+            "heading": "IPO context",
+            "body": "Anthropic reportedly heading to IPO"
           },
           {
-            "heading": "Why diffusion is different",
-            "body": "It refines whole text at once, not one token at a time."
+            "heading": "What it isn't",
+            "body": "Not a product or pricing change"
           },
           {
-            "heading": "What I'll check",
-            "body": "Speed, accuracy, and agent use."
+            "heading": "What to watch",
+            "body": "Filings, pricing, limits"
           },
           {
-            "heading": "Want the test results?",
-            "body": "Follow for the full breakdown."
+            "heading": "Follow Chase AI",
+            "body": "More as it lands"
           }
         ],
-        "caption": "Mercury 3 claims 1,000+ tokens/sec. Testing it next."
+        "caption": "Reported: Eric Schmidt owns roughly 1% of Anthropic. What it means, and what it doesn't."
       },
-      "x_post": "Mercury 3 from Inception claims 1,000+ tokens/sec and beating Claude Haiku 5.5 on benchmarks. Fast is cheap to claim. I'm running it on real coding tasks to see if the answers hold up.",
-      "x_thread": [],
-      "fingerprint": "a28ba82e46650ead"
+      "x_post": "Reported via Bloomberg: Eric Schmidt owns about 1% of Anthropic. Big number, but it's an ownership story, not a product change. Here's what builders should actually watch.",
+      "x_thread": [
+        "Things I'm watching: IPO filing details, API pricing, usage limits."
+      ]
     },
     {
-      "story_id": "indra-ocr-1-1",
-      "why_now": "A 1M-parameter OCR model running on CPU is the kind of tool builders can use today, and nobody on YouTube has covered it yet.",
+      "story_id": "anthropic-oss-scanner",
+      "fingerprint": "633fc4ded1906ca6",
+      "why_now": "Anthropic launched OSS Scanner today: free periodic vulnerability scans for critical open source projects. Only tiny channels have covered it, so a hands-on explainer can lead.",
       "video": {
-        "title": "This 1M-Parameter OCR Model Runs on a CPU",
-        "thumbnail_text": "Tiny OCR, 44 Pages/s",
-        "hook": "A one-million-parameter model that reads documents at 44 pages a second on a CPU. Indra OCR 1.1 claims it's close to a model 3,400 times bigger. Let's see if your documents survive it.",
+        "title": "Anthropic's Free OSS Scanner: Should You Apply?",
+        "thumbnail_text": "FREE SECURITY SCANS",
+        "hook": "Anthropic just launched a free scanner for open source projects. It finds vulnerabilities, shows a proof of concept, and sometimes hands you the patch. Here's who it's for and how to try it.",
         "alt_titles": [
-          "Indra OCR 1.1 vs Tesseract: Real Test",
-          "Free Fast OCR for Your Projects: Indra OCR 1.1"
+          "Claude Now Scans Open Source for Free",
+          "OSS Scanner: Hands-On Look"
         ],
         "outline": [
-          "What Indra OCR 1.1 is and the claims: 44 pages/s CPU, 80+ languages, handwriting",
-          "Setup walkthrough",
-          "Test on clean PDFs",
-          "Test on messy scans and handwriting",
-          "Compare against Tesseract",
-          "Where it fits in a document pipeline"
+          "What Anthropic announced: free, periodic scans for critical projects",
+          "Who qualifies, as far as the announcement says (check the page)",
+          "What each finding includes: proof of concept, patch where possible",
+          "Walk through the red.anthropic.com page",
+          "How it compares with running an AI code review yourself",
+          "Should you apply, and what to do if you maintain something small"
         ]
       },
       "short": {
@@ -207,87 +188,79 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "An OCR model with one million parameters.",
-            "visual": "Parameter count on screen"
+            "line": "Anthropic will scan open source projects for free.",
+            "visual": "OSS Scanner page"
           },
           {
-            "t": "3-8s",
-            "line": "It runs at 44 pages a second on a plain CPU.",
-            "visual": "Terminal speed run"
+            "t": "3-12s",
+            "line": "Each finding comes with a proof of concept, and a patch where possible.",
+            "visual": "Finding example"
           },
           {
-            "t": "8-14s",
-            "line": "It claims to be within 4 points of DeepSeek OCR 2.",
-            "visual": "Benchmark claim"
+            "t": "12-22s",
+            "line": "It's for critical open source projects, so check the page to see if yours counts.",
+            "visual": "Eligibility section"
           },
           {
-            "t": "14-20s",
-            "line": "And 15x faster than Tesseract.",
-            "visual": "Side by side"
-          },
-          {
-            "t": "20-25s",
-            "line": "I'm testing it on messy scans and handwriting.",
-            "visual": "Scan samples"
-          },
-          {
-            "t": "25-30s",
-            "line": "Results soon. Follow to catch them.",
-            "visual": "End card"
+            "t": "22-30s",
+            "line": "If you maintain something, apply. If not, you can still run an AI review yourself. I'll show both.",
+            "visual": "Split screen"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "Indra OCR 1.1 is out",
-            "body": "A 1M-parameter OCR model."
+            "heading": "Free AI scans",
+            "body": "Anthropic OSS Scanner"
           },
           {
-            "heading": "44 pages/s on CPU",
-            "body": "No GPU needed, per the release."
+            "heading": "What you get",
+            "body": "Findings with proof of concept"
           },
           {
-            "heading": "Close to DeepSeek OCR 2",
-            "body": "Within 4 points on OmniParseBench, as claimed."
+            "heading": "Patches too",
+            "body": "Where possible"
           },
           {
-            "heading": "15x faster than Tesseract",
-            "body": "And said to be more accurate."
+            "heading": "Who it's for",
+            "body": "Critical open source projects"
           },
           {
-            "heading": "80+ languages and handwriting",
-            "body": "I'll test how well."
+            "heading": "Check eligibility",
+            "body": "red.anthropic.com/oss-scanner"
           },
           {
-            "heading": "Want the test?",
-            "body": "Follow for results."
+            "heading": "More on Chase AI",
+            "body": "Hands-on test coming"
           }
         ],
-        "caption": "Tiny OCR model, big claims. Testing Indra OCR 1.1."
+        "caption": "Anthropic launched OSS Scanner: free, periodic vulnerability scans for critical open source projects."
       },
-      "x_post": "Indra OCR 1.1: 1M params, 44 pages/sec on CPU, claimed within 4 points of DeepSeek OCR 2. If it handles messy scans, that's a very cheap document pipeline. Testing it.",
-      "x_thread": [],
-      "fingerprint": "17a46a74b0353a99"
+      "x_post": "Anthropic launched OSS Scanner: free, periodic vulnerability scans for critical open source projects. Each finding comes with a proof of concept, and a patch where possible. Hands-on look coming.",
+      "x_thread": [
+        "Details and eligibility: red.anthropic.com/oss-scanner"
+      ]
     },
     {
-      "story_id": "cloudflare-clairic-model",
-      "why_now": "Cloudflare is calling clairic a new model paradigm and YouTube has only a short. A hands-on explainer of what it's for gets ahead of the crowd.",
+      "story_id": "openai-legacy-language-modernization",
+      "fingerprint": "75160a2cdf1d6dbe",
+      "why_now": "OpenAI says its latest model is better at COBOL, Fortran and Visual Basic, and it is asking which workflows to tackle next. No video yet, and legacy migration is a real business niche.",
       "video": {
-        "title": "Cloudflare Clairic: A New Kind of AI Model?",
-        "thumbnail_text": "Cloudflare's New Model",
-        "hook": "Cloudflare just launched a model that doesn't chat. Clairic is built to pull values out of messy inputs. Is it actually better than just prompting a big LLM? Let's check.",
+        "title": "AI vs COBOL: Can It Really Migrate Legacy Code?",
+        "thumbnail_text": "AI vs COBOL",
+        "hook": "OpenAI says its new model is better at COBOL, Fortran and Visual Basic. Banks and governments still run on those. So I handed it real legacy code to see if it can actually migrate it.",
         "alt_titles": [
-          "Clairic Explained: Cloudflare's System One Model",
-          "Should You Replace Your LLM Extraction Prompts?"
+          "Can AI Modernize COBOL? I Tested It",
+          "Legacy Code Migration With AI: Real Test"
         ],
         "outline": [
-          "What Cloudflare says clairic is: a system one model for extracting, computing, estimating and predicting values",
-          "Why they say it beats a general chat model for this",
-          "Walk through the Cloudflare blog post",
-          "Try it on invoices or messy text if access is available",
-          "Compare cost and speed to a general LLM",
-          "Who should care"
+          "What OpenAI said, and what it didn't show",
+          "Why COBOL and Fortran matter: banks, governments, business systems",
+          "My test: a small COBOL program, ask for explanation then migration",
+          "Check the output: does behavior match?",
+          "Where it needs a human",
+          "Who can use this today"
         ]
       },
       "short": {
@@ -295,156 +268,138 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Cloudflare launched a model that doesn't chat.",
-            "visual": "Cloudflare blog on screen"
+            "line": "OpenAI says its model got better at COBOL.",
+            "visual": "OpenAI post"
           },
           {
-            "t": "3-8s",
-            "line": "It's called clairic.",
-            "visual": "Title card"
+            "t": "3-12s",
+            "line": "Banks and governments still run on it, so migration is real work.",
+            "visual": "COBOL code on screen"
           },
           {
-            "t": "8-14s",
-            "line": "It extracts and estimates values from messy inputs.",
-            "visual": "Example input to output"
+            "t": "12-22s",
+            "line": "I fed it a small COBOL program and checked if the migrated version behaves the same.",
+            "visual": "Side-by-side diff"
           },
           {
-            "t": "14-20s",
-            "line": "They call it a system one model.",
-            "visual": "Quote on screen"
-          },
-          {
-            "t": "20-25s",
-            "line": "I'm checking if it beats prompting a big LLM.",
-            "visual": "Chase to camera"
-          },
-          {
-            "t": "25-30s",
-            "line": "Follow for the comparison.",
-            "visual": "End card"
+            "t": "22-30s",
+            "line": "Full result in the video. Spoiler: check the logic, don't trust it blindly.",
+            "visual": "Test result"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "Cloudflare launches clairic",
-            "body": "A new model for data extraction."
-          },
-          {
-            "heading": "Not a chatbot",
-            "body": "Built for unstructured inputs to values."
-          },
-          {
-            "heading": "A system one model",
-            "body": "Fast and narrow by design, per Cloudflare."
-          },
-          {
-            "heading": "What it does",
-            "body": "Extract, compute, estimate, predict."
-          },
-          {
-            "heading": "The question",
-            "body": "Is it better than a big LLM prompt?"
-          },
-          {
-            "heading": "Want the comparison?",
-            "body": "Follow for the test."
-          }
-        ],
-        "caption": "Cloudflare's clairic: a model built just for extraction."
-      },
-      "x_post": "Cloudflare introduced clairic, a model for extracting and estimating values from unstructured inputs rather than chatting. I want to see if it beats a good LLM prompt on cost and accuracy. Testing it.",
-      "x_thread": [],
-      "fingerprint": "567b339f0483b12b"
-    },
-    {
-      "story_id": "anthropic-nscale-compute-deal",
-      "why_now": "Bloomberg says a $45B compute deal could close within days. The story is a report, not a done deal, so a clear explainer on what it means for Claude users lands now.",
-      "video": {
-        "title": "Anthropic's $45B Compute Deal: What It Means for Claude",
-        "thumbnail_text": "$45B for Compute",
-        "hook": "Bloomberg says Anthropic is in talks to buy forty-five billion dollars of compute from Nscale. It's not signed yet. Here's what it could mean for rate limits and for you.",
-        "alt_titles": [
-          "Why Anthropic Wants $45B More Compute",
-          "Will This Fix Claude's Usage Limits?"
-        ],
-        "outline": [
-          "What Bloomberg reported: talks, not a signed deal, possibly final within days",
-          "Who Nscale is: Nvidia-backed data center developer eyeing an IPO",
-          "Why compute is the bottleneck for usage limits",
-          "What it could change for Claude Code users, flagged as speculation",
-          "Compare with other labs' compute moves",
-          "What to watch next"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-3s",
-            "line": "Anthropic may buy 45 billion dollars of compute.",
-            "visual": "Bloomberg headline"
-          },
-          {
-            "t": "3-8s",
-            "line": "That's from Nscale, an Nvidia-backed data center company.",
-            "visual": "Nscale logo"
-          },
-          {
-            "t": "8-14s",
-            "line": "It's talks only. Nothing is signed.",
-            "visual": "Caption: not final"
-          },
-          {
-            "t": "14-20s",
-            "line": "Compute is why you hit usage limits.",
-            "visual": "Claude limit screen"
-          },
-          {
-            "t": "20-25s",
-            "line": "More compute could mean more room, but that's not promised.",
-            "visual": "Chase to camera"
-          },
-          {
-            "t": "25-30s",
-            "line": "Follow for updates when it's official.",
-            "visual": "End card"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "Anthropic eyes $45B of compute",
-            "body": "Per Bloomberg, in talks with Nscale."
-          },
-          {
-            "heading": "Not signed yet",
-            "body": "Could be finalized in the coming days."
-          },
-          {
-            "heading": "Who is Nscale",
-            "body": "Nvidia-backed data center developer."
+            "heading": "AI vs COBOL",
+            "body": "OpenAI claims new gains"
           },
           {
             "heading": "Why it matters",
-            "body": "Compute limits how much Claude you can use."
+            "body": "Banks and governments run on it"
           },
           {
-            "heading": "What's unknown",
-            "body": "Terms, timing, and any change for users."
+            "heading": "Also Fortran",
+            "body": "And Visual Basic"
           },
           {
-            "heading": "Stay tuned",
-            "body": "Follow for the update."
+            "heading": "The test",
+            "body": "Migrate real code, compare behavior"
+          },
+          {
+            "heading": "The catch",
+            "body": "Business logic needs review"
+          },
+          {
+            "heading": "Follow Chase AI",
+            "body": "Full test coming"
           }
         ],
-        "caption": "A reported $45B compute talk. Here's the builder's view."
+        "caption": "OpenAI says its latest model is stronger at COBOL, Fortran and Visual Basic. We're putting it to a real test."
       },
-      "x_post": "Bloomberg: Anthropic is in talks to buy $45B of compute from Nscale. Talks, not signed. Compute is what sets your usage limits, so I'm watching this one. Breakdown in my next video.",
-      "x_thread": [],
-      "fingerprint": "5ed5bb90bc59ec9e"
+      "x_post": "OpenAI says its latest model is better at COBOL, Fortran and Visual Basic. I'm testing a real migration: does the output behave like the original? Results soon.",
+      "x_thread": [
+        "The claim is about building and migrating legacy software. I'll check the migration part with a small program."
+      ]
+    },
+    {
+      "story_id": "anthropic-nscale-compute-deal",
+      "fingerprint": "e1ccbe8e9ba4625e",
+      "why_now": "Bloomberg reports Anthropic is in talks for $45B of Nscale compute, with a deal possibly in days. Critics are already questioning it. Videos on it are scarce.",
+      "video": {
+        "title": "Anthropic's $45B Compute Deal: Why You Should Care",
+        "thumbnail_text": "$45B COMPUTE DEAL",
+        "hook": "Anthropic is reportedly in talks to buy forty-five billion dollars of compute from a company most people haven't heard of. Here's who Nscale is, and why compute decides your usage limits.",
+        "alt_titles": [
+          "Anthropic x Nscale: The $45B Deal Explained",
+          "Why Claude Needs $45B of Compute"
+        ],
+        "outline": [
+          "What Bloomberg reported: talks, not a signed deal",
+          "Who Nscale is: Nvidia-backed data center developer",
+          "Why compute matters to builders: limits, speed, availability",
+          "The skeptic view: questions raised about whether Nscale can deliver",
+          "What to watch if the deal closes"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "Anthropic may buy forty-five billion dollars of compute.",
+            "visual": "Bloomberg headline"
+          },
+          {
+            "t": "3-12s",
+            "line": "The seller is Nscale, an Nvidia-backed data center developer. This is talks, not a done deal.",
+            "visual": "Nscale graphic"
+          },
+          {
+            "t": "12-22s",
+            "line": "Compute is what sets your Claude limits and speed. Critics question whether Nscale can deliver.",
+            "visual": "Limits page"
+          },
+          {
+            "t": "22-30s",
+            "line": "If it closes, watch for limits and availability. I'll track it.",
+            "visual": "Watchlist"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "$45B compute",
+            "body": "Anthropic in talks with Nscale"
+          },
+          {
+            "heading": "Source",
+            "body": "Bloomberg"
+          },
+          {
+            "heading": "Who is Nscale",
+            "body": "Nvidia-backed data center developer"
+          },
+          {
+            "heading": "Why you care",
+            "body": "Compute shapes limits and speed"
+          },
+          {
+            "heading": "The skeptics",
+            "body": "Doubts about delivery"
+          },
+          {
+            "heading": "Follow Chase AI",
+            "body": "Updates if it closes"
+          }
+        ],
+        "caption": "Anthropic is reportedly in talks to buy $45B of compute from Nscale. Why builders should care."
+      },
+      "x_post": "Reported by Bloomberg: Anthropic is in talks to buy $45B of compute from Nscale. Talks, not a signed deal. Compute is what sets your limits and speed, so it's worth watching.",
+      "x_thread": [
+        "Some critics doubt Nscale can deliver. I'll follow whether it closes."
+      ]
     }
   ]
 }

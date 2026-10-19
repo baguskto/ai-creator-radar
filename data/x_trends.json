@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T19:48:12Z",
+  "generated_at": "2026-10-19T22:54:00Z",
   "sample": false,
   "window_hours": 24,
   "queries": [
@@ -15,508 +15,543 @@
   "stories": [
     {
       "id": "deepseek-v4-1-flash-1017",
-      "title": "DeepSeek V4.1 Flash 1017 lands as top open model",
-      "summary": "DeepSeek released V4.1 Flash 1017, which scores 45 on the Artificial Analysis index (equal #2 open-weights). It is going free or live in OpenCode, Qoder and Command Code, and a 1-bit build is said to run locally on 128GB+ RAM.",
+      "title": "DeepSeek V4.1 Flash 1017 update draws praise from coders",
+      "summary": "DeepSeek V4.1 Flash was updated to a 1017 checkpoint, now in OpenCode Go and Free. Users report it beats GLM 5.3 Flash on coding, and quantized and abliterated versions are circulating.",
       "keywords": [
         "deepseek v4.1 flash",
         "deepseek",
-        "open weights model",
-        "opencode"
+        "opencode",
+        "glm 5.3 flash"
       ],
-      "first_seen": "2026-10-19T15:56:47Z",
+      "first_seen": "2026-10-18T23:51:02Z",
       "heat": 100,
       "metrics": {
-        "posts": 6,
-        "likes": 9457,
-        "reposts": 471,
-        "velocity_per_hour": 2828,
-        "views": 568935
+        "posts": 8,
+        "likes": 11305,
+        "reposts": 635,
+        "velocity_per_hour": 1720,
+        "views": 370867
       },
       "top_posts": [
         {
           "url": "https://x.com/opencode/status/2112220734768779441",
           "author": "@opencode",
           "text": "DeepSeek V4.1 Flash updated to 1017 in OpenCode Go and Free\n\nNo changes needed on your end",
-          "likes": 6670,
-          "reposts": 316,
-          "views": 137790,
+          "likes": 8337,
+          "reposts": 419,
+          "views": 217726,
           "posted_at": "2026-10-19T16:34:00Z"
         },
         {
-          "url": "https://x.com/UnslothAI/status/2112212605930778830",
-          "author": "@UnslothAI",
-          "text": "DeepSeek V4.1-Flash-1017 can now run locally! 🐳\n\nWe made 1-bit retain ~88.2% accuracy while shrinking size from 508GB to 250GB (−52%).\n\nRun on a 128GB+ RAM device.\n\nV4.1 Flash 1017 is the strongest open model to date\n\nGuide: https://unsloth.ai/docs/models/deepseek-v4.1-flash\nGGU…",
-          "likes": 891,
-          "reposts": 56,
-          "views": 37663,
-          "posted_at": "2026-10-19T16:01:42Z"
+          "url": "https://x.com/anya_yfa7/status/2111996702165180796",
+          "author": "@anya_yfa7",
+          "text": "6 AI models are FREE on BeatAPI right now 👀\n\nModels available:\n\n→ DeepSeek V4.1 Flash\n→ DeepSeek V4 Flash\n→ GLM 5.3\n→ GLM 5.3 Flash\n→ Gemini 3.8 Flash\n→ GPT-6.1 Sol\n\nHow to get started:\n\n1. Go to https://beatapi.io\n2. Sign up and create an API key\n3. Use the API with your coding…",
+          "likes": 881,
+          "reposts": 97,
+          "views": 50327,
+          "posted_at": "2026-10-19T01:43:47Z"
         },
         {
-          "url": "https://x.com/ArtificialAnlys/status/2112218661432000694",
-          "author": "@ArtificialAnlys",
-          "text": "DeepSeek V4.1 Flash 1017 scores 45 on the Artificial Analysis Intelligence Index, improving on DeepSeek V4.1 Flash by 6 points, and is the equal #2 open-weights model\n\n@deepseek_ai has released DeepSeek V4.1 Flash 1017, an update on their flagship model DeepSeek V4.1 Flash. On t…",
-          "likes": 721,
-          "reposts": 51,
-          "views": 38161,
-          "posted_at": "2026-10-19T16:25:46Z"
+          "url": "https://x.com/Sentdex/status/2111968329854300414",
+          "author": "@Sentdex",
+          "text": "DeepSeek v4.1 Flash 1017 is very good so far",
+          "likes": 576,
+          "reposts": 9,
+          "views": 13394,
+          "posted_at": "2026-10-18T23:51:02Z"
         }
       ]
     },
     {
-      "id": "us-bans-deepseek-federal",
-      "title": "DHS orders federal agencies to remove DeepSeek",
-      "summary": "The Department of Homeland Security is requiring civilian federal agencies to remove DeepSeek products and services built on them, citing national security.",
+      "id": "grok-bot-push",
+      "title": "xAI pushes Grok Bot with new release and demos",
+      "summary": "xAI promotes Grok Bot: version 0.71.2 adds larger file uploads and smarter notifications, an iPhone Action Button shortcut, and users share multi-bot setups.",
       "keywords": [
-        "deepseek ban",
-        "deepseek",
-        "dhs",
-        "federal agencies"
+        "grok bot",
+        "xai grok",
+        "grok bot 0.71.2"
       ],
-      "first_seen": "2026-10-19T16:54:01Z",
-      "heat": 85,
+      "first_seen": "2026-10-19T07:29:25Z",
+      "heat": 100,
       "metrics": {
-        "posts": 3,
-        "likes": 1116,
-        "reposts": 147,
-        "velocity_per_hour": 747,
-        "views": 43749
+        "posts": 6,
+        "likes": 17733,
+        "reposts": 1535,
+        "velocity_per_hour": 2175,
+        "views": 5825334
       },
       "top_posts": [
         {
-          "url": "https://x.com/AndrewCurran_/status/2112250754358788437",
-          "author": "@AndrewCurran_",
-          "text": "The Department of Homeland Security is requiring all civilian federal agencies to remove DeepSeek products and 'any third-party services developed using DeepSeek implementations,' and to stop buying them.",
-          "likes": 534,
-          "reposts": 79,
-          "views": 21745,
-          "posted_at": "2026-10-19T18:33:18Z"
+          "url": "https://x.com/elonmusk/status/2112083685872644421",
+          "author": "@elonmusk",
+          "text": "Hire Grok @Bot today. You won’t regret it.",
+          "likes": 12558,
+          "reposts": 1181,
+          "views": 5180057,
+          "posted_at": "2026-10-19T07:29:25Z"
         },
         {
-          "url": "https://x.com/MTSlive/status/2112248362548469992",
-          "author": "@MTSlive",
-          "text": "SITUATION DETECTED: The US government is banning DeepSeek from all civilian federal agency IT systems under national security.",
-          "likes": 324,
-          "reposts": 19,
-          "views": 14797,
-          "posted_at": "2026-10-19T18:23:47Z"
+          "url": "https://x.com/akarixbt/status/2112176985162023036",
+          "author": "@akarixbt",
+          "text": "This is f*king insane. SpaceXAI engineer Nick Miller, ex-Cursor:\n\n\"99% of people open one Grok Bot and call it automation\n\nI run 20+ bots with a Chief of Staff, a PM, QA, and 15+ workers\"\n\nIn this 30-minute demo, he shows how to turn a single bot into a coordinated team\n\nGrok Bo…",
+          "likes": 1694,
+          "reposts": 155,
+          "views": 201872,
+          "posted_at": "2026-10-19T13:40:10Z"
         },
         {
-          "url": "https://x.com/GeneralMCNews/status/2112225771066683560",
-          "author": "@GeneralMCNews",
-          "text": "BREAKING: The Trump administration orders Chinese AI model DeepSeek removed from U.S. federal agency systems over national security concerns.",
-          "likes": 258,
-          "reposts": 49,
-          "views": 7207,
-          "posted_at": "2026-10-19T16:54:01Z"
+          "url": "https://x.com/poteto/status/2112246281016119780",
+          "author": "@poteto",
+          "text": "what did you get done with grok @bot last week?",
+          "likes": 1494,
+          "reposts": 117,
+          "views": 329509,
+          "posted_at": "2026-10-19T18:15:31Z"
         }
       ]
     },
     {
-      "id": "anthropic-public-share-pledge",
-      "title": "Anthropic public benefit fund draws Musk share pledge",
-      "summary": "Posts say Anthropic committed to give 20% of its shares to the public, and Musk responded by pledging a SpaceX share to every American child. Coverage calls the Anthropic fund murky.",
+      "id": "schmidt-anthropic-stake",
+      "title": "Eric Schmidt reportedly owns about 1% of Anthropic",
+      "summary": "Bloomberg-sourced posts say former Google CEO Eric Schmidt holds roughly 1% of Anthropic, potentially worth $20B ahead of an IPO.",
       "keywords": [
-        "anthropic public benefit",
-        "anthropic shares",
-        "spacex",
+        "eric schmidt anthropic",
+        "anthropic ipo",
         "anthropic"
       ],
-      "first_seen": "2026-10-19T17:56:40Z",
-      "heat": 77,
+      "first_seen": "2026-10-19T21:22:51Z",
+      "heat": 92,
       "metrics": {
-        "posts": 1,
-        "likes": 1352,
-        "reposts": 47,
-        "velocity_per_hour": 727,
-        "views": 131656
+        "posts": 3,
+        "likes": 1583,
+        "reposts": 79,
+        "velocity_per_hour": 1235,
+        "views": 181566
       },
       "top_posts": [
         {
-          "url": "https://x.com/amitisinvesting/status/2112241536570159443",
-          "author": "@amitisinvesting",
-          "text": "so Anthropic said they are committed to give away 20% of their company’s shares to the public\n\nElon today said he is ready to give one share of $SPCX to every American child, worth $10B at today’s prices\n\nthe reason for this is because both feel that AI is going to so transforma…",
-          "likes": 1352,
-          "reposts": 47,
-          "views": 131656,
-          "posted_at": "2026-10-19T17:56:40Z"
-        }
-      ]
-    },
-    {
-      "id": "inception-mercury-3",
-      "title": "Inception's Mercury 3 diffusion LLM goes live",
-      "summary": "Mercury 3 is released as a diffusion LLM running over 1,000 tokens per second, which its makers say beats GPT-6 Luna and Claude Haiku 5.5 on several benchmarks.",
-      "keywords": [
-        "mercury 3",
-        "diffusion llm",
-        "inception labs"
-      ],
-      "first_seen": "2026-10-19T15:55:57Z",
-      "heat": 72,
-      "metrics": {
-        "posts": 2,
-        "likes": 973,
-        "reposts": 66,
-        "velocity_per_hour": 331,
-        "views": 134954
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/immad/status/2112211155267821691",
-          "author": "@immad",
-          "text": "Excited to announce @Mercury crossing $1bn/yr in revenue and 450k customers.\n\nJust getting started! https://x.com/i/article/2112209203666530304",
-          "likes": 575,
-          "reposts": 38,
-          "views": 116217,
-          "posted_at": "2026-10-19T15:55:57Z"
+          "url": "https://x.com/Polymarket/status/2112299065354735715",
+          "author": "@Polymarket",
+          "text": "JUST IN: Former Google CEO Eric Schmidt revealed to own roughly 1% of Anthropic, a stake potentially worth $20,000,000,000.00 ahead of the company's IPO.",
+          "likes": 833,
+          "reposts": 39,
+          "views": 78751,
+          "posted_at": "2026-10-19T21:45:16Z"
         },
         {
-          "url": "https://x.com/_inception_ai/status/2112236719068369299",
-          "author": "@_inception_ai",
-          "text": "Mercury 3 is live: the most capable diffusion LLM released to date.\n\nIt outperforms GPT-6 Luna and Claude Haiku 5.5 across a range of benchmarks while running at over 1,000 tokens per second.\n\nMore than 40x the size of Mercury 1, 3x more intelligent across standard benchmarks, a…",
-          "likes": 398,
-          "reposts": 28,
-          "views": 18737,
-          "posted_at": "2026-10-19T17:37:31Z"
-        }
-      ]
-    },
-    {
-      "id": "deepseek-huawei-chip",
-      "title": "DeepSeek and Huawei reportedly co-design AI chips",
-      "summary": "The Information reports DeepSeek is working with Huawei on new AI chip designs to challenge Nvidia.",
-      "keywords": [
-        "deepseek huawei",
-        "ai chip",
-        "nvidia"
-      ],
-      "first_seen": "2026-10-19T16:03:20Z",
-      "heat": 64,
-      "metrics": {
-        "posts": 2,
-        "likes": 639,
-        "reposts": 90,
-        "velocity_per_hour": 174,
-        "views": 121564
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/DeItaone/status/2112213014099194212",
-          "author": "@DeItaone",
-          "text": "DEEPSEEK AND HUAWEI ARE COLLABORATING ON NEW AI CHIP DESIGNS TO CHALLENGE NVIDIA - THE IN FORMATION",
-          "likes": 379,
-          "reposts": 69,
-          "views": 110181,
-          "posted_at": "2026-10-19T16:03:20Z"
+          "url": "https://x.com/zerohedge/status/2112293424888189189",
+          "author": "@zerohedge",
+          "text": "*FORMER GOOGLE CEO ERIC SCHMIDT OWNS ABOUT 1% OF ANTHROPIC",
+          "likes": 527,
+          "reposts": 30,
+          "views": 80265,
+          "posted_at": "2026-10-19T21:22:51Z"
         },
         {
-          "url": "https://x.com/MTSlive/status/2112215787608154267",
-          "author": "@MTSlive",
-          "text": "SITUATION DETECTED: DeepSeek is collaborating with Huawei Technologies on new AI chip designs to challenge Nvidia, per The Information.",
-          "likes": 260,
-          "reposts": 21,
-          "views": 11383,
-          "posted_at": "2026-10-19T16:14:21Z"
+          "url": "https://x.com/StockMKTNewz/status/2112295471775674455",
+          "author": "@StockMKTNewz",
+          "text": "Former Google $GOOGL CEO Eric Schmidt owns around 1% of Anthropic thanks to his early investment in the startup - Bloomberg",
+          "likes": 223,
+          "reposts": 10,
+          "views": 22550,
+          "posted_at": "2026-10-19T21:30:59Z"
         }
       ]
     },
     {
-      "id": "cloudflare-clairic-model",
-      "title": "Cloudflare introduces clairic extraction model",
-      "summary": "Cloudflare announced clairic, a system-one model for extracting and estimating values from unstructured inputs.",
+      "id": "anthropic-oss-scanner",
+      "title": "Anthropic launches OSS Scanner for open source security",
+      "summary": "Anthropic says OSS Scanner gives critical open source projects free periodic vulnerability scans, with proof-of-concept and patches where possible.",
       "keywords": [
-        "cloudflare clairic",
-        "extraction model",
-        "cloudflare ai"
+        "anthropic oss scanner",
+        "claude security",
+        "vulnerability scanning"
       ],
-      "first_seen": "2026-10-19T17:54:34Z",
-      "heat": 64,
+      "first_seen": "2026-10-19T21:47:24Z",
+      "heat": 91,
       "metrics": {
         "posts": 1,
-        "likes": 445,
-        "reposts": 52,
-        "velocity_per_hour": 235,
-        "views": 21139
+        "likes": 2594,
+        "reposts": 193,
+        "velocity_per_hour": 2337,
+        "views": 95776
       },
       "top_posts": [
         {
-          "url": "https://x.com/michellechen/status/2112241006104244584",
-          "author": "@michellechen",
-          "text": "a brand new model paradigm! introducing 𝚌𝚕𝚊𝚒𝚛𝚒𝚌: a system one model for extracting, computing, estimating, and predicting values from unstructured inputs.\nhttps://blog.cloudflare.com/clairic-extraction-model/",
-          "likes": 445,
-          "reposts": 52,
-          "views": 21139,
-          "posted_at": "2026-10-19T17:54:34Z"
+          "url": "https://x.com/ClaudeDevs/status/2112299602510749992",
+          "author": "@ClaudeDevs",
+          "text": "We launched OSS Scanner, which gives critical open source projects free, periodic vulnerability scans from our strongest models.\n\nEach finding includes a proof-of-concept, and a patch where possible.\n\nhttps://red.anthropic.com/oss-scanner",
+          "likes": 2594,
+          "reposts": 193,
+          "views": 95776,
+          "posted_at": "2026-10-19T21:47:24Z"
         }
       ]
     },
     {
-      "id": "indra-ocr-1-1",
-      "title": "Indra OCR 1.1 releases 1M-parameter OCR model",
-      "summary": "Indra OCR 1.1 is a 1M-parameter model at 44 pages/s on CPU, said to be within 4 points of DeepSeek OCR 2 on OmniParseBench.",
+      "id": "opus-5-5-reactions",
+      "title": "Developers praise Claude Opus 5.5 for coding and SEO",
+      "summary": "Users report strong results with Opus 5.5 for vibe coding and building an SEO assistant; some say it brought them back to Claude.",
       "keywords": [
-        "indra ocr",
-        "ocr model",
-        "deepseek ocr"
+        "opus 5.5",
+        "claude opus 5.5",
+        "vibe coding"
       ],
-      "first_seen": "2026-10-19T16:18:13Z",
-      "heat": 63,
+      "first_seen": "2026-10-19T08:49:45Z",
+      "heat": 86,
       "metrics": {
-        "posts": 1,
-        "likes": 744,
-        "reposts": 68,
-        "velocity_per_hour": 213,
-        "views": 19319
+        "posts": 5,
+        "likes": 4586,
+        "reposts": 163,
+        "velocity_per_hour": 451,
+        "views": 233372
       },
       "top_posts": [
         {
-          "url": "https://x.com/VikParuchuri/status/2112216762767085883",
-          "author": "@VikParuchuri",
-          "text": "Indra OCR 1.1 is out now!\n\n- 1M param main OCR model, 44 pages/s on CPU\n- Within 4 points of 3.4B param DeepSeek OCR 2 on OmniParseBench\n- 15x faster than Tesseract, and more accurate\n- 80+ languages, plus handwriting",
-          "likes": 744,
-          "reposts": 68,
-          "views": 19319,
-          "posted_at": "2026-10-19T16:18:13Z"
+          "url": "https://x.com/marclou/status/2112155806854693095",
+          "author": "@marclou",
+          "text": "vibe coding with opus 5.5 really is insane\n\nhe's like that super high IQ friend who gets everything right and doesn't bother you with the details\n\n80/20 AGI",
+          "likes": 2548,
+          "reposts": 46,
+          "views": 72185,
+          "posted_at": "2026-10-19T12:16:00Z"
+        },
+        {
+          "url": "https://x.com/konstantinsaifo/status/2112103898693427587",
+          "author": "@konstantinsaifo",
+          "text": "Most warehouse managers never see the whole floor at once. So Claude Opus 5.5 built them the view from above.\n\n93 people, 320 robots and every truck on Black Friday, live.",
+          "likes": 843,
+          "reposts": 74,
+          "views": 72453,
+          "posted_at": "2026-10-19T08:49:45Z"
+        },
+        {
+          "url": "https://x.com/theo_louro/status/2112181982654591462",
+          "author": "@theo_louro",
+          "text": "Opus 5.5 is way too good at SEO 🫨\n\nI built an SEO assistant with Opus that IMPROVES your website every week for you\n(I'm giving away the full setup for free)\n\n→ you give it your website\n→ it finds exactly what you need to fix and does it for you\n→ it identifies your real competi…",
+          "likes": 654,
+          "reposts": 22,
+          "views": 65877,
+          "posted_at": "2026-10-19T14:00:01Z"
         }
       ]
     },
     {
       "id": "anthropic-nscale-compute-deal",
       "title": "Anthropic in talks for $45B of Nscale compute",
-      "summary": "Bloomberg reports Anthropic is in talks to buy $45 billion of computing power from Nvidia-backed Nscale, possibly finalized within days.",
+      "summary": "Bloomberg reports Anthropic is in talks to buy $45 billion of computing power from Nscale; one critic doubts the deal's financial footing.",
       "keywords": [
         "anthropic nscale",
         "anthropic compute",
         "nscale"
       ],
       "first_seen": "2026-10-19T19:37:17Z",
-      "heat": 62,
+      "heat": 80,
       "metrics": {
-        "posts": 1,
-        "likes": 200,
-        "reposts": 16,
-        "velocity_per_hour": 200,
-        "views": 36894
+        "posts": 2,
+        "likes": 2113,
+        "reposts": 148,
+        "velocity_per_hour": 649,
+        "views": 190061
       },
       "top_posts": [
         {
           "url": "https://x.com/KobeissiLetter/status/2112266859303076186",
           "author": "@KobeissiLetter",
           "text": "BREAKING: Anthropic is in talks to buy $45 billion of computing power from Nscale, the Nvidia-backed data center developer, per Bloomberg.\n\nA deal could be finalized as soon as in the coming days and would bolster Nscale’s IPO prospects.",
-          "likes": 200,
-          "reposts": 16,
-          "views": 36894,
+          "likes": 1759,
+          "reposts": 106,
+          "views": 177766,
           "posted_at": "2026-10-19T19:37:17Z"
+        },
+        {
+          "url": "https://x.com/edzitron/status/2112268679232757917",
+          "author": "@edzitron",
+          "text": "at this point it's journalistic malpractice to report these deals as solvent or possible given the underlying financial problems with Anthropic and the fact that Nscale doesn't have the power or data centers to provide the compute.",
+          "likes": 354,
+          "reposts": 42,
+          "views": 12295,
+          "posted_at": "2026-10-19T19:44:31Z"
+        }
+      ]
+    },
+    {
+      "id": "openai-legacy-language-modernization",
+      "title": "OpenAI touts model gains on COBOL and Fortran",
+      "summary": "OpenAI says its latest model advances improve building and migrating software in low-resource languages like COBOL, Fortran and Visual Basic, and asks teams which languages to tackle next.",
+      "keywords": [
+        "openai cobol",
+        "legacy code migration",
+        "cobol ai",
+        "openai"
+      ],
+      "first_seen": "2026-10-19T22:30:05Z",
+      "heat": 78,
+      "metrics": {
+        "posts": 1,
+        "likes": 754,
+        "reposts": 64,
+        "velocity_per_hour": 754,
+        "views": 61237
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/OpenAI/status/2112310345863930168",
+          "author": "@OpenAI",
+          "text": "Our latest model advances bring stronger capabilities for building and migrating software in low-resource programming languages such as COBOL, Fortran, and Visual Basic.\n\nThese languages power software that banks, governments, and businesses depend on. Progress here means unders…",
+          "likes": 754,
+          "reposts": 64,
+          "views": 61237,
+          "posted_at": "2026-10-19T22:30:05Z"
+        }
+      ]
+    },
+    {
+      "id": "cloudflare-clairic-model",
+      "title": "Cloudflare introduces clairic extraction model",
+      "summary": "Clairic is described as a system-one model for extracting and estimating values from unstructured inputs like receipts, emails and CSVs.",
+      "keywords": [
+        "cloudflare clairic",
+        "extraction model",
+        "cloudflare ai"
+      ],
+      "first_seen": "2026-10-19T17:54:34Z",
+      "heat": 69,
+      "metrics": {
+        "posts": 2,
+        "likes": 1106,
+        "reposts": 104,
+        "velocity_per_hour": 265,
+        "views": 84185
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/michellechen/status/2112241006104244584",
+          "author": "@michellechen",
+          "text": "a brand new model paradigm! introducing 𝚌𝚕𝚊𝚒𝚛𝚒𝚌: a system one model for extracting, computing, estimating, and predicting values from unstructured inputs.\nhttps://blog.cloudflare.com/clairic-extraction-model/",
+          "likes": 896,
+          "reposts": 95,
+          "views": 76668,
+          "posted_at": "2026-10-19T17:54:34Z"
+        },
+        {
+          "url": "https://x.com/dok2001/status/2112279165596819627",
+          "author": "@dok2001",
+          "text": "First Clef, now Clairic.\n\nClef picks from options you give it. Clairic extracts values from a receipt photo, a support email, or a CSV of daily counts.\n\nYou get typed answers with confidence scores in one forward pass, without generating output tokens.\n\nUse them ahead of an LLM…",
+          "likes": 210,
+          "reposts": 9,
+          "views": 7517,
+          "posted_at": "2026-10-19T20:26:11Z"
+        }
+      ]
+    },
+    {
+      "id": "us-bans-deepseek-federal",
+      "title": "DeepSeek reportedly being removed from US government",
+      "summary": "Posts say DeepSeek is being removed from US government use.",
+      "keywords": [
+        "deepseek ban",
+        "deepseek",
+        "us government"
+      ],
+      "first_seen": "2026-10-19T20:33:34Z",
+      "heat": 65,
+      "metrics": {
+        "posts": 1,
+        "likes": 609,
+        "reposts": 69,
+        "velocity_per_hour": 260,
+        "views": 22164
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/aravind/status/2112281021710565559",
+          "author": "@aravind",
+          "text": "DeepSeek is being removed from the US govt.",
+          "likes": 609,
+          "reposts": 69,
+          "views": 22164,
+          "posted_at": "2026-10-19T20:33:34Z"
+        }
+      ]
+    },
+    {
+      "id": "deepseek-huawei-chip",
+      "title": "DeepSeek and Huawei reportedly co-design AI chips",
+      "summary": "Per The Information, DeepSeek would work with Huawei on chip designs to reduce reliance on Nvidia.",
+      "keywords": [
+        "deepseek huawei",
+        "ai chip",
+        "nvidia"
+      ],
+      "first_seen": "2026-10-19T20:58:00Z",
+      "heat": 65,
+      "metrics": {
+        "posts": 1,
+        "likes": 486,
+        "reposts": 49,
+        "velocity_per_hour": 251,
+        "views": 92344
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/unusual_whales/status/2112287169381294235",
+          "author": "@unusual_whales",
+          "text": "DeepSeek & Huawei are teaming up on new AI chip designs to challenge Nvidia, per The Information.\n\nDeepSeek would be working with China’s biggest chipmaker to reduce reliance on US chips.\n\nIt comes a week after China’s CXMT chip progress sparked a global sell-off in stocks.",
+          "likes": 486,
+          "reposts": 49,
+          "views": 92344,
+          "posted_at": "2026-10-19T20:58:00Z"
+        }
+      ]
+    },
+    {
+      "id": "ai-agent-hack-reuters",
+      "title": "Reuters: one hacker used AI agents to breach 100+ firms",
+      "summary": "Reuters reportedly says a single Chinese-speaking hacker used AI agents to breach websites of over 100 companies for about $5,000.",
+      "keywords": [
+        "ai agents hacking",
+        "reuters ai hack",
+        "ai cyberattack"
+      ],
+      "first_seen": "2026-10-19T21:05:38Z",
+      "heat": 62,
+      "metrics": {
+        "posts": 1,
+        "likes": 353,
+        "reposts": 66,
+        "velocity_per_hour": 195,
+        "views": 45594
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/Polymarket/status/2112289092641649049",
+          "author": "@Polymarket",
+          "text": "JUST IN: A single Chinese-speaking hacker reportedly used AI agents to breach websites belonging to over 100 companies, spending just $5,000 on the operation. — Reuters",
+          "likes": 353,
+          "reposts": 66,
+          "views": 45594,
+          "posted_at": "2026-10-19T21:05:38Z"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-new-model-rumor",
+      "title": "Anthropic reportedly to release new model this month",
+      "summary": "The Information reportedly says Anthropic, Google (Gemini 4 Carbon) and OpenAI (a new Terra model) will each release models this month. Unconfirmed.",
+      "keywords": [
+        "anthropic new model",
+        "gemini 4 carbon",
+        "openai terra"
+      ],
+      "first_seen": "2026-10-19T14:52:58Z",
+      "heat": 61,
+      "metrics": {
+        "posts": 1,
+        "likes": 1389,
+        "reposts": 70,
+        "velocity_per_hour": 173,
+        "views": 81870
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/testingcatalog/status/2112195306695647502",
+          "author": "@testingcatalog",
+          "text": "ANTHROPIC 🔥: According to The Information, Anthropic will release a new model this month, along with Gemini 4 Carbon and a new Terra model from OpenAI. \n\n> \"The unreleased model is especially good at discerning a person’s underlying intentions and goals even if they don’t give t…",
+          "likes": 1389,
+          "reposts": 70,
+          "views": 81870,
+          "posted_at": "2026-10-19T14:52:58Z"
         }
       ]
     },
     {
       "id": "cua-spaces-sdk",
       "title": "Cua Spaces SDK lets agents run on your own compute",
-      "summary": "Cua launched Spaces SDK for putting Claude Code, Codex or other agents on compute you choose.",
+      "summary": "Cua announced Spaces SDK so users can bring their own computer to lab-style agent bots.",
       "keywords": [
         "cua spaces",
-        "claude code",
-        "computer use agents"
+        "computer use agents",
+        "grok bot"
       ],
       "first_seen": "2026-10-19T17:03:30Z",
-      "heat": 62,
+      "heat": 58,
       "metrics": {
         "posts": 1,
-        "likes": 539,
-        "reposts": 37,
-        "velocity_per_hour": 196,
-        "views": 26842
+        "likes": 810,
+        "reposts": 61,
+        "velocity_per_hour": 139,
+        "views": 49384
       },
       "top_posts": [
         {
           "url": "https://x.com/trycua/status/2112228154651881479",
           "author": "@trycua",
           "text": "1/ Introducing the Cua Spaces SDK.\n\nEvery big lab now ships a bot with its own computer: Grok Bot, Muse, dots. None let you bring your own. With Cua Spaces, now you can. \n\nPut Claude Code, Codex or any agent on compute you choose, and run jobs across all your computers at once.",
-          "likes": 539,
-          "reposts": 37,
-          "views": 26842,
+          "likes": 810,
+          "reposts": 61,
+          "views": 49384,
           "posted_at": "2026-10-19T17:03:30Z"
         }
       ]
     },
     {
-      "id": "gemini-4-carbon-rumors",
-      "title": "Gemini 4 Carbon and OpenAI model rumored",
-      "summary": "A roundup says Google is reportedly developing Gemini 4 Carbon as an upgrade to Argon, and OpenAI is reportedly preparing a more capable model. Both are reports, not confirmed.",
+      "id": "notion-ai-upgrade",
+      "title": "Notion upgrades AI with computer and browser use",
+      "summary": "Notion says its in-app AI can now handle more complex tasks, including computer and browser use, and run longer.",
       "keywords": [
-        "gemini 4 carbon",
-        "gemini 4 argon",
-        "openai new model"
+        "notion ai",
+        "notion agent",
+        "computer use"
       ],
-      "first_seen": "2026-10-19T17:58:32Z",
-      "heat": 61,
+      "first_seen": "2026-10-19T19:32:18Z",
+      "heat": 52,
       "metrics": {
         "posts": 1,
-        "likes": 333,
-        "reposts": 21,
-        "velocity_per_hour": 182,
-        "views": 16273
+        "likes": 288,
+        "reposts": 16,
+        "velocity_per_hour": 86,
+        "views": 29055
       },
       "top_posts": [
         {
-          "url": "https://x.com/kimmonismus/status/2112242007062233122",
-          "author": "@kimmonismus",
-          "text": "On top of Anthropic releases:\n\n- Google is reportedly developing Gemini 4 Carbon as an upgrade to Argon, while some developers say Gemini remains especially strong at visual tasks. \n\n- OpenAI is reportedly preparing a more capable Terra model for release in the coming weeks, pri…",
-          "likes": 333,
-          "reposts": 21,
-          "views": 16273,
-          "posted_at": "2026-10-19T17:58:32Z"
-        }
-      ]
-    },
-    {
-      "id": "t3code-claude-max-review",
-      "title": "t3code review: remote setup for Claude Max",
-      "summary": "A user reviews t3code, praising its remote and multi-computer setup over Tailscale, after buying a second Claude Max plan.",
-      "keywords": [
-        "t3code",
-        "claude max",
-        "claude code"
-      ],
-      "first_seen": "2026-10-19T16:13:42Z",
-      "heat": 56,
-      "metrics": {
-        "posts": 1,
-        "likes": 417,
-        "reposts": 8,
-        "velocity_per_hour": 117,
-        "views": 13937
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/tenobrus/status/2112215624852328782",
-          "author": "@tenobrus",
-          "text": "i downloaded t3code and bought a second claude max subscription . here's my impressions \n\n- it has the best and smoothest setup for remote and multi-computer / tailscale linking and threads i've ever seen. significantly better than any first party app. even with codex selecting…",
-          "likes": 417,
-          "reposts": 8,
-          "views": 13937,
-          "posted_at": "2026-10-19T16:13:42Z"
-        }
-      ]
-    },
-    {
-      "id": "minimax-m3-1-flash",
-      "title": "MiniMax-M3.1-Flash scores 42 on AA index",
-      "summary": "Artificial Analysis says MiniMax-M3.1-Flash is 13 points above M3 at under half the cost per task, level with GLM-5.3-Flash.",
-      "keywords": [
-        "minimax m3.1 flash",
-        "minimax",
-        "artificial analysis"
-      ],
-      "first_seen": "2026-10-19T15:58:46Z",
-      "heat": 55,
-      "metrics": {
-        "posts": 1,
-        "likes": 409,
-        "reposts": 23,
-        "velocity_per_hour": 107,
-        "views": 24324
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/ArtificialAnlys/status/2112211865128608002",
-          "author": "@ArtificialAnlys",
-          "text": "MiniMax-M3.1-Flash scores 42 on the Artificial Analysis Intelligence Index, 13 points higher than MiniMax-M3 and less than half the cost per task. It scores level with GLM-5.3-Flash but behind DeepSeek V4.1 Flash 1017\n\nMiniMax-M3.1-Flash is @MiniMax_AI's new Flash reasoning mode…",
-          "likes": 409,
-          "reposts": 23,
-          "views": 24324,
-          "posted_at": "2026-10-19T15:58:46Z"
-        }
-      ]
-    },
-    {
-      "id": "claude-code-game-mvp",
-      "title": "Claude Code-built game MVP praised",
-      "summary": "After the Wind, a Ragnarok Online meets Monster Hunter game built in Godot in 5 weeks with Claude Code, is being praised for consistent AI-made assets.",
-      "keywords": [
-        "claude code game",
-        "after the wind",
-        "godot ai"
-      ],
-      "first_seen": "2026-10-19T10:36:08Z",
-      "heat": 55,
-      "metrics": {
-        "posts": 1,
-        "likes": 963,
-        "reposts": 42,
-        "velocity_per_hour": 105,
-        "views": 49901
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/Stefan_3D_AI/status/2112130671015874614",
-          "author": "@Stefan_3D_AI",
-          "text": "The cleanest game MVP made with AI I've seen.\n\nAfter the Wind by @afterthewinddev: Ragnarok Online meets Monster Hunter, 5 weeks in Godot. Every asset matches the style. Rare with AI.\n\n38.5B tokens processed in Claude Code, 2.9B in Codex, 112k tool calls, up to 8 agents at once.",
-          "likes": 963,
-          "reposts": 42,
-          "views": 49901,
-          "posted_at": "2026-10-19T10:36:08Z"
+          "url": "https://x.com/akothari/status/2112265602203336892",
+          "author": "@akothari",
+          "text": "Big update today: We've meaningfully upgraded our AI capabilities inside Notion. You can now do much more complex things (computer + browser use!), let the AI run much longer (up to 24 hours!), and do all of this in a much more secure setup.\n\nWe've also overhauled our pricing an…",
+          "likes": 288,
+          "reposts": 16,
+          "views": 29055,
+          "posted_at": "2026-10-19T19:32:18Z"
         }
       ]
     },
     {
       "id": "codex-quota-burn-reports",
-      "title": "Users report Codex weekly quotas vanishing in a day",
-      "summary": "Pro users say Codex weekly quotas are burning out within a day and are asking OpenAI to explain the limits.",
+      "title": "Codex users complain of usage limits after changes",
+      "summary": "A power user says Codex became unusable after Friday's usage changes and plans to cancel.",
       "keywords": [
-        "codex quota",
-        "codex limits",
-        "openai codex"
+        "codex usage limits",
+        "openai codex",
+        "codex"
       ],
-      "first_seen": "2026-10-19T16:11:07Z",
-      "heat": 51,
+      "first_seen": "2026-10-19T01:05:04Z",
+      "heat": 41,
       "metrics": {
         "posts": 1,
-        "likes": 271,
-        "reposts": 12,
-        "velocity_per_hour": 75,
-        "views": 6626
+        "likes": 682,
+        "reposts": 31,
+        "velocity_per_hour": 31,
+        "views": 23537
       },
       "top_posts": [
         {
-          "url": "https://x.com/jetfam/status/2112214972533273071",
-          "author": "@jetfam",
-          "text": "🚨 Tibo, WHAT THE FUCK is going on with Codex?\n\nReports of insane quota burn are piling up. I pay $400/month for TWO Pro accounts, and BOTH weekly quotas vanish in ONE day.\n\nEnough hype. Investigate the limits and explain what changed.\n\n@thsottiaux @OpenAI @OpenAIDevs",
-          "likes": 271,
-          "reposts": 12,
-          "views": 6626,
-          "posted_at": "2026-10-19T16:11:07Z"
-        }
-      ]
-    },
-    {
-      "id": "chatgpt-voice-codex-jarvis",
-      "title": "ChatGPT Voice plus Codex feels like Jarvis",
-      "summary": "One user says combining ChatGPT Voice, browser use and Codex lets them talk to their computer while work gets done.",
-      "keywords": [
-        "chatgpt voice",
-        "codex",
-        "browser use"
-      ],
-      "first_seen": "2026-10-18T20:39:22Z",
-      "heat": 27,
-      "metrics": {
-        "posts": 1,
-        "likes": 209,
-        "reposts": 0,
-        "velocity_per_hour": 9,
-        "views": 12638
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/JamesonCamp/status/2111920091877265705",
-          "author": "@JamesonCamp",
-          "text": "ChatGPT Voice + Sol 5.6 Browser use + codex is the closet I’ve ever felt to “Jarvis”\n\nThis is Weird…I’m just walking around my office having a convo with my computer l and work is getting done\n\nI have seen the future",
-          "likes": 209,
-          "reposts": 0,
-          "views": 12638,
-          "posted_at": "2026-10-18T20:39:22Z"
+          "url": "https://x.com/BrendanPlayford/status/2111986958595760626",
+          "author": "@BrendanPlayford",
+          "text": "Codex has been completely unusable this weekend after @thsottiaux 's usage 'fixes' on Friday. I am a power user and am cancelling all subscriptions after this weekend. Codex blew through 3 banked resets and over 60k credits over 2x accounts. Clearly something is very broken afte…",
+          "likes": 682,
+          "reposts": 31,
+          "views": 23537,
+          "posted_at": "2026-10-19T01:05:04Z"
         }
       ]
     }
