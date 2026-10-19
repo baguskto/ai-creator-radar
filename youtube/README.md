@@ -9,7 +9,7 @@ python3 youtube/run.py
 Stdlib Python 3, no installs. Reads `data/x_trends.json` and writes, per `docs/DATA.md`:
 
 - `data/youtube_coverage.json`: coverage and gap score per X story
-- `data/channel_stats.json`: @Chase-H-AI's latest uploads vs. usual
+- `data/channel_stats.json`: @baguskto's latest uploads vs. usual (`--handle` to change)
 - `data/refresh_log.json`: one `cloud_refresh` entry per step (`youtube_coverage`, `channel_stats`)
 - `data/youtube_history.json`: public view snapshots for same-age comparisons (not read by the page)
 

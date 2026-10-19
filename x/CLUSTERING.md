@@ -7,7 +7,7 @@ LLM API key and no extra service. Do this after `scripts/x-scan.sh` prints
 ## Steps
 
 1. Read `x/.posts.json` (written by `x/fetch.py`, not committed). It has the
-   posts with 200+ likes from the last 24 hours, most liked first, and
+   posts with 200+ likes from the last 24 hours that X Search returned, most liked first, and
    `previous_stories`: the stories on the page right now.
 2. Write `x/.stories.json`:
 

@@ -25,17 +25,17 @@ A fresh session per run means no state carries over except what is in the repo.
 
 In the cloud environment the task runs in (environment menu in the session title bar, then Edit):
 
-- **Network access:** allow `api.x.com` and `www.googleapis.com`.
-- **X API bearer token:** an environment variable `X_BEARER_TOKEN`, or a network secret for
-  `api.x.com` where the environment offers one. Get it from the X developer console (an app with
-  recent search access).
+- **Network access:** allow `api.x.ai` and `www.googleapis.com`.
+- **xAI API key:** an environment variable `XAI_API_KEY`, or a network secret for `api.x.ai`
+  where the environment offers one. Get it from the xAI console (console.x.ai). No X developer
+  account is needed: Grok searches X with xAI's X Search tool.
 - **YouTube Data API key:** an environment variable `YOUTUBE_API_KEY`, or a network secret for
   `www.googleapis.com` where the environment offers one.
 
 ## API usage per run
 
-- X: 5 recent searches of up to 100 posts each, so up to 500 posts read per run, about 1,000 a
-  day. Lower it with `python3 x/fetch.py --max-results 50` if your X plan has a smaller read cap.
+- X: 5 Grok requests with X Search, each asking for up to 25 posts. xAI bills per post fetched
+  plus tokens; every run logs its cost in `data/refresh_log.json` (`x/README.md`).
 - YouTube: about 1,505 quota units per run of the 10,000 daily free quota (`youtube/README.md`).
 
 ## The scheduled task's prompt

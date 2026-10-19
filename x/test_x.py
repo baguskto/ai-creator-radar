@@ -3,90 +3,134 @@
 import json
 import os
 import sys
+import io
 import tempfile
 import unittest
+from unittest import mock
 from datetime import datetime, timedelta, timezone
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 import fetch  # noqa: E402
 import finish  # noqa: E402
-from x_api import XError  # noqa: E402
+import xai_api  # noqa: E402
+from xai_api import XAIError  # noqa: E402
 
 NOW = datetime(2026, 10, 16, 12, 0, tzinfo=timezone.utc)
 
 
 def ts(hours_ago):
-    return (NOW - timedelta(hours=hours_ago)).strftime("%Y-%m-%dT%H:%M:%S.000Z")
+    return (NOW - timedelta(hours=hours_ago)).strftime("%Y-%m-%dT%H:%M:%SZ")
 
 
-def tweet(id, likes, hours_ago=2, author="u1", text="hello", **extra):
-    return {"id": id, "author_id": author, "created_at": ts(hours_ago), "text": text,
-            "public_metrics": {"like_count": likes, "retweet_count": likes // 10, "reply_count": 1,
-                               "quote_count": 0, "impression_count": likes * 100}, **extra}
+def sid(hours_ago):
+    """A post id (snowflake) for a post made hours_ago before NOW."""
+    ms = int((NOW - timedelta(hours=hours_ago)).timestamp() * 1000)
+    return str((ms - fetch.X_EPOCH_MS) << 22)
 
 
-USERS = {"u1": {"id": "u1", "username": "alice", "public_metrics": {"followers_count": 5000}},
-         "u2": {"id": "u2", "username": "bob", "public_metrics": {"followers_count": 10}}}
+def raw(id, likes=500, handle="alice", **kw):
+    return {"url": f"https://x.com/{handle}/status/{id}", "username": handle, "text": " hi ",
+            "likes": likes, "reposts": 7, "views": 9000, **kw}
 
 
 class FakeClient:
-    """Answers recent search from canned results, one list per query in order."""
+    """Answers X Search requests from canned (answer, cited URLs) pairs, one per query in order."""
 
     def __init__(self, pages):
         self.pages = list(pages)
-        self.posts_read = 0
-        self.queries = []
+        self.calls = []
 
-    def search_recent(self, query, start_time, max_results=100):
-        self.queries.append((query, start_time, max_results))
+    def x_search(self, prompt, schema, from_date, max_turns=4):
+        self.calls.append((prompt, from_date))
         page = self.pages.pop(0)
         if isinstance(page, Exception):
             raise page
-        self.posts_read += len(page)
-        return page, USERS
+        posts = page
+        return {"posts": posts}, {p["url"] for p in posts if not p.get("uncited")}
 
 
 def post(id, likes, author="@alice", hours_ago=2, views=1000):
     return {"id": id, "url": f"https://x.com/{author[1:]}/status/{id}", "author": author,
             "text": f"post {id}", "likes": likes, "reposts": likes // 10, "views": views,
-            "posted_at": ts(hours_ago).replace(".000", ""), "velocity_per_hour": likes / hours_ago}
+            "posted_at": ts(hours_ago), "velocity_per_hour": likes / hours_ago}
 
 
 class FetchTest(unittest.TestCase):
+    def test_posted_time_from_snowflake(self):
+        self.assertEqual(fetch.iso(fetch.posted_time("2110852716247519517")), "2026-10-15T21:57:59Z")
+
     def test_normalize(self):
-        t = tweet("1", 500, hours_ago=4, text="short &amp; cut", note_tweet={"text": "long &amp; full"})
-        p = fetch.normalize(t, USERS, NOW)
-        self.assertEqual(p["url"], "https://x.com/alice/status/1")
-        self.assertEqual(p["author"], "@alice")
-        self.assertEqual(p["text"], "long & full")
-        self.assertEqual(p["views"], 50000)
-        self.assertEqual(p["posted_at"], "2026-10-16T08:00:00Z")
-        self.assertEqual(p["velocity_per_hour"], 125.0)
+        pid = sid(4)
+        p = fetch.normalize(raw(pid, likes=1000), {pid}, NOW, 200)
+        self.assertEqual(p["url"], f"https://x.com/alice/status/{pid}")
+        self.assertEqual((p["author"], p["text"], p["reposts"], p["views"]), ("@alice", "hi", 7, 9000))
+        self.assertEqual(p["posted_at"], ts(4))
+        self.assertEqual(p["velocity_per_hour"], 250.0)
 
-    def test_normalize_unknown_author_and_young_post(self):
-        p = fetch.normalize(tweet("2", 300, hours_ago=0.1, author="nobody"), USERS, NOW)
-        self.assertEqual(p["url"], "https://x.com/i/status/2")
-        self.assertEqual(p["velocity_per_hour"], 300.0)  # age floored at 1 hour
+    def test_normalize_drops_uncited_and_fills_gaps(self):
+        pid = sid(0.1)
+        self.assertIsNone(fetch.normalize(raw(pid), set(), NOW, 200))
+        p = fetch.normalize({"url": f"https://x.com/i/status/{pid}", "username": "@bob", "text": "t",
+                             "likes": None, "reposts": None, "views": None}, {pid}, NOW, 200)
+        self.assertEqual((p["author"], p["likes"], p["reposts"], p["views"]), ("@bob", 200, 0, None))
+        self.assertEqual(p["velocity_per_hour"], 200.0)  # age floored at 1 hour
+        self.assertEqual(fetch.normalize(raw(pid, likes=50), {pid}, NOW, 200)["likes"], 200)
 
-    def test_run_filters_dedupes_and_sorts(self):
-        client = FakeClient([[tweet("1", 250), tweet("2", 150)], [tweet("1", 250), tweet("3", 900, author="u2")]])
-        posts, ok, errors = fetch.run(client, ["q1", "q2"], NOW, window_hours=24, min_likes=200)
-        self.assertEqual([p["id"] for p in posts], ["3", "1"])
+    def test_run_dedupes_filters_and_sorts(self):
+        a, b, old = sid(2), sid(3), sid(30)
+        client = FakeClient([[raw(a, 300), {**raw(sid(1)), "uncited": True}, raw(old, 9999)],
+                             [raw(a, 300), raw(b, 900, handle="bob")]])
+        posts, ok, errors, dropped = fetch.run(client, ["q1", "q2"], NOW, window_hours=24)
+        self.assertEqual([p["id"] for p in posts], [b, a])
         self.assertEqual(posts[1]["queries"], [1, 2])
-        self.assertEqual((ok, errors), (2, []))
-        self.assertEqual(client.queries[0][1], "2026-10-15T12:00:00Z")
+        self.assertEqual((ok, errors, dropped), (2, [], 1))
+        self.assertEqual(client.calls[0][1], "2026-10-15")
+        self.assertIn("q1", client.calls[0][0])
 
     def test_run_stops_on_auth_error(self):
-        client = FakeClient([XError("tweets/search/recent: HTTP 401: Unauthorized"), [tweet("1", 999)]])
-        posts, ok, errors = fetch.run(client, ["q1", "q2"], NOW)
+        client = FakeClient([XAIError("responses: HTTP 401: bad key"), [raw(sid(1))]])
+        posts, ok, errors, _ = fetch.run(client, ["q1", "q2"], NOW)
         self.assertEqual((posts, ok, len(errors)), ([], 0, 1))
-        self.assertEqual(len(client.queries), 1)
+        self.assertEqual(len(client.calls), 1)
 
     def test_run_continues_after_other_errors(self):
-        client = FakeClient([XError("tweets/search/recent: HTTP 503: busy"), [tweet("1", 999)]])
-        posts, ok, errors = fetch.run(client, ["q1", "q2"], NOW)
-        self.assertEqual(([p["id"] for p in posts], ok, len(errors)), (["1"], 1, 1))
+        pid = sid(1)
+        client = FakeClient([XAIError("responses: HTTP 503: busy"), [raw(pid)]])
+        posts, ok, errors, _ = fetch.run(client, ["q1", "q2"], NOW)
+        self.assertEqual(([p["id"] for p in posts], ok, len(errors)), ([pid], 1, 1))
+
+
+class XAIClientTest(unittest.TestCase):
+    RESPONSE = {
+        "status": "completed",
+        "output": [
+            {"type": "x_search_call", "status": "completed"},
+            {"type": "message", "content": [{
+                "type": "output_text", "text": '{"posts": []}',
+                "annotations": [{"type": "url_citation", "url": "https://x.com/a/status/1"}]}]},
+        ],
+        "usage": {"cost_in_usd_ticks": 1234500000, "server_side_tool_usage_details": {"x_posts_fetched": 20}},
+    }
+
+    def test_x_search_parses_answer_citations_and_usage(self):
+        client = xai_api.XAIClient(api_key="test")
+        with mock.patch.object(xai_api.urllib.request, "urlopen",
+                               return_value=io.BytesIO(json.dumps(self.RESPONSE).encode())) as urlopen:
+            answer, cited = client.x_search("prompt", {"type": "object"}, "2026-10-15")
+        body = json.loads(urlopen.call_args[0][0].data)
+        self.assertEqual(body["tools"], [{"type": "x_search", "from_date": "2026-10-15"}])
+        self.assertEqual(body["text"]["format"]["type"], "json_schema")
+        self.assertEqual(urlopen.call_args[0][0].get_header("Authorization"), "Bearer test")
+        self.assertEqual((answer, cited), ({"posts": []}, {"https://x.com/a/status/1"}))
+        self.assertEqual(client.posts_fetched, 20)
+        self.assertAlmostEqual(client.cost_usd, 0.12345)
+
+    def test_x_search_without_json_raises(self):
+        bad = {"status": "incomplete", "output": []}
+        with mock.patch.object(xai_api.urllib.request, "urlopen", return_value=io.BytesIO(json.dumps(bad).encode())):
+            with self.assertRaises(XAIError):
+                xai_api.XAIClient(api_key="").x_search("p", {}, "2026-10-15")
 
 
 class FinishTest(unittest.TestCase):
@@ -141,7 +185,8 @@ class EndToEndTest(unittest.TestCase):
             with open(posts_path, "w") as f:
                 json.dump({"fetched_at": "2026-10-16T12:00:00Z", "duration_s": 3, "window_hours": 24,
                            "min_likes": 200, "queries": ["q1"], "searches_ok": 1, "errors": [],
-                           "posts_read": 100, "previous_stories": [], "posts": [post("1", 3000)]}, f)
+                           "posts_fetched": 40, "cost_usd": 0.31, "previous_stories": [],
+                           "posts": [post("1", 3000)]}, f)
             with open(stories_path, "w") as f:
                 json.dump({"stories": [FinishTest().story()]}, f)
             old = finish.POSTS_PATH, finish.STORIES_PATH
@@ -158,7 +203,8 @@ class EndToEndTest(unittest.TestCase):
             self.assertEqual(trends["stories"][0]["id"], "a-story")
             self.assertFalse(trends["sample"])
             self.assertEqual(log["entries"][0]["job"], "x_scan")
-            self.assertEqual(log["entries"][0]["message"], "1 stories from 1 posts across 1 searches")
+            self.assertEqual(log["entries"][0]["message"], "1 stories from 1 posts across 1 searches (xAI $0.31)")
+            self.assertEqual(log["entries"][0]["counts"]["cost_usd"], 0.31)
 
 
 if __name__ == "__main__":

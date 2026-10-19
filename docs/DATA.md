@@ -185,7 +185,7 @@ At most 8 items.
 
 ## `channel_stats.json`
 
-Chase AI (@Chase-H-AI) public channel stats and how the newest videos compare to the usual.
+Public stats for the creator's own channel (@baguskto by default) and how the newest videos compare to the usual.
 
 ```json
 {
