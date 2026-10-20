@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T13:07:39Z",
+  "generated_at": "2026-10-20T23:06:21Z",
   "sample": false,
-  "latest_version": "2.1.304",
+  "latest_version": "2.1.305",
   "dist_tags": {
-    "latest": "2.1.304",
+    "latest": "2.1.305",
     "stable": "2.1.304",
-    "next": "2.1.304"
+    "next": "2.1.305"
   },
   "items": [
+    {
+      "version": "2.1.305",
+      "date": "2026-10-20",
+      "title": "4 new features, 6 improvements, 6 changes, 22 fixes",
+      "highlights": [
+        "Added sandbox.allowNestedUserNamespaces so sandboxed commands on Linux can create user namespaces (Chromium, rootless podman); this lets…",
+        "Added CLAUDE_CODE_RETRY_WATCHDOG_USAGE_LIMIT_RECHECK_MS so unattended retry mode (CLAUDE_CODE_RETRY_WATCHDOG) notices a usage limit that…",
+        "VSCode: Added a \"Running start-up hooks\" spinner status, with a screen reader announcement, while SessionStart or Setup hooks run",
+        "Claude Tag: Added public Slack channels Claude hasn't joined to the Claude Tag admin Add place search, so admins can set one up from there",
+        "Improved /usage: each warning is now a one-line fix that names its source, and f applies the fixes; the same fixes appear in VS Code and…"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.305",
+      "released_at": "2026-10-20T19:29:36.816Z",
+      "summary": "4 added, 6 improved, 6 changed, 22 fixed",
+      "counts": {
+        "added": 4,
+        "improved": 6,
+        "changed": 6,
+        "fixed": 22,
+        "removed": 0,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.304",
       "date": "2026-10-19",
@@ -162,29 +185,6 @@
         "improved": 9,
         "changed": 6,
         "fixed": 56,
-        "removed": 0,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.295",
-      "date": "2026-10-08",
-      "title": "17 new features, 13 improvements, 16 changes, 97 fixes",
-      "highlights": [
-        "Added onFailure: \"block\" for command and HTTP hooks: a hook that can't start, times out, or exits with an unexpected code blocks the action…",
-        "Added Program Status Protocol (OSC 7501) support: terminals that implement it can show whether Claude Code is working, waiting on you, or…",
-        "Added quoted text to the /copy picker, so a drafted message copies without its > markers",
-        "Added a warning to claude plugin install, enable, disable and marketplace add when the settings file they write to does not load",
-        "Added a line on stderr, when it is a terminal, that says what a claude -p run is waiting for when it stays open after its last turn"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.295",
-      "released_at": "2026-10-08T18:22:58.621Z",
-      "summary": "17 added, 13 improved, 16 changed, 97 fixed",
-      "counts": {
-        "added": 17,
-        "improved": 13,
-        "changed": 16,
-        "fixed": 97,
         "removed": 0,
         "other": 0
       }

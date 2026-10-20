@@ -1,26 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T13:08:31Z",
+  "generated_at": "2026-10-20T23:07:10Z",
   "sample": false,
   "packs": [
     {
-      "story_id": "grok-bot-push",
-      "why_now": "Grok Bot just became an iPhone Action Button shortcut and added Runway MCP, and the top post has 14K+ likes. No YouTube video covers it yet.",
+      "story_id": "anthropic-s1-leak",
+      "fingerprint": "e26e28bb85f1b103",
+      "why_now": "The WSJ-reported Anthropic draft IPO numbers are at 15K+ likes on X and only two small videos cover them. Be the one who explains what an $80.7B loss actually means for people building on Claude.",
       "video": {
-        "title": "I Set Grok Bot as My iPhone Action Button. Worth It?",
-        "thumbnail_text": "GROK BOT ACTION BUTTON",
-        "hook": "xAI says you can press your iPhone's Action Button and just talk to Grok Bot. It also now plugs into Runway. I set it up, so here's what works, what doesn't, and whether it's worth a spot on your phone.",
+        "title": "Anthropic's $80B Loss, Explained for Claude Users",
+        "thumbnail_text": "$80B LOSS?",
+        "hook": "The Wall Street Journal says Anthropic's draft IPO filing shows an eighty billion dollar loss in six months. Before you panic about your Claude subscription, here's what the numbers say, what they don't, and what it means for you.",
         "alt_titles": [
-          "Grok Bot Now Has Runway Inside. I Tested It",
-          "Grok Bot Setup: Action Button, Runway and the Marketplace"
+          "Anthropic's IPO Filing: What Builders Should Know",
+          "Is Anthropic in Trouble? Reading the S-1 Leak"
         ],
         "outline": [
-          "Set up the Action Button shortcut step by step",
-          "Talk to it for real tasks and show where it stumbles",
-          "Try the Runway MCP inside Grok Bot and check what you can generate",
-          "Look at the Grok Bot marketplace and test a couple of ready-made bots",
-          "Check the claim of a Grok Imagine 'Director' studio: what is actually live?",
-          "Verdict: who should bother and who should skip it"
+          "What the WSJ reported: $16.3B revenue, $80.7B net loss, per the draft",
+          "Why the loss is described as driven largely by accounting charges",
+          "The compute bill: about $750B planned over 7 to 10 years, including $111B on Google cloud",
+          "What it could mean for pricing and usage limits (flag as speculation, not fact)",
+          "Should you build on Claude? My take as someone who uses it daily"
         ]
       },
       "short": {
@@ -28,27 +28,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "You can now talk to Grok Bot with one press of your iPhone.",
-            "visual": "Phone Action Button press, Grok Bot opens"
+            "line": "Anthropic reportedly lost eighty billion dollars in six months.",
+            "visual": "Big text: $80.7B, WSJ source tag"
           },
           {
             "t": "3-10s",
-            "line": "xAI added it as an Action Button shortcut. Setup takes about a minute, and I'll show you the exact settings.",
-            "visual": "Screen recording of Settings > Action Button"
+            "line": "That's from a draft IPO filing the Wall Street Journal saw. Revenue was sixteen point three billion, but the loss is mostly accounting charges.",
+            "visual": "Revenue vs loss bars"
           },
           {
-            "t": "10-18s",
-            "line": "Then I asked it to do real work, not party tricks. Some of it was fast. Some of it, honestly, wasn't.",
-            "visual": "Split screen of good and bad answers"
+            "t": "10-20s",
+            "line": "The bigger number is compute. Roughly seven hundred fifty billion over the next seven to ten years, a hundred eleven billion of it on Google cloud.",
+            "visual": "Compute commitments list"
           },
           {
-            "t": "18-25s",
-            "line": "Runway is also plugged in now through MCP, so you can generate video without leaving the chat.",
-            "visual": "Runway clip generated inside Grok Bot"
+            "t": "20-27s",
+            "line": "Does that change your Claude plan today? Nothing in the report says so. But watch pricing and limits.",
+            "visual": "Claude usage screen"
           },
           {
-            "t": "25-30s",
-            "line": "Full test is on the channel. Follow for what I check next.",
+            "t": "27-30s",
+            "line": "I'll break down the full numbers on the channel. Follow so you don't miss it.",
             "visual": "Channel end card"
           }
         ]
@@ -56,56 +56,60 @@
       "carousel": {
         "slides": [
           {
-            "heading": "Grok Bot hits your Action Button",
-            "body": "xAI says you can press and talk."
+            "heading": "Anthropic's draft IPO numbers",
+            "body": "What the WSJ reportedly saw"
           },
           {
-            "heading": "What changed",
-            "body": "iPhone Action Button shortcut, plus Runway MCP inside the chat."
+            "heading": "$16.3B revenue",
+            "body": "First half of 2026, per the draft"
           },
           {
-            "heading": "Setup",
-            "body": "Settings, Action Button, pick the Grok Bot shortcut."
+            "heading": "$80.7B net loss",
+            "body": "Driven largely by accounting charges"
           },
           {
-            "heading": "Runway inside Grok",
-            "body": "Generate video without leaving the conversation."
+            "heading": "About $750B on compute",
+            "body": "Planned over 7 to 10 years"
           },
           {
-            "heading": "Claims to check",
-            "body": "A Grok Imagine 'Director' studio is rumored, not confirmed."
+            "heading": "$111B on Google cloud",
+            "body": "One of the biggest commitments"
           },
           {
-            "heading": "Follow for the full test",
-            "body": "I'm testing it on real tasks."
+            "heading": "What it means for you",
+            "body": "Nothing changes today. Watch pricing and limits."
+          },
+          {
+            "heading": "Follow for the full breakdown",
+            "body": "Save this for later"
           }
         ],
-        "caption": "Grok Bot now works from the iPhone Action Button and has Runway MCP. I'm testing what holds up."
+        "caption": "Anthropic's draft IPO filing, as reported by the WSJ: $16.3B revenue, $80.7B net loss, and a huge compute bill. What it does and doesn't mean for Claude users."
       },
-      "x_post": "Grok Bot can now be set as your iPhone Action Button, and Runway MCP is inside it. I'm setting it up and testing it on real work, not demos. Full results soon.",
+      "x_post": "WSJ says Anthropic's draft IPO filing shows $16.3B revenue and an $80.7B net loss in H1, mostly accounting charges, plus ~$750B of planned compute spend. Nothing here says your Claude plan changes. Full breakdown on YouTube soon.",
       "x_thread": [
-        "Plan: set up the shortcut, run real tasks, try Runway generation, and check the marketplace bots.",
-        "Also checking the rumored Grok Imagine 'Director' studio. Posts claim it's coming, so I'll flag what's actually live."
-      ],
-      "fingerprint": "f4a00d7f173118f4"
+        "The loss is reported as driven largely by accounting charges, not just cash burn. Worth reading the actual numbers before reacting.",
+        "Watch for pricing and usage-limit changes. That's the part that touches builders."
+      ]
     },
     {
-      "story_id": "elon-xai-anthropic-remarks",
-      "why_now": "Clips of Musk joking that the name Anthropic may turn out 'misanthropic' are spreading on X, with no YouTube coverage yet.",
+      "story_id": "spacex-xai-revenue",
+      "fingerprint": "9427a9a62e7875ed",
+      "why_now": "SpaceX numbers and Musk's GPU claim are being used to say xAI is beating OpenAI and Anthropic, and only one small video covers it. A sober check of the claims is open ground.",
       "video": {
-        "title": "Musk on Anthropic's Name: What He Said and What Matters",
-        "thumbnail_text": "MUSK VS ANTHROPIC",
-        "hook": "Elon Musk says he's a little worried about Anthropic's name, because things tend to become the opposite of what they're called. Funny line. But does it matter if you build with Claude? Let's separate the joke from the substance.",
+        "title": "SpaceX vs OpenAI vs Anthropic: Who's Really Winning AI?",
+        "thumbnail_text": "SPACEX WINS?",
+        "hook": "Posts all over X say SpaceX and xAI are about to pass OpenAI and Anthropic. Some of that is real numbers and some is hype. Here's which is which, and what it means for the models you can actually use.",
         "alt_titles": [
-          "Elon Mocks Anthropic's Name. Should Builders Care?",
-          "Musk's xAI 'Side Hustle' Comments, Explained"
+          "Is SpaceX xAI Ahead of OpenAI? The Numbers",
+          "Fact-Checking the SpaceX AI Hype"
         ],
         "outline": [
-          "Play the quoted clips and what he actually says",
-          "The xAI 'side hustle' remark and the timeline he describes",
-          "What is opinion versus anything verifiable",
-          "How xAI and Anthropic compete for builders right now",
-          "What you should base your tool choice on: your own tests"
+          "The claims going around: $14.6B in a quarter, profitable, 200,000 GB300s a month",
+          "What's reported vs what's an opinion on X",
+          "Revenue and profit are not the same as model quality",
+          "What xAI's compute could mean for Grok",
+          "What I'd do as a builder: test Grok next to Claude and GPT yourself"
         ]
       },
       "short": {
@@ -113,27 +117,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Elon Musk just took a shot at Anthropic's name.",
-            "visual": "Clip of the quote on screen"
+            "line": "Is SpaceX about to beat OpenAI and Anthropic at AI?",
+            "visual": "SpaceX logo vs lab logos"
           },
           {
             "t": "3-10s",
-            "line": "He said, and I'm quoting the clip, that if you call something Anthropic, chances are it's misanthropic.",
-            "visual": "Quote text overlay"
+            "line": "Posts say SpaceX did fourteen point six billion in one quarter and is profitable. Musk says two hundred thousand GB300 GPUs come online each month.",
+            "visual": "Quote cards from posts"
           },
           {
-            "t": "10-18s",
-            "line": "He also said he started xAI as a side hustle to a side hustle, then spent a year in politics.",
-            "visual": "Second clip and caption"
+            "t": "10-20s",
+            "line": "Those are claims worth checking. Money and chips don't equal a better model for your work.",
+            "visual": "Check-mark overlay"
           },
           {
-            "t": "18-25s",
-            "line": "It's a joke and an opinion. It doesn't tell you which model is better at your job.",
-            "visual": "Chase to camera"
+            "t": "20-27s",
+            "line": "What matters to you is whether Grok keeps getting better. I'll test it against Claude and GPT.",
+            "visual": "Side-by-side test"
           },
           {
-            "t": "25-30s",
-            "line": "Test the tools yourself. I'll show you how.",
+            "t": "27-30s",
+            "line": "Follow for the head-to-head.",
             "visual": "End card"
           }
         ]
@@ -141,56 +145,59 @@
       "carousel": {
         "slides": [
           {
-            "heading": "Musk takes a jab at Anthropic",
-            "body": "Clips are spreading on X."
+            "heading": "SpaceX AI hype, checked",
+            "body": "What's claimed vs what's proven"
           },
           {
-            "heading": "The quote",
-            "body": "He worries the name could turn out 'misanthropic'."
+            "heading": "$14.6B in one quarter",
+            "body": "Reported in posts on X"
           },
           {
-            "heading": "The xAI origin story",
-            "body": "He calls xAI a side hustle to a side hustle."
+            "heading": "Profitable, per posts",
+            "body": "Unlike the labs it's compared to"
           },
           {
-            "heading": "Opinion, not evidence",
-            "body": "None of this benchmarks a model."
+            "heading": "200K GB300s a month",
+            "body": "Musk's claim for the rest of 2026"
           },
           {
-            "heading": "What to do instead",
-            "body": "Test both tools on your own work."
+            "heading": "Chips aren't models",
+            "body": "Quality still has to be tested"
           },
           {
-            "heading": "Follow for hands-on tests",
-            "body": "No hot takes without testing."
+            "heading": "My plan",
+            "body": "Test Grok vs Claude vs GPT"
+          },
+          {
+            "heading": "Follow for the results",
+            "body": "Save this post"
           }
         ],
-        "caption": "Musk joked about Anthropic's name. Here's the quote and why your own tests matter more."
+        "caption": "SpaceX numbers are being used to say xAI will pass OpenAI and Anthropic. Here's what's claimed, what's opinion, and how to test it yourself."
       },
-      "x_post": "Musk says he's worried Anthropic's name could turn out 'misanthropic', and calls xAI a side hustle to a side hustle. Fun quotes. Still: judge models by your own tests.",
+      "x_post": "People on X say SpaceX will pass OpenAI and Anthropic: $14.6B in a quarter, profitable, ~200K GB300 GPUs a month per Musk. Big numbers, but compute isn't model quality. I'm testing Grok vs Claude vs GPT.",
       "x_thread": [
-        "Source: interview clips circulating on X. It's his opinion, not a benchmark or a product announcement."
-      ],
-      "fingerprint": "f64ac0eb364f8148"
+        "Revenue and chips are real signals. They're not a benchmark for the model you use every day."
+      ]
     },
     {
-      "story_id": "codex-capcut-and-tools",
-      "why_now": "Several creators are showing CapCut Web driven by Codex, and a post says ChatGPT subscriptions now work in Blender. No YouTube video covers this yet.",
+      "story_id": "claude-usage-limit-bug",
+      "fingerprint": "ef1b40ad23e41f8a",
+      "why_now": "Anthropic admitted about 40,000 accounts had the wrong usage limits and is adding credits. Only one small video covers limits, and people are asking if they were hit.",
       "video": {
-        "title": "Codex Edits Video in CapCut Web: I Tried It",
-        "thumbnail_text": "CODEX + CAPCUT",
-        "hook": "People are posting marketing videos made by telling Codex what you want and letting it drive CapCut Web. I tried it with my own footage. Here's the setup, the result, and where it fell apart.",
+        "title": "Claude Usage Limits Bug: Were You One of 40,000?",
+        "thumbnail_text": "40K ACCOUNTS HIT",
+        "hook": "Anthropic says about forty thousand Claude accounts had the wrong usage limits applied this past weekend. If your usage drained way too fast, you may be owed credits. Here's how to check and how to stop wasting limits.",
         "alt_titles": [
-          "Can Codex Run CapCut For You?",
-          "ChatGPT in Blender, Codex in CapCut: Real Test"
+          "Claude Draining Too Fast? What Anthropic Admitted",
+          "Claude Usage Bug: How to Check and Get Credits"
         ],
         "outline": [
-          "What the posts claim and what tools are involved",
-          "Set up the Codex and CapCut Web connection",
-          "Edit one real clip from a plain-language brief",
-          "Try the ChatGPT-in-Blender tip and see if it replaces Blender-MCP",
-          "What you still have to fix by hand",
-          "Verdict for solo creators"
+          "What Anthropic's team said: ~40,000 accounts, limits didn't match the selected plan",
+          "Who's being contacted and the credits promised",
+          "How to check your own usage and plan settings",
+          "Habits that burn limits fast: long contexts, big files, repeated retries",
+          "How I keep my usage down in Claude Code"
         ]
       },
       "short": {
@@ -198,27 +205,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Creators say Codex can drive CapCut for you.",
-            "visual": "Screen: Codex prompt box"
+            "line": "Claude draining your usage way too fast? It wasn't just you.",
+            "visual": "Usage meter draining"
           },
           {
             "t": "3-10s",
-            "line": "You describe the video in plain language. Codex calls CapCut Web to build it.",
-            "visual": "Prompt typed on screen"
+            "line": "Anthropic says about forty thousand accounts had limits that didn't match their plan. They're reaching out and adding credits.",
+            "visual": "Screenshot of the post"
           },
           {
-            "t": "10-18s",
-            "line": "I tried it on my own footage. The first cut was usable, but the pacing needed fixes.",
-            "visual": "Timeline result"
+            "t": "10-20s",
+            "line": "Check your usage page and your plan. If it looks wrong, watch for the email.",
+            "visual": "Settings screen"
           },
           {
-            "t": "18-25s",
-            "line": "There's also a claim you can use your ChatGPT plan inside Blender. I'm checking that too.",
-            "visual": "Blender window"
+            "t": "20-27s",
+            "line": "And long chats and big files burn limits fast. Start new chats and trim context.",
+            "visual": "Context size demo"
           },
           {
-            "t": "25-30s",
-            "line": "Full test on the channel.",
+            "t": "27-30s",
+            "line": "Follow for more Claude tips.",
             "visual": "End card"
           }
         ]
@@ -226,56 +233,59 @@
       "carousel": {
         "slides": [
           {
-            "heading": "Codex meets CapCut Web",
-            "body": "Creators say it can drive video edits."
+            "heading": "Claude usage bug",
+            "body": "About 40,000 accounts affected"
           },
           {
-            "heading": "How it works",
-            "body": "Describe the goal, Codex calls CapCut."
+            "heading": "What happened",
+            "body": "Limits didn't match the selected plan"
           },
           {
-            "heading": "Blender tip",
-            "body": "One post says ChatGPT works in Blender without Blender-MCP."
+            "heading": "The fix",
+            "body": "Anthropic says it's corrected"
           },
           {
-            "heading": "What to check",
-            "body": "Quality of the cut, speed, and cost."
+            "heading": "Credits",
+            "body": "Affected users are being contacted"
           },
           {
-            "heading": "Who it's for",
-            "body": "Solo creators short on editing time."
+            "heading": "Check your account",
+            "body": "Usage page and plan settings"
           },
           {
-            "heading": "Follow for the real test",
-            "body": "I'll show results and failures."
+            "heading": "Save your limits",
+            "body": "New chats, less context"
+          },
+          {
+            "heading": "Follow for more Claude tips",
+            "body": "Share with a friend who hit the wall"
           }
         ],
-        "caption": "Codex plus CapCut Web is making the rounds. I'm testing what it really does."
+        "caption": "Anthropic says ~40,000 accounts had the wrong usage limits. What happened, how to check your account, and how to stop burning limits."
       },
-      "x_post": "Creators are posting videos made by Codex driving CapCut Web, and one post says ChatGPT now works in Blender without Blender-MCP. Testing both on real footage.",
+      "x_post": "Anthropic says ~40,000 accounts had usage limits that didn't match their plan, which drained usage fast over the weekend. It's fixed and affected users get credits. Check your usage page, and here's how I save limits.",
       "x_thread": [
-        "I'll share the prompts I used and where the output needed manual fixes."
-      ],
-      "fingerprint": "677efd72b33e119f"
+        "Long chats and big attached files burn limits fastest. Start fresh chats often."
+      ]
     },
     {
-      "story_id": "anthropic-oss-scanner",
-      "why_now": "Anthropic's OSS Scanner announcement has 10K+ likes but the YouTube videos on it have 338 views combined.",
+      "story_id": "agent-infra-tools",
+      "fingerprint": "6de55f134388b498",
+      "why_now": "Vercel, Daytona and Beacon all shipped agent infrastructure on the same day, and no YouTube video covers any of it. It's a clear early lane for builders.",
       "video": {
-        "title": "Anthropic's Free OSS Scanner: How to Get Your Repo Scanned",
-        "thumbnail_text": "FREE AI SECURITY SCAN",
-        "hook": "Anthropic is offering critical open source projects free, regular vulnerability scans from its strongest models, with a proof of concept for each finding. Here's who qualifies, what you get, and how to run your own scan with Claude in the meantime.",
+        "title": "3 New Tools for Running AI Agents That Don't Quit",
+        "thumbnail_text": "AGENTS THAT RESUME",
+        "hook": "Three agent tools just dropped, and they fix the thing that annoys me most: agents that die halfway through a job. Vercel, Daytona and Beacon. I'll show what each does and who needs it.",
         "alt_titles": [
-          "Claude Finds Security Bugs for Free: What's the Catch?",
-          "OSS Scanner Explained for Solo Builders"
+          "Vercel durable-harness, Daytona and Beacon Explained",
+          "Long-Running AI Agents: New Infrastructure"
         ],
         "outline": [
-          "What Anthropic announced, straight from the post and page",
-          "Who is covered: critical open source projects, and what that means",
-          "What a finding looks like: proof of concept, patch where possible",
-          "Run a similar review on your own repo with Claude Code",
-          "Limits: false positives and what still needs a human",
-          "What to do this week"
+          "Vercel durable-harness: harnesses resume after failures",
+          "Daytona's $60M Series B and the Agent Cloud pitch",
+          "Beacon: open-source memory for coding agents that learns from your sessions",
+          "Which one fits a solo builder (test, don't assume)",
+          "Try one with Claude Code and report back"
         ]
       },
       "short": {
@@ -283,27 +293,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Anthropic will scan critical open source projects for security bugs, free.",
-            "visual": "Announcement post on screen"
+            "line": "Your AI agent crashed halfway through. Three new tools try to fix that.",
+            "visual": "Crashed terminal"
           },
           {
             "t": "3-10s",
-            "line": "It's called OSS Scanner. Periodic scans, run by their strongest models.",
-            "visual": "Page screenshot"
+            "line": "Vercel's durable-harness runs Claude Code, Codex and others so they resume after failures, for hours or days.",
+            "visual": "Vercel announcement"
           },
           {
-            "t": "10-18s",
-            "line": "Every finding comes with a proof of concept, and a patch where possible.",
-            "visual": "Mock finding layout"
+            "t": "10-20s",
+            "line": "Daytona raised sixty million for an agent cloud. Beacon is open-source memory that learns from your coding sessions.",
+            "visual": "Logos with captions"
           },
           {
-            "t": "18-25s",
-            "line": "Not a critical project? You can still ask Claude Code to review your repo. I'll show the prompt.",
-            "visual": "Terminal with Claude Code"
+            "t": "20-27s",
+            "line": "I'm testing durable-harness with Claude Code and will show where it breaks.",
+            "visual": "Terminal setup"
           },
           {
-            "t": "25-30s",
-            "line": "Full walkthrough on the channel.",
+            "t": "27-30s",
+            "line": "Follow for the test.",
             "visual": "End card"
           }
         ]
@@ -311,56 +321,59 @@
       "carousel": {
         "slides": [
           {
-            "heading": "Anthropic's free OSS Scanner",
-            "body": "Security scans for critical open source."
+            "heading": "3 tools for agents",
+            "body": "That keep working"
           },
           {
-            "heading": "What you get",
-            "body": "Periodic scans from its strongest models."
+            "heading": "Vercel durable-harness",
+            "body": "Resume after failures"
           },
           {
-            "heading": "Each finding includes",
-            "body": "A proof of concept, and a patch where possible."
+            "heading": "Daytona Agent Cloud",
+            "body": "$60M Series B"
           },
           {
-            "heading": "Who qualifies",
-            "body": "Critical open source projects. Check the page."
+            "heading": "Beacon",
+            "body": "Open-source memory for coding agents"
           },
           {
-            "heading": "Your own repo",
-            "body": "Run a Claude Code review today."
+            "heading": "Who needs this",
+            "body": "Anyone running long jobs"
           },
           {
-            "heading": "Follow for the prompt",
-            "body": "Walkthrough coming."
+            "heading": "My plan",
+            "body": "Test it with Claude Code"
+          },
+          {
+            "heading": "Follow for the results",
+            "body": "Save for later"
           }
         ],
-        "caption": "Anthropic launched OSS Scanner. Here's what it covers and how to try something similar on your repo."
+        "caption": "Vercel durable-harness, Daytona and Beacon all aim at long-running agents. What each does and what I'm testing first."
       },
-      "x_post": "Anthropic launched OSS Scanner: free, periodic vulnerability scans for critical open source projects, with a proof of concept and patch where possible. Walkthrough soon.",
+      "x_post": "Three agent tools this week: Vercel durable-harness (agents resume after failures), Daytona's $60M Series B for an agent cloud, and Beacon, open-source memory for coding agents. I'm testing durable-harness with Claude Code.",
       "x_thread": [
-        "I'll check who qualifies and show a similar review you can run on your own repo with Claude Code."
-      ],
-      "fingerprint": "f7ee3c3ede3eeca4"
+        "Beacon claims to learn how you debug from your sessions. I want to see that in practice."
+      ]
     },
     {
-      "story_id": "deepseek-deepinfer-open-source",
-      "why_now": "DeepSeek just open-sourced its inference engine DeepInfer and X heat is maxed, with no YouTube coverage yet.",
+      "story_id": "openai-safety-hire",
+      "fingerprint": "d8625831b7873a92",
+      "why_now": "Altman announced a new safety and security lead on superintelligence, and no YouTube video covers it. Detail is thin, so an honest what-we-know take is a fast win.",
       "video": {
-        "title": "DeepSeek Open-Sourced DeepInfer: What Builders Get",
-        "thumbnail_text": "DEEPSEEK DEEPINFER",
-        "hook": "DeepSeek just open-sourced the inference engine behind its own production services. Model weights are one thing, but running them cheaply is the hard part. I pulled the repo, so here's what's in it and whether you can use it.",
+        "title": "OpenAI Hires a New Safety Lead: What We Know",
+        "thumbnail_text": "NEW SAFETY LEAD",
+        "hook": "Sam Altman just said OpenAI has a new person taking on safety and security for superintelligence. There isn't much detail yet, so here's what he said, what's still unclear, and what to watch.",
         "alt_titles": [
-          "DeepSeek Gave Away Its Inference Stack",
-          "DeepInfer Explained for Non-Experts"
+          "OpenAI's New Safety Hire Explained",
+          "What Altman Said About Superintelligence Safety"
         ],
         "outline": [
-          "What DeepSeek announced and what DeepInfer is",
-          "Why serving models cheaply matters more than weights",
-          "Walk through the repo and what it needs to run",
-          "Run V4.1 Flash locally, including the 128GB RAM GGUF route",
-          "Claims to check: the cost and speed gains people are posting",
-          "Who should care: self-hosters versus API users"
+          "What Altman's post says and doesn't say",
+          "Who Aleksander is: confirm details before publishing",
+          "Why a safety and security role matters for products you use",
+          "What to watch next from OpenAI",
+          "What this means for builders"
         ]
       },
       "short": {
@@ -368,27 +381,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "DeepSeek just open-sourced the engine that runs its own models.",
-            "visual": "GitHub repo page"
+            "line": "OpenAI just named someone to lead safety and security.",
+            "visual": "Altman post screenshot"
           },
           {
             "t": "3-10s",
-            "line": "It's called DeepInfer. Weights alone don't make AI cheap. Serving them well does.",
-            "visual": "Repo README"
+            "line": "Sam Altman says he's grateful Aleksander accepted the request, citing big safety and security challenges around superintelligence.",
+            "visual": "Quote on screen"
           },
           {
-            "t": "10-18s",
-            "line": "Posters say it came out the same week as a search API and the V4.1 Flash update.",
-            "visual": "Timeline graphic"
+            "t": "10-20s",
+            "line": "The post is short. No title, no plan, no timeline. So take claims about it with caution.",
+            "visual": "Question marks"
           },
           {
-            "t": "18-25s",
-            "line": "Can you run it? I'm testing, and checking the hardware you actually need.",
-            "visual": "Terminal"
+            "t": "20-27s",
+            "line": "What I'm watching is whether it changes how OpenAI ships models and tools.",
+            "visual": "Release timeline"
           },
           {
-            "t": "25-30s",
-            "line": "Full breakdown on the channel.",
+            "t": "27-30s",
+            "line": "Follow for updates.",
             "visual": "End card"
           }
         ]
@@ -396,37 +409,38 @@
       "carousel": {
         "slides": [
           {
-            "heading": "DeepSeek open-sourced DeepInfer",
-            "body": "Its production inference engine."
+            "heading": "OpenAI safety lead",
+            "body": "What Altman announced"
+          },
+          {
+            "heading": "The post",
+            "body": "Aleksander accepted the request"
+          },
+          {
+            "heading": "The focus",
+            "body": "Safety and security for superintelligence"
+          },
+          {
+            "heading": "Still unknown",
+            "body": "Title, scope, timeline"
           },
           {
             "heading": "Why it matters",
-            "body": "Cheap serving is the hard part of open models."
+            "body": "Shapes how models ship"
           },
           {
-            "heading": "Same week",
-            "body": "A search API and V4.1 Flash 1017, per posts."
+            "heading": "What I'm watching",
+            "body": "Next OpenAI releases"
           },
           {
-            "heading": "Run it locally",
-            "body": "Unsloth GGUFs target 128GB RAM setups."
-          },
-          {
-            "heading": "What to verify",
-            "body": "Speed and cost claims."
-          },
-          {
-            "heading": "Follow for the test",
-            "body": "Hands-on results coming."
+            "heading": "Follow for updates",
+            "body": "Share your take"
           }
         ],
-        "caption": "DeepSeek open-sourced DeepInfer. Here's what it is and what I'm testing."
+        "caption": "Altman announced a new safety and security lead at OpenAI. Here's what the post says and what's still unknown."
       },
-      "x_post": "DeepSeek open-sourced DeepInfer, the inference engine behind its production services. Weights don't make AI cheap, serving does. Pulling the repo and testing it now.",
-      "x_thread": [
-        "Also testing V4.1 Flash 1017 locally using Unsloth's GGUFs, which target 128GB RAM setups."
-      ],
-      "fingerprint": "f69d9ba0bc0164ee"
+      "x_post": "Sam Altman says Aleksander has accepted a request to take on OpenAI's safety and security challenges around superintelligence. Details are thin: no title or plan yet. I'm watching how it affects what ships.",
+      "x_thread": []
     }
   ]
 }
