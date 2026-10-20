@@ -1,50 +1,64 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T22:59:57Z",
-  "x_trends_generated_at": "2026-10-19T22:54:00Z",
+  "generated_at": "2026-10-20T13:07:39Z",
+  "x_trends_generated_at": "2026-10-20T12:54:27Z",
   "x_trends_sample": false,
   "lookback_hours": 72,
   "stories": [
     {
       "story_id": "grok-bot-push",
-      "title": "xAI pushes Grok Bot with new release and demos",
-      "query": "grok bot xai grok grok bot 0.71.2",
+      "title": "xAI pushes Grok Bot with iPhone button, Runway MCP and marketplace",
+      "query": "grok bot xai grok imagine runway mcp",
       "video_count": 0,
       "total_views": 0,
       "max_views": 0,
       "big_channel_videos": 0,
       "coverage": "none",
       "coverage_score": 0,
-      "heat": 100.0,
-      "gap_score": 100,
+      "heat": 97.0,
+      "gap_score": 97,
       "top_videos": []
     },
     {
-      "story_id": "schmidt-anthropic-stake",
-      "title": "Eric Schmidt reportedly owns about 1% of Anthropic",
-      "query": "eric schmidt anthropic anthropic ipo anthropic",
+      "story_id": "elon-xai-anthropic-remarks",
+      "title": "Musk comments on Anthropic's name and xAI's origins",
+      "query": "elon musk anthropic xai musk interview",
       "video_count": 0,
       "total_views": 0,
       "max_views": 0,
       "big_channel_videos": 0,
       "coverage": "none",
       "coverage_score": 0,
-      "heat": 92.0,
-      "gap_score": 92,
+      "heat": 80.0,
+      "gap_score": 80,
+      "top_videos": []
+    },
+    {
+      "story_id": "codex-capcut-and-tools",
+      "title": "Codex used with CapCut Web and Blender",
+      "query": "codex capcut chatgpt blender codex",
+      "video_count": 0,
+      "total_views": 0,
+      "max_views": 0,
+      "big_channel_videos": 0,
+      "coverage": "none",
+      "coverage_score": 0,
+      "heat": 67.0,
+      "gap_score": 67,
       "top_videos": []
     },
     {
       "story_id": "anthropic-oss-scanner",
       "title": "Anthropic launches OSS Scanner for open source security",
-      "query": "anthropic oss scanner claude security vulnerability scanning",
-      "video_count": 3,
-      "total_views": 310,
-      "max_views": 270,
+      "query": "anthropic oss scanner claude security open source vulnerability",
+      "video_count": 5,
+      "total_views": 338,
+      "max_views": 272,
       "big_channel_videos": 0,
       "coverage": "low",
-      "coverage_score": 11,
-      "heat": 91.0,
-      "gap_score": 81,
+      "coverage_score": 19,
+      "heat": 77.0,
+      "gap_score": 62,
       "top_videos": [
         {
           "video_id": "qnXgYecl9Lg",
@@ -53,16 +67,7 @@
           "channel": "코달이",
           "channel_subscribers": 6,
           "published_at": "2026-10-18T02:45:49Z",
-          "views": 270
-        },
-        {
-          "video_id": "_kMNg2GvGck",
-          "title": "Cybersecurity News | Anthropic AI Scanner | BSNL Cyber Insurance | Kaspersky AI Protect | AI-Powered",
-          "url": "https://www.youtube.com/watch?v=_kMNg2GvGck",
-          "channel": "IT Voice ",
-          "channel_subscribers": 7650,
-          "published_at": "2026-10-17T15:12:39Z",
-          "views": 24
+          "views": 272
         },
         {
           "video_id": "hvSxCS31RVY",
@@ -71,182 +76,424 @@
           "channel": "The AI Current",
           "channel_subscribers": 3,
           "published_at": "2026-10-18T17:00:14Z",
-          "views": 16
-        }
-      ]
-    },
-    {
-      "story_id": "openai-legacy-language-modernization",
-      "title": "OpenAI touts model gains on COBOL and Fortran",
-      "query": "openai cobol legacy code migration cobol ai openai",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
-      "heat": 78.0,
-      "gap_score": 78,
-      "top_videos": []
-    },
-    {
-      "story_id": "anthropic-nscale-compute-deal",
-      "title": "Anthropic in talks for $45B of Nscale compute",
-      "query": "anthropic nscale anthropic compute nscale",
-      "video_count": 2,
-      "total_views": 12,
-      "max_views": 12,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 8,
-      "heat": 80.0,
-      "gap_score": 74,
-      "top_videos": [
-        {
-          "video_id": "nUYJ7pQbJqI",
-          "title": "Anthropic's $45B AI Deal — Boom Or Bubble? #TickerPulse",
-          "url": "https://www.youtube.com/watch?v=nUYJ7pQbJqI",
-          "channel": "TickerPulseHQ",
-          "channel_subscribers": 11,
-          "published_at": "2026-10-19T21:01:06Z",
-          "views": 12
-        },
-        {
-          "video_id": "FV5LBp1V8hM",
-          "title": "Anthropic in Talks for Second $45 Billion Computing Deal With Nscale, Bloomberg Reports",
-          "url": "https://www.youtube.com/watch?v=FV5LBp1V8hM",
-          "channel": "Unbiased Headlines",
-          "channel_subscribers": 179,
-          "published_at": "2026-10-19T21:53:46Z",
-          "views": 0
-        }
-      ]
-    },
-    {
-      "story_id": "cloudflare-clairic-model",
-      "title": "Cloudflare introduces clairic extraction model",
-      "query": "cloudflare clairic extraction model cloudflare ai",
-      "video_count": 1,
-      "total_views": 2,
-      "max_views": 2,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 4,
-      "heat": 69.0,
-      "gap_score": 66,
-      "top_videos": [
-        {
-          "video_id": "ifaIpVYNmV4",
-          "title": "Cloudflare gives structured data tasks their own AI model with Clairic #Shorts",
-          "url": "https://www.youtube.com/watch?v=ifaIpVYNmV4",
-          "channel": "RuntimeWire",
-          "channel_subscribers": 25700,
-          "published_at": "2026-10-19T18:27:22Z",
-          "views": 2
-        }
-      ]
-    },
-    {
-      "story_id": "deepseek-huawei-chip",
-      "title": "DeepSeek and Huawei reportedly co-design AI chips",
-      "query": "deepseek huawei ai chip nvidia",
-      "video_count": 3,
-      "total_views": 46,
-      "max_views": 25,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 11,
-      "heat": 65.0,
-      "gap_score": 58,
-      "top_videos": [
-        {
-          "video_id": "Fs4EcJx3vO8",
-          "title": "China Just Replaced Nvidia—Without a Single American Chip",
-          "url": "https://www.youtube.com/watch?v=Fs4EcJx3vO8",
-          "channel": "Forge Front",
-          "channel_subscribers": 1050,
-          "published_at": "2026-10-19T13:03:17Z",
           "views": 25
         },
         {
-          "video_id": "AOWWWYkpnSc",
-          "title": "DeepSeek y Huawei: la carrera por una IA sin Nvidia",
-          "url": "https://www.youtube.com/watch?v=AOWWWYkpnSc",
-          "channel": "Solo en Bits",
-          "channel_subscribers": 41,
-          "published_at": "2026-10-17T13:00:26Z",
-          "views": 20
+          "video_id": "_kMNg2GvGck",
+          "title": "Cybersecurity News | Anthropic AI Scanner | BSNL Cyber Insurance | Kaspersky AI Protect | AI-Powered",
+          "url": "https://www.youtube.com/watch?v=_kMNg2GvGck",
+          "channel": "IT Voice ",
+          "channel_subscribers": 7650,
+          "published_at": "2026-10-17T15:12:39Z",
+          "views": 25
         },
         {
-          "video_id": "EhWZXPxXb5c",
-          "title": "Nvidia Just Lost Its Grip On China",
-          "url": "https://www.youtube.com/watch?v=EhWZXPxXb5c",
-          "channel": "Big Tech Files",
-          "channel_subscribers": 20,
-          "published_at": "2026-10-19T16:00:33Z",
+          "video_id": "2VdhkYuML8I",
+          "title": "OpenAI's COBOL Jump: 5.4% → 86.6% + Anthropic's Free Bug Scanner",
+          "url": "https://www.youtube.com/watch?v=2VdhkYuML8I",
+          "channel": "Token Tape",
+          "channel_subscribers": 0,
+          "published_at": "2026-10-20T07:50:47Z",
+          "views": 15
+        },
+        {
+          "video_id": "Oe-h221U7fU",
+          "title": "Anthropic OSS Scanner Explained: Free AI Bug Scans for Open Source",
+          "url": "https://www.youtube.com/watch?v=Oe-h221U7fU",
+          "channel": "Mr. Cloud Book",
+          "channel_subscribers": 14200,
+          "published_at": "2026-10-20T12:30:08Z",
           "views": 1
         }
       ]
     },
     {
-      "story_id": "cua-spaces-sdk",
-      "title": "Cua Spaces SDK lets agents run on your own compute",
-      "query": "cua spaces computer use agents grok bot",
+      "story_id": "deepseek-deepinfer-open-source",
+      "title": "DeepSeek open-sources DeepInfer inference engine",
+      "query": "deepseek deepinfer deepseek open source deepseek inference",
+      "video_count": 10,
+      "total_views": 126,
+      "max_views": 92,
+      "big_channel_videos": 1,
+      "coverage": "medium",
+      "coverage_score": 40,
+      "heat": 100.0,
+      "gap_score": 60,
+      "top_videos": [
+        {
+          "video_id": "OxffAN3nw00",
+          "title": "DeepSeek just open-sourced its Inference Engine!",
+          "url": "https://www.youtube.com/watch?v=OxffAN3nw00",
+          "channel": "Code Bear",
+          "channel_subscribers": 52800,
+          "published_at": "2026-10-20T12:33:08Z",
+          "views": 92
+        },
+        {
+          "video_id": "SW7w12JqmWk",
+          "title": "DeepSeek open-sources DeepInfer: engine block, not the car #shorts",
+          "url": "https://www.youtube.com/watch?v=SW7w12JqmWk",
+          "channel": "Git Gossip",
+          "channel_subscribers": 1,
+          "published_at": "2026-10-20T12:05:51Z",
+          "views": 14
+        },
+        {
+          "video_id": "jX8jskhgYTY",
+          "title": "DeepInfer: DeepSeek Open-Sourced Its Engine… and I Found a Hidden Prompt Line",
+          "url": "https://www.youtube.com/watch?v=jX8jskhgYTY",
+          "channel": "Heroic steps ",
+          "channel_subscribers": 106000,
+          "published_at": "2026-10-20T11:14:17Z",
+          "views": 12
+        },
+        {
+          "video_id": "oz0rNgvfHMw",
+          "title": "DeepSeek Open-Sources DeepInfer - But Not the Full Stack",
+          "url": "https://www.youtube.com/watch?v=oz0rNgvfHMw",
+          "channel": "DevLogic",
+          "channel_subscribers": 2090,
+          "published_at": "2026-10-20T12:50:51Z",
+          "views": 4
+        },
+        {
+          "video_id": "QinqUkYYlL4",
+          "title": "DeepSeek Open-Sourced Its Production AI Engine | DeepInfer",
+          "url": "https://www.youtube.com/watch?v=QinqUkYYlL4",
+          "channel": "NeuralBackend",
+          "channel_subscribers": 84,
+          "published_at": "2026-10-20T12:09:06Z",
+          "views": 3
+        }
+      ]
+    },
+    {
+      "story_id": "open-source-agent-tools",
+      "title": "New open-source agent tools: PandaCode and Strata",
+      "query": "pandacode strata agent open source coding agent",
       "video_count": 0,
       "total_views": 0,
       "max_views": 0,
       "big_channel_videos": 0,
       "coverage": "none",
       "coverage_score": 0,
-      "heat": 58.0,
-      "gap_score": 58,
+      "heat": 55.0,
+      "gap_score": 55,
       "top_videos": []
     },
     {
-      "story_id": "ai-agent-hack-reuters",
-      "title": "Reuters: one hacker used AI agents to breach 100+ firms",
-      "query": "ai agents hacking reuters ai hack ai cyberattack",
+      "story_id": "cua-spaces-sdk",
+      "title": "Cua Spaces SDK lets agents run on your own compute",
+      "query": "cua spaces computer use agent claude code",
       "video_count": 2,
-      "total_views": 369,
-      "max_views": 341,
+      "total_views": 444,
+      "max_views": 435,
       "big_channel_videos": 0,
       "coverage": "low",
       "coverage_score": 8,
-      "heat": 62.0,
-      "gap_score": 57,
+      "heat": 54.0,
+      "gap_score": 50,
       "top_videos": [
         {
-          "video_id": "AF_wSlRBIM8",
-          "title": "A hacker used AI agents to break into 100+ websites #cybersecurity #coding #ai",
-          "url": "https://www.youtube.com/watch?v=AF_wSlRBIM8",
-          "channel": "Xback",
-          "channel_subscribers": 46,
-          "published_at": "2026-10-19T17:33:28Z",
-          "views": 341
+          "video_id": "sbGN5P17CKI",
+          "title": "【最高】AI専用の PC をコードで作れる『Cua Space』にSDK が遂に登場！Claude Code に専用 PCを",
+          "url": "https://www.youtube.com/watch?v=sbGN5P17CKI",
+          "channel": "まさおAIじっくり解説ch",
+          "channel_subscribers": 28800,
+          "published_at": "2026-10-20T10:54:16Z",
+          "views": 435
         },
         {
-          "video_id": "B-84DUqEBeA",
-          "title": "1,200 AI Agents Broke Out of Their Sandbox to Steal the Answers. The OpenAI / Hugging Face Hack",
-          "url": "https://www.youtube.com/watch?v=B-84DUqEBeA",
-          "channel": "chen Stan",
-          "channel_subscribers": 2,
-          "published_at": "2026-10-17T07:42:24Z",
-          "views": 28
+          "video_id": "JcBQ6lR9RY0",
+          "title": "【Cua・コンピュータ操作AIデイリー】2026-10-19（月） ChatGPTがタブを操作／SPACEを公開",
+          "url": "https://www.youtube.com/watch?v=JcBQ6lR9RY0",
+          "channel": "シンオン株式会社 (Synon,Inc) 公式",
+          "channel_subscribers": 18,
+          "published_at": "2026-10-18T19:36:20Z",
+          "views": 9
         }
       ]
     },
     {
-      "story_id": "anthropic-new-model-rumor",
-      "title": "Anthropic reportedly to release new model this month",
-      "query": "anthropic new model gemini 4 carbon openai terra",
-      "video_count": 2,
-      "total_views": 1007,
-      "max_views": 943,
+      "story_id": "gemini-4-argon-demo",
+      "title": "Google shows Gemini 4 Argon turning photos into games",
+      "query": "gemini 4 argon gemini 4 nano banana blender mcp",
+      "video_count": 0,
+      "total_views": 0,
+      "max_views": 0,
       "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 8,
-      "heat": 61.0,
-      "gap_score": 56,
+      "coverage": "none",
+      "coverage_score": 0,
+      "heat": 49.0,
+      "gap_score": 49,
+      "top_videos": []
+    },
+    {
+      "story_id": "fable-model-leak-confusion",
+      "title": "Theo says Fable 5.1 mislabeling sparked false model-leak claims",
+      "query": "fable 5.1 fable 5.5 anthropic fable",
+      "video_count": 15,
+      "total_views": 10721,
+      "max_views": 2217,
+      "big_channel_videos": 0,
+      "coverage": "medium",
+      "coverage_score": 47,
+      "heat": 81.0,
+      "gap_score": 43,
+      "top_videos": [
+        {
+          "video_id": "U1atHuIbfoI",
+          "title": "Claude Opus 5.5, Fable 5.1 & DeepSeek V4.1 Flash 1017 — FREE API KEY? 🔥",
+          "url": "https://www.youtube.com/watch?v=U1atHuIbfoI",
+          "channel": "BuildWithAI",
+          "channel_subscribers": 226,
+          "published_at": "2026-10-19T11:30:08Z",
+          "views": 2217
+        },
+        {
+          "video_id": "ZdAUFhV-fTk",
+          "title": "FREE CLAUDE CODE: How to Get Claude Code for Free + Fable 5.1 (3-Month Promo)",
+          "url": "https://www.youtube.com/watch?v=ZdAUFhV-fTk",
+          "channel": "Energetic Farid",
+          "channel_subscribers": 9610,
+          "published_at": "2026-10-18T06:15:07Z",
+          "views": 2003
+        },
+        {
+          "video_id": "dchLTPfL-tI",
+          "title": "Haiku 5.5 vs Sonnet 5.5 vs Opus 5.5 vs Fable 5.1: \"Bowser\" 🐢",
+          "url": "https://www.youtube.com/watch?v=dchLTPfL-tI",
+          "channel": "Oneironaut",
+          "channel_subscribers": 55,
+          "published_at": "2026-10-18T17:00:09Z",
+          "views": 1623
+        },
+        {
+          "video_id": "TO0bgxUaTWc",
+          "title": "Haiku 5.5 vs Sonnet 5.5 vs Opus 5.5 vs Fable 5.1: \"the Eye of Sauron on the tower of Barad-dur\" 👁️",
+          "url": "https://www.youtube.com/watch?v=TO0bgxUaTWc",
+          "channel": "Oneironaut",
+          "channel_subscribers": 55,
+          "published_at": "2026-10-17T17:00:17Z",
+          "views": 1320
+        },
+        {
+          "video_id": "LY-Oz4Ez8HI",
+          "title": "Haiku 5.5 vs Sonnet 5.5 vs Opus 5.5 vs Fable 5.1: \"a blacksmith's forge\" ⚒️",
+          "url": "https://www.youtube.com/watch?v=LY-Oz4Ez8HI",
+          "channel": "Oneironaut",
+          "channel_subscribers": 55,
+          "published_at": "2026-10-19T17:00:19Z",
+          "views": 975
+        }
+      ]
+    },
+    {
+      "story_id": "opus-5-5-reactions",
+      "title": "Developers praise Claude Opus 5.5 for motion design, SEO and writing",
+      "query": "claude opus 5.5 opus 5.5 claude code remotion",
+      "video_count": 10,
+      "total_views": 25266,
+      "max_views": 19347,
+      "big_channel_videos": 0,
+      "coverage": "medium",
+      "coverage_score": 53,
+      "heat": 89.0,
+      "gap_score": 42,
+      "top_videos": [
+        {
+          "video_id": "MzUV03KouXM",
+          "title": "3 Skills I Use to Automate AI Video Editing With Claude Opus 5.5",
+          "url": "https://www.youtube.com/watch?v=MzUV03KouXM",
+          "channel": "Mira AI",
+          "channel_subscribers": 35800,
+          "published_at": "2026-10-17T13:23:01Z",
+          "views": 19347
+        },
+        {
+          "video_id": "hBHQCxnUiGI",
+          "title": "Claude vs ChatGPT ทำ Motion Graphic | ให้ AI ทำ Intro ช่องจริง ใครเก่งกว่า?",
+          "url": "https://www.youtube.com/watch?v=hBHQCxnUiGI",
+          "channel": "AI คลินิก",
+          "channel_subscribers": 505,
+          "published_at": "2026-10-18T04:52:30Z",
+          "views": 4088
+        },
+        {
+          "video_id": "tWKBHXDa8ek",
+          "title": "Claude Opus 5.5 Makes Motion Graphics (As Code)",
+          "url": "https://www.youtube.com/watch?v=tWKBHXDa8ek",
+          "channel": "AI.JoinDev",
+          "channel_subscribers": 907,
+          "published_at": "2026-10-20T04:21:34Z",
+          "views": 1218
+        },
+        {
+          "video_id": "6oKS1vapSy4",
+          "title": "Não Sei EDITAR… e o CLAUDE Fez ESSA Intro 🤯 Claude Code + Remotion",
+          "url": "https://www.youtube.com/watch?v=6oKS1vapSy4",
+          "channel": "Tico Dev",
+          "channel_subscribers": 564,
+          "published_at": "2026-10-18T17:18:58Z",
+          "views": 233
+        },
+        {
+          "video_id": "GogwzCu5SoE",
+          "title": "I Tested Claude Opus 5.5 For Motion Graphics (IT'S INSANE!)",
+          "url": "https://www.youtube.com/watch?v=GogwzCu5SoE",
+          "channel": "Aira Tech",
+          "channel_subscribers": 628,
+          "published_at": "2026-10-19T14:32:50Z",
+          "views": 190
+        }
+      ]
+    },
+    {
+      "story_id": "notion-ai-upgrade",
+      "title": "Notion upgrades AI with computer and browser use",
+      "query": "notion ai notion agent browser use",
+      "video_count": 0,
+      "total_views": 0,
+      "max_views": 0,
+      "big_channel_videos": 0,
+      "coverage": "none",
+      "coverage_score": 0,
+      "heat": 40.0,
+      "gap_score": 40,
+      "top_videos": []
+    },
+    {
+      "story_id": "deepseek-v4-1-flash-1017",
+      "title": "DeepSeek V4.1 Flash 1017 update draws praise from coders",
+      "query": "deepseek v4.1 flash deepseek 1017 unsloth gguf",
+      "video_count": 7,
+      "total_views": 24249,
+      "max_views": 16603,
+      "big_channel_videos": 0,
+      "coverage": "medium",
+      "coverage_score": 49,
+      "heat": 67.0,
+      "gap_score": 34,
+      "top_videos": [
+        {
+          "video_id": "SH55rCpTUjo",
+          "title": "DeepSeek V4.1 Flash 1017: I Tested It on 6 Real Apps for $1.97 (KingBench 4)",
+          "url": "https://www.youtube.com/watch?v=SH55rCpTUjo",
+          "channel": "AISeeKing",
+          "channel_subscribers": 13400,
+          "published_at": "2026-10-17T14:28:36Z",
+          "views": 16603
+        },
+        {
+          "video_id": "qKc9Cee8vQI",
+          "title": "DeepSeek V4.1 Flash 1017: Describe a Game in a Few Words, It Builds It",
+          "url": "https://www.youtube.com/watch?v=qKc9Cee8vQI",
+          "channel": "Simply AI",
+          "channel_subscribers": 1530,
+          "published_at": "2026-10-17T15:04:31Z",
+          "views": 6641
+        },
+        {
+          "video_id": "rMP6udMw7mw",
+          "title": "DeepSeek V4.1 Flash 1017 Just Dropped",
+          "url": "https://www.youtube.com/watch?v=rMP6udMw7mw",
+          "channel": "Julian Goldie",
+          "channel_subscribers": 80,
+          "published_at": "2026-10-17T17:00:21Z",
+          "views": 573
+        },
+        {
+          "video_id": "cyDchzZ_hX4",
+          "title": "DeepSeek V4.1 Flash 1017: Cheap Model Beats Opus 5 on Agent Tests",
+          "url": "https://www.youtube.com/watch?v=cyDchzZ_hX4",
+          "channel": "Julian Goldie",
+          "channel_subscribers": 80,
+          "published_at": "2026-10-17T22:45:29Z",
+          "views": 359
+        },
+        {
+          "video_id": "eZZKvUx3Rxc",
+          "title": "Unsloth fits DeepSeek's 552B model into a 250GB local download #Shorts",
+          "url": "https://www.youtube.com/watch?v=eZZKvUx3Rxc",
+          "channel": "RuntimeWire",
+          "channel_subscribers": 25800,
+          "published_at": "2026-10-20T01:25:05Z",
+          "views": 51
+        }
+      ]
+    },
+    {
+      "story_id": "mercury-3-diffusion-llm",
+      "title": "Inception releases Mercury 3 diffusion LLM",
+      "query": "mercury 3 diffusion llm inception labs",
+      "video_count": 17,
+      "total_views": 4424,
+      "max_views": 1888,
+      "big_channel_videos": 2,
+      "coverage": "medium",
+      "coverage_score": 61,
+      "heat": 64.0,
+      "gap_score": 25,
+      "top_videos": [
+        {
+          "video_id": "jXuneea_krg",
+          "title": "Diffusion at Scale: Testing Mercury 3 by Inception",
+          "url": "https://www.youtube.com/watch?v=jXuneea_krg",
+          "channel": "Fahd Mirza",
+          "channel_subscribers": 754000,
+          "published_at": "2026-10-20T06:00:14Z",
+          "views": 1888
+        },
+        {
+          "video_id": "a1T7sBJp0zU",
+          "title": "I Tested Mercury 3 (1068 T/S) — The Insanely Fast Agentic AI Model",
+          "url": "https://www.youtube.com/watch?v=a1T7sBJp0zU",
+          "channel": "Codedigipt",
+          "channel_subscribers": 15800,
+          "published_at": "2026-10-20T06:40:16Z",
+          "views": 1202
+        },
+        {
+          "video_id": "5VLKHqnjO8w",
+          "title": "Mercury 3 Is WILD… 1,000+ Tokens/sec Diffusion LLM Tested Thoroughly!",
+          "url": "https://www.youtube.com/watch?v=5VLKHqnjO8w",
+          "channel": "AI WITH Rithesh",
+          "channel_subscribers": 51500,
+          "published_at": "2026-10-20T04:01:10Z",
+          "views": 724
+        },
+        {
+          "video_id": "X7Gl3JuUtkE",
+          "title": "Mercury 3: 8x Faster Than GPT-6 Luna & Haiku? I Tested It ⚡",
+          "url": "https://www.youtube.com/watch?v=X7Gl3JuUtkE",
+          "channel": "Krittin Kalra",
+          "channel_subscribers": 38,
+          "published_at": "2026-10-20T07:19:51Z",
+          "views": 378
+        },
+        {
+          "video_id": "RbWf6-rJO-g",
+          "title": "Mercury 3: 1,000 Tokens a Second… Until It Starts Thinking",
+          "url": "https://www.youtube.com/watch?v=RbWf6-rJO-g",
+          "channel": "The Intelligence Desk",
+          "channel_subscribers": 79,
+          "published_at": "2026-10-19T19:46:29Z",
+          "views": 139
+        }
+      ]
+    },
+    {
+      "story_id": "openai-gpt-6-1-terra",
+      "title": "OpenAI reportedly preparing GPT-6.1 Terra",
+      "query": "gpt-6.1 terra openai gpt-6.1",
+      "video_count": 8,
+      "total_views": 34225,
+      "max_views": 34119,
+      "big_channel_videos": 0,
+      "coverage": "medium",
+      "coverage_score": 56,
+      "heat": 54.0,
+      "gap_score": 24,
       "top_videos": [
         {
           "video_id": "GMqxP72OVXg",
@@ -255,234 +502,43 @@
           "channel": "Universe of AI",
           "channel_subscribers": 34100,
           "published_at": "2026-10-19T22:27:45Z",
-          "views": 943
+          "views": 34119
         },
         {
-          "video_id": "xycRjIcL5-Q",
-          "title": "HUGE Claude Fable 5.5 Update! Gemini 4 Carbon, OpenAI Terra & Anthropic's UBI Plan! AI NEWS",
-          "url": "https://www.youtube.com/watch?v=xycRjIcL5-Q",
-          "channel": "AI Effect",
-          "channel_subscribers": 73,
-          "published_at": "2026-10-19T17:49:15Z",
-          "views": 64
-        }
-      ]
-    },
-    {
-      "story_id": "notion-ai-upgrade",
-      "title": "Notion upgrades AI with computer and browser use",
-      "query": "notion ai notion agent computer use",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
-      "heat": 52.0,
-      "gap_score": 52,
-      "top_videos": []
-    },
-    {
-      "story_id": "us-bans-deepseek-federal",
-      "title": "DeepSeek reportedly being removed from US government",
-      "query": "deepseek ban deepseek us government",
-      "video_count": 9,
-      "total_views": 465,
-      "max_views": 388,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 30,
-      "heat": 65.0,
-      "gap_score": 46,
-      "top_videos": [
-        {
-          "video_id": "sKxZq-3oJQ0",
-          "title": "GPT-7? OPENAI LEAKS 3 New Models + DeepSeek Banned by US | AI Updates",
-          "url": "https://www.youtube.com/watch?v=sKxZq-3oJQ0",
-          "channel": "AI That Works",
-          "channel_subscribers": 1720,
-          "published_at": "2026-10-19T21:29:29Z",
-          "views": 388
+          "video_id": "ViCMOrCZE5Q",
+          "title": "Qwen本地新模型！Gemini4 Carbon订档本月！Anthropic Fable5.5将至！GPT-6.1Terra现身！ | 10月20日 AI日报",
+          "url": "https://www.youtube.com/watch?v=ViCMOrCZE5Q",
+          "channel": "AI 风向标",
+          "channel_subscribers": 528,
+          "published_at": "2026-10-20T01:58:40Z",
+          "views": 62
         },
         {
-          "video_id": "int75SAZ6F8",
-          "title": "Is DeepSeek BANNED in America?!",
-          "url": "https://www.youtube.com/watch?v=int75SAZ6F8",
-          "channel": "FomoTech",
-          "channel_subscribers": 2750,
-          "published_at": "2026-10-19T16:30:11Z",
-          "views": 57
+          "video_id": "khIQRkNO1KY",
+          "title": "GPT-6.1 Terra spotted in an Microsoft evaluation update #Shorts",
+          "url": "https://www.youtube.com/watch?v=khIQRkNO1KY",
+          "channel": "RuntimeWire",
+          "channel_subscribers": 25800,
+          "published_at": "2026-10-19T15:27:07Z",
+          "views": 22
         },
         {
-          "video_id": "4P4DxVV_ddg",
-          "title": "US Bans DeepSeek AI from Federal Agencies Amid China Tensions #Shorts",
-          "url": "https://www.youtube.com/watch?v=4P4DxVV_ddg",
-          "channel": "Nowly News",
-          "channel_subscribers": 3,
-          "published_at": "2026-10-19T19:52:36Z",
-          "views": 11
+          "video_id": "2VdhkYuML8I",
+          "title": "OpenAI's COBOL Jump: 5.4% → 86.6% + Anthropic's Free Bug Scanner",
+          "url": "https://www.youtube.com/watch?v=2VdhkYuML8I",
+          "channel": "Token Tape",
+          "channel_subscribers": 0,
+          "published_at": "2026-10-20T07:50:47Z",
+          "views": 15
         },
         {
-          "video_id": "sWxWxtobPLM",
-          "title": "DeepSeek Banned From US Government #Shorts",
-          "url": "https://www.youtube.com/watch?v=sWxWxtobPLM",
-          "channel": "WorldWire Daily",
-          "channel_subscribers": 75,
-          "published_at": "2026-10-19T15:41:00Z",
-          "views": 4
-        },
-        {
-          "video_id": "lkP2iF1qDO4",
-          "title": "4x Speed: A Claude Tool Got an Instagram Account Suspended | The AI Margin Ep 11",
-          "url": "https://www.youtube.com/watch?v=lkP2iF1qDO4",
-          "channel": "The AI Margin",
-          "channel_subscribers": 6,
-          "published_at": "2026-10-19T21:46:48Z",
-          "views": 2
-        }
-      ]
-    },
-    {
-      "story_id": "deepseek-v4-1-flash-1017",
-      "title": "DeepSeek V4.1 Flash 1017 update draws praise from coders",
-      "query": "deepseek v4.1 flash deepseek opencode glm 5.3 flash",
-      "video_count": 16,
-      "total_views": 49692,
-      "max_views": 33051,
-      "big_channel_videos": 0,
-      "coverage": "medium",
-      "coverage_score": 58,
-      "heat": 100.0,
-      "gap_score": 42,
-      "top_videos": [
-        {
-          "video_id": "w2-R455hNjA",
-          "title": "DeepSeek Is Free Now. What’s the Catch?",
-          "url": "https://www.youtube.com/watch?v=w2-R455hNjA",
-          "channel": "Devsplainers",
-          "channel_subscribers": 21900,
-          "published_at": "2026-10-19T07:00:05Z",
-          "views": 33051
-        },
-        {
-          "video_id": "cMV3S03rFmU",
-          "title": "¿Vale la pena el nuevo DeepSeek Flash? (Análisis + Tests)",
-          "url": "https://www.youtube.com/watch?v=cMV3S03rFmU",
-          "channel": "AmalioMetria",
-          "channel_subscribers": 2920,
-          "published_at": "2026-10-17T19:49:43Z",
-          "views": 6901
-        },
-        {
-          "video_id": "PwR7yz2HEoY",
-          "title": "🔥 OpenCode 2 ROMPE TODO: Programa GRATIS con DeepSeek y GLM",
-          "url": "https://www.youtube.com/watch?v=PwR7yz2HEoY",
-          "channel": "NoCodeVeloper",
-          "channel_subscribers": 8240,
-          "published_at": "2026-10-17T21:55:03Z",
-          "views": 3525
-        },
-        {
-          "video_id": "nfoFaHkWpTA",
-          "title": "딥시크V4.1 Flash ·큐웬 등AI코딩 모델 무료로 쓰는 방법 알려줌 #ai #claudecode #ai코딩",
-          "url": "https://www.youtube.com/watch?v=nfoFaHkWpTA",
-          "channel": "민둥이 | 쉽게 배우는 AI",
-          "channel_subscribers": 4210,
-          "published_at": "2026-10-19T07:58:41Z",
-          "views": 2033
-        },
-        {
-          "video_id": "f4_4pFMhqxI",
-          "title": "Run DeepSeek V4.1 Flash Completely FREE (OpenCode + Orca Setup) !",
-          "url": "https://www.youtube.com/watch?v=f4_4pFMhqxI",
-          "channel": "Vassity | AI ",
-          "channel_subscribers": 2030,
-          "published_at": "2026-10-17T15:07:12Z",
-          "views": 1489
-        }
-      ]
-    },
-    {
-      "story_id": "codex-quota-burn-reports",
-      "title": "Codex users complain of usage limits after changes",
-      "query": "codex usage limits openai codex codex",
-      "video_count": 1,
-      "total_views": 525,
-      "max_views": 525,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 4,
-      "heat": 41.0,
-      "gap_score": 39,
-      "top_videos": [
-        {
-          "video_id": "OKlN0mDTqyU",
-          "title": "Running Out of Codex Usage? 6 Tips to Save Tokens (OpenAI Codex Tutorial)",
-          "url": "https://www.youtube.com/watch?v=OKlN0mDTqyU",
-          "channel": "Hongzhao",
-          "channel_subscribers": 10200,
-          "published_at": "2026-10-17T13:01:10Z",
-          "views": 525
-        }
-      ]
-    },
-    {
-      "story_id": "opus-5-5-reactions",
-      "title": "Developers praise Claude Opus 5.5 for coding and SEO",
-      "query": "opus 5.5 claude opus 5.5 vibe coding",
-      "video_count": 23,
-      "total_views": 99663,
-      "max_views": 25324,
-      "big_channel_videos": 0,
-      "coverage": "medium",
-      "coverage_score": 63,
-      "heat": 86.0,
-      "gap_score": 32,
-      "top_videos": [
-        {
-          "video_id": "v0ZB3AGqW6Q",
-          "title": "КАК ПОЛЬЗОВАТЬСЯ GEMINI ARGON, CLAUDE OPUS 5.5 И GPT 6 ASTRA БЕЗЛИМИТНО В РОССИИ | ВАЙБКОДИНГ",
-          "url": "https://www.youtube.com/watch?v=v0ZB3AGqW6Q",
-          "channel": "OSMOS",
-          "channel_subscribers": 2730,
-          "published_at": "2026-10-17T10:17:20Z",
-          "views": 25324
-        },
-        {
-          "video_id": "sjczVV-9Pn8",
-          "title": "I TESTED Gemini 4 Argon Against Claude Opus 5.5 & GPT 6.1 Sol - Is It Even Worth it?",
-          "url": "https://www.youtube.com/watch?v=sjczVV-9Pn8",
-          "channel": "AsapGuide",
-          "channel_subscribers": 25900,
-          "published_at": "2026-10-18T00:00:27Z",
-          "views": 20906
-        },
-        {
-          "video_id": "VW-USwBhK7s",
-          "title": "Я заставил Opus 5.5 сделать одну игру на каждом уровне Effort",
-          "url": "https://www.youtube.com/watch?v=VW-USwBhK7s",
-          "channel": "Никита Ефимов | ИИ и автоматизация",
-          "channel_subscribers": 15700,
-          "published_at": "2026-10-19T01:23:25Z",
-          "views": 15314
-        },
-        {
-          "video_id": "LXfH7KbK8aI",
-          "title": "Я протестировал Claude Opus 5.5 на всех уровнях рассуждения — вот что нужно знать",
-          "url": "https://www.youtube.com/watch?v=LXfH7KbK8aI",
-          "channel": "Николай Хлебинский | AI Action Plan",
-          "channel_subscribers": 37800,
-          "published_at": "2026-10-18T06:00:38Z",
-          "views": 9289
-        },
-        {
-          "video_id": "xw4CHc3J0m8",
-          "title": "Day 108 - Vibe Coding App In Hawaii - Claude Opus 5.5 + GPT 6 Astra",
-          "url": "https://www.youtube.com/watch?v=xw4CHc3J0m8",
-          "channel": "billy",
-          "channel_subscribers": 4010,
-          "published_at": "2026-10-17T22:53:13Z",
-          "views": 8138
+          "video_id": "ZjCGg7TiMBs",
+          "title": "¡GPT-6.1 TERRA FILTRADO! Microsoft revela el próximo modelo de OpenAI",
+          "url": "https://www.youtube.com/watch?v=ZjCGg7TiMBs",
+          "channel": "LLM Master Cursos",
+          "channel_subscribers": 7000,
+          "published_at": "2026-10-20T12:46:12Z",
+          "views": 5
         }
       ]
     }

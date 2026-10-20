@@ -1,27 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T23:00:39Z",
+  "generated_at": "2026-10-20T13:08:31Z",
   "sample": false,
   "packs": [
     {
       "story_id": "grok-bot-push",
-      "fingerprint": "c06e5689594a91b3",
-      "why_now": "Elon's 'Hire Grok @Bot' post pulled 12K+ likes and there is no YouTube coverage yet. Be the first to show what Grok Bot actually does when you set it up.",
+      "why_now": "Grok Bot just became an iPhone Action Button shortcut and added Runway MCP, and the top post has 14K+ likes. No YouTube video covers it yet.",
       "video": {
-        "title": "I Tested Grok Bot: Can You Really 'Hire' It?",
-        "thumbnail_text": "HIRE GROK BOT?",
-        "hook": "Elon says you should hire Grok Bot today. Twelve thousand likes on that post, zero videos showing what it does. So I set one up, gave it real work, and I'm going to show you where it helps and where it falls over.",
+        "title": "I Set Grok Bot as My iPhone Action Button. Worth It?",
+        "thumbnail_text": "GROK BOT ACTION BUTTON",
+        "hook": "xAI says you can press your iPhone's Action Button and just talk to Grok Bot. It also now plugs into Runway. I set it up, so here's what works, what doesn't, and whether it's worth a spot on your phone.",
         "alt_titles": [
-          "Grok Bot Setup: What Works, What Doesn't",
-          "I Gave Grok Bot a Week of Real Work"
+          "Grok Bot Now Has Runway Inside. I Tested It",
+          "Grok Bot Setup: Action Button, Runway and the Marketplace"
         ],
         "outline": [
-          "What Grok Bot is, in plain words, and what xAI says version 0.71.2 added",
-          "Setup walkthrough: connect it, set notifications, send it a file",
-          "Three real tasks I hand it, with the results as they came",
-          "The multi-bot idea from the viral demo: one coordinator, several workers. Does it hold up?",
-          "Where it broke or needed babysitting",
-          "Verdict: who should try it this week"
+          "Set up the Action Button shortcut step by step",
+          "Talk to it for real tasks and show where it stumbles",
+          "Try the Runway MCP inside Grok Bot and check what you can generate",
+          "Look at the Grok Bot marketplace and test a couple of ready-made bots",
+          "Check the claim of a Grok Imagine 'Director' studio: what is actually live?",
+          "Verdict: who should bother and who should skip it"
         ]
       },
       "short": {
@@ -29,78 +28,84 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Elon says hire Grok Bot. I did. Here's what happened.",
-            "visual": "Elon's post, then my screen"
+            "line": "You can now talk to Grok Bot with one press of your iPhone.",
+            "visual": "Phone Action Button press, Grok Bot opens"
           },
           {
             "t": "3-10s",
-            "line": "Version 0.71.2 takes files up to 250 megabytes and sends smarter notifications. There's even an iPhone Action Button shortcut.",
-            "visual": "Changelog, then phone shortcut"
+            "line": "xAI added it as an Action Button shortcut. Setup takes about a minute, and I'll show you the exact settings.",
+            "visual": "Screen recording of Settings > Action Button"
           },
           {
-            "t": "10-20s",
-            "line": "I gave it a real task and let it run. It handled the first one cleanly and stumbled on the second.",
-            "visual": "Screen recording of two tasks"
+            "t": "10-18s",
+            "line": "Then I asked it to do real work, not party tricks. Some of it was fast. Some of it, honestly, wasn't.",
+            "visual": "Split screen of good and bad answers"
           },
           {
-            "t": "20-30s",
-            "line": "Worth setting up if you want a bot on your own tasks. Don't expect a coworker yet. Full test is on the channel.",
-            "visual": "Verdict card"
+            "t": "18-25s",
+            "line": "Runway is also plugged in now through MCP, so you can generate video without leaving the chat.",
+            "visual": "Runway clip generated inside Grok Bot"
+          },
+          {
+            "t": "25-30s",
+            "line": "Full test is on the channel. Follow for what I check next.",
+            "visual": "Channel end card"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "Hire Grok Bot?",
-            "body": "Elon says yes. We tested it."
+            "heading": "Grok Bot hits your Action Button",
+            "body": "xAI says you can press and talk."
           },
           {
-            "heading": "What's new",
-            "body": "v0.71.2: bigger files, smarter notifications"
+            "heading": "What changed",
+            "body": "iPhone Action Button shortcut, plus Runway MCP inside the chat."
           },
           {
-            "heading": "iPhone shortcut",
-            "body": "Talk to it from the Action Button"
+            "heading": "Setup",
+            "body": "Settings, Action Button, pick the Grok Bot shortcut."
           },
           {
-            "heading": "The team idea",
-            "body": "One coordinator bot, many workers"
+            "heading": "Runway inside Grok",
+            "body": "Generate video without leaving the conversation."
           },
           {
-            "heading": "What we checked",
-            "body": "Setup, real tasks, failures"
+            "heading": "Claims to check",
+            "body": "A Grok Imagine 'Director' studio is rumored, not confirmed."
           },
           {
-            "heading": "Full test on Chase AI",
-            "body": "Follow for the results"
+            "heading": "Follow for the full test",
+            "body": "I'm testing it on real tasks."
           }
         ],
-        "caption": "Grok Bot is everywhere on X this week. Here's what's actually new and what we're testing."
+        "caption": "Grok Bot now works from the iPhone Action Button and has Runway MCP. I'm testing what holds up."
       },
-      "x_post": "Elon: 'Hire Grok @Bot today.' 12K likes. So I'm testing it on real work: setup, files up to 250 MB, notifications, the multi-bot team setup. Results on the channel soon.",
+      "x_post": "Grok Bot can now be set as your iPhone Action Button, and Runway MCP is inside it. I'm setting it up and testing it on real work, not demos. Full results soon.",
       "x_thread": [
-        "Version 0.71.2 added smarter notifications and bigger file uploads. I'll check whether that changes daily use."
-      ]
+        "Plan: set up the shortcut, run real tasks, try Runway generation, and check the marketplace bots.",
+        "Also checking the rumored Grok Imagine 'Director' studio. Posts claim it's coming, so I'll flag what's actually live."
+      ],
+      "fingerprint": "f4a00d7f173118f4"
     },
     {
-      "story_id": "schmidt-anthropic-stake",
-      "fingerprint": "ac8c6b0ad9aba66b",
-      "why_now": "Bloomberg-sourced posts say Eric Schmidt owns about 1% of Anthropic, ahead of an IPO. Videos on this are not out yet and builders care about where the company is heading.",
+      "story_id": "elon-xai-anthropic-remarks",
+      "why_now": "Clips of Musk joking that the name Anthropic may turn out 'misanthropic' are spreading on X, with no YouTube coverage yet.",
       "video": {
-        "title": "Eric Schmidt Owns 1% of Anthropic? What It Means for Builders",
-        "thumbnail_text": "SCHMIDT x ANTHROPIC",
-        "hook": "Reports say Eric Schmidt owns about one percent of Anthropic, a stake that could be worth around twenty billion dollars. If you build on Claude, here's what that does and doesn't tell you.",
+        "title": "Musk on Anthropic's Name: What He Said and What Matters",
+        "thumbnail_text": "MUSK VS ANTHROPIC",
+        "hook": "Elon Musk says he's a little worried about Anthropic's name, because things tend to become the opposite of what they're called. Funny line. But does it matter if you build with Claude? Let's separate the joke from the substance.",
         "alt_titles": [
-          "Anthropic IPO Talk: What Builders Should Know",
-          "Schmidt's Anthropic Stake, Explained"
+          "Elon Mocks Anthropic's Name. Should Builders Care?",
+          "Musk's xAI 'Side Hustle' Comments, Explained"
         ],
         "outline": [
-          "What was reported, and by whom (Bloomberg, relayed on X)",
-          "What's confirmed vs what's the headline math",
-          "Why an IPO matters for API pricing and limits, framed as questions to watch",
-          "What changes for you if you build on Claude, and what doesn't",
-          "What I'll be watching next"
+          "Play the quoted clips and what he actually says",
+          "The xAI 'side hustle' remark and the timeline he describes",
+          "What is opinion versus anything verifiable",
+          "How xAI and Anthropic compete for builders right now",
+          "What you should base your tool choice on: your own tests"
         ]
       },
       "short": {
@@ -108,79 +113,84 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Eric Schmidt reportedly owns one percent of Anthropic.",
-            "visual": "Headline graphic"
+            "line": "Elon Musk just took a shot at Anthropic's name.",
+            "visual": "Clip of the quote on screen"
           },
           {
-            "t": "3-12s",
-            "line": "That's per Bloomberg, and posts put it near twenty billion dollars ahead of an IPO.",
-            "visual": "Bloomberg quote"
+            "t": "3-10s",
+            "line": "He said, and I'm quoting the clip, that if you call something Anthropic, chances are it's misanthropic.",
+            "visual": "Quote text overlay"
           },
           {
-            "t": "12-22s",
-            "line": "It's an ownership number, not a product announcement. Nothing in your Claude setup changes today.",
-            "visual": "Your API dashboard"
+            "t": "10-18s",
+            "line": "He also said he started xAI as a side hustle to a side hustle, then spent a year in politics.",
+            "visual": "Second clip and caption"
           },
           {
-            "t": "22-30s",
-            "line": "What to watch: IPO filing details, pricing, usage limits. I'll cover them as they land.",
-            "visual": "Watchlist"
+            "t": "18-25s",
+            "line": "It's a joke and an opinion. It doesn't tell you which model is better at your job.",
+            "visual": "Chase to camera"
+          },
+          {
+            "t": "25-30s",
+            "line": "Test the tools yourself. I'll show you how.",
+            "visual": "End card"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "Schmidt owns ~1%?",
-            "body": "Reported via Bloomberg"
+            "heading": "Musk takes a jab at Anthropic",
+            "body": "Clips are spreading on X."
           },
           {
-            "heading": "The number",
-            "body": "Potentially ~$20B, per posts"
+            "heading": "The quote",
+            "body": "He worries the name could turn out 'misanthropic'."
           },
           {
-            "heading": "IPO context",
-            "body": "Anthropic reportedly heading to IPO"
+            "heading": "The xAI origin story",
+            "body": "He calls xAI a side hustle to a side hustle."
           },
           {
-            "heading": "What it isn't",
-            "body": "Not a product or pricing change"
+            "heading": "Opinion, not evidence",
+            "body": "None of this benchmarks a model."
           },
           {
-            "heading": "What to watch",
-            "body": "Filings, pricing, limits"
+            "heading": "What to do instead",
+            "body": "Test both tools on your own work."
           },
           {
-            "heading": "Follow Chase AI",
-            "body": "More as it lands"
+            "heading": "Follow for hands-on tests",
+            "body": "No hot takes without testing."
           }
         ],
-        "caption": "Reported: Eric Schmidt owns roughly 1% of Anthropic. What it means, and what it doesn't."
+        "caption": "Musk joked about Anthropic's name. Here's the quote and why your own tests matter more."
       },
-      "x_post": "Reported via Bloomberg: Eric Schmidt owns about 1% of Anthropic. Big number, but it's an ownership story, not a product change. Here's what builders should actually watch.",
+      "x_post": "Musk says he's worried Anthropic's name could turn out 'misanthropic', and calls xAI a side hustle to a side hustle. Fun quotes. Still: judge models by your own tests.",
       "x_thread": [
-        "Things I'm watching: IPO filing details, API pricing, usage limits."
-      ]
+        "Source: interview clips circulating on X. It's his opinion, not a benchmark or a product announcement."
+      ],
+      "fingerprint": "f64ac0eb364f8148"
     },
     {
-      "story_id": "anthropic-oss-scanner",
-      "fingerprint": "633fc4ded1906ca6",
-      "why_now": "Anthropic launched OSS Scanner today: free periodic vulnerability scans for critical open source projects. Only tiny channels have covered it, so a hands-on explainer can lead.",
+      "story_id": "codex-capcut-and-tools",
+      "why_now": "Several creators are showing CapCut Web driven by Codex, and a post says ChatGPT subscriptions now work in Blender. No YouTube video covers this yet.",
       "video": {
-        "title": "Anthropic's Free OSS Scanner: Should You Apply?",
-        "thumbnail_text": "FREE SECURITY SCANS",
-        "hook": "Anthropic just launched a free scanner for open source projects. It finds vulnerabilities, shows a proof of concept, and sometimes hands you the patch. Here's who it's for and how to try it.",
+        "title": "Codex Edits Video in CapCut Web: I Tried It",
+        "thumbnail_text": "CODEX + CAPCUT",
+        "hook": "People are posting marketing videos made by telling Codex what you want and letting it drive CapCut Web. I tried it with my own footage. Here's the setup, the result, and where it fell apart.",
         "alt_titles": [
-          "Claude Now Scans Open Source for Free",
-          "OSS Scanner: Hands-On Look"
+          "Can Codex Run CapCut For You?",
+          "ChatGPT in Blender, Codex in CapCut: Real Test"
         ],
         "outline": [
-          "What Anthropic announced: free, periodic scans for critical projects",
-          "Who qualifies, as far as the announcement says (check the page)",
-          "What each finding includes: proof of concept, patch where possible",
-          "Walk through the red.anthropic.com page",
-          "How it compares with running an AI code review yourself",
-          "Should you apply, and what to do if you maintain something small"
+          "What the posts claim and what tools are involved",
+          "Set up the Codex and CapCut Web connection",
+          "Edit one real clip from a plain-language brief",
+          "Try the ChatGPT-in-Blender tip and see if it replaces Blender-MCP",
+          "What you still have to fix by hand",
+          "Verdict for solo creators"
         ]
       },
       "short": {
@@ -188,79 +198,84 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Anthropic will scan open source projects for free.",
-            "visual": "OSS Scanner page"
+            "line": "Creators say Codex can drive CapCut for you.",
+            "visual": "Screen: Codex prompt box"
           },
           {
-            "t": "3-12s",
-            "line": "Each finding comes with a proof of concept, and a patch where possible.",
-            "visual": "Finding example"
+            "t": "3-10s",
+            "line": "You describe the video in plain language. Codex calls CapCut Web to build it.",
+            "visual": "Prompt typed on screen"
           },
           {
-            "t": "12-22s",
-            "line": "It's for critical open source projects, so check the page to see if yours counts.",
-            "visual": "Eligibility section"
+            "t": "10-18s",
+            "line": "I tried it on my own footage. The first cut was usable, but the pacing needed fixes.",
+            "visual": "Timeline result"
           },
           {
-            "t": "22-30s",
-            "line": "If you maintain something, apply. If not, you can still run an AI review yourself. I'll show both.",
-            "visual": "Split screen"
+            "t": "18-25s",
+            "line": "There's also a claim you can use your ChatGPT plan inside Blender. I'm checking that too.",
+            "visual": "Blender window"
+          },
+          {
+            "t": "25-30s",
+            "line": "Full test on the channel.",
+            "visual": "End card"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "Free AI scans",
-            "body": "Anthropic OSS Scanner"
+            "heading": "Codex meets CapCut Web",
+            "body": "Creators say it can drive video edits."
           },
           {
-            "heading": "What you get",
-            "body": "Findings with proof of concept"
+            "heading": "How it works",
+            "body": "Describe the goal, Codex calls CapCut."
           },
           {
-            "heading": "Patches too",
-            "body": "Where possible"
+            "heading": "Blender tip",
+            "body": "One post says ChatGPT works in Blender without Blender-MCP."
+          },
+          {
+            "heading": "What to check",
+            "body": "Quality of the cut, speed, and cost."
           },
           {
             "heading": "Who it's for",
-            "body": "Critical open source projects"
+            "body": "Solo creators short on editing time."
           },
           {
-            "heading": "Check eligibility",
-            "body": "red.anthropic.com/oss-scanner"
-          },
-          {
-            "heading": "More on Chase AI",
-            "body": "Hands-on test coming"
+            "heading": "Follow for the real test",
+            "body": "I'll show results and failures."
           }
         ],
-        "caption": "Anthropic launched OSS Scanner: free, periodic vulnerability scans for critical open source projects."
+        "caption": "Codex plus CapCut Web is making the rounds. I'm testing what it really does."
       },
-      "x_post": "Anthropic launched OSS Scanner: free, periodic vulnerability scans for critical open source projects. Each finding comes with a proof of concept, and a patch where possible. Hands-on look coming.",
+      "x_post": "Creators are posting videos made by Codex driving CapCut Web, and one post says ChatGPT now works in Blender without Blender-MCP. Testing both on real footage.",
       "x_thread": [
-        "Details and eligibility: red.anthropic.com/oss-scanner"
-      ]
+        "I'll share the prompts I used and where the output needed manual fixes."
+      ],
+      "fingerprint": "677efd72b33e119f"
     },
     {
-      "story_id": "openai-legacy-language-modernization",
-      "fingerprint": "75160a2cdf1d6dbe",
-      "why_now": "OpenAI says its latest model is better at COBOL, Fortran and Visual Basic, and it is asking which workflows to tackle next. No video yet, and legacy migration is a real business niche.",
+      "story_id": "anthropic-oss-scanner",
+      "why_now": "Anthropic's OSS Scanner announcement has 10K+ likes but the YouTube videos on it have 338 views combined.",
       "video": {
-        "title": "AI vs COBOL: Can It Really Migrate Legacy Code?",
-        "thumbnail_text": "AI vs COBOL",
-        "hook": "OpenAI says its new model is better at COBOL, Fortran and Visual Basic. Banks and governments still run on those. So I handed it real legacy code to see if it can actually migrate it.",
+        "title": "Anthropic's Free OSS Scanner: How to Get Your Repo Scanned",
+        "thumbnail_text": "FREE AI SECURITY SCAN",
+        "hook": "Anthropic is offering critical open source projects free, regular vulnerability scans from its strongest models, with a proof of concept for each finding. Here's who qualifies, what you get, and how to run your own scan with Claude in the meantime.",
         "alt_titles": [
-          "Can AI Modernize COBOL? I Tested It",
-          "Legacy Code Migration With AI: Real Test"
+          "Claude Finds Security Bugs for Free: What's the Catch?",
+          "OSS Scanner Explained for Solo Builders"
         ],
         "outline": [
-          "What OpenAI said, and what it didn't show",
-          "Why COBOL and Fortran matter: banks, governments, business systems",
-          "My test: a small COBOL program, ask for explanation then migration",
-          "Check the output: does behavior match?",
-          "Where it needs a human",
-          "Who can use this today"
+          "What Anthropic announced, straight from the post and page",
+          "Who is covered: critical open source projects, and what that means",
+          "What a finding looks like: proof of concept, patch where possible",
+          "Run a similar review on your own repo with Claude Code",
+          "Limits: false positives and what still needs a human",
+          "What to do this week"
         ]
       },
       "short": {
@@ -268,138 +283,150 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "OpenAI says its model got better at COBOL.",
-            "visual": "OpenAI post"
+            "line": "Anthropic will scan critical open source projects for security bugs, free.",
+            "visual": "Announcement post on screen"
           },
           {
-            "t": "3-12s",
-            "line": "Banks and governments still run on it, so migration is real work.",
-            "visual": "COBOL code on screen"
+            "t": "3-10s",
+            "line": "It's called OSS Scanner. Periodic scans, run by their strongest models.",
+            "visual": "Page screenshot"
           },
           {
-            "t": "12-22s",
-            "line": "I fed it a small COBOL program and checked if the migrated version behaves the same.",
-            "visual": "Side-by-side diff"
+            "t": "10-18s",
+            "line": "Every finding comes with a proof of concept, and a patch where possible.",
+            "visual": "Mock finding layout"
           },
           {
-            "t": "22-30s",
-            "line": "Full result in the video. Spoiler: check the logic, don't trust it blindly.",
-            "visual": "Test result"
+            "t": "18-25s",
+            "line": "Not a critical project? You can still ask Claude Code to review your repo. I'll show the prompt.",
+            "visual": "Terminal with Claude Code"
+          },
+          {
+            "t": "25-30s",
+            "line": "Full walkthrough on the channel.",
+            "visual": "End card"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "AI vs COBOL",
-            "body": "OpenAI claims new gains"
+            "heading": "Anthropic's free OSS Scanner",
+            "body": "Security scans for critical open source."
+          },
+          {
+            "heading": "What you get",
+            "body": "Periodic scans from its strongest models."
+          },
+          {
+            "heading": "Each finding includes",
+            "body": "A proof of concept, and a patch where possible."
+          },
+          {
+            "heading": "Who qualifies",
+            "body": "Critical open source projects. Check the page."
+          },
+          {
+            "heading": "Your own repo",
+            "body": "Run a Claude Code review today."
+          },
+          {
+            "heading": "Follow for the prompt",
+            "body": "Walkthrough coming."
+          }
+        ],
+        "caption": "Anthropic launched OSS Scanner. Here's what it covers and how to try something similar on your repo."
+      },
+      "x_post": "Anthropic launched OSS Scanner: free, periodic vulnerability scans for critical open source projects, with a proof of concept and patch where possible. Walkthrough soon.",
+      "x_thread": [
+        "I'll check who qualifies and show a similar review you can run on your own repo with Claude Code."
+      ],
+      "fingerprint": "f7ee3c3ede3eeca4"
+    },
+    {
+      "story_id": "deepseek-deepinfer-open-source",
+      "why_now": "DeepSeek just open-sourced its inference engine DeepInfer and X heat is maxed, with no YouTube coverage yet.",
+      "video": {
+        "title": "DeepSeek Open-Sourced DeepInfer: What Builders Get",
+        "thumbnail_text": "DEEPSEEK DEEPINFER",
+        "hook": "DeepSeek just open-sourced the inference engine behind its own production services. Model weights are one thing, but running them cheaply is the hard part. I pulled the repo, so here's what's in it and whether you can use it.",
+        "alt_titles": [
+          "DeepSeek Gave Away Its Inference Stack",
+          "DeepInfer Explained for Non-Experts"
+        ],
+        "outline": [
+          "What DeepSeek announced and what DeepInfer is",
+          "Why serving models cheaply matters more than weights",
+          "Walk through the repo and what it needs to run",
+          "Run V4.1 Flash locally, including the 128GB RAM GGUF route",
+          "Claims to check: the cost and speed gains people are posting",
+          "Who should care: self-hosters versus API users"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "DeepSeek just open-sourced the engine that runs its own models.",
+            "visual": "GitHub repo page"
+          },
+          {
+            "t": "3-10s",
+            "line": "It's called DeepInfer. Weights alone don't make AI cheap. Serving them well does.",
+            "visual": "Repo README"
+          },
+          {
+            "t": "10-18s",
+            "line": "Posters say it came out the same week as a search API and the V4.1 Flash update.",
+            "visual": "Timeline graphic"
+          },
+          {
+            "t": "18-25s",
+            "line": "Can you run it? I'm testing, and checking the hardware you actually need.",
+            "visual": "Terminal"
+          },
+          {
+            "t": "25-30s",
+            "line": "Full breakdown on the channel.",
+            "visual": "End card"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "DeepSeek open-sourced DeepInfer",
+            "body": "Its production inference engine."
           },
           {
             "heading": "Why it matters",
-            "body": "Banks and governments run on it"
+            "body": "Cheap serving is the hard part of open models."
           },
           {
-            "heading": "Also Fortran",
-            "body": "And Visual Basic"
+            "heading": "Same week",
+            "body": "A search API and V4.1 Flash 1017, per posts."
           },
           {
-            "heading": "The test",
-            "body": "Migrate real code, compare behavior"
+            "heading": "Run it locally",
+            "body": "Unsloth GGUFs target 128GB RAM setups."
           },
           {
-            "heading": "The catch",
-            "body": "Business logic needs review"
+            "heading": "What to verify",
+            "body": "Speed and cost claims."
           },
           {
-            "heading": "Follow Chase AI",
-            "body": "Full test coming"
+            "heading": "Follow for the test",
+            "body": "Hands-on results coming."
           }
         ],
-        "caption": "OpenAI says its latest model is stronger at COBOL, Fortran and Visual Basic. We're putting it to a real test."
+        "caption": "DeepSeek open-sourced DeepInfer. Here's what it is and what I'm testing."
       },
-      "x_post": "OpenAI says its latest model is better at COBOL, Fortran and Visual Basic. I'm testing a real migration: does the output behave like the original? Results soon.",
+      "x_post": "DeepSeek open-sourced DeepInfer, the inference engine behind its production services. Weights don't make AI cheap, serving does. Pulling the repo and testing it now.",
       "x_thread": [
-        "The claim is about building and migrating legacy software. I'll check the migration part with a small program."
-      ]
-    },
-    {
-      "story_id": "anthropic-nscale-compute-deal",
-      "fingerprint": "e1ccbe8e9ba4625e",
-      "why_now": "Bloomberg reports Anthropic is in talks for $45B of Nscale compute, with a deal possibly in days. Critics are already questioning it. Videos on it are scarce.",
-      "video": {
-        "title": "Anthropic's $45B Compute Deal: Why You Should Care",
-        "thumbnail_text": "$45B COMPUTE DEAL",
-        "hook": "Anthropic is reportedly in talks to buy forty-five billion dollars of compute from a company most people haven't heard of. Here's who Nscale is, and why compute decides your usage limits.",
-        "alt_titles": [
-          "Anthropic x Nscale: The $45B Deal Explained",
-          "Why Claude Needs $45B of Compute"
-        ],
-        "outline": [
-          "What Bloomberg reported: talks, not a signed deal",
-          "Who Nscale is: Nvidia-backed data center developer",
-          "Why compute matters to builders: limits, speed, availability",
-          "The skeptic view: questions raised about whether Nscale can deliver",
-          "What to watch if the deal closes"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-3s",
-            "line": "Anthropic may buy forty-five billion dollars of compute.",
-            "visual": "Bloomberg headline"
-          },
-          {
-            "t": "3-12s",
-            "line": "The seller is Nscale, an Nvidia-backed data center developer. This is talks, not a done deal.",
-            "visual": "Nscale graphic"
-          },
-          {
-            "t": "12-22s",
-            "line": "Compute is what sets your Claude limits and speed. Critics question whether Nscale can deliver.",
-            "visual": "Limits page"
-          },
-          {
-            "t": "22-30s",
-            "line": "If it closes, watch for limits and availability. I'll track it.",
-            "visual": "Watchlist"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "$45B compute",
-            "body": "Anthropic in talks with Nscale"
-          },
-          {
-            "heading": "Source",
-            "body": "Bloomberg"
-          },
-          {
-            "heading": "Who is Nscale",
-            "body": "Nvidia-backed data center developer"
-          },
-          {
-            "heading": "Why you care",
-            "body": "Compute shapes limits and speed"
-          },
-          {
-            "heading": "The skeptics",
-            "body": "Doubts about delivery"
-          },
-          {
-            "heading": "Follow Chase AI",
-            "body": "Updates if it closes"
-          }
-        ],
-        "caption": "Anthropic is reportedly in talks to buy $45B of compute from Nscale. Why builders should care."
-      },
-      "x_post": "Reported by Bloomberg: Anthropic is in talks to buy $45B of compute from Nscale. Talks, not a signed deal. Compute is what sets your limits and speed, so it's worth watching.",
-      "x_thread": [
-        "Some critics doubt Nscale can deliver. I'll follow whether it closes."
-      ]
+        "Also testing V4.1 Flash 1017 locally using Unsloth's GGUFs, which target 128GB RAM setups."
+      ],
+      "fingerprint": "f69d9ba0bc0164ee"
     }
   ]
 }
