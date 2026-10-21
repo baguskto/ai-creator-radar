@@ -1,26 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T23:07:10Z",
+  "generated_at": "2026-10-21T13:00:09Z",
   "sample": false,
   "packs": [
     {
-      "story_id": "anthropic-s1-leak",
-      "fingerprint": "e26e28bb85f1b103",
-      "why_now": "The WSJ-reported Anthropic draft IPO numbers are at 15K+ likes on X and only two small videos cover them. Be the one who explains what an $80.7B loss actually means for people building on Claude.",
+      "story_id": "nvidia-agent-announcements",
+      "fingerprint": "a81f882f679142b3",
+      "why_now": "NVIDIA's Flare, OpenShell and Isaac news is trending on X with zero YouTube videos covering it. A hands-on look at Flare for local agents is open ground.",
       "video": {
-        "title": "Anthropic's $80B Loss, Explained for Claude Users",
-        "thumbnail_text": "$80B LOSS?",
-        "hook": "The Wall Street Journal says Anthropic's draft IPO filing shows an eighty billion dollar loss in six months. Before you panic about your Claude subscription, here's what the numbers say, what they don't, and what it means for you.",
+        "title": "NVIDIA Flare: A Local Inference Server for Agents",
+        "thumbnail_text": "NVIDIA FLARE",
+        "hook": "NVIDIA just put out Flare, a local inference server for DGX Spark and RTX Blackwell cards. It's written in Rust, no Python, and it's built for long chats and agents. I'm going to check what that actually means if you run models at home.",
         "alt_titles": [
-          "Anthropic's IPO Filing: What Builders Should Know",
-          "Is Anthropic in Trouble? Reading the S-1 Leak"
+          "I Tried NVIDIA's New Local AI Server",
+          "NVIDIA Flare vs Python Inference Servers"
         ],
         "outline": [
-          "What the WSJ reported: $16.3B revenue, $80.7B net loss, per the draft",
-          "Why the loss is described as driven largely by accounting charges",
-          "The compute bill: about $750B planned over 7 to 10 years, including $111B on Google cloud",
-          "What it could mean for pricing and usage limits (flag as speculation, not fact)",
-          "Should you build on Claude? My take as someone who uses it daily"
+          "What NVIDIA says Flare is: Rust, up-front memory planning, FP8 KV cache by default",
+          "Who can run it: DGX Spark and RTX Blackwell only, per the posts",
+          "Test it on long chats and tool calls if I can get access, otherwise walk the docs",
+          "OpenShell: Jensen's reference architecture for setting boundaries on agents",
+          "Isaac robotics and the Mistral collaboration in one minute",
+          "Verdict: who should care and who can ignore it"
         ]
       },
       "short": {
@@ -28,88 +29,82 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Anthropic reportedly lost eighty billion dollars in six months.",
-            "visual": "Big text: $80.7B, WSJ source tag"
+            "line": "NVIDIA just shipped a local AI server called Flare.",
+            "visual": "Title card with NVIDIA logo and the name Flare"
           },
           {
             "t": "3-10s",
-            "line": "That's from a draft IPO filing the Wall Street Journal saw. Revenue was sixteen point three billion, but the loss is mostly accounting charges.",
-            "visual": "Revenue vs loss bars"
+            "line": "It runs on DGX Spark and RTX Blackwell, and it's written in Rust, so no Python in the serving path.",
+            "visual": "Screenshot of the announcement post"
           },
           {
-            "t": "10-20s",
-            "line": "The bigger number is compute. Roughly seven hundred fifty billion over the next seven to ten years, a hundred eleven billion of it on Google cloud.",
-            "visual": "Compute commitments list"
+            "t": "10-18s",
+            "line": "It plans memory up front and uses an FP8 KV cache by default, which is aimed at long chats and agents with lots of tool calls.",
+            "visual": "Bullet list on screen, one point at a time"
           },
           {
-            "t": "20-27s",
-            "line": "Does that change your Claude plan today? Nothing in the report says so. But watch pricing and limits.",
-            "visual": "Claude usage screen"
+            "t": "18-25s",
+            "line": "Same day, Jensen showed OpenShell, a reference design for keeping agents inside set boundaries and stopping them if they leave.",
+            "visual": "Clip of the OpenShell post"
           },
           {
-            "t": "27-30s",
-            "line": "I'll break down the full numbers on the channel. Follow so you don't miss it.",
-            "visual": "Channel end card"
+            "t": "25-30s",
+            "line": "I'll test Flare on my setup and show you if it's worth switching. Follow so you catch it.",
+            "visual": "Chase to camera, subscribe prompt"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "Anthropic's draft IPO numbers",
-            "body": "What the WSJ reportedly saw"
+            "heading": "NVIDIA Flare is out",
+            "body": "A local inference server for DGX Spark and RTX Blackwell."
           },
           {
-            "heading": "$16.3B revenue",
-            "body": "First half of 2026, per the draft"
+            "heading": "What's different",
+            "body": "Rust serving, memory planned up front, FP8 KV cache by default."
           },
           {
-            "heading": "$80.7B net loss",
-            "body": "Driven largely by accounting charges"
+            "heading": "Built for agents",
+            "body": "Aimed at long chats and tool calls, per the posts."
           },
           {
-            "heading": "About $750B on compute",
-            "body": "Planned over 7 to 10 years"
+            "heading": "OpenShell",
+            "body": "Jensen's reference architecture to set boundaries for agents."
           },
           {
-            "heading": "$111B on Google cloud",
-            "body": "One of the biggest commitments"
+            "heading": "More from GTC Berlin",
+            "body": "New Isaac robotics tools and a Mistral collaboration."
           },
           {
-            "heading": "What it means for you",
-            "body": "Nothing changes today. Watch pricing and limits."
-          },
-          {
-            "heading": "Follow for the full breakdown",
-            "body": "Save this for later"
+            "heading": "Want a hands-on test?",
+            "body": "Follow for the Flare benchmark."
           }
         ],
-        "caption": "Anthropic's draft IPO filing, as reported by the WSJ: $16.3B revenue, $80.7B net loss, and a huge compute bill. What it does and doesn't mean for Claude users."
+        "caption": "NVIDIA dropped Flare, a Rust-based local inference server for DGX Spark and RTX Blackwell, plus OpenShell for agent boundaries. Swipe for what we know so far."
       },
-      "x_post": "WSJ says Anthropic's draft IPO filing shows $16.3B revenue and an $80.7B net loss in H1, mostly accounting charges, plus ~$750B of planned compute spend. Nothing here says your Claude plan changes. Full breakdown on YouTube soon.",
-      "x_thread": [
-        "The loss is reported as driven largely by accounting charges, not just cash burn. Worth reading the actual numbers before reacting.",
-        "Watch for pricing and usage-limit changes. That's the part that touches builders."
-      ]
+      "x_post": "NVIDIA released Flare: a local inference server for DGX Spark and RTX Blackwell. Rust, no Python, FP8 KV cache by default. Also: OpenShell for agent boundaries. I'm testing it for a video.",
+      "x_thread": []
     },
     {
-      "story_id": "spacex-xai-revenue",
-      "fingerprint": "9427a9a62e7875ed",
-      "why_now": "SpaceX numbers and Musk's GPU claim are being used to say xAI is beating OpenAI and Anthropic, and only one small video covers it. A sober check of the claims is open ground.",
+      "story_id": "codex-12h-cache",
+      "fingerprint": "cc9c6077a81a600a",
+      "why_now": "The 12-hour cache post has 13K likes and ~1.8M views, but YouTube coverage is a few tiny videos, mostly non-English. A practical 'what this does to your usage' video is open.",
       "video": {
-        "title": "SpaceX vs OpenAI vs Anthropic: Who's Really Winning AI?",
-        "thumbnail_text": "SPACEX WINS?",
-        "hook": "Posts all over X say SpaceX and xAI are about to pass OpenAI and Anthropic. Some of that is real numbers and some is hype. Here's which is which, and what it means for the models you can actually use.",
+        "title": "OpenAI's 12-Hour Cache: What It Means for Codex Users",
+        "thumbnail_text": "12H CACHE",
+        "hook": "OpenAI says the API cache now lasts 12 hours, and in Codex you can come back to an old conversation and still hit the cache. If true, that changes how you should use long sessions. Here's what was actually announced and what I'd check.",
         "alt_titles": [
-          "Is SpaceX xAI Ahead of OpenAI? The Numbers",
-          "Fact-Checking the SpaceX AI Hype"
+          "Codex Cache Explained in Plain English",
+          "Stop Starting New Codex Chats?"
         ],
         "outline": [
-          "The claims going around: $14.6B in a quarter, profitable, 200,000 GB300s a month",
-          "What's reported vs what's an opinion on X",
-          "Revenue and profit are not the same as model quality",
-          "What xAI's compute could mean for Grok",
-          "What I'd do as a builder: test Grok next to Claude and GPT yourself"
+          "What the post says: 12h API cache, no penalty resuming in Codex and Work",
+          "What prompt caching is, in 60 seconds",
+          "What to check: pricing, cached-token counts, and how to see hits in your own usage",
+          "Practical changes: resume sessions, keep long system prompts stable",
+          "What's unclear: 'forever' for logged-in users is a claim from one post, so verify it",
+          "Takeaway for builders"
         ]
       },
       "short": {
@@ -117,87 +112,82 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Is SpaceX about to beat OpenAI and Anthropic at AI?",
-            "visual": "SpaceX logo vs lab logos"
+            "line": "Codex just made old conversations cheaper to come back to.",
+            "visual": "Codex window with an old chat"
           },
           {
             "t": "3-10s",
-            "line": "Posts say SpaceX did fourteen point six billion in one quarter and is profitable. Musk says two hundred thousand GB300 GPUs come online each month.",
-            "visual": "Quote cards from posts"
+            "line": "OpenAI says the API cache now lasts twelve hours, and in Codex there's no penalty for resuming after a few hours.",
+            "visual": "Screenshot of the Day 16 post"
           },
           {
-            "t": "10-20s",
-            "line": "Those are claims worth checking. Money and chips don't equal a better model for your work.",
-            "visual": "Check-mark overlay"
+            "t": "10-18s",
+            "line": "Caching means the model doesn't re-read the same prompt from scratch, so repeated context costs less and runs faster.",
+            "visual": "Simple diagram of prompt and cache"
           },
           {
-            "t": "20-27s",
-            "line": "What matters to you is whether Grok keeps getting better. I'll test it against Claude and GPT.",
-            "visual": "Side-by-side test"
+            "t": "18-25s",
+            "line": "So keep your system prompt stable and resume the thread instead of pasting everything into a fresh chat.",
+            "visual": "Side-by-side: new chat vs resumed chat"
           },
           {
-            "t": "27-30s",
-            "line": "Follow for the head-to-head.",
-            "visual": "End card"
+            "t": "25-30s",
+            "line": "I'll check my own usage numbers to see if it holds up. Follow to see the result.",
+            "visual": "Chase to camera"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "SpaceX AI hype, checked",
-            "body": "What's claimed vs what's proven"
+            "heading": "Codex cache change",
+            "body": "12h in the API, and no penalty for resuming old chats."
           },
           {
-            "heading": "$14.6B in one quarter",
-            "body": "Reported in posts on X"
+            "heading": "What is caching?",
+            "body": "Reused prompt text isn't processed again."
           },
           {
-            "heading": "Profitable, per posts",
-            "body": "Unlike the labs it's compared to"
+            "heading": "Why you care",
+            "body": "Cheaper and faster long sessions."
           },
           {
-            "heading": "200K GB300s a month",
-            "body": "Musk's claim for the rest of 2026"
+            "heading": "What to do",
+            "body": "Keep prompts stable. Resume instead of restarting."
           },
           {
-            "heading": "Chips aren't models",
-            "body": "Quality still has to be tested"
+            "heading": "Still to verify",
+            "body": "Exact pricing and the 'forever' claim."
           },
           {
-            "heading": "My plan",
-            "body": "Test Grok vs Claude vs GPT"
-          },
-          {
-            "heading": "Follow for the results",
-            "body": "Save this post"
+            "heading": "Follow for my test",
+            "body": "I'll check my usage numbers."
           }
         ],
-        "caption": "SpaceX numbers are being used to say xAI will pass OpenAI and Anthropic. Here's what's claimed, what's opinion, and how to test it yourself."
+        "caption": "OpenAI says the API cache now lasts 12 hours and Codex doesn't penalize resuming old chats. Here's what that means for your workflow. I'll verify the numbers."
       },
-      "x_post": "People on X say SpaceX will pass OpenAI and Anthropic: $14.6B in a quarter, profitable, ~200K GB300 GPUs a month per Musk. Big numbers, but compute isn't model quality. I'm testing Grok vs Claude vs GPT.",
-      "x_thread": [
-        "Revenue and chips are real signals. They're not a benchmark for the model you use every day."
-      ]
+      "x_post": "OpenAI says: 12h cache in the API, and Codex doesn't penalize you for resuming old chats. Practical takeaway: keep prompts stable, resume threads. I'm checking my usage to confirm.",
+      "x_thread": []
     },
     {
-      "story_id": "claude-usage-limit-bug",
-      "fingerprint": "ef1b40ad23e41f8a",
-      "why_now": "Anthropic admitted about 40,000 accounts had the wrong usage limits and is adding credits. Only one small video covers limits, and people are asking if they were hit.",
+      "story_id": "openai-google-cloud-deal",
+      "fingerprint": "c4ffe675f6977fc0",
+      "why_now": "A post says OpenAI's models and Codex are heading to Google Cloud in weeks. YouTube has a couple of tiny videos, so a builder-focused explainer is still open.",
       "video": {
-        "title": "Claude Usage Limits Bug: Were You One of 40,000?",
-        "thumbnail_text": "40K ACCOUNTS HIT",
-        "hook": "Anthropic says about forty thousand Claude accounts had the wrong usage limits applied this past weekend. If your usage drained way too fast, you may be owed credits. Here's how to check and how to stop wasting limits.",
+        "title": "OpenAI on Google Cloud: What Changes for Builders",
+        "thumbnail_text": "OPENAI + GOOGLE",
+        "hook": "A post says OpenAI's models, including GPT-6 Astra, and Codex are coming to Google Cloud in the next few weeks. If you already pay Google Cloud, this might matter to you. Here's what's claimed and what to check.",
         "alt_titles": [
-          "Claude Draining Too Fast? What Anthropic Admitted",
-          "Claude Usage Bug: How to Check and Get Credits"
+          "Can You Use GPT-6 Astra Through Google Cloud?",
+          "Why OpenAI Is Selling on Google Cloud"
         ],
         "outline": [
-          "What Anthropic's team said: ~40,000 accounts, limits didn't match the selected plan",
-          "Who's being contacted and the credits promised",
-          "How to check your own usage and plan settings",
-          "Habits that burn limits fast: long contexts, big files, repeated retries",
-          "How I keep my usage down in Claude Code"
+          "What the post claims: models and Codex via Google Cloud Marketplace, using existing cloud spend",
+          "What's not confirmed yet: dates, pricing, regions",
+          "Who benefits: teams with Google Cloud commitments",
+          "What it means for choosing between Gemini and GPT on one bill",
+          "What I'll check when it goes live",
+          "Takeaway"
         ]
       },
       "short": {
@@ -205,241 +195,227 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Claude draining your usage way too fast? It wasn't just you.",
-            "visual": "Usage meter draining"
+            "line": "OpenAI is reportedly coming to Google Cloud.",
+            "visual": "OpenAI and Google logos side by side"
           },
           {
             "t": "3-10s",
-            "line": "Anthropic says about forty thousand accounts had limits that didn't match their plan. They're reaching out and adding credits.",
+            "line": "A post says GPT-6 Astra and Codex will be sold through Google Cloud Marketplace in the coming weeks.",
             "visual": "Screenshot of the post"
           },
           {
-            "t": "10-20s",
-            "line": "Check your usage page and your plan. If it looks wrong, watch for the email.",
-            "visual": "Settings screen"
+            "t": "10-18s",
+            "line": "Companies could buy them using cloud spending they already have, instead of a separate OpenAI contract.",
+            "visual": "Simple billing diagram"
           },
           {
-            "t": "20-27s",
-            "line": "And long chats and big files burn limits fast. Start new chats and trim context.",
-            "visual": "Context size demo"
+            "t": "18-25s",
+            "line": "Details like pricing and regions aren't confirmed yet, so treat this as a report until the official announcement.",
+            "visual": "Caution label: Unconfirmed details"
           },
           {
-            "t": "27-30s",
-            "line": "Follow for more Claude tips.",
-            "visual": "End card"
+            "t": "25-30s",
+            "line": "When it goes live I'll test it. Follow so you don't miss it.",
+            "visual": "Chase to camera"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "Claude usage bug",
-            "body": "About 40,000 accounts affected"
+            "heading": "OpenAI on Google Cloud",
+            "body": "Reported: models and Codex via Marketplace."
           },
           {
-            "heading": "What happened",
-            "body": "Limits didn't match the selected plan"
+            "heading": "Which models",
+            "body": "GPT-6 Astra and Codex are named."
           },
           {
-            "heading": "The fix",
-            "body": "Anthropic says it's corrected"
+            "heading": "How you'd buy",
+            "body": "Through existing Google Cloud spend."
           },
           {
-            "heading": "Credits",
-            "body": "Affected users are being contacted"
-          },
-          {
-            "heading": "Check your account",
-            "body": "Usage page and plan settings"
-          },
-          {
-            "heading": "Save your limits",
-            "body": "New chats, less context"
-          },
-          {
-            "heading": "Follow for more Claude tips",
-            "body": "Share with a friend who hit the wall"
-          }
-        ],
-        "caption": "Anthropic says ~40,000 accounts had the wrong usage limits. What happened, how to check your account, and how to stop burning limits."
-      },
-      "x_post": "Anthropic says ~40,000 accounts had usage limits that didn't match their plan, which drained usage fast over the weekend. It's fixed and affected users get credits. Check your usage page, and here's how I save limits.",
-      "x_thread": [
-        "Long chats and big attached files burn limits fastest. Start fresh chats often."
-      ]
-    },
-    {
-      "story_id": "agent-infra-tools",
-      "fingerprint": "6de55f134388b498",
-      "why_now": "Vercel, Daytona and Beacon all shipped agent infrastructure on the same day, and no YouTube video covers any of it. It's a clear early lane for builders.",
-      "video": {
-        "title": "3 New Tools for Running AI Agents That Don't Quit",
-        "thumbnail_text": "AGENTS THAT RESUME",
-        "hook": "Three agent tools just dropped, and they fix the thing that annoys me most: agents that die halfway through a job. Vercel, Daytona and Beacon. I'll show what each does and who needs it.",
-        "alt_titles": [
-          "Vercel durable-harness, Daytona and Beacon Explained",
-          "Long-Running AI Agents: New Infrastructure"
-        ],
-        "outline": [
-          "Vercel durable-harness: harnesses resume after failures",
-          "Daytona's $60M Series B and the Agent Cloud pitch",
-          "Beacon: open-source memory for coding agents that learns from your sessions",
-          "Which one fits a solo builder (test, don't assume)",
-          "Try one with Claude Code and report back"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-3s",
-            "line": "Your AI agent crashed halfway through. Three new tools try to fix that.",
-            "visual": "Crashed terminal"
-          },
-          {
-            "t": "3-10s",
-            "line": "Vercel's durable-harness runs Claude Code, Codex and others so they resume after failures, for hours or days.",
-            "visual": "Vercel announcement"
-          },
-          {
-            "t": "10-20s",
-            "line": "Daytona raised sixty million for an agent cloud. Beacon is open-source memory that learns from your coding sessions.",
-            "visual": "Logos with captions"
-          },
-          {
-            "t": "20-27s",
-            "line": "I'm testing durable-harness with Claude Code and will show where it breaks.",
-            "visual": "Terminal setup"
-          },
-          {
-            "t": "27-30s",
-            "line": "Follow for the test.",
-            "visual": "End card"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "3 tools for agents",
-            "body": "That keep working"
-          },
-          {
-            "heading": "Vercel durable-harness",
-            "body": "Resume after failures"
-          },
-          {
-            "heading": "Daytona Agent Cloud",
-            "body": "$60M Series B"
-          },
-          {
-            "heading": "Beacon",
-            "body": "Open-source memory for coding agents"
-          },
-          {
-            "heading": "Who needs this",
-            "body": "Anyone running long jobs"
-          },
-          {
-            "heading": "My plan",
-            "body": "Test it with Claude Code"
-          },
-          {
-            "heading": "Follow for the results",
-            "body": "Save for later"
-          }
-        ],
-        "caption": "Vercel durable-harness, Daytona and Beacon all aim at long-running agents. What each does and what I'm testing first."
-      },
-      "x_post": "Three agent tools this week: Vercel durable-harness (agents resume after failures), Daytona's $60M Series B for an agent cloud, and Beacon, open-source memory for coding agents. I'm testing durable-harness with Claude Code.",
-      "x_thread": [
-        "Beacon claims to learn how you debug from your sessions. I want to see that in practice."
-      ]
-    },
-    {
-      "story_id": "openai-safety-hire",
-      "fingerprint": "d8625831b7873a92",
-      "why_now": "Altman announced a new safety and security lead on superintelligence, and no YouTube video covers it. Detail is thin, so an honest what-we-know take is a fast win.",
-      "video": {
-        "title": "OpenAI Hires a New Safety Lead: What We Know",
-        "thumbnail_text": "NEW SAFETY LEAD",
-        "hook": "Sam Altman just said OpenAI has a new person taking on safety and security for superintelligence. There isn't much detail yet, so here's what he said, what's still unclear, and what to watch.",
-        "alt_titles": [
-          "OpenAI's New Safety Hire Explained",
-          "What Altman Said About Superintelligence Safety"
-        ],
-        "outline": [
-          "What Altman's post says and doesn't say",
-          "Who Aleksander is: confirm details before publishing",
-          "Why a safety and security role matters for products you use",
-          "What to watch next from OpenAI",
-          "What this means for builders"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-3s",
-            "line": "OpenAI just named someone to lead safety and security.",
-            "visual": "Altman post screenshot"
-          },
-          {
-            "t": "3-10s",
-            "line": "Sam Altman says he's grateful Aleksander accepted the request, citing big safety and security challenges around superintelligence.",
-            "visual": "Quote on screen"
-          },
-          {
-            "t": "10-20s",
-            "line": "The post is short. No title, no plan, no timeline. So take claims about it with caution.",
-            "visual": "Question marks"
-          },
-          {
-            "t": "20-27s",
-            "line": "What I'm watching is whether it changes how OpenAI ships models and tools.",
-            "visual": "Release timeline"
-          },
-          {
-            "t": "27-30s",
-            "line": "Follow for updates.",
-            "visual": "End card"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "OpenAI safety lead",
-            "body": "What Altman announced"
-          },
-          {
-            "heading": "The post",
-            "body": "Aleksander accepted the request"
-          },
-          {
-            "heading": "The focus",
-            "body": "Safety and security for superintelligence"
-          },
-          {
-            "heading": "Still unknown",
-            "body": "Title, scope, timeline"
+            "heading": "Unconfirmed",
+            "body": "Pricing, regions and dates aren't in the post."
           },
           {
             "heading": "Why it matters",
-            "body": "Shapes how models ship"
+            "body": "One bill for Gemini and GPT."
           },
           {
-            "heading": "What I'm watching",
-            "body": "Next OpenAI releases"
-          },
-          {
-            "heading": "Follow for updates",
-            "body": "Share your take"
+            "heading": "Follow for the test",
+            "body": "I'll try it when it's live."
           }
         ],
-        "caption": "Altman announced a new safety and security lead at OpenAI. Here's what the post says and what's still unknown."
+        "caption": "A post says OpenAI models and Codex are coming to Google Cloud Marketplace. What it could mean for your stack, and what's still unconfirmed."
       },
-      "x_post": "Sam Altman says Aleksander has accepted a request to take on OpenAI's safety and security challenges around superintelligence. Details are thin: no title or plan yet. I'm watching how it affects what ships.",
+      "x_post": "Report: OpenAI's models, incl. GPT-6 Astra, and Codex are coming to Google Cloud Marketplace in the next few weeks. Pricing and regions aren't clear yet. I'll test it when it's live.",
+      "x_thread": []
+    },
+    {
+      "story_id": "uncensored-model-variants",
+      "fingerprint": "859d3d199d04158e",
+      "why_now": "Abliterated Mistral, DeepSeek and GLM variants are spreading on X with no YouTube coverage. A careful, honest explainer on what abliteration is and the trade-offs is open ground.",
+      "video": {
+        "title": "Uncensored AI Models: What Abliteration Really Does",
+        "thumbnail_text": "UNCENSORED AI?",
+        "hook": "Posts are claiming uncensored versions of Mistral, DeepSeek and GLM that almost never refuse. Before you download anything, here's what abliterated means, what the claims actually say, and the risks.",
+        "alt_titles": [
+          "What Are 'Abliterated' Models?",
+          "Uncensored Mistral: Hype vs Reality"
+        ],
+        "outline": [
+          "What abliteration is: removing a model's refusal behavior",
+          "The claims in the posts: 1 refusal in 100 vs 91, runs in 8GB RAM, reads images",
+          "Why these claims need testing, not trust",
+          "Safety: unknown uploaders, security tasks, and what to avoid",
+          "Legit uses and the downsides",
+          "Takeaway"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "Uncensored AI models are going viral. Slow down.",
+            "visual": "Headline screenshots"
+          },
+          {
+            "t": "3-10s",
+            "line": "Posts say a Mistral version refuses one prompt in a hundred, where the normal one refused ninety-one.",
+            "visual": "Quote from the post on screen"
+          },
+          {
+            "t": "10-18s",
+            "line": "These are called abliterated models: someone edits the model to strip out its refusals.",
+            "visual": "Simple diagram of a model with a refusal switch"
+          },
+          {
+            "t": "18-25s",
+            "line": "The numbers come from the posters, not independent tests, and downloads from unknown accounts are a risk.",
+            "visual": "Warning label"
+          },
+          {
+            "t": "25-30s",
+            "line": "If you want, I'll test one safely and show you what changes. Follow for it.",
+            "visual": "Chase to camera"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "Uncensored models",
+            "body": "Mistral, DeepSeek and GLM variants are circulating."
+          },
+          {
+            "heading": "What 'abliterated' means",
+            "body": "Refusal behavior edited out of the model."
+          },
+          {
+            "heading": "The claims",
+            "body": "Refuses 1 in 100 prompts, per one post."
+          },
+          {
+            "heading": "Not verified",
+            "body": "Numbers come from the posters."
+          },
+          {
+            "heading": "Be careful",
+            "body": "Unknown uploads and security use are risky."
+          },
+          {
+            "heading": "Follow for a safe test",
+            "body": "I'll check what actually changes."
+          }
+        ],
+        "caption": "Posts claim uncensored Mistral, DeepSeek and GLM variants. What abliteration means, what's claimed, and what to be careful about."
+      },
+      "x_post": "Posts claim 'abliterated' Mistral, DeepSeek and GLM variants that rarely refuse. The numbers come from the uploaders, not independent tests. Explainer coming on what it does and the risks.",
+      "x_thread": []
+    },
+    {
+      "story_id": "amodei-mythos-interview",
+      "fingerprint": "dc7cc8b4c183375d",
+      "why_now": "Posts quoting Amodei on delaying Mythos are moving, and only one tiny YouTube video covers them. Angle: what the delay means for you as a Claude user.",
+      "video": {
+        "title": "Why Anthropic Held Back Mythos: What It Means for You",
+        "thumbnail_text": "MYTHOS DELAYED",
+        "hook": "Dario Amodei reportedly says Anthropic held back broad access to Mythos-class models for four months to strengthen cyber safeguards. Here's what he said, and what it means if you build with Claude.",
+        "alt_titles": [
+          "Amodei on Mythos: The Quotes That Matter",
+          "What the Mythos Delay Means for Claude Users"
+        ],
+        "outline": [
+          "What Amodei reportedly said: four-month hold, originally scheduled for February",
+          "Why: cyber safeguards",
+          "Other quotes: distillation, company size over 5,000, the lost model lead",
+          "What it means for builders: access, safety gates, timing",
+          "What's still unclear and needs the original interview",
+          "Takeaway"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "Anthropic held back its most powerful model for four months.",
+            "visual": "Mythos title card"
+          },
+          {
+            "t": "3-10s",
+            "line": "Dario Amodei reportedly says broad access to Mythos-class models was delayed to strengthen cyber safeguards. It was first planned for February.",
+            "visual": "Quote on screen"
+          },
+          {
+            "t": "10-18s",
+            "line": "He also says distillation isn't a big commercial threat but is a security concern, and that Anthropic is now over five thousand people.",
+            "visual": "Two quote cards"
+          },
+          {
+            "t": "18-25s",
+            "line": "He reportedly said they likely gave up a chunk of a several-month lead. That's from posts quoting him, so check the full interview.",
+            "visual": "Quote with source label"
+          },
+          {
+            "t": "25-30s",
+            "line": "I'll break down what it means for your builds. Follow for more.",
+            "visual": "Chase to camera"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "Mythos was held back",
+            "body": "Four months, reportedly, for cyber safeguards."
+          },
+          {
+            "heading": "Original plan",
+            "body": "Release was scheduled for February."
+          },
+          {
+            "heading": "On distillation",
+            "body": "Not a major commercial threat, but a security concern."
+          },
+          {
+            "heading": "Anthropic's size",
+            "body": "Over 5,000 people, per the quote."
+          },
+          {
+            "heading": "The cost",
+            "body": "'A significant chunk' of a model lead, he reportedly said."
+          },
+          {
+            "heading": "Follow for more",
+            "body": "What it means for Claude builders."
+          }
+        ],
+        "caption": "Amodei reportedly says Anthropic delayed Mythos-class access by four months over cyber safeguards. The key quotes and what they mean for builders."
+      },
+      "x_post": "Per posts quoting Dario Amodei: Anthropic held back broad Mythos-class access for four months to strengthen cyber safeguards. Quotes from the interview, plus what it means for builders, coming up.",
       "x_thread": []
     }
   ]

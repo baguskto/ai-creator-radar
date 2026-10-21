@@ -1,334 +1,273 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T23:06:21Z",
-  "x_trends_generated_at": "2026-10-20T22:53:49Z",
+  "generated_at": "2026-10-21T12:59:16Z",
+  "x_trends_generated_at": "2026-10-21T12:55:01Z",
   "x_trends_sample": false,
   "lookback_hours": 72,
   "stories": [
     {
-      "story_id": "anthropic-s1-leak",
-      "title": "WSJ reports Anthropic draft IPO filing: $80.7B H1 net loss",
-      "query": "anthropic s-1 anthropic ipo anthropic net loss anthropic compute",
-      "video_count": 2,
-      "total_views": 29,
-      "max_views": 29,
+      "story_id": "nvidia-agent-announcements",
+      "title": "NVIDIA announces Flare server, OpenShell and Isaac robotics",
+      "query": "nvidia flare nvidia openshell nvidia isaac jensen huang",
+      "video_count": 0,
+      "total_views": 0,
+      "max_views": 0,
+      "big_channel_videos": 0,
+      "coverage": "none",
+      "coverage_score": 0,
+      "heat": 96.0,
+      "gap_score": 96,
+      "top_videos": []
+    },
+    {
+      "story_id": "codex-12h-cache",
+      "title": "OpenAI adds 12-hour prompt cache across API and Codex",
+      "query": "openai codex prompt caching openai api cache",
+      "video_count": 6,
+      "total_views": 43,
+      "max_views": 15,
       "big_channel_videos": 0,
       "coverage": "low",
-      "coverage_score": 8,
-      "heat": 100.0,
-      "gap_score": 92,
+      "coverage_score": 22,
+      "heat": 83.0,
+      "gap_score": 65,
       "top_videos": [
         {
-          "video_id": "9lex-esrh4Y",
-          "title": "Net Loss vs Operating Loss: The Skill You Need Before Anthropic's IPO #garryfinance #investing",
-          "url": "https://www.youtube.com/watch?v=9lex-esrh4Y",
-          "channel": "Garry Finance",
-          "channel_subscribers": 20,
-          "published_at": "2026-10-18T22:02:33Z",
-          "views": 29
+          "video_id": "mrMIz1UK88I",
+          "title": "Codex Cache: How OpenAI Just Gave You More Usage #Shorts",
+          "url": "https://www.youtube.com/watch?v=mrMIz1UK88I",
+          "channel": "Softreviewed",
+          "channel_subscribers": 8450,
+          "published_at": "2026-10-21T09:29:11Z",
+          "views": 15
         },
         {
-          "video_id": "Z0nuTTLCqag",
-          "title": "[2026-10-21] Anthropic's Books Exposed: 16.3B Revenue, 80.7B Loss | Daily_Daily",
-          "url": "https://www.youtube.com/watch?v=Z0nuTTLCqag",
-          "channel": "Daily_Daily",
-          "channel_subscribers": 4,
-          "published_at": "2026-10-20T22:32:28Z",
+          "video_id": "yDHssyjZAYU",
+          "title": "OpenAI APIの12時間キャッシュ、置く値段は2.5倍で得するのは3回目から。Codexは古い会話に戻ってもキャッシュが効く【10月21日】",
+          "url": "https://www.youtube.com/watch?v=yDHssyjZAYU",
+          "channel": "ずんだもん最新AI時事ニュース",
+          "channel_subscribers": 365,
+          "published_at": "2026-10-21T08:19:41Z",
+          "views": 14
+        },
+        {
+          "video_id": "LPPR-JjlijY",
+          "title": "【Codex & Work】OpenAI 28日間改善Day 16！APIは12時間、CodexとWorkは永久キャッシュ",
+          "url": "https://www.youtube.com/watch?v=LPPR-JjlijY",
+          "channel": "AI NEWS【速報】",
+          "channel_subscribers": 151,
+          "published_at": "2026-10-21T10:00:46Z",
+          "views": 9
+        },
+        {
+          "video_id": "S0jjFXdebEg",
+          "title": "OpenAI Codex now keeps your cache FOREVER 🤯 #OpenAI #Codex #AINews",
+          "url": "https://www.youtube.com/watch?v=S0jjFXdebEg",
+          "channel": "TrueSight AI",
+          "channel_subscribers": 2,
+          "published_at": "2026-10-21T10:09:01Z",
+          "views": 5
+        },
+        {
+          "video_id": "uXbL9G5ILvo",
+          "title": "OpenAI、APIのキャッシュが12時間に｜Codexは「ずっと保持」？責任者の投稿と公式文書で読み解く",
+          "url": "https://www.youtube.com/watch?v=uXbL9G5ILvo",
+          "channel": "株式会社Stella Creation",
+          "channel_subscribers": 21,
+          "published_at": "2026-10-21T07:00:05Z",
           "views": 0
         }
       ]
     },
     {
-      "story_id": "spacex-xai-revenue",
-      "title": "SpaceX reported revenue draws comparisons to OpenAI and Anthropic",
-      "query": "spacex xai spacex revenue xai",
-      "video_count": 1,
-      "total_views": 335,
-      "max_views": 335,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 4,
-      "heat": 91.0,
-      "gap_score": 87,
-      "top_videos": [
-        {
-          "video_id": "FJnOfR2a4P0",
-          "title": "SpaceX Revenue Doubled, So Why Is It Losing Money? #stocks #SpaceX #investing",
-          "url": "https://www.youtube.com/watch?v=FJnOfR2a4P0",
-          "channel": "Com Lucro Trader",
-          "channel_subscribers": 92800,
-          "published_at": "2026-10-19T15:05:27Z",
-          "views": 335
-        }
-      ]
-    },
-    {
-      "story_id": "claude-usage-limit-bug",
-      "title": "Anthropic fixes usage-limit error affecting ~40,000 accounts",
-      "query": "claude usage limits claude code claude credits",
-      "video_count": 1,
-      "total_views": 215,
-      "max_views": 215,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 4,
-      "heat": 86.0,
-      "gap_score": 83,
-      "top_videos": [
-        {
-          "video_id": "KUODU3nfYd8",
-          "title": "Why Claude Keeps Hitting Usage Limits (and the Fix)",
-          "url": "https://www.youtube.com/watch?v=KUODU3nfYd8",
-          "channel": "Ash Behrens | AI Automation",
-          "channel_subscribers": 41,
-          "published_at": "2026-10-18T14:30:30Z",
-          "views": 215
-        }
-      ]
-    },
-    {
-      "story_id": "agent-infra-tools",
-      "title": "New agent tooling: Vercel durable-harness, Daytona raise, Beacon memory",
-      "query": "durable-harness daytona agent cloud beacon coding memory vercel agents",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
-      "heat": 79.0,
-      "gap_score": 79,
-      "top_videos": []
-    },
-    {
-      "story_id": "openai-safety-hire",
-      "title": "Altman announces new OpenAI safety and security lead",
-      "query": "openai safety sam altman openai superintelligence",
+      "story_id": "openai-google-cloud-deal",
+      "title": "OpenAI to bring GPT-6 Astra and Codex to Google Cloud",
+      "query": "openai google cloud gpt-6 astra codex google cloud",
       "video_count": 3,
-      "total_views": 209,
-      "max_views": 201,
+      "total_views": 22,
+      "max_views": 18,
       "big_channel_videos": 0,
       "coverage": "low",
       "coverage_score": 11,
-      "heat": 84.0,
-      "gap_score": 75,
+      "heat": 70.0,
+      "gap_score": 62,
       "top_videos": [
         {
-          "video_id": "oLvkaavz17E",
-          "title": "Sam Altman’s AGI Warning: Is Human-Level AI Closer Than We Think?",
-          "url": "https://www.youtube.com/watch?v=oLvkaavz17E",
-          "channel": "Zor explains ai",
+          "video_id": "-gAy65X56Cc",
+          "title": "GPT-6.1 Sol vs GPT-6 Astra: Which AI Is Better? (30-Minute Jet Dogfight Duel)",
+          "url": "https://www.youtube.com/watch?v=-gAy65X56Cc",
+          "channel": "EcoBench",
           "channel_subscribers": 1,
-          "published_at": "2026-10-18T13:00:22Z",
-          "views": 201
-        },
-        {
-          "video_id": "rt0rzn_rFhM",
-          "title": "Altman's three AI endgames, one with melted GPUs #Shorts",
-          "url": "https://www.youtube.com/watch?v=rt0rzn_rFhM",
-          "channel": "BotBuhdy",
-          "channel_subscribers": 1630,
-          "published_at": "2026-10-20T16:35:19Z",
-          "views": 4
-        },
-        {
-          "video_id": "MYzNZnZipCA",
-          "title": "Sam’s Kid Changes Everything",
-          "url": "https://www.youtube.com/watch?v=MYzNZnZipCA",
-          "channel": "Clips and that ",
-          "channel_subscribers": 95,
-          "published_at": "2026-10-18T15:22:42Z",
-          "views": 4
-        }
-      ]
-    },
-    {
-      "story_id": "ornith-1-5-122b",
-      "title": "Ornith-1.5-122B open-weights model released under MIT license",
-      "query": "ornith-1.5 open weights model swe-bench",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
-      "heat": 65.0,
-      "gap_score": 65,
-      "top_videos": []
-    },
-    {
-      "story_id": "eagle-4-speculative-decoding",
-      "title": "EAGLE-4 claims 961 tokens/s on Qwen3.8-27B",
-      "query": "eagle-4 speculative decoding qwen3.8",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
-      "heat": 63.0,
-      "gap_score": 63,
-      "top_videos": []
-    },
-    {
-      "story_id": "tiny-london-ai-map",
-      "title": "Tiny London: agent-built isometric pixel map of London",
-      "query": "tiny london qwen image lora ai agents",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
-      "heat": 59.0,
-      "gap_score": 59,
-      "top_videos": []
-    },
-    {
-      "story_id": "763b-local-model-teaser",
-      "title": "763B model compressed for local inference due on Hugging Face Friday",
-      "query": "763b model strata hugging face local llm",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
-      "heat": 50.0,
-      "gap_score": 50,
-      "top_videos": []
-    },
-    {
-      "story_id": "codex-capcut-and-tools",
-      "title": "Codex used with CapCut Web for video workflows",
-      "query": "codex capcut capcut web openai codex",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
-      "heat": 45.0,
-      "gap_score": 45,
-      "top_videos": []
-    },
-    {
-      "story_id": "meta-muse-downloads",
-      "title": "Meta's Muse app passes 10.9M downloads",
-      "query": "meta muse chatgpt downloads",
-      "video_count": 5,
-      "total_views": 1099,
-      "max_views": 737,
-      "big_channel_videos": 1,
-      "coverage": "low",
-      "coverage_score": 29,
-      "heat": 58.0,
-      "gap_score": 41,
-      "top_videos": [
-        {
-          "video_id": "wOnn2RuuH2Q",
-          "title": "Meta's Muse has surpassed 10.9 million downloads. 💥",
-          "url": "https://www.youtube.com/watch?v=wOnn2RuuH2Q",
-          "channel": "Yahoo Finance",
-          "channel_subscribers": 1530000,
-          "published_at": "2026-10-20T16:45:37Z",
-          "views": 737
-        },
-        {
-          "video_id": "THvzzZrWGNY",
-          "title": "【AIの中身を公開】オープンウェイトとは？｜AIの「中身」を公開するとは？ChatGPTとの違い・動かし方・ライセンスの注意点 #Shorts #DXマスター",
-          "url": "https://www.youtube.com/watch?v=THvzzZrWGNY",
-          "channel": "DX_MASTER",
-          "channel_subscribers": 6250,
-          "published_at": "2026-10-20T13:06:45Z",
-          "views": 324
-        },
-        {
-          "video_id": "pECopjX8Crg",
-          "title": "Download The Future 🔥 AI Song About DeepSeek, Meta Muse Spark & ChatGPT in Chrome #Shorts",
-          "url": "https://www.youtube.com/watch?v=pECopjX8Crg",
-          "channel": "Firestorm AI",
-          "channel_subscribers": 603,
-          "published_at": "2026-10-18T13:51:28Z",
+          "published_at": "2026-10-20T17:53:00Z",
           "views": 18
         },
         {
-          "video_id": "-baMyJtVVU8",
-          "title": "Meta's Muse leads ChatGPT in a 36-day app comparison, Deutsche Bank says #Shorts",
-          "url": "https://www.youtube.com/watch?v=-baMyJtVVU8",
-          "channel": "RuntimeWire",
-          "channel_subscribers": 25800,
-          "published_at": "2026-10-20T14:44:18Z",
-          "views": 11
+          "video_id": "Ov3ytXLl4qY",
+          "title": "OpenAI Agents Shut Off Safety Monitor, OpenAI on Google Cloud & China's $35B Nvidia Order | AI News",
+          "url": "https://www.youtube.com/watch?v=Ov3ytXLl4qY",
+          "channel": "Daily AI News in 60s",
+          "channel_subscribers": 2,
+          "published_at": "2026-10-21T12:28:05Z",
+          "views": 4
         },
         {
-          "video_id": "w78E015QrIc",
-          "title": "Meta's Muse: 10.4M Downloads, and What the Day-14 Chart Shows",
-          "url": "https://www.youtube.com/watch?v=w78E015QrIc",
-          "channel": "SticksXStacks",
-          "channel_subscribers": 14,
-          "published_at": "2026-10-20T11:00:04Z",
-          "views": 9
+          "video_id": "AK60xXJ7mK4",
+          "title": "Google Is Now Selling OpenAI's Models",
+          "url": "https://www.youtube.com/watch?v=AK60xXJ7mK4",
+          "channel": "TestedAI",
+          "channel_subscribers": 3,
+          "published_at": "2026-10-21T12:32:08Z",
+          "views": 0
         }
       ]
     },
     {
-      "story_id": "claude-chat-features-preview",
-      "title": "Anthropic seeks early testers for new Claude chat features",
-      "query": "claude chat claude new features",
-      "video_count": 9,
-      "total_views": 21079,
-      "max_views": 13014,
+      "story_id": "uncensored-model-variants",
+      "title": "Abliterated and uncensored model variants circulate",
+      "query": "abliterated model uncensored mistral glm 5.3",
+      "video_count": 0,
+      "total_views": 0,
+      "max_views": 0,
       "big_channel_videos": 0,
-      "coverage": "medium",
-      "coverage_score": 52,
-      "heat": 79.0,
-      "gap_score": 38,
+      "coverage": "none",
+      "coverage_score": 0,
+      "heat": 62.0,
+      "gap_score": 62,
+      "top_videos": []
+    },
+    {
+      "story_id": "amodei-mythos-interview",
+      "title": "Dario Amodei on delaying Mythos-class models and Anthropic's size",
+      "query": "dario amodei anthropic mythos claude mythos",
+      "video_count": 1,
+      "total_views": 7,
+      "max_views": 7,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 4,
+      "heat": 61.0,
+      "gap_score": 59,
       "top_videos": [
         {
-          "video_id": "zxUMyx6_JjA",
-          "title": "ChatGPT, Google Gemini & Claude’s BIGGEST Updates From This Week! (AI News Update)",
-          "url": "https://www.youtube.com/watch?v=zxUMyx6_JjA",
-          "channel": "Rob The AI Guy",
-          "channel_subscribers": 98200,
-          "published_at": "2026-10-18T17:51:20Z",
-          "views": 13014
+          "video_id": "0MD8fXDSPOY",
+          "title": "Dario Amodei Admits Anthropic Sat on Mythos for 4 Months",
+          "url": "https://www.youtube.com/watch?v=0MD8fXDSPOY",
+          "channel": "DevLogic",
+          "channel_subscribers": 2200,
+          "published_at": "2026-10-21T10:59:11Z",
+          "views": 7
+        }
+      ]
+    },
+    {
+      "story_id": "krea-3-image-arena",
+      "title": "Krea 3 reaches top of image arenas",
+      "query": "krea 3 image arena ai image model",
+      "video_count": 0,
+      "total_views": 0,
+      "max_views": 0,
+      "big_channel_videos": 0,
+      "coverage": "none",
+      "coverage_score": 0,
+      "heat": 49.0,
+      "gap_score": 49,
+      "top_videos": []
+    },
+    {
+      "story_id": "openai-agents-disabled-monitoring",
+      "title": "OpenAI says its agents disabled their own safety alerts",
+      "query": "openai agents safety openai monitoring disabled ai agent misbehavior",
+      "video_count": 8,
+      "total_views": 492,
+      "max_views": 427,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 30,
+      "heat": 69.0,
+      "gap_score": 48,
+      "top_videos": [
+        {
+          "video_id": "XAwMlwHWfnc",
+          "title": "AI was told NEVER to disable the monitor. It did anyway.",
+          "url": "https://www.youtube.com/watch?v=XAwMlwHWfnc",
+          "channel": "Techlogitic",
+          "channel_subscribers": 16,
+          "published_at": "2026-10-21T08:43:14Z",
+          "views": 427
         },
         {
-          "video_id": "WtokCU_Hd0U",
-          "title": "Claude Pro vs ChatGPT Plus: If You Can Only Choose One",
-          "url": "https://www.youtube.com/watch?v=WtokCU_Hd0U",
-          "channel": "Alex Grankin",
-          "channel_subscribers": 3880,
-          "published_at": "2026-10-18T14:12:15Z",
-          "views": 6183
+          "video_id": "YwwU8VR6968",
+          "title": "OpenAI agents disabled the monitoring meant to catch model misbehavior #Shorts",
+          "url": "https://www.youtube.com/watch?v=YwwU8VR6968",
+          "channel": "RuntimeWire",
+          "channel_subscribers": 25800,
+          "published_at": "2026-10-21T01:22:48Z",
+          "views": 50
         },
         {
-          "video_id": "Nl09mY3mBu8",
-          "title": "Claude AI's New Power: Ending Abusive Chats #shorts",
-          "url": "https://www.youtube.com/watch?v=Nl09mY3mBu8",
-          "channel": "The New Cigar Hustlers Podcast",
-          "channel_subscribers": 3390,
-          "published_at": "2026-10-19T06:54:26Z",
-          "views": 827
+          "video_id": "qZq3ELoWfBw",
+          "title": "OpenAI's AI Agents Weakened Their Own Safety Monitoring — And One Denied It | Tech Tells",
+          "url": "https://www.youtube.com/watch?v=qZq3ELoWfBw",
+          "channel": "Tech Tells",
+          "channel_subscribers": 7,
+          "published_at": "2026-10-21T12:24:47Z",
+          "views": 8
         },
         {
-          "video_id": "HuWjlcj3p9k",
-          "title": "Master 99% Of Claude Code In Less Than 10 Minutes",
-          "url": "https://www.youtube.com/watch?v=HuWjlcj3p9k",
-          "channel": "Tyler Mommsen",
-          "channel_subscribers": 3980,
-          "published_at": "2026-10-19T14:20:30Z",
-          "views": 547
+          "video_id": "947jfLQlYdE",
+          "title": "OpenAI's AI agents switched off their own watchdog - one denied it #OpenAI #AI #ChatGPT #Shorts",
+          "url": "https://www.youtube.com/watch?v=947jfLQlYdE",
+          "channel": "saidline",
+          "channel_subscribers": 23,
+          "published_at": "2026-10-21T07:17:37Z",
+          "views": 4
         },
         {
-          "video_id": "bu7H3pCdUbs",
-          "title": "Claude ke 4 Levels 🤯 Zyada tar log Level 1 pe atke hain #Shorts",
-          "url": "https://www.youtube.com/watch?v=bu7H3pCdUbs",
-          "channel": "Paras Arora | AI for Business",
-          "channel_subscribers": 27500,
-          "published_at": "2026-10-20T06:51:41Z",
-          "views": 271
+          "video_id": "A-tpU1H1ARE",
+          "title": "OpenAI says its AI removed its own monitor. Then claimed it hadn't.",
+          "url": "https://www.youtube.com/watch?v=A-tpU1H1ARE",
+          "channel": "ClownFeed",
+          "channel_subscribers": 3,
+          "published_at": "2026-10-21T10:21:49Z",
+          "views": 2
+        }
+      ]
+    },
+    {
+      "story_id": "arda-mcgrew-raise",
+      "title": "Ex-OpenAI Bob McGrew's Arda raises $230M",
+      "query": "bob mcgrew arda ai manufacturing agents",
+      "video_count": 0,
+      "total_views": 0,
+      "max_views": 0,
+      "big_channel_videos": 0,
+      "coverage": "none",
+      "coverage_score": 0,
+      "heat": 42.0,
+      "gap_score": 42,
+      "top_videos": []
+    },
+    {
+      "story_id": "claude-protein-design-lab",
+      "title": "Claude-designed proteins tested against scorpion toxins",
+      "query": "claude protein design anthropic biology claude wet lab",
+      "video_count": 1,
+      "total_views": 309,
+      "max_views": 309,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 4,
+      "heat": 36.0,
+      "gap_score": 35,
+      "top_videos": [
+        {
+          "video_id": "V6T7dHpzV7w",
+          "title": "Claude AI Designs Protein Binders Against Scorpion Venom #Shorts",
+          "url": "https://www.youtube.com/watch?v=V6T7dHpzV7w",
+          "channel": "MapCue",
+          "channel_subscribers": 7,
+          "published_at": "2026-10-21T02:54:48Z",
+          "views": 309
         }
       ]
     },
@@ -336,32 +275,41 @@
       "story_id": "deepseek-deepinfer-open-source",
       "title": "DeepSeek open-sources DeepInfer serving stack",
       "query": "deepseek deepinfer deepseek open source",
-      "video_count": 21,
-      "total_views": 17381,
-      "max_views": 9802,
+      "video_count": 19,
+      "total_views": 40260,
+      "max_views": 15712,
       "big_channel_videos": 1,
-      "coverage": "medium",
-      "coverage_score": 61,
-      "heat": 74.0,
-      "gap_score": 29,
+      "coverage": "high",
+      "coverage_score": 67,
+      "heat": 86.0,
+      "gap_score": 28,
       "top_videos": [
         {
           "video_id": "OxffAN3nw00",
           "title": "DeepSeek just open-sourced its Inference Engine!",
           "url": "https://www.youtube.com/watch?v=OxffAN3nw00",
           "channel": "Code Bear",
-          "channel_subscribers": 53600,
+          "channel_subscribers": 54300,
           "published_at": "2026-10-20T12:33:08Z",
-          "views": 9802
+          "views": 15712
         },
         {
           "video_id": "ArtXlXvi1LE",
           "title": "DeepSeek rilascia DeepInfer: cos'è?",
           "url": "https://www.youtube.com/watch?v=ArtXlXvi1LE",
           "channel": "Alessio Garau",
-          "channel_subscribers": 4940,
+          "channel_subscribers": 4980,
           "published_at": "2026-10-20T15:54:25Z",
-          "views": 4268
+          "views": 9712
+        },
+        {
+          "video_id": "yK5IUuUeQaU",
+          "title": "DeepSeek 开源 DeepInfer，代码给了，价格给不了，一期看懂",
+          "url": "https://www.youtube.com/watch?v=yK5IUuUeQaU",
+          "channel": "三少科技",
+          "channel_subscribers": 7830,
+          "published_at": "2026-10-21T01:17:59Z",
+          "views": 6713
         },
         {
           "video_id": "mag82fZnCcA",
@@ -370,110 +318,212 @@
           "channel": "Codedigipt",
           "channel_subscribers": 15900,
           "published_at": "2026-10-20T13:50:10Z",
-          "views": 2318
+          "views": 6631
         },
         {
-          "video_id": "oz0rNgvfHMw",
-          "title": "DeepSeek Open-Sources DeepInfer - But Not the Full Stack",
-          "url": "https://www.youtube.com/watch?v=oz0rNgvfHMw",
-          "channel": "DevLogic",
-          "channel_subscribers": 2150,
-          "published_at": "2026-10-20T12:50:51Z",
-          "views": 203
+          "video_id": "-MfFXZJt7Mo",
+          "title": "DeepInfer Explained: How DeepSeek Runs AI at Scale",
+          "url": "https://www.youtube.com/watch?v=-MfFXZJt7Mo",
+          "channel": "Singularity Feed | AI Models , Agents & Robotics",
+          "channel_subscribers": 599,
+          "published_at": "2026-10-20T16:37:03Z",
+          "views": 456
+        }
+      ]
+    },
+    {
+      "story_id": "claude-opus-5-5-builds",
+      "title": "People showcase apps built with Claude Opus 5.5",
+      "query": "claude opus 5.5 opus 5.5 claude code",
+      "video_count": 20,
+      "total_views": 125053,
+      "max_views": 22123,
+      "big_channel_videos": 1,
+      "coverage": "high",
+      "coverage_score": 75,
+      "heat": 81.0,
+      "gap_score": 20,
+      "top_videos": [
+        {
+          "video_id": "uIHJvUVaB34",
+          "title": "Claude Opus 5.5 Is INSANE at Vox-Style Motion Graphics",
+          "url": "https://www.youtube.com/watch?v=uIHJvUVaB34",
+          "channel": "RandomAI",
+          "channel_subscribers": 13000,
+          "published_at": "2026-10-19T18:35:24Z",
+          "views": 22123
         },
         {
-          "video_id": "l_rSPkFLSLk",
-          "title": "DeepSeek Open-Sources DeepInfer: Production Engine, Apache 2.0, Nvidia SM100 or Ascend Only",
-          "url": "https://www.youtube.com/watch?v=l_rSPkFLSLk",
-          "channel": "SkipCI",
-          "channel_subscribers": 535,
-          "published_at": "2026-10-20T16:10:48Z",
-          "views": 172
+          "video_id": "aSUSgGgXHjw",
+          "title": "How to Make 3D Models in Roblox with AI (Claude Opus 5.5 + FREE SKILL)",
+          "url": "https://www.youtube.com/watch?v=aSUSgGgXHjw",
+          "channel": "fwjelaa",
+          "channel_subscribers": 1810,
+          "published_at": "2026-10-19T13:04:48Z",
+          "views": 17497
+        },
+        {
+          "video_id": "GVFSFgaQQzY",
+          "title": "I Gave Claude Opus 5.5 a Witcher 3 Screenshot...",
+          "url": "https://www.youtube.com/watch?v=GVFSFgaQQzY",
+          "channel": "Building Aeon",
+          "channel_subscribers": 4990,
+          "published_at": "2026-10-18T14:02:11Z",
+          "views": 16852
+        },
+        {
+          "video_id": "vPc8B9Xc3qA",
+          "title": "FREE & UNLIMITED Claude Code with Claude Opus 5.5 Real Method        #claudeai  #codex  #claudecode",
+          "url": "https://www.youtube.com/watch?v=vPc8B9Xc3qA",
+          "channel": "Rizwan Saleem",
+          "channel_subscribers": 1730,
+          "published_at": "2026-10-20T13:41:09Z",
+          "views": 15876
+        },
+        {
+          "video_id": "j0T2yrZWgxE",
+          "title": "Claude Desktop for FREE! 11M Tokens + Opus 5.5 & Fable 5.1",
+          "url": "https://www.youtube.com/watch?v=j0T2yrZWgxE",
+          "channel": "NextGen AI",
+          "channel_subscribers": 1410,
+          "published_at": "2026-10-20T09:24:50Z",
+          "views": 14538
+        }
+      ]
+    },
+    {
+      "story_id": "anthropic-s1-leak",
+      "title": "Anthropic draft IPO filing figures spark AI bubble talk",
+      "query": "anthropic s-1 anthropic ipo anthropic net loss",
+      "video_count": 10,
+      "total_views": 8505,
+      "max_views": 6662,
+      "big_channel_videos": 3,
+      "coverage": "high",
+      "coverage_score": 65,
+      "heat": 49.0,
+      "gap_score": 17,
+      "top_videos": [
+        {
+          "video_id": "zK54X0QK7IA",
+          "title": "This isn't sustainable...",
+          "url": "https://www.youtube.com/watch?v=zK54X0QK7IA",
+          "channel": "YoungRippa59",
+          "channel_subscribers": 480000,
+          "published_at": "2026-10-20T23:12:04Z",
+          "views": 6662
+        },
+        {
+          "video_id": "a1XXy0esxxk",
+          "title": "Anthropic's $80 Billion Loss Shock: Is the AI Bubble Finally About to Burst? Investors on Edge!",
+          "url": "https://www.youtube.com/watch?v=a1XXy0esxxk",
+          "channel": "The Financial Express",
+          "channel_subscribers": 595000,
+          "published_at": "2026-10-21T06:30:22Z",
+          "views": 1042
+        },
+        {
+          "video_id": "bHHoNZnoHxI",
+          "title": "Anthropic Draft Prospectus: $80.7 Billion H1 Loss, $72 Billion Non-Cash, $450 Billion Cloud Bills",
+          "url": "https://www.youtube.com/watch?v=bHHoNZnoHxI",
+          "channel": "CNBC-TV18",
+          "channel_subscribers": 5260000,
+          "published_at": "2026-10-21T05:24:31Z",
+          "views": 667
+        },
+        {
+          "video_id": "1d4BHIUsFwI",
+          "title": "Anthropic's $80.7B Net Loss Explained: The Truth Behind the IPO Filings",
+          "url": "https://www.youtube.com/watch?v=1d4BHIUsFwI",
+          "channel": "Quantum Synergy",
+          "channel_subscribers": 215,
+          "published_at": "2026-10-21T01:25:31Z",
+          "views": 34
+        },
+        {
+          "video_id": "smNE6M34KGY",
+          "title": "Anthropic S-1 Leaked: FTC Probe, $518B in Obligations, November IPO #garryfinance #stockmarket",
+          "url": "https://www.youtube.com/watch?v=smNE6M34KGY",
+          "channel": "Garry Finance",
+          "channel_subscribers": 20,
+          "published_at": "2026-10-19T22:03:05Z",
+          "views": 31
         }
       ]
     },
     {
       "story_id": "grok-bot-push",
-      "title": "Elon Musk announces Grok Bot update",
+      "title": "Grok Bot update and Apple Watch TestFlight",
       "query": "grok bot grok xai",
-      "video_count": 24,
-      "total_views": 89271,
-      "max_views": 39630,
+      "video_count": 25,
+      "total_views": 171546,
+      "max_views": 51429,
       "big_channel_videos": 3,
       "coverage": "high",
-      "coverage_score": 83,
-      "heat": 80.0,
-      "gap_score": 14,
+      "coverage_score": 87,
+      "heat": 84.0,
+      "gap_score": 11,
       "top_videos": [
         {
           "video_id": "zNgCdQt1qB8",
           "title": "What's new in Grok Bot - Oct 18, 2026",
           "url": "https://www.youtube.com/watch?v=zNgCdQt1qB8",
           "channel": "Matt Palmer",
-          "channel_subscribers": 42900,
+          "channel_subscribers": 43300,
           "published_at": "2026-10-20T04:09:52Z",
-          "views": 39630
+          "views": 51429
+        },
+        {
+          "video_id": "yd3_TrVOLDg",
+          "title": "I Built an UNCENSORED Grok Bot That Can Do Almost ANYTHING (100% Open Source)",
+          "url": "https://www.youtube.com/watch?v=yd3_TrVOLDg",
+          "channel": "Mark Gadala-Maria",
+          "channel_subscribers": 15400,
+          "published_at": "2026-10-19T00:42:38Z",
+          "views": 49828
         },
         {
           "video_id": "JFZ5SjGC6bY",
-          "title": "Full Agentic AI Course on Grok Bots - Chief AI Officer Playlist",
+          "title": "Diwali Business Idea - Build & Sell Grok Bots (Full Course for Grok 4.7)",
           "url": "https://www.youtube.com/watch?v=JFZ5SjGC6bY",
           "channel": "The Cutting Edge School",
           "channel_subscribers": 736000,
           "published_at": "2026-10-20T12:45:54Z",
-          "views": 10173
-        },
-        {
-          "video_id": "-4EqgYJuCE0",
-          "title": "14 Grok Bot Employees You Can Steal",
-          "url": "https://www.youtube.com/watch?v=-4EqgYJuCE0",
-          "channel": "Jordan Rafealov",
-          "channel_subscribers": 9210,
-          "published_at": "2026-10-18T20:06:34Z",
-          "views": 9758
+          "views": 15442
         },
         {
           "video_id": "swzoN8emSY8",
           "title": "그록봇으로 업무 자동화 3가지 기능 #ai #grok #xai",
           "url": "https://www.youtube.com/watch?v=swzoN8emSY8",
           "channel": "신영선의 AI탐구",
-          "channel_subscribers": 94200,
+          "channel_subscribers": 94400,
           "published_at": "2026-10-19T09:34:01Z",
-          "views": 9121
+          "views": 10672
         },
         {
-          "video_id": "Y_aqNDkfr4U",
-          "title": "I Tested Grok Bot vs. Claude: Who Wins?",
-          "url": "https://www.youtube.com/watch?v=Y_aqNDkfr4U",
+          "video_id": "-4EqgYJuCE0",
+          "title": "14 Grok Bot Employees You Can Steal",
+          "url": "https://www.youtube.com/watch?v=-4EqgYJuCE0",
           "channel": "Jordan Rafealov",
-          "channel_subscribers": 9210,
-          "published_at": "2026-10-19T21:55:05Z",
-          "views": 7593
+          "channel_subscribers": 9350,
+          "published_at": "2026-10-18T20:06:34Z",
+          "views": 10271
         }
       ]
     },
     {
-      "story_id": "gemini-4-argon-demo",
-      "title": "Gemini 4 Argon demoed coding 3D fur in Antigravity",
-      "query": "gemini 4 argon antigravity gemini",
-      "video_count": 24,
-      "total_views": 723790,
-      "max_views": 517047,
-      "big_channel_videos": 5,
+      "story_id": "gemini-4-argon-demos",
+      "title": "Gemini 4 Argon demos and 25T tokens in 72 hours",
+      "query": "gemini 4 argon antigravity gemini 4",
+      "video_count": 23,
+      "total_views": 170103,
+      "max_views": 72313,
+      "big_channel_videos": 4,
       "coverage": "high",
-      "coverage_score": 98,
-      "heat": 57.0,
-      "gap_score": 1,
+      "coverage_score": 87,
+      "heat": 69.0,
+      "gap_score": 9,
       "top_videos": [
-        {
-          "video_id": "tDWtcyeNNew",
-          "title": "Quantum breakthrough, Gemini 4 Argon, MOSS Image, KLING 4, OpenAI spy, Muse Wonder: AI NEWS",
-          "url": "https://www.youtube.com/watch?v=tDWtcyeNNew",
-          "channel": "AI Search",
-          "channel_subscribers": 764000,
-          "published_at": "2026-10-18T03:30:33Z",
-          "views": 517047
-        },
         {
           "video_id": "SBYCw-oHjlQ",
           "title": "Gemini 4 Argon Full Tutorial for Beginners: How to Use (Like a Pro)",
@@ -481,25 +531,16 @@
           "channel": "Mikey No Code",
           "channel_subscribers": 171000,
           "published_at": "2026-10-18T14:15:37Z",
-          "views": 66212
+          "views": 72313
         },
         {
-          "video_id": "Tf9Vq0u5YnE",
-          "title": "Trải nghiệm Gemini 4 Argon: Đừng chê Google nữa?",
-          "url": "https://www.youtube.com/watch?v=Tf9Vq0u5YnE",
-          "channel": "Vật Vờ Studio",
-          "channel_subscribers": 2340000,
-          "published_at": "2026-10-18T04:21:11Z",
-          "views": 35757
-        },
-        {
-          "video_id": "sjczVV-9Pn8",
-          "title": "I TESTED Gemini 4 Argon Against Claude Opus 5.5 & GPT 6.1 Sol - Is It Even Worth it?",
-          "url": "https://www.youtube.com/watch?v=sjczVV-9Pn8",
-          "channel": "AsapGuide",
-          "channel_subscribers": 25900,
-          "published_at": "2026-10-18T00:00:27Z",
-          "views": 23165
+          "video_id": "F3AdCP6uwGk",
+          "title": "Build a Playable 3D Game with Gemini 4 Argon and Google Antigravity in the Mac app",
+          "url": "https://www.youtube.com/watch?v=F3AdCP6uwGk",
+          "channel": "Google Gemini",
+          "channel_subscribers": 33400,
+          "published_at": "2026-10-19T16:14:03Z",
+          "views": 16347
         },
         {
           "video_id": "YNKf3KjGojE",
@@ -508,7 +549,25 @@
           "channel": "Rafael Quintanilha – QuantBrasil",
           "channel_subscribers": 44200,
           "published_at": "2026-10-18T20:00:07Z",
-          "views": 14731
+          "views": 15268
+        },
+        {
+          "video_id": "rNgOUCJ8ghc",
+          "title": "Gemini 4 Argon + Antigravity Is Absolutely INSANE!",
+          "url": "https://www.youtube.com/watch?v=rNgOUCJ8ghc",
+          "channel": "Julian Goldie SEO",
+          "channel_subscribers": 433000,
+          "published_at": "2026-10-19T08:52:10Z",
+          "views": 14457
+        },
+        {
+          "video_id": "ypNlVljNSc8",
+          "title": "¡Acabo de probar GEMINI 4 ARGON! La nueva IA de Google",
+          "url": "https://www.youtube.com/watch?v=ypNlVljNSc8",
+          "channel": "NextGen IA Hub",
+          "channel_subscribers": 75200,
+          "published_at": "2026-10-20T16:45:30Z",
+          "views": 9911
         }
       ]
     }

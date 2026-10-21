@@ -1,14 +1,34 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T23:06:21Z",
+  "generated_at": "2026-10-21T12:59:16Z",
   "sample": false,
-  "latest_version": "2.1.305",
+  "latest_version": "2.1.306",
   "dist_tags": {
-    "latest": "2.1.305",
+    "latest": "2.1.306",
     "stable": "2.1.304",
-    "next": "2.1.305"
+    "next": "2.1.306"
   },
   "items": [
+    {
+      "version": "2.1.306",
+      "date": "2026-10-21",
+      "title": "2 fixes",
+      "highlights": [
+        "Fixed claude -p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables",
+        "Fixed an API error being replaced by \"prompt is too long\", and an unneeded compaction, in sessions with many MCP tools"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.306",
+      "released_at": "2026-10-21T02:28:47.495Z",
+      "summary": "2 fixed",
+      "counts": {
+        "added": 0,
+        "improved": 0,
+        "changed": 0,
+        "fixed": 2,
+        "removed": 0,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.305",
       "date": "2026-10-20",
@@ -162,29 +182,6 @@
         "improved": 16,
         "changed": 25,
         "fixed": 131,
-        "removed": 0,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.296",
-      "date": "2026-10-09",
-      "title": "8 new features, 9 improvements, 6 changes, 56 fixes",
-      "highlights": [
-        "Added a code key to the Claude apps gateway's managed.policies[]: the same settings as cli, also applied in Claude Desktop's Code tab…",
-        "Added autoCompactWindow to subagent frontmatter and --agents definitions, so a subagent can auto-compact earlier than the main…",
-        "Added CLAUDE_CODE_WORKFLOW_SUBAGENT_MODEL to run every workflow agent on one model while other subagents keep theirs",
-        "Added CLAUDE_CODE_OVERLOADED_RETRY_MAX_DELAY_MS environment variable to set a longer maximum delay for the backoff when retrying an…",
-        "Added a note in /plugin on a plugin whose hooks are left out because another enabled plugin has the same name"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.296",
-      "released_at": "2026-10-09T16:58:10.924Z",
-      "summary": "8 added, 9 improved, 6 changed, 56 fixed",
-      "counts": {
-        "added": 8,
-        "improved": 9,
-        "changed": 6,
-        "fixed": 56,
         "removed": 0,
         "other": 0
       }
