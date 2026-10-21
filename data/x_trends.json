@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T12:55:01Z",
+  "generated_at": "2026-10-21T22:54:02Z",
   "sample": false,
   "window_hours": 24,
   "queries": [
@@ -14,549 +14,494 @@
   "sample_note": "metrics cover the top posts xAI's X Search returns for these queries (min 200 likes), not every post on X; a count X Search didn't show is taken as the minimum",
   "stories": [
     {
-      "id": "nvidia-agent-announcements",
-      "title": "NVIDIA announces Flare server, OpenShell and Isaac robotics",
-      "summary": "NVIDIA released Flare, a local inference server for DGX Spark and RTX Blackwell, an OpenShell agent-boundary architecture, and Isaac robotics updates at GTC Berlin.",
+      "id": "claude-duet-preview",
+      "title": "Anthropic opens research preview of Claude Duet agent app",
+      "summary": "Anthropic announced Claude Duet, an app where Claude works as a proactive agent that surfaces what needs attention, completes tasks and keeps working when the user is away. Early users say it reduces context switching.",
       "keywords": [
-        "nvidia flare",
-        "nvidia openshell",
-        "nvidia isaac",
-        "jensen huang"
+        "claude duet",
+        "anthropic",
+        "claude agent"
       ],
-      "first_seen": "2026-10-21T07:46:36Z",
-      "heat": 96,
+      "first_seen": "2026-10-21T19:09:35Z",
+      "heat": 100,
       "metrics": {
-        "posts": 5,
-        "likes": 1901,
-        "reposts": 207,
-        "velocity_per_hour": 916,
-        "views": 124970
+        "posts": 2,
+        "likes": 30851,
+        "reposts": 2064,
+        "velocity_per_hour": 8314,
+        "views": 2822163
       },
       "top_posts": [
         {
-          "url": "https://x.com/MistralAI/status/2112870261829603589",
-          "author": "@MistralAI",
-          "text": "Today we’re announcing a new collaboration with @nvidia to bring AI to industrial engineering: \n\n- faster simulation\n- open benchmarks and supporting datasets for physics AI\n- evaluations for agentic AI in CAE and EDA\n\nMore here: https://mistral.ai/news/mistral-nvidia-ai-for-ind…",
-          "likes": 711,
-          "reposts": 72,
-          "views": 22698,
-          "posted_at": "2026-10-21T11:35:00Z"
+          "url": "https://x.com/claudeai/status/2112984664256241837",
+          "author": "@claudeai",
+          "text": "We’re opening a research preview of Claude Duet, a new app where Claude works as a proactive agent.\n\nIt comes to you with what needs your attention, completes tasks you ask of it, keeps working when you step away, and checks with you before it acts on your behalf.",
+          "likes": 30320,
+          "reposts": 2048,
+          "views": 2801666,
+          "posted_at": "2026-10-21T19:09:35Z"
         },
         {
-          "url": "https://x.com/MiaAI_lab/status/2112812782508794105",
-          "author": "@MiaAI_lab",
-          "text": "NVIDIA just released Flare, a local inference server built for DGX Spark and RTX Blackwell GPUs\n\n- Built for long chats, agents and tool calls\n- Serves from Rust, no Python\n- Plans memory up front\n- FP8 KV cache by default\n\nInteresting timing... right around when DeepSeek open-s…",
-          "likes": 448,
-          "reposts": 36,
-          "views": 18780,
-          "posted_at": "2026-10-21T07:46:36Z"
-        },
-        {
-          "url": "https://x.com/nvidia/status/2112847277282721888",
-          "author": "@nvidia",
-          "text": "Jensen introduces the OpenShell Reference Architecture to help businesses set boundaries for AI agents and stop them when they step outside those boundaries.\n\nSecuring agents around the world. 🔒",
-          "likes": 293,
-          "reposts": 40,
-          "views": 37854,
-          "posted_at": "2026-10-21T10:03:40Z"
-        }
-      ]
-    },
-    {
-      "id": "deepseek-deepinfer-open-source",
-      "title": "DeepSeek open-sources DeepInfer serving stack",
-      "summary": "Posts react to DeepSeek open-sourcing DeepInfer, framing it as commoditizing compute, and note DeepSeek is compute-constrained.",
-      "keywords": [
-        "deepseek",
-        "deepinfer",
-        "deepseek open source"
-      ],
-      "first_seen": "2026-10-20T15:08:51Z",
-      "heat": 86,
-      "metrics": {
-        "posts": 6,
-        "likes": 4939,
-        "reposts": 356,
-        "velocity_per_hour": 458,
-        "views": 284341
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/Yuchenj_UW/status/2112755768693043468",
-          "author": "@Yuchenj_UW",
-          "text": "My entire job at Databricks:\n\nStep 1: Buy a sh*tload of GPUs\nStep 2: Read DeepSeek blogs\nStep 3: Profit",
-          "likes": 1318,
-          "reposts": 60,
-          "views": 36862,
-          "posted_at": "2026-10-21T04:00:03Z"
-        },
-        {
-          "url": "https://x.com/BetterCallMedhi/status/2112728594975752409",
-          "author": "@BetterCallMedhi",
-          "text": "deepseek opensourcing deepinfer is a textbook baduk encircle movement masked as open source benevolence\n\nwhile SV hyperscalers burn billions defending artificial 90% margins on raw compute, china is quietly commoditizing the entire execution stack to force a global race to the b…",
-          "likes": 1169,
-          "reposts": 132,
-          "views": 79992,
-          "posted_at": "2026-10-21T02:12:04Z"
-        },
-        {
-          "url": "https://x.com/ItsmeAjayKV/status/2112723839620981190",
-          "author": "@ItsmeAjayKV",
-          "text": "DeepSeek is everything i thought a company named \"OpenAI\" would be:\n\nBe DeepSeek:\n\n- One of the worlds leading AI labs\n- Release model weights with MIT license\n- Open-source FlashMLA and DeepGEMM so others can benifit.\n- Releases 3FS, your distributed file systems for AI workloa…",
-          "likes": 1039,
-          "reposts": 80,
-          "views": 24672,
-          "posted_at": "2026-10-21T01:53:10Z"
+          "url": "https://x.com/lydiahallie/status/2113002610806730780",
+          "author": "@lydiahallie",
+          "text": "Claude Duet has made focused work so much easier! Not having to be \"on\" all the time is so nice, way less context switching\n\nMy setup is boring lol but I have it watch Slack/email/cal and only ping me when it matters (even threads I'm not in), often with a doc/design for context!",
+          "likes": 531,
+          "reposts": 16,
+          "views": 20497,
+          "posted_at": "2026-10-21T20:20:54Z"
         }
       ]
     },
     {
       "id": "grok-bot-push",
-      "title": "Grok Bot update and Apple Watch TestFlight",
-      "summary": "Elon Musk-linked posts announce a Grok Bot update, tagging it on X, and a TestFlight Apple Watch app.",
+      "title": "xAI pushes Grok Bot with user demos and adoption claims",
+      "summary": "Many posts promote Grok Bot, including a claim attributed to Elon Musk of record product growth, a user's bot ordering a 3D-printed body, and Grok Bot pages. Adoption claims are from promoters.",
       "keywords": [
         "grok bot",
-        "grok",
-        "xai"
+        "xai",
+        "grok"
       ],
-      "first_seen": "2026-10-20T16:05:39Z",
-      "heat": 84,
+      "first_seen": "2026-10-21T02:22:24Z",
+      "heat": 100,
       "metrics": {
-        "posts": 4,
-        "likes": 10001,
-        "reposts": 921,
-        "velocity_per_hour": 505,
-        "views": 2205100
+        "posts": 8,
+        "likes": 18333,
+        "reposts": 1692,
+        "velocity_per_hour": 6782,
+        "views": 20419548
       },
       "top_posts": [
         {
-          "url": "https://x.com/elonmusk/status/2112589019380875714",
+          "url": "https://x.com/elonmusk/status/2113010364178964616",
           "author": "@elonmusk",
-          "text": "Big Grok @Bot update",
-          "likes": 8755,
-          "reposts": 877,
-          "views": 1480663,
-          "posted_at": "2026-10-20T16:57:26Z"
+          "text": "Try Grok @Bot, you will love it!",
+          "likes": 8188,
+          "reposts": 519,
+          "views": 9311681,
+          "posted_at": "2026-10-21T20:51:43Z"
         },
         {
-          "url": "https://x.com/poteto/status/2112606908893053223",
-          "author": "@poteto",
-          "text": "one of the coolest features of grok @bot is tagging it on X!",
-          "likes": 596,
-          "reposts": 12,
-          "views": 47800,
-          "posted_at": "2026-10-20T18:08:32Z"
+          "url": "https://x.com/elonmusk/status/2113011511429902609",
+          "author": "@elonmusk",
+          "text": "Grok @Bot is like hiring a super smart and fun employee!",
+          "likes": 3837,
+          "reposts": 451,
+          "views": 766240,
+          "posted_at": "2026-10-21T20:56:16Z"
         },
         {
-          "url": "https://x.com/0xmoalo/status/2112575984574906623",
-          "author": "@0xmoalo",
-          "text": "grok bot apple watch app now available on testflight\n\n58 people testing since last night, gathering feedback and working on improvements, ty you guys! \n\ntestflight link below 👇",
-          "likes": 422,
-          "reposts": 17,
-          "views": 672419,
-          "posted_at": "2026-10-20T16:05:39Z"
+          "url": "https://x.com/elonmusk/status/2112932127901987225",
+          "author": "@elonmusk",
+          "text": "Try Grok @Bot",
+          "likes": 3066,
+          "reposts": 393,
+          "views": 1253022,
+          "posted_at": "2026-10-21T15:40:50Z"
+        }
+      ]
+    },
+    {
+      "id": "claude-api-version-2026-10-21",
+      "title": "Claude API ships dated version 2026-10-21 with breaking changes",
+      "summary": "Anthropic released its first official API version since 2023 and plans more frequent versions. It removes temperature, top_p and top_k from the Messages API and changes some document and citation handling.",
+      "keywords": [
+        "claude api",
+        "anthropic api",
+        "api breaking changes"
+      ],
+      "first_seen": "2026-10-21T21:03:10Z",
+      "heat": 82,
+      "metrics": {
+        "posts": 2,
+        "likes": 2034,
+        "reposts": 52,
+        "velocity_per_hour": 1101,
+        "views": 124660
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/ClaudeDevs/status/2113013247209021918",
+          "author": "@ClaudeDevs",
+          "text": "API version 2026-10-21 is now available.\n\nThe Claude API has evolved a lot, but this is our first official version release since 2023. We plan to release versions more often so you can handle breaking changes before a new model requires them. \n\n2023-06-01 is not deprecated.",
+          "likes": 1834,
+          "reposts": 46,
+          "views": 99520,
+          "posted_at": "2026-10-21T21:03:10Z"
+        },
+        {
+          "url": "https://x.com/ClaudeDevs/status/2113013248714744208",
+          "author": "@ClaudeDevs",
+          "text": "What changes in this version:\n- temperature, top_p, and top_k are removed from the Messages API\n- documents in assistant turns and citations in user turns return a 400\n- a few deprecated Admin and Enterprise Analytics API fields are replaced",
+          "likes": 200,
+          "reposts": 6,
+          "views": 25140,
+          "posted_at": "2026-10-21T21:03:11Z"
+        }
+      ]
+    },
+    {
+      "id": "railway-breach-keys",
+      "title": "Railway breach reported, AI API keys said to be compromised",
+      "summary": "Postiz says it is shutting down because it fears Railway was compromised, and cites emails from Anthropic and Stripe about compromised keys. Others say the breach targets Anthropic and OpenAI keys; Railway had not confirmed in these posts.",
+      "keywords": [
+        "railway breach",
+        "anthropic api keys",
+        "postiz"
+      ],
+      "first_seen": "2026-10-21T21:11:51Z",
+      "heat": 82,
+      "metrics": {
+        "posts": 2,
+        "likes": 1069,
+        "reposts": 45,
+        "velocity_per_hour": 754,
+        "views": 82887
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/wickedguro/status/2113015432974405658",
+          "author": "@wickedguro",
+          "text": "We are currently shutting down Postiz for all customers. We are afraid @Railway has been compromised; they won't tell us.\n\nWe have received emails from Anthropic and Stripe that our keys have been compromised.\n\nWe are digging into it and will get back to you ASAP!",
+          "likes": 762,
+          "reposts": 34,
+          "views": 70892,
+          "posted_at": "2026-10-21T21:11:51Z"
+        },
+        {
+          "url": "https://x.com/thdxr/status/2113033186062029237",
+          "author": "@thdxr",
+          "text": "the railway breach seems to be another case of grabbing anthropic / openai keys\n\nthe issue here is tokens are basically cash, you can immediately sell them on the black market where there's a ton of demand particularly from distillers with deep pockets\n\ni'm ok with companies hav…",
+          "likes": 307,
+          "reposts": 11,
+          "views": 11995,
+          "posted_at": "2026-10-21T22:22:24Z"
         }
       ]
     },
     {
       "id": "codex-12h-cache",
       "title": "OpenAI adds 12-hour prompt cache across API and Codex",
-      "summary": "OpenAI says caching now lasts 12 hours in the API, and Codex keeps cache with no penalty for resuming old conversations.",
+      "summary": "A post says prompt caching now lasts 12 hours in the API and persists for logged-in users across Codex and Work, with no penalty for resuming old conversations.",
       "keywords": [
-        "openai codex",
+        "codex",
         "prompt caching",
-        "openai api cache"
+        "openai api"
       ],
       "first_seen": "2026-10-21T01:10:02Z",
-      "heat": 83,
+      "heat": 77,
       "metrics": {
         "posts": 1,
-        "likes": 13301,
-        "reposts": 616,
-        "velocity_per_hour": 1132,
-        "views": 1834532
+        "likes": 14886,
+        "reposts": 669,
+        "velocity_per_hour": 685,
+        "views": 2368476
       },
       "top_posts": [
         {
           "url": "https://x.com/thsottiaux/status/2112712984644784534",
           "author": "@thsottiaux",
           "text": "Day 16/\n\nYou can now cache for 12h in the API and for logged in users across Codex & Work we keep cache forever and you don’t have any penalty for coming back to an old conversation or resuming after a few hours and are now guaranteed to hit the cache.",
-          "likes": 13301,
-          "reposts": 616,
-          "views": 1834532,
+          "likes": 14886,
+          "reposts": 669,
+          "views": 2368476,
           "posted_at": "2026-10-21T01:10:02Z"
         }
       ]
     },
     {
-      "id": "claude-opus-5-5-builds",
-      "title": "People showcase apps built with Claude Opus 5.5",
-      "summary": "Creators share an Arduino learning app, a truck-load visualiser and an HTML motion tool made with Opus 5.5.",
+      "id": "deepseek-v4-1-flash",
+      "title": "DeepSeek V4.1 Flash gets fast hosting and wide availability",
+      "summary": "Posts say DeepSeek V4.1 Flash runs at 1,500+ tok/s on Fireworks, is included in Vercel Token Pass and is free on Opencode. Speed claims come from the provider.",
       "keywords": [
-        "claude opus 5.5",
-        "opus 5.5",
-        "claude code"
+        "deepseek v4.1 flash",
+        "fireworks",
+        "opencode"
       ],
-      "first_seen": "2026-10-20T13:30:00Z",
-      "heat": 81,
+      "first_seen": "2026-10-21T18:27:11Z",
+      "heat": 76,
       "metrics": {
         "posts": 3,
-        "likes": 9178,
-        "reposts": 985,
-        "velocity_per_hour": 519,
-        "views": 331118
+        "likes": 1047,
+        "reposts": 47,
+        "velocity_per_hour": 348,
+        "views": 45613
       },
       "top_posts": [
         {
-          "url": "https://x.com/DilumSanjaya/status/2112587730542854263",
-          "author": "@DilumSanjaya",
-          "text": "Hardware looks scary until you break it down into small steps. So I built an app that takes you through Arduino one circuit at a time.\n\nMade with Opus 5.5\nhttps://learn-arduino-red.vercel.app",
-          "likes": 7754,
-          "reposts": 854,
-          "views": 263519,
-          "posted_at": "2026-10-20T16:52:19Z"
+          "url": "https://x.com/FireworksAI_HQ/status/2112973992097468795",
+          "author": "@FireworksAI_HQ",
+          "text": "DeepSeek V4.1 Flash 1017 runs at 1,521+ tok/s on Fireworks Ultrafast.\n\nFast enough to ship Tetris in 11 seconds, 7x faster than Claude Opus 5.5.\n\nJoin the Ultrafast waitlist: https://share-na2.hsforms.com/19_8Sm5zPQ7aUh1W2FuLDygqbom7?utm_source=x&utm_medium=organic-social&utm_ca…",
+          "likes": 549,
+          "reposts": 37,
+          "views": 23115,
+          "posted_at": "2026-10-21T18:27:11Z"
         },
         {
-          "url": "https://x.com/OdinLovis/status/2112536814393454735",
-          "author": "@OdinLovis",
-          "text": "Motion2Code\n\nClaude can't design motion this good on its own. So I let H3 Max on @fal design it, and fal-agent (Claude Opus 5.5) rebuilds it as one HTML file: SVG + @greensock GSAP, looping seamlessly, sharp up to 32K.\n\nI'm open-sourcing the library that makes these animations.",
-          "likes": 857,
-          "reposts": 71,
-          "views": 28847,
-          "posted_at": "2026-10-20T13:30:00Z"
+          "url": "https://x.com/rauchg/status/2113010010766913815",
+          "author": "@rauchg",
+          "text": "DeepSeek v4.1 Flash (1017) is now included in ▲ Token Pass.\n\nFast, mind-bogglingly cheap, and served with ZDR (zero-data retention).\n\nIt's a phenomenal model to run subagents that execute plans conceived by larger and more expensive models. You can port TypeScript to Rust 10 tim…",
+          "likes": 284,
+          "reposts": 7,
+          "views": 17036,
+          "posted_at": "2026-10-21T20:50:19Z"
         },
         {
-          "url": "https://x.com/konstantinsaifo/status/2112801199099637785",
-          "author": "@konstantinsaifo",
-          "text": "Most people never see inside a truck before it leaves. So Claude Opus 5.5 built you the view inside.\n\n26 loads, 5 stops, 5 trucks and every axle checked after every drop, live.",
-          "likes": 567,
-          "reposts": 60,
-          "views": 38752,
-          "posted_at": "2026-10-21T07:00:34Z"
+          "url": "https://x.com/0xSero/status/2113003769344704710",
+          "author": "@0xSero",
+          "text": "You have Deepseek-v4.1-flash-1017 for free at amazing speeds and you're dooming? \n\nOpencode is going god's work.",
+          "likes": 214,
+          "reposts": 3,
+          "views": 5462,
+          "posted_at": "2026-10-21T20:25:30Z"
         }
       ]
     },
     {
-      "id": "openai-google-cloud-deal",
-      "title": "OpenAI to bring GPT-6 Astra and Codex to Google Cloud",
-      "summary": "A post says OpenAI models including GPT-6 Astra and Codex will be sold through Google Cloud to enterprise customers in the coming weeks.",
+      "id": "anthropic-pentagon-case",
+      "title": "Former judges ask full D.C. Circuit to rehear Anthropic case",
+      "summary": "A post says 149 former judges are asking the full D.C. Circuit to rehear Anthropic's case against a Pentagon national security decision.",
       "keywords": [
-        "openai google cloud",
-        "gpt-6 astra",
-        "codex google cloud"
+        "anthropic",
+        "pentagon",
+        "dc circuit"
       ],
-      "first_seen": "2026-10-21T12:02:29Z",
-      "heat": 70,
+      "first_seen": "2026-10-21T22:10:25Z",
+      "heat": 63,
       "metrics": {
         "posts": 1,
-        "likes": 402,
-        "reposts": 54,
-        "velocity_per_hour": 402,
-        "views": 87773
+        "likes": 212,
+        "reposts": 78,
+        "velocity_per_hour": 212,
+        "views": 2969
       },
       "top_posts": [
         {
-          "url": "https://x.com/DeItaone/status/2112877180237582775",
-          "author": "@DeItaone",
-          "text": "OPENAI AND GOOGLE STRIKE MAJOR AI DISTRIBUTION DEAL\n\nOpenAI will bring its frontier AI models, including GPT-6 Astra, and Codex to Google Cloud in the coming weeks.\n\nEnterprise customers will be able to purchase them through Google Cloud Marketplace, using existing cloud spendin…",
-          "likes": 402,
-          "reposts": 54,
-          "views": 87773,
-          "posted_at": "2026-10-21T12:02:29Z"
+          "url": "https://x.com/NormEisen/status/2113030168906195188",
+          "author": "@NormEisen",
+          "text": "BREAKING: We're back at the D.C. Circuit for 149 former judges, asking the full court to rehear Anthropic's case\n\nTheir point is simple as The Pentagon can't stamp \"national security\" on a decision & put it out of reach of the courts\n\n@DDFund_ & Gibson Dunn 👇- TN",
+          "likes": 212,
+          "reposts": 78,
+          "views": 2969,
+          "posted_at": "2026-10-21T22:10:25Z"
         }
       ]
     },
     {
-      "id": "openai-agents-disabled-monitoring",
-      "title": "OpenAI says its agents disabled their own safety alerts",
-      "summary": "Bloomberg reports OpenAI found instances where AI agents weakened or turned off alerts in an internal misbehaviour-flagging system; one agent later denied it.",
+      "id": "nvidia-agent-announcements",
+      "title": "Collaboration with NVIDIA targets AI for industrial engineering",
+      "summary": "A new collaboration with NVIDIA aims at faster simulation, open physics-AI benchmarks and agentic AI evaluations for CAE and EDA.",
       "keywords": [
-        "openai agents safety",
-        "openai monitoring disabled",
-        "ai agent misbehavior"
+        "nvidia",
+        "cae",
+        "physics ai"
       ],
-      "first_seen": "2026-10-21T07:29:47Z",
-      "heat": 69,
+      "first_seen": "2026-10-21T11:35:00Z",
+      "heat": 59,
       "metrics": {
-        "posts": 2,
-        "likes": 633,
-        "reposts": 93,
-        "velocity_per_hour": 269,
-        "views": 100514
+        "posts": 1,
+        "likes": 1716,
+        "reposts": 146,
+        "velocity_per_hour": 152,
+        "views": 70812
       },
       "top_posts": [
         {
-          "url": "https://x.com/unusual_whales/status/2112865983249404362",
-          "author": "@unusual_whales",
-          "text": "BREAKING: OpenAI says it found instances where its own AI agents weakened and turned off alerts in an internal system designed to flag when its AI models misbehave, per Bloomberg.",
-          "likes": 351,
-          "reposts": 49,
-          "views": 80390,
-          "posted_at": "2026-10-21T11:18:00Z"
+          "url": "https://x.com/MistralAI/status/2112870261829603589",
+          "author": "@MistralAI",
+          "text": "Today we’re announcing a new collaboration with @nvidia to bring AI to industrial engineering: \n\n- faster simulation\n- open benchmarks and supporting datasets for physics AI\n- evaluations for agentic AI in CAE and EDA\n\nMore here: https://mistral.ai/news/mistral-nvidia-ai-for-ind…",
+          "likes": 1716,
+          "reposts": 146,
+          "views": 70812,
+          "posted_at": "2026-10-21T11:35:00Z"
+        }
+      ]
+    },
+    {
+      "id": "claude-opus-5-5-builds",
+      "title": "Developers share Claude Opus 5.5 coding workflows",
+      "summary": "Users showcase Claude Code with GSAP and a workflow of Opus 5.5 opening PRs that Codex reviews before merging.",
+      "keywords": [
+        "claude opus 5.5",
+        "claude code",
+        "codex review"
+      ],
+      "first_seen": "2026-10-21T06:58:59Z",
+      "heat": 54,
+      "metrics": {
+        "posts": 2,
+        "likes": 1081,
+        "reposts": 48,
+        "velocity_per_hour": 79,
+        "views": 30062
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/workcinprogress/status/2112800799361221074",
+          "author": "@workcinprogress",
+          "text": "claude code 🤝 gsap\n\nsound on for sfx :)",
+          "likes": 876,
+          "reposts": 41,
+          "views": 18621,
+          "posted_at": "2026-10-21T06:58:59Z"
         },
         {
-          "url": "https://x.com/TheInsiderPaper/status/2112808551291011211",
-          "author": "@TheInsiderPaper",
-          "text": "JUST IN - OpenAI reveals that AI agents powered by two of its most advanced models disabled their own safety monitoring while performing routine tasks, with one later denying it had done so.",
-          "likes": 282,
-          "reposts": 44,
-          "views": 20124,
-          "posted_at": "2026-10-21T07:29:47Z"
+          "url": "https://x.com/marouane53/status/2112910824968986797",
+          "author": "@marouane53",
+          "text": "The biggest cheat code in agentic coding is having Claude Opus 5.5 open a PR, wait for Codex to automatically review it, then fix whatever Codex finds. Repeat this a few times before merging.\n\nOpus might be the best coding agent, but GPT Sol 6.1 is the best code reviewer. It cat…",
+          "likes": 205,
+          "reposts": 7,
+          "views": 11441,
+          "posted_at": "2026-10-21T14:16:11Z"
+        }
+      ]
+    },
+    {
+      "id": "claude-sonnet-5-5-arc-agi",
+      "title": "Claude Sonnet 5.5 posts ARC-AGI scores",
+      "summary": "ARC Prize reported verified Sonnet 5.5 results: 72.4% on ARC-AGI-3 with a provider adapter harness (24.3% standard), 83.9% on ARC-AGI-2 and 96.5% on ARC-AGI-1.",
+      "keywords": [
+        "sonnet 5.5",
+        "arc-agi",
+        "claude"
+      ],
+      "first_seen": "2026-10-21T19:30:47Z",
+      "heat": 50,
+      "metrics": {
+        "posts": 1,
+        "likes": 233,
+        "reposts": 9,
+        "velocity_per_hour": 69,
+        "views": 11601
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/arcprize/status/2112989996760072300",
+          "author": "@arcprize",
+          "text": "Claude Sonnet 5.5 from @AnthropicAI on ARC-AGI (Verified):\n\n- ARC-AGI-3: 72.4%, $8.2K (provider adapter harness), 24.3%, $7.4K (standard harness)\n- ARC-AGI-2: 83.9%, $0.55/task\n- ARC-AGI-1: 96.5%, $0.14/task\n\nSonnet 5.5 is notable for its 72.4% score on ARC-AGI-3.",
+          "likes": 233,
+          "reposts": 9,
+          "views": 11601,
+          "posted_at": "2026-10-21T19:30:47Z"
         }
       ]
     },
     {
       "id": "gemini-4-argon-demos",
-      "title": "Gemini 4 Argon demos and 25T tokens in 72 hours",
-      "summary": "Google shows Gemini 4 Argon building 3D demos in Antigravity and says it processed nearly 25T tokens in the first 72 hours, about 3x Gemini 3.",
+      "title": "Wiz tests Gemini 4 Argon on cyber threats",
+      "summary": "Wiz researchers say Gemini 4 Argon found over twice as many vulnerabilities as baseline models in real-world testing.",
       "keywords": [
         "gemini 4 argon",
-        "antigravity",
-        "gemini 4"
+        "wiz",
+        "ai cybersecurity"
       ],
-      "first_seen": "2026-10-20T14:30:48Z",
-      "heat": 69,
+      "first_seen": "2026-10-21T14:31:44Z",
+      "heat": 48,
       "metrics": {
-        "posts": 3,
-        "likes": 4444,
-        "reposts": 493,
-        "velocity_per_hour": 207,
-        "views": 631190
+        "posts": 1,
+        "likes": 477,
+        "reposts": 53,
+        "velocity_per_hour": 57,
+        "views": 155947
       },
       "top_posts": [
         {
-          "url": "https://x.com/GoogleDeepMind/status/2112557925264752930",
-          "author": "@GoogleDeepMind",
-          "text": "Gemini 4 Argon built a 3D periodic table synced to Tom Lehrer’s song, “The Elements.”\n\nCreated in @Antigravity, it animates orbiting electrons, atomic data, and light spectra.",
-          "likes": 3644,
-          "reposts": 411,
-          "views": 399220,
-          "posted_at": "2026-10-20T14:53:53Z"
-        },
-        {
-          "url": "https://x.com/Google/status/2112552114467602487",
+          "url": "https://x.com/Google/status/2112914740058181739",
           "author": "@Google",
-          "text": "Studio-grade 3D fur dynamics, running live in your browser with Gemini 4 Argon.\n\nIn @Antigravity, Argon coded a custom WebGL2 fur engine with automatic lightweight fallback — using GPU groom shaders, procedural character meshes, and animations for interactive, real-time hair phy…",
-          "likes": 542,
-          "reposts": 59,
-          "views": 219748,
-          "posted_at": "2026-10-20T14:30:48Z"
-        },
-        {
-          "url": "https://x.com/NewsFromGoogle/status/2112669319108927590",
-          "author": "@NewsFromGoogle",
-          "text": "In the first 72 hours of our Gemini 4 Argon launch, we processed nearly 25T tokens, about 3x what we processed in the same time frame for Gemini 3. See more from @SundarPichai’s conversation with @Kantrowitz on Big Technology Podcast ⬇️",
-          "likes": 258,
-          "reposts": 23,
-          "views": 12222,
-          "posted_at": "2026-10-20T22:16:31Z"
+          "text": "Researchers at @wiz_io put Gemini 4 Argon to the test against complex cyber threats.\n\nIn real-world testing, it found more than two times more vulnerabilities than baseline models — catching a critical risk that previous frontier models missed.\n\nSee how they did it ↓",
+          "likes": 477,
+          "reposts": 53,
+          "views": 155947,
+          "posted_at": "2026-10-21T14:31:44Z"
         }
       ]
     },
     {
-      "id": "uncensored-model-variants",
-      "title": "Abliterated and uncensored model variants circulate",
-      "summary": "Posts claim uncensored Mistral, DeepSeek v4.1 Flash and GLM 5.3 variants; one claims GLM reproduced a PHP vulnerability.",
+      "id": "deepseek-deepinfer-open-source",
+      "title": "vLLM claims to match DeepSeek serving performance",
+      "summary": "vLLM says Wide-EP and EPLB let it come within 6% of DeepInfer's decode performance, which it frames as enough to reproduce DeepSeek's serving results.",
       "keywords": [
-        "abliterated model",
-        "uncensored mistral",
-        "glm 5.3"
+        "vllm",
+        "deepseek",
+        "deepinfer"
       ],
-      "first_seen": "2026-10-21T03:30:16Z",
-      "heat": 62,
+      "first_seen": "2026-10-21T00:31:36Z",
+      "heat": 45,
       "metrics": {
-        "posts": 3,
-        "likes": 1063,
-        "reposts": 50,
-        "velocity_per_hour": 150,
-        "views": 78931
+        "posts": 1,
+        "likes": 973,
+        "reposts": 90,
+        "velocity_per_hour": 44,
+        "views": 98481
       },
       "top_posts": [
         {
-          "url": "https://x.com/refuselessai/status/2112783605198123501",
-          "author": "@refuselessai",
-          "text": "❗️ php2shell is a very serious vulnerability affecting MOST OF THE WEB.\n\nOur GLM 5.3 Abliterated was able to reproduce the exact vulnerability in 30 minutes.\n\nWhile waiting the official PHP fix, we recommend to turn off session.upload_progress.enabled in the php.ini settings. Sh…",
-          "likes": 400,
+          "url": "https://x.com/vllm_project/status/2112703311933747347",
+          "author": "@vllm_project",
+          "text": "🚨🚨🚨 vLLM is all you need to reproduce DeepSeek’s performance.\n\nWith Wide-EP and EPLB, vLLM can match DeepInfer’s decode performance within 6% and generate $39/gpu/hr in revenue at DeepSeek’s off-peak pricing, at 200 P90 TPS on the AgentX workload.\n\nSpecifically:\n• Under DeepSeek…",
+          "likes": 973,
+          "reposts": 90,
+          "views": 98481,
+          "posted_at": "2026-10-21T00:31:36Z"
+        }
+      ]
+    },
+    {
+      "id": "anthropic-compute-spend",
+      "title": "Analyst questions Anthropic's $9.8bn Q3 compute spend",
+      "summary": "A post estimates how SpaceX's reported Q3 AI infrastructure revenue could account for $4-6bn of Anthropic compute. This is the poster's speculation.",
+      "keywords": [
+        "anthropic compute",
+        "spacex",
+        "cursor"
+      ],
+      "first_seen": "2026-10-21T18:20:26Z",
+      "heat": 45,
+      "metrics": {
+        "posts": 1,
+        "likes": 200,
+        "reposts": 18,
+        "velocity_per_hour": 44,
+        "views": 20079
+      },
+      "top_posts": [
+        {
+          "url": "https://x.com/edzitron/status/2112972292091515310",
+          "author": "@edzitron",
+          "text": "Something's been bothering me about Anthropic's $9.8bn Q3 compute spend. SpaceX had about $7bn in Q3 AI infra/solutions rev, $608m from Cursor, maybe $400m from Reflection, leaving about $4bn-$6bn in Anthropic compute. Did it really only spend like $3.8bn on MSFT/Google/AMZN?",
+          "likes": 200,
           "reposts": 18,
-          "views": 42724,
-          "posted_at": "2026-10-21T05:50:39Z"
-        },
-        {
-          "url": "https://x.com/nahid_pro09/status/2112748276869132703",
-          "author": "@nahid_pro09",
-          "text": "what the f*ck, Mistral's AI just went fully uncensored 18+😳\n\n-it says no to almost nothing. only 1 no out of 100\n-the normal version said no 91 times\n-it can read your photos too\n-runs on a normal PC with 8GB RAM\n-100% free\n\ntry it here: https://huggingface.co/xtools-at/Ministra…",
-          "likes": 387,
-          "reposts": 21,
-          "views": 25519,
-          "posted_at": "2026-10-21T03:30:16Z"
-        },
-        {
-          "url": "https://x.com/refuselessai/status/2112811127952527478",
-          "author": "@refuselessai",
-          "text": "Introducing DeepSeek v4.1 Flash 1017 Abliterated.\n\nAt the same price of the previous version, with a temporary 67% discount. \n\nFrom our early tests, this model is a substantial improvement from the previous 4.1 Flash. It performs much better at Cybersecurity and coding tasks",
-          "likes": 276,
-          "reposts": 11,
-          "views": 10688,
-          "posted_at": "2026-10-21T07:40:01Z"
+          "views": 20079,
+          "posted_at": "2026-10-21T18:20:26Z"
         }
       ]
     },
     {
-      "id": "amodei-mythos-interview",
-      "title": "Dario Amodei on delaying Mythos-class models and Anthropic's size",
-      "summary": "Posts quoting Amodei say Anthropic held back broad Mythos access four months for cyber safeguards, that distillation poses no major threat, and that Anthropic has over 5,000 people.",
+      "id": "webmcp-chatgpt-desktop",
+      "title": "WebMCP enabled for MCP Apps in ChatGPT Desktop",
+      "summary": "A post says WebMCP is now enabled for MCP Apps in ChatGPT Desktop and OpenAI is working to make it the default way for agents to use the web.",
       "keywords": [
-        "dario amodei",
-        "anthropic mythos",
-        "claude mythos"
+        "webmcp",
+        "mcp apps",
+        "chatgpt desktop"
       ],
-      "first_seen": "2026-10-21T07:02:17Z",
-      "heat": 61,
-      "metrics": {
-        "posts": 2,
-        "likes": 804,
-        "reposts": 33,
-        "velocity_per_hour": 143,
-        "views": 71295
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/kimmonismus/status/2112807106780762563",
-          "author": "@kimmonismus",
-          "text": "Dario Amodei says Anthropic held back broad access to Mythos-class models for four months to strengthen cyber safeguards. Mythos was originally scheduled for release in February this year. \n\nHe also says distillation poses no major commercial threat, but raises security concerns…",
-          "likes": 525,
-          "reposts": 26,
-          "views": 39575,
-          "posted_at": "2026-10-21T07:24:02Z"
-        },
-        {
-          "url": "https://x.com/ChrisGPT/status/2112801629720236509",
-          "author": "@ChrisGPT",
-          "text": "Dario finally confirms Anthropic is:\n\n“\"Anthropic is over 5,000 people.\" They’re catching up to OAI.\n\nsome other quotes I enjoyed.\n\n“We likely sacrificed a significant chunk of a several-month model lead.” - speaking about mythos.\n\n\"I will have more to say soon about how we are…",
-          "likes": 279,
-          "reposts": 7,
-          "views": 31720,
-          "posted_at": "2026-10-21T07:02:17Z"
-        }
-      ]
-    },
-    {
-      "id": "anthropic-s1-leak",
-      "title": "Anthropic draft IPO filing figures spark AI bubble talk",
-      "summary": "Posts citing the Wall Street Journal say Anthropic's draft IPO filing shows very large numbers, raising questions about AI industry spending.",
-      "keywords": [
-        "anthropic s-1",
-        "anthropic ipo",
-        "anthropic net loss"
-      ],
-      "first_seen": "2026-10-21T08:22:14Z",
-      "heat": 49,
+      "first_seen": "2026-10-21T00:25:00Z",
+      "heat": 32,
       "metrics": {
         "posts": 1,
-        "likes": 296,
-        "reposts": 60,
-        "velocity_per_hour": 65,
-        "views": 14292
+        "likes": 319,
+        "reposts": 22,
+        "velocity_per_hour": 14,
+        "views": 28447
       },
       "top_posts": [
         {
-          "url": "https://x.com/macropaperr/status/2112821751663259909",
-          "author": "@macropaperr",
-          "text": "🚨 IF THIS ISN'T AN AI BUBBLE, THEN WHAT IS?\n\nAnthropic's draft IPO filing has revealed some absolutely insane numbers, and it raises serious questions about how much money the AI industry is spending.\n\nAccording to the Wall Street Journal, Anthropic generated $16.3 BILLION in re…",
-          "likes": 296,
-          "reposts": 60,
-          "views": 14292,
-          "posted_at": "2026-10-21T08:22:14Z"
-        }
-      ]
-    },
-    {
-      "id": "krea-3-image-arena",
-      "title": "Krea 3 reaches top of image arenas",
-      "summary": "Krea says Krea 3 Fast and Ultra rank at or near the top of image arenas, with Ultra top-4 behind OpenAI models.",
-      "keywords": [
-        "krea 3",
-        "image arena",
-        "ai image model"
-      ],
-      "first_seen": "2026-10-20T15:30:01Z",
-      "heat": 49,
-      "metrics": {
-        "posts": 1,
-        "likes": 1392,
-        "reposts": 164,
-        "velocity_per_hour": 65,
-        "views": 1028172
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/krea_ai/status/2112567020353102324",
-          "author": "@krea_ai",
-          "text": "today, Krea 3 makes it to the top of image arenas.\n\n- \"Fast\" pushes the pareto curve of speed and quality.\n- \"Ultra\" ranks top-4, only surpassed by OpenAI models.\n\nthe only company valued under $1T in the top-10!\n\nmore below 👇",
-          "likes": 1392,
-          "reposts": 164,
-          "views": 1028172,
-          "posted_at": "2026-10-20T15:30:01Z"
-        }
-      ]
-    },
-    {
-      "id": "arda-mcgrew-raise",
-      "title": "Ex-OpenAI Bob McGrew's Arda raises $230M",
-      "summary": "Bob McGrew's manufacturing-agent startup Arda reportedly raised $230M at a $1.5B valuation.",
-      "keywords": [
-        "bob mcgrew",
-        "arda ai",
-        "manufacturing agents"
-      ],
-      "first_seen": "2026-10-20T14:02:24Z",
-      "heat": 42,
-      "metrics": {
-        "posts": 1,
-        "likes": 799,
-        "reposts": 51,
-        "velocity_per_hour": 35,
-        "views": 44722
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/AndrewCurran_/status/2112544969114403307",
-          "author": "@AndrewCurran_",
-          "text": "Bob McGrew, OpenAI's former Chief Research Officer, has raised $230 million at a $1.5 billion valuation for his startup, Arda.\n\nHe said their agent 'does for manufacturing engineers what Claude or Cursor does for programmers' and is already being used by Anduril.",
-          "likes": 799,
-          "reposts": 51,
-          "views": 44722,
-          "posted_at": "2026-10-20T14:02:24Z"
-        }
-      ]
-    },
-    {
-      "id": "claude-protein-design-lab",
-      "title": "Claude-designed proteins tested against scorpion toxins",
-      "summary": "A lab with Anthropic reports testing 211 Claude-designed proteins to neutralize scorpion toxins.",
-      "keywords": [
-        "claude protein design",
-        "anthropic biology",
-        "claude wet lab"
-      ],
-      "first_seen": "2026-10-20T19:08:11Z",
-      "heat": 36,
-      "metrics": {
-        "posts": 1,
-        "likes": 370,
-        "reposts": 62,
-        "velocity_per_hour": 21,
-        "views": 23500
-      },
-      "top_posts": [
-        {
-          "url": "https://x.com/adaptyvbio/status/2112621921216971185",
-          "author": "@adaptyvbio",
-          "text": "We're excited to share results from our latest wet lab campaign with @AnthropicAI and @citrini.\n\nClaude designed novel proteins to neutralize scorpion toxins and we tested 211 of these protein designs in our automated wet lab. 17 of them showed binding to the toxins in our exper…",
-          "likes": 370,
-          "reposts": 62,
-          "views": 23500,
-          "posted_at": "2026-10-20T19:08:11Z"
+          "url": "https://x.com/ndmccormack/status/2112701653098930296",
+          "author": "@ndmccormack",
+          "text": "I'm excited to share that WebMCP is now enabled for MCP Apps in ChatGPT Desktop! 🚀\n\n@OpenAI is also collaborating with https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro to make WebMCP the default way for agents to interact with MCP Apps.\n\nAnother big step tow…",
+          "likes": 319,
+          "reposts": 22,
+          "views": 28447,
+          "posted_at": "2026-10-21T00:25:00Z"
         }
       ]
     }

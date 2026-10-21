@@ -1,7 +1,67 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T13:00:09Z",
+  "generated_at": "2026-10-21T22:58:23Z",
   "entries": [
+    {
+      "at": "2026-10-21T22:58:23Z",
+      "job": "cloud_refresh",
+      "step": "content_packs",
+      "status": "ok",
+      "message": "Wrote 5 pack(s): 5 new, 0 unchanged",
+      "counts": {
+        "packs": 5,
+        "new": 5
+      }
+    },
+    {
+      "at": "2026-10-21T22:57:44Z",
+      "job": "cloud_refresh",
+      "step": "channel_stats",
+      "status": "ok",
+      "duration_s": 1,
+      "message": "5 recent videos, 0 compared to usual",
+      "counts": {
+        "videos": 5,
+        "quota_units": 3
+      }
+    },
+    {
+      "at": "2026-10-21T22:57:43Z",
+      "job": "cloud_refresh",
+      "step": "youtube_coverage",
+      "status": "ok",
+      "duration_s": 8,
+      "message": "Checked 14 stories, 7 gaps (gap score 50+)",
+      "counts": {
+        "stories": 14,
+        "gaps": 7,
+        "quota_units": 1404
+      }
+    },
+    {
+      "at": "2026-10-21T22:57:36Z",
+      "job": "cloud_refresh",
+      "step": "claude_code_news",
+      "status": "ok",
+      "duration_s": 0.4,
+      "message": "Latest 2.1.307 (4 added, 6 improved, 7 changed, 26 fixed), 8 releases",
+      "counts": {
+        "releases": 8
+      }
+    },
+    {
+      "at": "2026-10-21T22:57:35Z",
+      "job": "x_scan",
+      "status": "ok",
+      "duration_s": 185,
+      "message": "14 stories from 57 posts across 5 searches (xAI $0.70)",
+      "counts": {
+        "stories": 14,
+        "posts": 57,
+        "posts_fetched": 90,
+        "cost_usd": 0.7018
+      }
+    },
     {
       "at": "2026-10-21T13:00:09Z",
       "job": "cloud_refresh",

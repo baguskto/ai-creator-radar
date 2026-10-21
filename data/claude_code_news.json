@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T12:59:16Z",
+  "generated_at": "2026-10-21T22:57:36Z",
   "sample": false,
-  "latest_version": "2.1.306",
+  "latest_version": "2.1.307",
   "dist_tags": {
-    "latest": "2.1.306",
-    "stable": "2.1.304",
-    "next": "2.1.306"
+    "latest": "2.1.307",
+    "stable": "2.1.306",
+    "next": "2.1.307"
   },
   "items": [
+    {
+      "version": "2.1.307",
+      "date": "2026-10-21",
+      "title": "4 new features, 6 improvements, 7 changes, 26 fixes",
+      "highlights": [
+        "Added /claude-api api-version to move Claude API code to API version 2026-10-21",
+        "Added the claude_code.safety_event OpenTelemetry event for each tool call a permission rule, auto mode, a safety check, a hook or the…",
+        "VSCode: Added a notice on the microphone button when voice dictation stops by itself (15 seconds without recognized speech, or the 2-minute…",
+        "Code Review: Added @claude review stop (also off and pause) to Code Review, ending an @claude review always subscription on a pull request…",
+        "Improved recovery from unparseable tool calls: Claude Code now retries the call up to twice before ending the turn with an error"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.307",
+      "released_at": "2026-10-21T20:47:18.383Z",
+      "summary": "4 added, 6 improved, 7 changed, 26 fixed",
+      "counts": {
+        "added": 4,
+        "improved": 6,
+        "changed": 7,
+        "fixed": 26,
+        "removed": 0,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.306",
       "date": "2026-10-21",
@@ -160,29 +183,6 @@
         "changed": 12,
         "fixed": 59,
         "removed": 1,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.299",
-      "date": "2026-10-14",
-      "title": "18 new features, 16 improvements, 25 changes, 131 fixes",
-      "highlights": [
-        "Added CLAUDE_CODE_DISABLE_FILE_MENTIONS environment variable: Claude gets the paths of @ file mentions to read with its file tools, not the…",
-        "Added idle compaction in the terminal: a 200K+ token conversation left idle for about 54 minutes is compacted before its one-hour prompt…",
-        "Added CLAUDE_CODE_IDLE_COMPACT_MIN_TOKENS to change idle compaction's 200K-token minimum; \"idleCompaction\": false in settings.json turns it…",
-        "Added $.prompt.media so a prompt.submit hook of a mod installed by managed settings can read the bytes of an image or document attached to…",
-        "Added $.session.identity() for mods installed by managed settings: how the session is signed in, and its organization and email when…"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.299",
-      "released_at": "2026-10-14T00:23:19.588Z",
-      "summary": "18 added, 16 improved, 25 changed, 131 fixed",
-      "counts": {
-        "added": 18,
-        "improved": 16,
-        "changed": 25,
-        "fixed": 131,
-        "removed": 0,
         "other": 0
       }
     }

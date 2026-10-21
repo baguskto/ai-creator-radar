@@ -1,27 +1,26 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T13:00:09Z",
+  "generated_at": "2026-10-21T22:58:23Z",
   "sample": false,
   "packs": [
     {
-      "story_id": "nvidia-agent-announcements",
-      "fingerprint": "a81f882f679142b3",
-      "why_now": "NVIDIA's Flare, OpenShell and Isaac news is trending on X with zero YouTube videos covering it. A hands-on look at Flare for local agents is open ground.",
+      "story_id": "claude-api-version-2026-10-21",
+      "why_now": "Anthropic just shipped its first dated API version since 2023, and it removes temperature, top_p and top_k. Anyone with a Claude app should check their code, and no one on YouTube has covered it yet.",
       "video": {
-        "title": "NVIDIA Flare: A Local Inference Server for Agents",
-        "thumbnail_text": "NVIDIA FLARE",
-        "hook": "NVIDIA just put out Flare, a local inference server for DGX Spark and RTX Blackwell cards. It's written in Rust, no Python, and it's built for long chats and agents. I'm going to check what that actually means if you run models at home.",
+        "title": "Claude API Breaking Changes: Check Your Code Now",
+        "thumbnail_text": "API BREAKING CHANGE",
+        "hook": "Anthropic just released a new Claude API version, and it removes temperature, top_p and top_k from the Messages API. If your app sets any of those, I'm going to show you what to check before it breaks.",
         "alt_titles": [
-          "I Tried NVIDIA's New Local AI Server",
-          "NVIDIA Flare vs Python Inference Servers"
+          "Claude API 2026-10-21: What Changed and What to Fix",
+          "Will Your Claude App Break? New API Version Explained"
         ],
         "outline": [
-          "What NVIDIA says Flare is: Rust, up-front memory planning, FP8 KV cache by default",
-          "Who can run it: DGX Spark and RTX Blackwell only, per the posts",
-          "Test it on long chats and tool calls if I can get access, otherwise walk the docs",
-          "OpenShell: Jensen's reference architecture for setting boundaries on agents",
-          "Isaac robotics and the Mistral collaboration in one minute",
-          "Verdict: who should care and who can ignore it"
+          "What version 2026-10-21 is and why Anthropic moved to dated versions",
+          "The three changes: sampling params removed, documents and citations now return a 400, Admin fields replaced",
+          "Test: send a request with temperature set and show what happens on the new version",
+          "Test: the documents-in-assistant-turn case, and how to fix it",
+          "Note that 2023-06-01 is not deprecated, so you choose when to move",
+          "Checklist to audit your own codebase"
         ]
       },
       "short": {
@@ -29,82 +28,342 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "NVIDIA just shipped a local AI server called Flare.",
-            "visual": "Title card with NVIDIA logo and the name Flare"
+            "line": "Claude's API just got its first new version since 2023.",
+            "visual": "Headline: API version 2026-10-21"
           },
           {
             "t": "3-10s",
-            "line": "It runs on DGX Spark and RTX Blackwell, and it's written in Rust, so no Python in the serving path.",
-            "visual": "Screenshot of the announcement post"
+            "line": "And it removes temperature, top p and top k from the Messages API. If your app sets those, you need to look at it.",
+            "visual": "Code with temperature highlighted"
           },
           {
             "t": "10-18s",
-            "line": "It plans memory up front and uses an FP8 KV cache by default, which is aimed at long chats and agents with lots of tool calls.",
-            "visual": "Bullet list on screen, one point at a time"
+            "line": "Documents in assistant turns now return a 400. So do citations in user turns.",
+            "visual": "Terminal showing a 400 error"
           },
           {
             "t": "18-25s",
-            "line": "Same day, Jensen showed OpenShell, a reference design for keeping agents inside set boundaries and stopping them if they leave.",
-            "visual": "Clip of the OpenShell post"
+            "line": "The good news: the old 2023 version is not deprecated. You move when you're ready.",
+            "visual": "Version header in a request"
           },
           {
             "t": "25-30s",
-            "line": "I'll test Flare on my setup and show you if it's worth switching. Follow so you catch it.",
-            "visual": "Chase to camera, subscribe prompt"
+            "line": "Full checklist is on my channel. Go audit your code.",
+            "visual": "Channel end card"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "NVIDIA Flare is out",
-            "body": "A local inference server for DGX Spark and RTX Blackwell."
+            "heading": "Claude API just got a new version",
+            "body": "First official version since 2023"
           },
           {
-            "heading": "What's different",
-            "body": "Rust serving, memory planned up front, FP8 KV cache by default."
+            "heading": "What's removed",
+            "body": "temperature, top_p and top_k are gone from the Messages API"
           },
           {
-            "heading": "Built for agents",
-            "body": "Aimed at long chats and tool calls, per the posts."
+            "heading": "What now errors",
+            "body": "Documents in assistant turns and citations in user turns return a 400"
           },
           {
-            "heading": "OpenShell",
-            "body": "Jensen's reference architecture to set boundaries for agents."
+            "heading": "Admin API fields",
+            "body": "A few deprecated Admin and Enterprise Analytics fields are replaced"
           },
           {
-            "heading": "More from GTC Berlin",
-            "body": "New Isaac robotics tools and a Mistral collaboration."
+            "heading": "Not forced yet",
+            "body": "2023-06-01 is not deprecated"
           },
           {
-            "heading": "Want a hands-on test?",
-            "body": "Follow for the Flare benchmark."
+            "heading": "Audit your code",
+            "body": "Search for the removed params before you upgrade"
           }
         ],
-        "caption": "NVIDIA dropped Flare, a Rust-based local inference server for DGX Spark and RTX Blackwell, plus OpenShell for agent boundaries. Swipe for what we know so far."
+        "caption": "Claude API version 2026-10-21 is out. Check your sampling params before you upgrade."
       },
-      "x_post": "NVIDIA released Flare: a local inference server for DGX Spark and RTX Blackwell. Rust, no Python, FP8 KV cache by default. Also: OpenShell for agent boundaries. I'm testing it for a video.",
-      "x_thread": []
+      "x_post": "Claude API has its first dated version since 2023 (2026-10-21). It removes temperature, top_p and top_k from Messages and returns 400s for documents in assistant turns. The old 2023-06-01 version isn't deprecated. I'm testing what breaks.",
+      "x_thread": [
+        "Why it matters: Anthropic says it will release versions more often so you can handle breaking changes before a new model requires them.",
+        "Checklist: grep for temperature, top_p, top_k, and any assistant-turn documents in your code."
+      ],
+      "fingerprint": "2e175e6f9fdccabe"
+    },
+    {
+      "story_id": "railway-breach-keys",
+      "why_now": "Posts say a Railway compromise is leading Anthropic and others to flag keys as compromised. It's unconfirmed, but anyone deploying AI apps wants to rotate keys today.",
+      "video": {
+        "title": "Railway Breach: Rotate Your AI API Keys Today",
+        "thumbnail_text": "ROTATE YOUR KEYS",
+        "hook": "Postiz just shut down all customers because they fear Railway was compromised, and they say Anthropic and Stripe emailed them about compromised keys. Railway hasn't confirmed anything in these posts, but if you deploy there, do this now.",
+        "alt_titles": [
+          "Railway Compromised? How to Protect Your API Keys",
+          "Your AI API Keys Are Cash: Lock Them Down"
+        ],
+        "outline": [
+          "What has been reported so far, and what is still unconfirmed",
+          "Why AI API keys are valuable to attackers",
+          "How to rotate Anthropic, OpenAI and Stripe keys step by step",
+          "Set spend limits and usage alerts on each provider",
+          "Move secrets out of plain env vars where you can",
+          "What to check in your usage logs for abuse"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "If you deploy on Railway, read this.",
+            "visual": "Headline: Railway breach reported"
+          },
+          {
+            "t": "3-10s",
+            "line": "Postiz shut down, saying Anthropic and Stripe told them their keys were compromised. Railway hasn't confirmed it.",
+            "visual": "Screenshot of the Postiz post"
+          },
+          {
+            "t": "10-18s",
+            "line": "Don't wait. Rotate your AI API keys now. Tokens are basically cash to the wrong people.",
+            "visual": "Key rotation screen"
+          },
+          {
+            "t": "18-25s",
+            "line": "Then set spend limits and check your usage logs for anything you didn't run.",
+            "visual": "Usage dashboard"
+          },
+          {
+            "t": "25-30s",
+            "line": "I'll walk through it step by step on the channel.",
+            "visual": "Channel end card"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "Railway breach reported",
+            "body": "Unconfirmed, but act now"
+          },
+          {
+            "heading": "What we know",
+            "body": "Postiz shut down and cites emails from Anthropic and Stripe"
+          },
+          {
+            "heading": "What we don't",
+            "body": "Railway had not confirmed in these posts"
+          },
+          {
+            "heading": "Rotate your keys",
+            "body": "Anthropic, OpenAI, Stripe, anything on the platform"
+          },
+          {
+            "heading": "Set spend limits",
+            "body": "Cap usage so stolen keys cost less"
+          },
+          {
+            "heading": "Check your logs",
+            "body": "Look for requests you didn't make"
+          }
+        ],
+        "caption": "Rotate your AI API keys if you deploy on Railway. Takes ten minutes."
+      },
+      "x_post": "Reports say Railway may be compromised: Postiz shut down after Anthropic and Stripe flagged its keys. Not confirmed by Railway yet. If you deploy there, rotate your AI API keys and set spend limits today. Walkthrough coming.",
+      "x_thread": [
+        "Why it matters: tokens work like cash and can be resold, so AI keys are a prime target.",
+        "Check your usage logs for any requests you didn't make."
+      ],
+      "fingerprint": "5a7e0658622d2e2b"
+    },
+    {
+      "story_id": "deepseek-v4-1-flash",
+      "why_now": "DeepSeek V4.1 Flash is showing up everywhere at once, with Fireworks, Vercel and Opencode all offering it. No one on YouTube has tested it yet.",
+      "video": {
+        "title": "DeepSeek V4.1 Flash: Is It Really That Fast?",
+        "thumbnail_text": "1,500 TOK/S?",
+        "hook": "Fireworks says DeepSeek V4.1 Flash runs at over 1,500 tokens a second, and it's free on Opencode. That's a provider claim, so I'm going to test it on a real coding task.",
+        "alt_titles": [
+          "I Tested DeepSeek V4.1 Flash for Coding",
+          "Free and Fast: DeepSeek V4.1 Flash on Opencode"
+        ],
+        "outline": [
+          "What V4.1 Flash is and where you can use it today",
+          "Setting it up in Opencode for free",
+          "Speed test against the Fireworks claim",
+          "Build a small project and compare with a larger model",
+          "Using it as a subagent executor, as Vercel's CEO suggests",
+          "Where it falls short and who should switch"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "A fast DeepSeek model is free on Opencode right now.",
+            "visual": "Headline: DeepSeek V4.1 Flash"
+          },
+          {
+            "t": "3-10s",
+            "line": "Fireworks claims over fifteen hundred tokens a second. That's their number, so I'll check it.",
+            "visual": "Fireworks post screenshot"
+          },
+          {
+            "t": "10-18s",
+            "line": "Vercel says it's good for subagents that run plans from bigger models.",
+            "visual": "Vercel Token Pass post"
+          },
+          {
+            "t": "18-25s",
+            "line": "Setup in Opencode takes a minute. I'll show you.",
+            "visual": "Terminal with Opencode"
+          },
+          {
+            "t": "25-30s",
+            "line": "Full speed test on the channel.",
+            "visual": "Channel end card"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "DeepSeek V4.1 Flash is everywhere",
+            "body": "Three providers, one day"
+          },
+          {
+            "heading": "Fireworks",
+            "body": "Claims 1,521+ tokens per second"
+          },
+          {
+            "heading": "Vercel Token Pass",
+            "body": "Included, with zero data retention"
+          },
+          {
+            "heading": "Opencode",
+            "body": "Available free"
+          },
+          {
+            "heading": "Best use",
+            "body": "Subagents that execute plans from larger models"
+          },
+          {
+            "heading": "I'm testing it",
+            "body": "Follow for the results"
+          }
+        ],
+        "caption": "DeepSeek V4.1 Flash speed claims, tested soon."
+      },
+      "x_post": "DeepSeek V4.1 Flash is on Fireworks (claims 1,521+ tok/s), Vercel Token Pass and free on Opencode. Provider numbers, so I'm running my own coding test. Results soon.",
+      "x_thread": [
+        "Vercel's pitch: use it for subagents that execute plans from larger models.",
+        "I'll compare speed and quality on the same task."
+      ],
+      "fingerprint": "ffbf6613d3243837"
+    },
+    {
+      "story_id": "anthropic-pentagon-case",
+      "why_now": "149 former judges are asking the full D.C. Circuit to rehear Anthropic's case. It's a live story that affects whether builders can count on Claude in government work, and there's no YouTube coverage.",
+      "video": {
+        "title": "Anthropic vs the Pentagon: What Builders Should Know",
+        "thumbnail_text": "ANTHROPIC VS PENTAGON",
+        "hook": "149 former judges just asked the full D.C. Circuit to rehear Anthropic's case against the Pentagon. If you build on Claude, here's what's actually going on and what it could mean for you.",
+        "alt_titles": [
+          "Anthropic's Court Fight Explained for Builders",
+          "Why 149 Former Judges Backed Anthropic"
+        ],
+        "outline": [
+          "What the post says and who filed it",
+          "The core argument: national security labels and court review",
+          "Timeline of the case so far, from the public record",
+          "What I can and can't confirm",
+          "What it could mean for Claude users and API builders",
+          "Where to follow updates"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "149 former judges just stepped into Anthropic's court case.",
+            "visual": "Headline: Anthropic case"
+          },
+          {
+            "t": "3-10s",
+            "line": "They want the full D.C. Circuit to rehear it.",
+            "visual": "Court filing screenshot"
+          },
+          {
+            "t": "10-18s",
+            "line": "Their argument: the Pentagon can't stamp national security on a decision and put it beyond court review.",
+            "visual": "Quote card"
+          },
+          {
+            "t": "18-25s",
+            "line": "I'll keep to what's public. Whether it affects Claude users is still unclear.",
+            "visual": "Claude logo"
+          },
+          {
+            "t": "25-30s",
+            "line": "Follow for updates as the court responds.",
+            "visual": "Channel end card"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "149 former judges back Anthropic",
+            "body": "Rehearing requested"
+          },
+          {
+            "heading": "The ask",
+            "body": "Full D.C. Circuit rehears the case"
+          },
+          {
+            "heading": "The argument",
+            "body": "National security labels shouldn't put decisions beyond courts"
+          },
+          {
+            "heading": "What's unknown",
+            "body": "Whether the court will agree"
+          },
+          {
+            "heading": "Why builders care",
+            "body": "Anthropic's government standing"
+          },
+          {
+            "heading": "Follow along",
+            "body": "Updates as filings land"
+          }
+        ],
+        "caption": "Former judges ask for a rehearing in Anthropic's case."
+      },
+      "x_post": "149 former judges are asking the full D.C. Circuit to rehear Anthropic's case. Their argument: the Pentagon can't label a decision national security and put it out of reach of the courts. Breaking it down for builders.",
+      "x_thread": [
+        "I'll stick to the public filings and flag what's unconfirmed."
+      ],
+      "fingerprint": "80e12510a232f707"
     },
     {
       "story_id": "codex-12h-cache",
-      "fingerprint": "cc9c6077a81a600a",
-      "why_now": "The 12-hour cache post has 13K likes and ~1.8M views, but YouTube coverage is a few tiny videos, mostly non-English. A practical 'what this does to your usage' video is open.",
+      "why_now": "The 12-hour cache post pulled nearly 15K likes and 2.4M views, but YouTube coverage is thin and small. A practical cost breakdown is open.",
       "video": {
-        "title": "OpenAI's 12-Hour Cache: What It Means for Codex Users",
-        "thumbnail_text": "12H CACHE",
-        "hook": "OpenAI says the API cache now lasts 12 hours, and in Codex you can come back to an old conversation and still hit the cache. If true, that changes how you should use long sessions. Here's what was actually announced and what I'd check.",
+        "title": "Codex 12-Hour Cache: Cut Your AI Costs",
+        "thumbnail_text": "12-HOUR CACHE",
+        "hook": "OpenAI just made prompt caching last 12 hours in the API, and in Codex the cache sticks around for logged-in users. Here's how that changes what you pay and how you should work.",
         "alt_titles": [
-          "Codex Cache Explained in Plain English",
-          "Stop Starting New Codex Chats?"
+          "OpenAI's New Cache Explained for Builders",
+          "Stop Losing Context: Codex Cache Tested"
         ],
         "outline": [
-          "What the post says: 12h API cache, no penalty resuming in Codex and Work",
-          "What prompt caching is, in 60 seconds",
-          "What to check: pricing, cached-token counts, and how to see hits in your own usage",
-          "Practical changes: resume sessions, keep long system prompts stable",
-          "What's unclear: 'forever' for logged-in users is a claim from one post, so verify it",
-          "Takeaway for builders"
+          "What was announced, from the OpenAI post",
+          "How prompt caching affects cost and speed",
+          "API: how to structure prompts to hit the cache",
+          "Codex: resuming an old conversation, tested",
+          "Where the savings are real and where they aren't",
+          "Pricing details to verify before you rely on it"
         ]
       },
       "short": {
@@ -112,311 +371,65 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Codex just made old conversations cheaper to come back to.",
-            "visual": "Codex window with an old chat"
+            "line": "OpenAI's cache now lasts 12 hours in the API.",
+            "visual": "Headline: 12h cache"
           },
           {
             "t": "3-10s",
-            "line": "OpenAI says the API cache now lasts twelve hours, and in Codex there's no penalty for resuming after a few hours.",
-            "visual": "Screenshot of the Day 16 post"
+            "line": "In Codex, logged-in users keep the cache. Coming back to an old chat has no penalty.",
+            "visual": "Codex window"
           },
           {
             "t": "10-18s",
-            "line": "Caching means the model doesn't re-read the same prompt from scratch, so repeated context costs less and runs faster.",
-            "visual": "Simple diagram of prompt and cache"
+            "line": "Put stable content at the top of your prompt so you actually hit it.",
+            "visual": "Prompt layout diagram"
           },
           {
             "t": "18-25s",
-            "line": "So keep your system prompt stable and resume the thread instead of pasting everything into a fresh chat.",
-            "visual": "Side-by-side: new chat vs resumed chat"
+            "line": "I'll test it and show the real savings.",
+            "visual": "Usage meter"
           },
           {
             "t": "25-30s",
-            "line": "I'll check my own usage numbers to see if it holds up. Follow to see the result.",
-            "visual": "Chase to camera"
+            "line": "Full breakdown on the channel.",
+            "visual": "Channel end card"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "Codex cache change",
-            "body": "12h in the API, and no penalty for resuming old chats."
+            "heading": "12-hour caching is here",
+            "body": "API and Codex"
           },
           {
-            "heading": "What is caching?",
-            "body": "Reused prompt text isn't processed again."
+            "heading": "API",
+            "body": "Cache now lasts 12 hours"
           },
           {
-            "heading": "Why you care",
-            "body": "Cheaper and faster long sessions."
-          },
-          {
-            "heading": "What to do",
-            "body": "Keep prompts stable. Resume instead of restarting."
-          },
-          {
-            "heading": "Still to verify",
-            "body": "Exact pricing and the 'forever' claim."
-          },
-          {
-            "heading": "Follow for my test",
-            "body": "I'll check my usage numbers."
-          }
-        ],
-        "caption": "OpenAI says the API cache now lasts 12 hours and Codex doesn't penalize resuming old chats. Here's what that means for your workflow. I'll verify the numbers."
-      },
-      "x_post": "OpenAI says: 12h cache in the API, and Codex doesn't penalize you for resuming old chats. Practical takeaway: keep prompts stable, resume threads. I'm checking my usage to confirm.",
-      "x_thread": []
-    },
-    {
-      "story_id": "openai-google-cloud-deal",
-      "fingerprint": "c4ffe675f6977fc0",
-      "why_now": "A post says OpenAI's models and Codex are heading to Google Cloud in weeks. YouTube has a couple of tiny videos, so a builder-focused explainer is still open.",
-      "video": {
-        "title": "OpenAI on Google Cloud: What Changes for Builders",
-        "thumbnail_text": "OPENAI + GOOGLE",
-        "hook": "A post says OpenAI's models, including GPT-6 Astra, and Codex are coming to Google Cloud in the next few weeks. If you already pay Google Cloud, this might matter to you. Here's what's claimed and what to check.",
-        "alt_titles": [
-          "Can You Use GPT-6 Astra Through Google Cloud?",
-          "Why OpenAI Is Selling on Google Cloud"
-        ],
-        "outline": [
-          "What the post claims: models and Codex via Google Cloud Marketplace, using existing cloud spend",
-          "What's not confirmed yet: dates, pricing, regions",
-          "Who benefits: teams with Google Cloud commitments",
-          "What it means for choosing between Gemini and GPT on one bill",
-          "What I'll check when it goes live",
-          "Takeaway"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-3s",
-            "line": "OpenAI is reportedly coming to Google Cloud.",
-            "visual": "OpenAI and Google logos side by side"
-          },
-          {
-            "t": "3-10s",
-            "line": "A post says GPT-6 Astra and Codex will be sold through Google Cloud Marketplace in the coming weeks.",
-            "visual": "Screenshot of the post"
-          },
-          {
-            "t": "10-18s",
-            "line": "Companies could buy them using cloud spending they already have, instead of a separate OpenAI contract.",
-            "visual": "Simple billing diagram"
-          },
-          {
-            "t": "18-25s",
-            "line": "Details like pricing and regions aren't confirmed yet, so treat this as a report until the official announcement.",
-            "visual": "Caution label: Unconfirmed details"
-          },
-          {
-            "t": "25-30s",
-            "line": "When it goes live I'll test it. Follow so you don't miss it.",
-            "visual": "Chase to camera"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "OpenAI on Google Cloud",
-            "body": "Reported: models and Codex via Marketplace."
-          },
-          {
-            "heading": "Which models",
-            "body": "GPT-6 Astra and Codex are named."
-          },
-          {
-            "heading": "How you'd buy",
-            "body": "Through existing Google Cloud spend."
-          },
-          {
-            "heading": "Unconfirmed",
-            "body": "Pricing, regions and dates aren't in the post."
+            "heading": "Codex",
+            "body": "Cache persists for logged-in users"
           },
           {
             "heading": "Why it matters",
-            "body": "One bill for Gemini and GPT."
+            "body": "No penalty for resuming old chats"
           },
           {
-            "heading": "Follow for the test",
-            "body": "I'll try it when it's live."
+            "heading": "How to benefit",
+            "body": "Keep stable content first in prompts"
+          },
+          {
+            "heading": "Test it",
+            "body": "Check your own usage"
           }
         ],
-        "caption": "A post says OpenAI models and Codex are coming to Google Cloud Marketplace. What it could mean for your stack, and what's still unconfirmed."
+        "caption": "OpenAI's 12-hour cache, explained for builders."
       },
-      "x_post": "Report: OpenAI's models, incl. GPT-6 Astra, and Codex are coming to Google Cloud Marketplace in the next few weeks. Pricing and regions aren't clear yet. I'll test it when it's live.",
-      "x_thread": []
-    },
-    {
-      "story_id": "uncensored-model-variants",
-      "fingerprint": "859d3d199d04158e",
-      "why_now": "Abliterated Mistral, DeepSeek and GLM variants are spreading on X with no YouTube coverage. A careful, honest explainer on what abliteration is and the trade-offs is open ground.",
-      "video": {
-        "title": "Uncensored AI Models: What Abliteration Really Does",
-        "thumbnail_text": "UNCENSORED AI?",
-        "hook": "Posts are claiming uncensored versions of Mistral, DeepSeek and GLM that almost never refuse. Before you download anything, here's what abliterated means, what the claims actually say, and the risks.",
-        "alt_titles": [
-          "What Are 'Abliterated' Models?",
-          "Uncensored Mistral: Hype vs Reality"
-        ],
-        "outline": [
-          "What abliteration is: removing a model's refusal behavior",
-          "The claims in the posts: 1 refusal in 100 vs 91, runs in 8GB RAM, reads images",
-          "Why these claims need testing, not trust",
-          "Safety: unknown uploaders, security tasks, and what to avoid",
-          "Legit uses and the downsides",
-          "Takeaway"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-3s",
-            "line": "Uncensored AI models are going viral. Slow down.",
-            "visual": "Headline screenshots"
-          },
-          {
-            "t": "3-10s",
-            "line": "Posts say a Mistral version refuses one prompt in a hundred, where the normal one refused ninety-one.",
-            "visual": "Quote from the post on screen"
-          },
-          {
-            "t": "10-18s",
-            "line": "These are called abliterated models: someone edits the model to strip out its refusals.",
-            "visual": "Simple diagram of a model with a refusal switch"
-          },
-          {
-            "t": "18-25s",
-            "line": "The numbers come from the posters, not independent tests, and downloads from unknown accounts are a risk.",
-            "visual": "Warning label"
-          },
-          {
-            "t": "25-30s",
-            "line": "If you want, I'll test one safely and show you what changes. Follow for it.",
-            "visual": "Chase to camera"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "Uncensored models",
-            "body": "Mistral, DeepSeek and GLM variants are circulating."
-          },
-          {
-            "heading": "What 'abliterated' means",
-            "body": "Refusal behavior edited out of the model."
-          },
-          {
-            "heading": "The claims",
-            "body": "Refuses 1 in 100 prompts, per one post."
-          },
-          {
-            "heading": "Not verified",
-            "body": "Numbers come from the posters."
-          },
-          {
-            "heading": "Be careful",
-            "body": "Unknown uploads and security use are risky."
-          },
-          {
-            "heading": "Follow for a safe test",
-            "body": "I'll check what actually changes."
-          }
-        ],
-        "caption": "Posts claim uncensored Mistral, DeepSeek and GLM variants. What abliteration means, what's claimed, and what to be careful about."
-      },
-      "x_post": "Posts claim 'abliterated' Mistral, DeepSeek and GLM variants that rarely refuse. The numbers come from the uploaders, not independent tests. Explainer coming on what it does and the risks.",
-      "x_thread": []
-    },
-    {
-      "story_id": "amodei-mythos-interview",
-      "fingerprint": "dc7cc8b4c183375d",
-      "why_now": "Posts quoting Amodei on delaying Mythos are moving, and only one tiny YouTube video covers them. Angle: what the delay means for you as a Claude user.",
-      "video": {
-        "title": "Why Anthropic Held Back Mythos: What It Means for You",
-        "thumbnail_text": "MYTHOS DELAYED",
-        "hook": "Dario Amodei reportedly says Anthropic held back broad access to Mythos-class models for four months to strengthen cyber safeguards. Here's what he said, and what it means if you build with Claude.",
-        "alt_titles": [
-          "Amodei on Mythos: The Quotes That Matter",
-          "What the Mythos Delay Means for Claude Users"
-        ],
-        "outline": [
-          "What Amodei reportedly said: four-month hold, originally scheduled for February",
-          "Why: cyber safeguards",
-          "Other quotes: distillation, company size over 5,000, the lost model lead",
-          "What it means for builders: access, safety gates, timing",
-          "What's still unclear and needs the original interview",
-          "Takeaway"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-3s",
-            "line": "Anthropic held back its most powerful model for four months.",
-            "visual": "Mythos title card"
-          },
-          {
-            "t": "3-10s",
-            "line": "Dario Amodei reportedly says broad access to Mythos-class models was delayed to strengthen cyber safeguards. It was first planned for February.",
-            "visual": "Quote on screen"
-          },
-          {
-            "t": "10-18s",
-            "line": "He also says distillation isn't a big commercial threat but is a security concern, and that Anthropic is now over five thousand people.",
-            "visual": "Two quote cards"
-          },
-          {
-            "t": "18-25s",
-            "line": "He reportedly said they likely gave up a chunk of a several-month lead. That's from posts quoting him, so check the full interview.",
-            "visual": "Quote with source label"
-          },
-          {
-            "t": "25-30s",
-            "line": "I'll break down what it means for your builds. Follow for more.",
-            "visual": "Chase to camera"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "Mythos was held back",
-            "body": "Four months, reportedly, for cyber safeguards."
-          },
-          {
-            "heading": "Original plan",
-            "body": "Release was scheduled for February."
-          },
-          {
-            "heading": "On distillation",
-            "body": "Not a major commercial threat, but a security concern."
-          },
-          {
-            "heading": "Anthropic's size",
-            "body": "Over 5,000 people, per the quote."
-          },
-          {
-            "heading": "The cost",
-            "body": "'A significant chunk' of a model lead, he reportedly said."
-          },
-          {
-            "heading": "Follow for more",
-            "body": "What it means for Claude builders."
-          }
-        ],
-        "caption": "Amodei reportedly says Anthropic delayed Mythos-class access by four months over cyber safeguards. The key quotes and what they mean for builders."
-      },
-      "x_post": "Per posts quoting Dario Amodei: Anthropic held back broad Mythos-class access for four months to strengthen cyber safeguards. Quotes from the interview, plus what it means for builders, coming up.",
-      "x_thread": []
+      "x_post": "OpenAI says prompt cache now lasts 12 hours in the API, and Codex keeps it for logged-in users, so resuming old chats costs no extra. I'm testing how much it saves on a real project.",
+      "x_thread": [
+        "Tip: put stable content at the start of your prompt so repeat calls hit the cache."
+      ],
+      "fingerprint": "eda7c310e9447d15"
     }
   ]
 }
