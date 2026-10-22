@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T12:55:38Z",
+  "generated_at": "2026-10-22T22:53:51Z",
   "x_trends_generated_at": "2026-10-21T22:54:02Z",
   "x_trends_sample": false,
   "lookback_hours": 72,
@@ -20,30 +20,6 @@
       "top_videos": []
     },
     {
-      "story_id": "claude-api-version-2026-10-21",
-      "title": "Claude API ships dated version 2026-10-21 with breaking changes",
-      "query": "claude api anthropic api api breaking changes",
-      "video_count": 1,
-      "total_views": 20,
-      "max_views": 20,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 4,
-      "heat": 82.0,
-      "gap_score": 79,
-      "top_videos": [
-        {
-          "video_id": "x85WeSIgqsU",
-          "title": "OpenCode Hack: OpenAI Is Refunding Victims. Claude Users? Unclear",
-          "url": "https://www.youtube.com/watch?v=x85WeSIgqsU",
-          "channel": "Simply AI",
-          "channel_subscribers": 1590,
-          "published_at": "2026-10-22T07:20:23Z",
-          "views": 20
-        }
-      ]
-    },
-    {
       "story_id": "deepseek-v4-1-flash",
       "title": "DeepSeek V4.1 Flash gets fast hosting and wide availability",
       "query": "deepseek v4.1 flash fireworks opencode",
@@ -56,6 +32,90 @@
       "heat": 76.0,
       "gap_score": 76,
       "top_videos": []
+    },
+    {
+      "story_id": "claude-api-version-2026-10-21",
+      "title": "Claude API ships dated version 2026-10-21 with breaking changes",
+      "query": "claude api anthropic api api breaking changes",
+      "video_count": 2,
+      "total_views": 68,
+      "max_views": 67,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 8,
+      "heat": 82.0,
+      "gap_score": 75,
+      "top_videos": [
+        {
+          "video_id": "x85WeSIgqsU",
+          "title": "OpenCode Hack: OpenAI Is Refunding Victims. Claude Users? Unclear",
+          "url": "https://www.youtube.com/watch?v=x85WeSIgqsU",
+          "channel": "Simply AI",
+          "channel_subscribers": 1610,
+          "published_at": "2026-10-22T07:20:23Z",
+          "views": 67
+        },
+        {
+          "video_id": "MDZoLgZDLHE",
+          "title": "Agents Grow Hands: LCU, PhoneUse, and Anthropic's Breaking API | AX Trend Deep Dive",
+          "url": "https://www.youtube.com/watch?v=MDZoLgZDLHE",
+          "channel": "I HAVE ADHD AND FOMO",
+          "channel_subscribers": 11,
+          "published_at": "2026-10-22T21:11:59Z",
+          "views": 1
+        }
+      ]
+    },
+    {
+      "story_id": "codex-12h-cache",
+      "title": "OpenAI adds 12-hour prompt cache across API and Codex",
+      "query": "codex prompt caching openai api",
+      "video_count": 4,
+      "total_views": 280,
+      "max_views": 193,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 15,
+      "heat": 77.0,
+      "gap_score": 65,
+      "top_videos": [
+        {
+          "video_id": "mrMIz1UK88I",
+          "title": "Codex Cache: How OpenAI Just Gave You More Usage #Shorts",
+          "url": "https://www.youtube.com/watch?v=mrMIz1UK88I",
+          "channel": "Softreviewed",
+          "channel_subscribers": 8460,
+          "published_at": "2026-10-21T09:29:11Z",
+          "views": 193
+        },
+        {
+          "video_id": "yDHssyjZAYU",
+          "title": "OpenAI APIの12時間キャッシュ、置く値段は2.5倍で得するのは3回目から。Codexは古い会話に戻ってもキャッシュが効く【10月21日】",
+          "url": "https://www.youtube.com/watch?v=yDHssyjZAYU",
+          "channel": "ずんだもん最新AI時事ニュース",
+          "channel_subscribers": 367,
+          "published_at": "2026-10-21T08:19:41Z",
+          "views": 65
+        },
+        {
+          "video_id": "MVSGahcVlx0",
+          "title": "OpenAI Day16 caching: longer reuse, different costs",
+          "url": "https://www.youtube.com/watch?v=MVSGahcVlx0",
+          "channel": "OG SenseAI",
+          "channel_subscribers": 100,
+          "published_at": "2026-10-21T11:22:16Z",
+          "views": 20
+        },
+        {
+          "video_id": "uXbL9G5ILvo",
+          "title": "OpenAI、APIのキャッシュが12時間に｜Codexは「ずっと保持」？責任者の投稿と公式文書で読み解く",
+          "url": "https://www.youtube.com/watch?v=uXbL9G5ILvo",
+          "channel": "株式会社Stella Creation",
+          "channel_subscribers": 21,
+          "published_at": "2026-10-21T07:00:05Z",
+          "views": 2
+        }
+      ]
     },
     {
       "story_id": "anthropic-pentagon-case",
@@ -72,72 +132,12 @@
       "top_videos": []
     },
     {
-      "story_id": "codex-12h-cache",
-      "title": "OpenAI adds 12-hour prompt cache across API and Codex",
-      "query": "codex prompt caching openai api",
-      "video_count": 5,
-      "total_views": 289,
-      "max_views": 167,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 19,
-      "heat": 77.0,
-      "gap_score": 62,
-      "top_videos": [
-        {
-          "video_id": "mrMIz1UK88I",
-          "title": "Codex Cache: How OpenAI Just Gave You More Usage #Shorts",
-          "url": "https://www.youtube.com/watch?v=mrMIz1UK88I",
-          "channel": "Softreviewed",
-          "channel_subscribers": 8450,
-          "published_at": "2026-10-21T09:29:11Z",
-          "views": 167
-        },
-        {
-          "video_id": "yDHssyjZAYU",
-          "title": "OpenAI APIの12時間キャッシュ、置く値段は2.5倍で得するのは3回目から。Codexは古い会話に戻ってもキャッシュが効く【10月21日】",
-          "url": "https://www.youtube.com/watch?v=yDHssyjZAYU",
-          "channel": "ずんだもん最新AI時事ニュース",
-          "channel_subscribers": 366,
-          "published_at": "2026-10-21T08:19:41Z",
-          "views": 63
-        },
-        {
-          "video_id": "S0jjFXdebEg",
-          "title": "OpenAI Codex now keeps your cache FOREVER 🤯 #OpenAI #Codex #AINews",
-          "url": "https://www.youtube.com/watch?v=S0jjFXdebEg",
-          "channel": "TrueSight AI",
-          "channel_subscribers": 6,
-          "published_at": "2026-10-21T10:09:01Z",
-          "views": 42
-        },
-        {
-          "video_id": "MVSGahcVlx0",
-          "title": "OpenAI Day16 caching: longer reuse, different costs",
-          "url": "https://www.youtube.com/watch?v=MVSGahcVlx0",
-          "channel": "OG SenseAI",
-          "channel_subscribers": 100,
-          "published_at": "2026-10-21T11:22:16Z",
-          "views": 15
-        },
-        {
-          "video_id": "uXbL9G5ILvo",
-          "title": "OpenAI、APIのキャッシュが12時間に｜Codexは「ずっと保持」？責任者の投稿と公式文書で読み解く",
-          "url": "https://www.youtube.com/watch?v=uXbL9G5ILvo",
-          "channel": "株式会社Stella Creation",
-          "channel_subscribers": 21,
-          "published_at": "2026-10-21T07:00:05Z",
-          "views": 2
-        }
-      ]
-    },
-    {
       "story_id": "nvidia-agent-announcements",
       "title": "Collaboration with NVIDIA targets AI for industrial engineering",
       "query": "nvidia cae physics ai",
       "video_count": 1,
-      "total_views": 1688,
-      "max_views": 1688,
+      "total_views": 1819,
+      "max_views": 1819,
       "big_channel_videos": 0,
       "coverage": "low",
       "coverage_score": 8,
@@ -149,9 +149,9 @@
           "title": "MONAI AI speeds heart model creation for pediatric surgery",
           "url": "https://www.youtube.com/watch?v=Cnokh-CGYF4",
           "channel": "Bobby Reyes",
-          "channel_subscribers": 4920,
+          "channel_subscribers": 4930,
           "published_at": "2026-10-21T04:05:31Z",
-          "views": 1688
+          "views": 1819
         }
       ]
     },
@@ -188,8 +188,8 @@
       "title": "Wiz tests Gemini 4 Argon on cyber threats",
       "query": "gemini 4 argon wiz ai cybersecurity",
       "video_count": 3,
-      "total_views": 101,
-      "max_views": 51,
+      "total_views": 144,
+      "max_views": 59,
       "big_channel_videos": 0,
       "coverage": "low",
       "coverage_score": 11,
@@ -197,22 +197,22 @@
       "gap_score": 43,
       "top_videos": [
         {
-          "video_id": "yJCIE0QnD6Y",
-          "title": "AI found the PHP flaws, and the defenders had it first",
-          "url": "https://www.youtube.com/watch?v=yJCIE0QnD6Y",
-          "channel": "The Contextian",
-          "channel_subscribers": 480,
-          "published_at": "2026-10-21T16:37:57Z",
-          "views": 51
-        },
-        {
           "video_id": "kYnDETmVA74",
           "title": "AI Found a Hidden Bug in 70% of Websites | Calm Tech Facts #shorts",
           "url": "https://www.youtube.com/watch?v=kYnDETmVA74",
           "channel": "LearnDoze",
           "channel_subscribers": 28,
           "published_at": "2026-10-22T03:47:19Z",
-          "views": 38
+          "views": 59
+        },
+        {
+          "video_id": "yJCIE0QnD6Y",
+          "title": "AI found the PHP flaws, and the defenders had it first",
+          "url": "https://www.youtube.com/watch?v=yJCIE0QnD6Y",
+          "channel": "The Contextian",
+          "channel_subscribers": 480,
+          "published_at": "2026-10-21T16:37:57Z",
+          "views": 56
         },
         {
           "video_id": "SbP_agd88ZA",
@@ -221,7 +221,7 @@
           "channel": "AI Wire Daily",
           "channel_subscribers": 43,
           "published_at": "2026-10-22T04:47:58Z",
-          "views": 12
+          "views": 29
         }
       ]
     },
@@ -229,29 +229,48 @@
       "story_id": "webmcp-chatgpt-desktop",
       "title": "WebMCP enabled for MCP Apps in ChatGPT Desktop",
       "query": "webmcp mcp apps chatgpt desktop",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
+      "video_count": 1,
+      "total_views": 1,
+      "max_views": 1,
       "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
+      "coverage": "low",
+      "coverage_score": 4,
       "heat": 32.0,
-      "gap_score": 32,
-      "top_videos": []
+      "gap_score": 31,
+      "top_videos": [
+        {
+          "video_id": "iIYO3HD0K60",
+          "title": "WebMCP Changes Everything: The End of Traditional Web UI?",
+          "url": "https://www.youtube.com/watch?v=iIYO3HD0K60",
+          "channel": "Md Jahid Shah",
+          "channel_subscribers": 37,
+          "published_at": "2026-10-22T14:15:21Z",
+          "views": 1
+        }
+      ]
     },
     {
       "story_id": "claude-opus-5-5-builds",
       "title": "Developers share Claude Opus 5.5 coding workflows",
       "query": "claude opus 5.5 claude code codex review",
       "video_count": 12,
-      "total_views": 7406,
-      "max_views": 2063,
-      "big_channel_videos": 0,
-      "coverage": "medium",
-      "coverage_score": 44,
+      "total_views": 93110,
+      "max_views": 86166,
+      "big_channel_videos": 1,
+      "coverage": "high",
+      "coverage_score": 73,
       "heat": 54.0,
-      "gap_score": 30,
+      "gap_score": 15,
       "top_videos": [
+        {
+          "video_id": "egh6GlvyD1g",
+          "title": "Gemini 4 Carbon Is INSANE! OPUS 5.5 LEVEL?! Claude Duet, Kimi K3.1, OpenAI Agents & More! AI NEWS",
+          "url": "https://www.youtube.com/watch?v=egh6GlvyD1g",
+          "channel": "WorldofAI",
+          "channel_subscribers": 248000,
+          "published_at": "2026-10-22T06:04:04Z",
+          "views": 86166
+        },
         {
           "video_id": "V3pHwubF2BI",
           "title": "Vibe coding an app like a senior engineer | GPT Astra + Opus 5.5 🔴 LIVE",
@@ -259,7 +278,7 @@
           "channel": "Asklog",
           "channel_subscribers": 128,
           "published_at": "2026-10-21T22:06:54Z",
-          "views": 2063
+          "views": 2093
         },
         {
           "video_id": "-cf2slnBxwk",
@@ -268,7 +287,7 @@
           "channel": "Asklog",
           "channel_subscribers": 128,
           "published_at": "2026-10-20T10:48:28Z",
-          "views": 1288
+          "views": 1304
         },
         {
           "video_id": "c4HJopvGZlU",
@@ -277,7 +296,7 @@
           "channel": "Asklog",
           "channel_subscribers": 128,
           "published_at": "2026-10-20T23:58:59Z",
-          "views": 1279
+          "views": 1291
         },
         {
           "video_id": "vE0VT4lcnjY",
@@ -286,16 +305,7 @@
           "channel": "Asklog",
           "channel_subscribers": 128,
           "published_at": "2026-10-20T11:26:42Z",
-          "views": 1207
-        },
-        {
-          "video_id": "WfxcERC05RQ",
-          "title": "Let Me Finish You - Claude Opus 5.5 music video",
-          "url": "https://www.youtube.com/watch?v=WfxcERC05RQ",
-          "channel": "Tensor Beat",
-          "channel_subscribers": 71,
-          "published_at": "2026-10-19T19:51:14Z",
-          "views": 982
+          "views": 1248
         }
       ]
     },
@@ -303,32 +313,23 @@
       "story_id": "grok-bot-push",
       "title": "xAI pushes Grok Bot with user demos and adoption claims",
       "query": "grok bot xai grok",
-      "video_count": 24,
-      "total_views": 208895,
-      "max_views": 59782,
-      "big_channel_videos": 4,
+      "video_count": 23,
+      "total_views": 201622,
+      "max_views": 61825,
+      "big_channel_videos": 3,
       "coverage": "high",
-      "coverage_score": 89,
+      "coverage_score": 88,
       "heat": 100.0,
-      "gap_score": 11,
+      "gap_score": 12,
       "top_videos": [
         {
           "video_id": "zNgCdQt1qB8",
           "title": "What's new in Grok Bot - Oct 18, 2026",
           "url": "https://www.youtube.com/watch?v=zNgCdQt1qB8",
           "channel": "Matt Palmer",
-          "channel_subscribers": 43500,
+          "channel_subscribers": 43600,
           "published_at": "2026-10-20T04:09:52Z",
-          "views": 59782
-        },
-        {
-          "video_id": "JFZ5SjGC6bY",
-          "title": "How to Build & Sell Grok Bots (Full Course for Grok 4.7)",
-          "url": "https://www.youtube.com/watch?v=JFZ5SjGC6bY",
-          "channel": "The Cutting Edge School",
-          "channel_subscribers": 736000,
-          "published_at": "2026-10-20T12:45:54Z",
-          "views": 23939
+          "views": 61825
         },
         {
           "video_id": "JJkkWGFlGSs",
@@ -337,85 +338,34 @@
           "channel": "Olli",
           "channel_subscribers": 70700,
           "published_at": "2026-10-21T11:30:04Z",
-          "views": 22177
+          "views": 26932
         },
         {
-          "video_id": "8ZfWf_qVkVk",
-          "title": "SpaceX Grok Bot AI Agent Uses Your Credit Card Screenshot for Purchases - AI Destroys Cybersecurity",
-          "url": "https://www.youtube.com/watch?v=8ZfWf_qVkVk",
-          "channel": "Eli the Computer Guy",
-          "channel_subscribers": 1140000,
-          "published_at": "2026-10-19T18:00:02Z",
-          "views": 18064
+          "video_id": "JFZ5SjGC6bY",
+          "title": "How to Build & Sell Grok Bots (Full Course for Grok 4.7)",
+          "url": "https://www.youtube.com/watch?v=JFZ5SjGC6bY",
+          "channel": "The Cutting Edge School",
+          "channel_subscribers": 736000,
+          "published_at": "2026-10-20T12:45:54Z",
+          "views": 26172
         },
         {
           "video_id": "rOVomdnWhjQ",
           "title": "Grok Bot 201",
           "url": "https://www.youtube.com/watch?v=rOVomdnWhjQ",
           "channel": "Grok",
-          "channel_subscribers": 32400,
+          "channel_subscribers": 32700,
           "published_at": "2026-10-21T20:03:52Z",
-          "views": 15543
-        }
-      ]
-    },
-    {
-      "story_id": "claude-duet-preview",
-      "title": "Anthropic opens research preview of Claude Duet agent app",
-      "query": "claude duet anthropic claude agent",
-      "video_count": 24,
-      "total_views": 267596,
-      "max_views": 136880,
-      "big_channel_videos": 7,
-      "coverage": "high",
-      "coverage_score": 90,
-      "heat": 100.0,
-      "gap_score": 10,
-      "top_videos": [
-        {
-          "video_id": "nv1aaP3dHzs",
-          "title": "Anthropic Just Dropped Claude Duet (Full Breakdown)",
-          "url": "https://www.youtube.com/watch?v=nv1aaP3dHzs",
-          "channel": "Brock Mesarich | AI for Non Techies",
-          "channel_subscribers": 151000,
-          "published_at": "2026-10-21T21:53:41Z",
-          "views": 136880
+          "views": 20296
         },
         {
-          "video_id": "pJ5tXmHAwR4",
-          "title": "Anthropic Just Dropped Claude Duet (Here's How To Get Access)",
-          "url": "https://www.youtube.com/watch?v=pJ5tXmHAwR4",
-          "channel": "Chase AI",
-          "channel_subscribers": 181000,
-          "published_at": "2026-10-21T21:43:50Z",
-          "views": 50536
-        },
-        {
-          "video_id": "HYb5w4PfPZM",
-          "title": "I tested Claude Duet. Is it worth switching from Grok Bot?",
-          "url": "https://www.youtube.com/watch?v=HYb5w4PfPZM",
-          "channel": "How I AI",
-          "channel_subscribers": 125000,
-          "published_at": "2026-10-21T20:24:27Z",
-          "views": 26234
-        },
-        {
-          "video_id": "lhA5zHxkr8o",
-          "title": "NUEVO Claude Duet: el Agente de Anthropic que Trabaja Por Ti",
-          "url": "https://www.youtube.com/watch?v=lhA5zHxkr8o",
-          "channel": "Juan Pe Navarro | IA y Automatización",
-          "channel_subscribers": 94000,
-          "published_at": "2026-10-21T22:36:04Z",
-          "views": 22089
-        },
-        {
-          "video_id": "0sI-GTYetD8",
-          "title": "Claude Duet: Anthropic's Proactive Agent",
-          "url": "https://www.youtube.com/watch?v=0sI-GTYetD8",
-          "channel": "Prompt Engineering",
-          "channel_subscribers": 250000,
-          "published_at": "2026-10-21T21:49:31Z",
-          "views": 17275
+          "video_id": "vWo8heKw60w",
+          "title": "GrokBot Just Got Another Huge Upgrade (Grok Voice 3.0)",
+          "url": "https://www.youtube.com/watch?v=vWo8heKw60w",
+          "channel": "Kacper Rutkiewicz | AI Made Simple",
+          "channel_subscribers": 10500,
+          "published_at": "2026-10-21T19:44:30Z",
+          "views": 16003
         }
       ]
     },
@@ -424,22 +374,22 @@
       "title": "vLLM claims to match DeepSeek serving performance",
       "query": "vllm deepseek deepinfer",
       "video_count": 22,
-      "total_views": 72004,
-      "max_views": 26359,
+      "total_views": 80694,
+      "max_views": 30456,
       "big_channel_videos": 2,
       "coverage": "high",
-      "coverage_score": 81,
+      "coverage_score": 82,
       "heat": 45.0,
-      "gap_score": 9,
+      "gap_score": 8,
       "top_videos": [
         {
           "video_id": "BFQ9-Ux4jDc",
           "title": "DeepSeek 又放大招！DeepInfer 重磅开源，一张显卡日入900美元，赚钱秘诀摊牌了！",
           "url": "https://www.youtube.com/watch?v=BFQ9-Ux4jDc",
           "channel": "AI学长小林",
-          "channel_subscribers": 85500,
+          "channel_subscribers": 85600,
           "published_at": "2026-10-21T02:44:26Z",
-          "views": 26359
+          "views": 30456
         },
         {
           "video_id": "esdRFXgXaaQ",
@@ -448,16 +398,16 @@
           "channel": "Prompt Engineering",
           "channel_subscribers": 250000,
           "published_at": "2026-10-21T13:00:37Z",
-          "views": 24429
+          "views": 27301
         },
         {
           "video_id": "OxffAN3nw00",
           "title": "DeepSeek just open-sourced its Inference Engine!",
           "url": "https://www.youtube.com/watch?v=OxffAN3nw00",
           "channel": "Code Bear",
-          "channel_subscribers": 54700,
+          "channel_subscribers": 54900,
           "published_at": "2026-10-20T12:33:08Z",
-          "views": 18807
+          "views": 20068
         },
         {
           "video_id": "ak6hGm3paiA",
@@ -466,7 +416,7 @@
           "channel": "Prism Labs",
           "channel_subscribers": 4480,
           "published_at": "2026-10-20T16:22:42Z",
-          "views": 616
+          "views": 679
         },
         {
           "video_id": "jX8jskhgYTY",
@@ -475,7 +425,67 @@
           "channel": "Heroic steps ",
           "channel_subscribers": 106000,
           "published_at": "2026-10-20T11:14:17Z",
-          "views": 400
+          "views": 432
+        }
+      ]
+    },
+    {
+      "story_id": "claude-duet-preview",
+      "title": "Anthropic opens research preview of Claude Duet agent app",
+      "query": "claude duet anthropic claude agent",
+      "video_count": 20,
+      "total_views": 418353,
+      "max_views": 200378,
+      "big_channel_videos": 9,
+      "coverage": "high",
+      "coverage_score": 94,
+      "heat": 100.0,
+      "gap_score": 6,
+      "top_videos": [
+        {
+          "video_id": "nv1aaP3dHzs",
+          "title": "Anthropic Just Dropped Claude Duet (Full Breakdown)",
+          "url": "https://www.youtube.com/watch?v=nv1aaP3dHzs",
+          "channel": "Brock Mesarich | AI for Non Techies",
+          "channel_subscribers": 151000,
+          "published_at": "2026-10-21T21:53:41Z",
+          "views": 200378
+        },
+        {
+          "video_id": "pJ5tXmHAwR4",
+          "title": "Anthropic Just Dropped Claude Duet (Here's How To Get Access)",
+          "url": "https://www.youtube.com/watch?v=pJ5tXmHAwR4",
+          "channel": "Chase AI",
+          "channel_subscribers": 181000,
+          "published_at": "2026-10-21T21:43:50Z",
+          "views": 61416
+        },
+        {
+          "video_id": "0sI-GTYetD8",
+          "title": "Claude Duet: Anthropic's Proactive Agent",
+          "url": "https://www.youtube.com/watch?v=0sI-GTYetD8",
+          "channel": "Prompt Engineering",
+          "channel_subscribers": 250000,
+          "published_at": "2026-10-21T21:49:31Z",
+          "views": 37437
+        },
+        {
+          "video_id": "HYb5w4PfPZM",
+          "title": "I tested Claude Duet. Is it worth switching from Grok Bot?",
+          "url": "https://www.youtube.com/watch?v=HYb5w4PfPZM",
+          "channel": "How I AI",
+          "channel_subscribers": 125000,
+          "published_at": "2026-10-21T20:24:27Z",
+          "views": 35985
+        },
+        {
+          "video_id": "lhA5zHxkr8o",
+          "title": "NUEVO Claude Duet: el Agente de Anthropic que Trabaja Por Ti",
+          "url": "https://www.youtube.com/watch?v=lhA5zHxkr8o",
+          "channel": "Juan Pe Navarro | IA y Automatización",
+          "channel_subscribers": 94100,
+          "published_at": "2026-10-21T22:36:04Z",
+          "views": 34780
         }
       ]
     }

@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T12:55:38Z",
+  "generated_at": "2026-10-22T22:53:51Z",
   "sample": false,
-  "latest_version": "2.1.308",
+  "latest_version": "2.1.309",
   "dist_tags": {
-    "latest": "2.1.308",
+    "latest": "2.1.309",
     "stable": "2.1.308",
-    "next": "2.1.308"
+    "next": "2.1.309"
   },
   "items": [
+    {
+      "version": "2.1.309",
+      "date": "2026-10-22",
+      "title": "1 new feature, 8 improvements, 8 changes, 62 fixes",
+      "highlights": [
+        "VSCode: Added a log warning that says what to do when dictation or the extension's own requests fail certificate verification, such as…",
+        "Improved the speed of many git commands Claude Code runs for itself on Windows; on every platform, errors from those commands now show in…",
+        "Improved the error when a hooks module is nested too deep to load: it now names the file instead of showing a bare stack-overflow message",
+        "Improved disk-full handling: a Bash command cut off by a full disk now says so and names the folder to free up, and starting on a full temp…",
+        "Improved the /claude-api skill to offer API tracing alongside SDK tracing when asked to add OpenTelemetry"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.309",
+      "released_at": "2026-10-22T20:34:13.713Z",
+      "summary": "1 added, 8 improved, 8 changed, 62 fixed",
+      "counts": {
+        "added": 1,
+        "improved": 8,
+        "changed": 8,
+        "fixed": 62,
+        "removed": 0,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.308",
       "date": "2026-10-22",
@@ -155,29 +178,6 @@
         "improved": 7,
         "changed": 9,
         "fixed": 43,
-        "removed": 0,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.301",
-      "date": "2026-10-15",
-      "title": "8 new features, 4 improvements, 2 changes, 37 fixes",
-      "highlights": [
-        "Added CLAUDE_CODE_RETRY_WATCHDOG_MAX_USAGE_LIMIT_WAIT_MS so unattended retry mode (CLAUDE_CODE_RETRY_WATCHDOG) ends a request at a usage…",
-        "Added OpenTelemetry tracing guidance to the claude-api skill, including setting up trace destinations with the ant CLI",
-        "Added the % motion to vim mode: jump to the matching bracket, alone or with d/c/y",
-        "Added rows to a mod's Input: a text field of several lines in the terminal, where Enter submits and Shift+Enter or a backslash before Enter…",
-        "Added classifier_verdict and permission_mode to OpenTelemetry tool_decision events, so auto mode classifier decisions can be told apart…"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.301",
-      "released_at": "2026-10-15T14:34:23.330Z",
-      "summary": "8 added, 4 improved, 2 changed, 37 fixed",
-      "counts": {
-        "added": 8,
-        "improved": 4,
-        "changed": 2,
-        "fixed": 37,
         "removed": 0,
         "other": 0
       }
