@@ -1,14 +1,33 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T22:57:36Z",
+  "generated_at": "2026-10-22T12:55:38Z",
   "sample": false,
-  "latest_version": "2.1.307",
+  "latest_version": "2.1.308",
   "dist_tags": {
-    "latest": "2.1.307",
-    "stable": "2.1.306",
-    "next": "2.1.307"
+    "latest": "2.1.308",
+    "stable": "2.1.308",
+    "next": "2.1.308"
   },
   "items": [
+    {
+      "version": "2.1.308",
+      "date": "2026-10-22",
+      "title": "1 changes",
+      "highlights": [
+        "Bug fixes and reliability improvements"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.308",
+      "released_at": "2026-10-22T04:19:48.902Z",
+      "summary": "1 changes",
+      "counts": {
+        "added": 0,
+        "improved": 0,
+        "changed": 0,
+        "fixed": 0,
+        "removed": 0,
+        "other": 1
+      }
+    },
     {
       "version": "2.1.307",
       "date": "2026-10-21",
@@ -160,29 +179,6 @@
         "changed": 2,
         "fixed": 37,
         "removed": 0,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.300",
-      "date": "2026-10-14",
-      "title": "12 new features, 4 improvements, 13 changes, 59 fixes",
-      "highlights": [
-        "Added virtualText to a mod's prompt decorations: text drawn in the prompt box that never enters the draft or the submitted prompt",
-        "Added cache_creation_5m_tokens and cache_creation_1h_tokens to the OpenTelemetry api_request event, splitting cache writes by lifetime",
-        "Added $.ui.view({ agentId }) for mods: shows an agent's transcript in the main view when you ask, and $.ui.view({}) goes back",
-        "Added a dir prop on a mod's Text for right-to-left text: on Windows and in VS Code's terminal its rows read in that direction and sit flush…",
-        "Added /advisor on Claude Platform on AWS; no advisor runs until you pick one with /advisor, advisorModel or --advisor, and…"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.300",
-      "released_at": "2026-10-14T14:27:26.554Z",
-      "summary": "12 added, 4 improved, 12 changed, 59 fixed, 1 removed",
-      "counts": {
-        "added": 12,
-        "improved": 4,
-        "changed": 12,
-        "fixed": 59,
-        "removed": 1,
         "other": 0
       }
     }
