@@ -1,12 +1,12 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T12:55:38Z",
+  "generated_at": "2026-10-23T22:53:45Z",
   "sample": false,
   "latest_version": "2.1.309",
   "dist_tags": {
     "latest": "2.1.309",
     "stable": "2.1.308",
-    "next": "2.1.309"
+    "next": "2.1.310"
   },
   "items": [
     {
