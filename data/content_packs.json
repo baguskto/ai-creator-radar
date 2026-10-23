@@ -1,26 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T22:54:25Z",
+  "generated_at": "2026-10-23T12:56:03Z",
   "sample": false,
   "packs": [
     {
       "story_id": "railway-breach-keys",
-      "why_now": "Posts say a Railway compromise is leading Anthropic and others to flag keys as compromised. It's unconfirmed, but anyone deploying AI apps wants to rotate keys today.",
+      "fingerprint": "c823ee4ec99aaf1c",
+      "why_now": "Postiz shut down over a feared Railway compromise and says Anthropic and Stripe flagged its keys. Railway hasn't confirmed it in these posts, but the key-rotation advice is useful today either way.",
       "video": {
-        "title": "Railway Breach: Rotate Your AI API Keys Today",
-        "thumbnail_text": "ROTATE YOUR KEYS",
-        "hook": "Postiz just shut down all customers because they fear Railway was compromised, and they say Anthropic and Stripe emailed them about compromised keys. Railway hasn't confirmed anything in these posts, but if you deploy there, do this now.",
+        "title": "Railway Breach? Lock Down Your AI API Keys Now",
+        "thumbnail_text": "ROTATE THESE KEYS",
+        "hook": "Postiz just shut down for all customers because they fear Railway was compromised. They say Anthropic and Stripe emailed them about compromised keys. Railway hasn't confirmed anything in these posts, so I'll show you what's known, and the five-minute checklist I'd run today if you deploy there.",
         "alt_titles": [
-          "Railway Compromised? How to Protect Your API Keys",
-          "Your AI API Keys Are Cash: Lock Them Down"
+          "Is Your AI API Key Safe on Railway?",
+          "Tokens Are Cash: Protect Your API Keys"
         ],
         "outline": [
-          "What has been reported so far, and what is still unconfirmed",
-          "Why AI API keys are valuable to attackers",
-          "How to rotate Anthropic, OpenAI and Stripe keys step by step",
+          "What's been reported so far and what's still unconfirmed",
+          "Why AI API keys are worth stealing: tokens can be resold",
+          "Rotate Anthropic, OpenAI and Stripe keys step by step",
           "Set spend limits and usage alerts on each provider",
-          "Move secrets out of plain env vars where you can",
-          "What to check in your usage logs for abuse"
+          "Move secrets out of plain environment variables where you can",
+          "Read your usage logs for calls you didn't make"
         ]
       },
       "short": {
@@ -28,17 +29,17 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "If you deploy on Railway, read this.",
+            "line": "If you deploy on Railway, stop and read this.",
             "visual": "Headline: Railway breach reported"
           },
           {
             "t": "3-10s",
-            "line": "Postiz shut down, saying Anthropic and Stripe told them their keys were compromised. Railway hasn't confirmed it.",
+            "line": "Postiz shut down, saying Anthropic and Stripe emailed them about compromised keys. Railway hasn't confirmed anything yet.",
             "visual": "Screenshot of the Postiz post"
           },
           {
             "t": "10-18s",
-            "line": "Don't wait. Rotate your AI API keys now. Tokens are basically cash to the wrong people.",
+            "line": "Don't wait for confirmation. Rotate your AI keys now. Tokens are basically cash, and they can be resold.",
             "visual": "Key rotation screen"
           },
           {
@@ -48,7 +49,7 @@
           },
           {
             "t": "25-30s",
-            "line": "I'll walk through it step by step on the channel.",
+            "line": "Full step-by-step walkthrough is on the channel.",
             "visual": "Channel end card"
           }
         ]
@@ -57,7 +58,7 @@
         "slides": [
           {
             "heading": "Railway breach reported",
-            "body": "Unconfirmed, but act now"
+            "body": "Unconfirmed, but worth acting on"
           },
           {
             "heading": "What we know",
@@ -65,29 +66,32 @@
           },
           {
             "heading": "What we don't",
-            "body": "Railway had not confirmed in these posts"
+            "body": "Railway hadn't confirmed it in these posts"
           },
           {
             "heading": "Rotate your keys",
-            "body": "Anthropic, OpenAI, Stripe, anything on the platform"
+            "body": "Anthropic, OpenAI, Stripe, anything stored on the platform"
           },
           {
             "heading": "Set spend limits",
-            "body": "Cap usage so stolen keys cost less"
+            "body": "Cap usage so a stolen key costs less"
           },
           {
-            "heading": "Check your logs",
-            "body": "Look for requests you didn't make"
+            "heading": "Check your usage logs",
+            "body": "Look for calls you didn't make"
+          },
+          {
+            "heading": "Follow for the walkthrough",
+            "body": "Step-by-step rotation guide coming"
           }
         ],
-        "caption": "Rotate your AI API keys if you deploy on Railway. Takes ten minutes."
+        "caption": "Railway breach reports: what's confirmed, what isn't, and how to rotate your AI API keys today."
       },
-      "x_post": "Reports say Railway may be compromised: Postiz shut down after Anthropic and Stripe flagged its keys. Not confirmed by Railway yet. If you deploy there, rotate your AI API keys and set spend limits today. Walkthrough coming.",
+      "x_post": "Postiz says it shut down over a feared Railway compromise, citing Anthropic and Stripe emails about compromised keys. Unconfirmed by Railway so far. If you deploy there, rotate your AI keys and set spend limits today.",
       "x_thread": [
-        "Why it matters: tokens work like cash and can be resold, so AI keys are a prime target.",
-        "Check your usage logs for any requests you didn't make."
-      ],
-      "fingerprint": "5a7e0658622d2e2b"
+        "Why keys matter: tokens are basically cash and can be resold, so AI API keys are a target.",
+        "Checklist: rotate keys, set spend caps, review usage logs for calls you didn't make. I'll post a walkthrough."
+      ]
     },
     {
       "story_id": "deepseek-v4-1-flash",

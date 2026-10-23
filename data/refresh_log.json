@@ -1,7 +1,65 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T22:54:25Z",
+  "generated_at": "2026-10-23T12:56:03Z",
   "entries": [
+    {
+      "at": "2026-10-23T12:56:03Z",
+      "job": "cloud_refresh",
+      "step": "content_packs",
+      "status": "ok",
+      "message": "Wrote 5 pack(s): 1 new, 4 unchanged",
+      "counts": {
+        "packs": 5,
+        "new": 1
+      }
+    },
+    {
+      "at": "2026-10-23T12:55:46Z",
+      "job": "cloud_refresh",
+      "step": "channel_stats",
+      "status": "ok",
+      "duration_s": 1,
+      "message": "5 recent videos, 0 compared to usual",
+      "counts": {
+        "videos": 5,
+        "quota_units": 3
+      }
+    },
+    {
+      "at": "2026-10-23T12:55:45Z",
+      "job": "cloud_refresh",
+      "step": "youtube_coverage",
+      "status": "ok",
+      "duration_s": 7,
+      "message": "Checked 14 stories, 7 gaps (gap score 50+)",
+      "counts": {
+        "stories": 14,
+        "gaps": 7,
+        "quota_units": 1404
+      }
+    },
+    {
+      "at": "2026-10-23T12:55:38Z",
+      "job": "cloud_refresh",
+      "step": "claude_code_news",
+      "status": "ok",
+      "duration_s": 0.5,
+      "message": "Latest 2.1.309 (1 added, 8 improved, 8 changed, 62 fixed), 8 releases",
+      "counts": {
+        "releases": 8
+      }
+    },
+    {
+      "at": "2026-10-23T12:55:08Z",
+      "job": "x_scan",
+      "status": "error",
+      "duration_s": 0,
+      "message": "search 1: responses: HTTP 403: Your team fc93fa9a-c204-47ce-be2a-8b01e0b8906d has either used all available credits or reached its monthly spending limit. To continue making API requests, please purchase more credits or raise your spending limit.",
+      "counts": {
+        "posts_fetched": 0,
+        "cost_usd": 0
+      }
+    },
     {
       "at": "2026-10-22T22:54:25Z",
       "job": "cloud_refresh",
@@ -656,62 +714,6 @@
       "message": "Latest 2.1.301 (8 added, 4 improved, 2 changed, 37 fixed), 8 releases",
       "counts": {
         "releases": 8
-      }
-    },
-    {
-      "at": "2026-10-16T20:33:22Z",
-      "job": "x_scan",
-      "status": "ok",
-      "duration_s": 0,
-      "message": "15 stories from 110 posts across 5 searches",
-      "counts": {
-        "stories": 15,
-        "posts": 110
-      }
-    },
-    {
-      "at": "2026-10-16T20:33:11Z",
-      "job": "x_scan",
-      "status": "ok",
-      "duration_s": 0,
-      "message": "15 stories from 110 posts across 5 searches",
-      "counts": {
-        "stories": 15,
-        "posts": 110
-      }
-    },
-    {
-      "at": "2026-10-16T20:31:38Z",
-      "job": "x_scan",
-      "status": "ok",
-      "duration_s": 1,
-      "message": "15 stories from 110 posts across 5 searches",
-      "counts": {
-        "stories": 15,
-        "posts": 110
-      }
-    },
-    {
-      "at": "2026-10-16T20:30:37Z",
-      "job": "cloud_refresh",
-      "step": "content_packs",
-      "status": "ok",
-      "message": "Wrote 5 pack(s): 5 new, 0 unchanged",
-      "counts": {
-        "packs": 5,
-        "new": 5
-      }
-    },
-    {
-      "at": "2026-10-16T20:29:17Z",
-      "job": "cloud_refresh",
-      "step": "channel_stats",
-      "status": "ok",
-      "duration_s": 1,
-      "message": "5 recent videos, 5 compared to usual",
-      "counts": {
-        "videos": 5,
-        "quota_units": 3
       }
     }
   ]
