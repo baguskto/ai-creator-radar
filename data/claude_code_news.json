@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T22:53:45Z",
+  "generated_at": "2026-10-24T12:53:37Z",
   "sample": false,
-  "latest_version": "2.1.309",
+  "latest_version": "2.1.310",
   "dist_tags": {
-    "latest": "2.1.309",
+    "latest": "2.1.310",
     "stable": "2.1.308",
     "next": "2.1.310"
   },
   "items": [
+    {
+      "version": "2.1.310",
+      "date": "2026-10-23",
+      "title": "3 new features, 6 improvements, 3 changes, 14 fixes",
+      "highlights": [
+        "Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long…",
+        "Cloud sessions: Added Claude Code cloud sessions and Remote Control permissions to Enterprise custom roles, so Owners can control access to…",
+        "Cloud sessions: Added a Choose file button to load a cloud environment's setup script from a file",
+        "Improved auto mode's prompt before the first read outside the working directories: it now says when blocking those reads makes shell…",
+        "Improved memory use of non-interactive sessions (-p, Agent SDK) during compaction when the transcript file is very large"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.310",
+      "released_at": "2026-10-23T21:20:46.540Z",
+      "summary": "3 added, 6 improved, 3 changed, 14 fixed",
+      "counts": {
+        "added": 3,
+        "improved": 6,
+        "changed": 3,
+        "fixed": 14,
+        "removed": 0,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.309",
       "date": "2026-10-22",
@@ -157,29 +180,6 @@
         "fixed": 0,
         "removed": 0,
         "other": 1
-      }
-    },
-    {
-      "version": "2.1.302",
-      "date": "2026-10-16",
-      "title": "4 new features, 7 improvements, 9 changes, 43 fixes",
-      "highlights": [
-        "Added CLAUDE_CODE_AUTO_MODE_MODEL to choose the model the client-side auto mode classifier uses; it does not change the model for…",
-        "Added an Idle compaction row to /config for turning idle compaction off or back on; the notices shown after an idle compaction now say how…",
-        "Added a notice to /design-sync and /design-login that standalone Claude Design (claude.ai/design) closes by December 14, 2026",
-        "Cloud sessions: Added a banner on a routine's page that says why its last run didn't start, such as your organization reaching its limit on…",
-        "Improved startup time with many plugins enabled: plugin command and agent files now take far fewer file system calls to load, most of all…"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.302",
-      "released_at": "2026-10-16T16:48:28.057Z",
-      "summary": "4 added, 7 improved, 9 changed, 43 fixed",
-      "counts": {
-        "added": 4,
-        "improved": 7,
-        "changed": 9,
-        "fixed": 43,
-        "removed": 0,
-        "other": 0
       }
     }
   ]
