@@ -1,117 +1,27 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T22:54:25Z",
+  "generated_at": "2026-10-26T13:06:12Z",
   "sample": false,
   "packs": [
     {
-      "story_id": "claude-api-version-2026-10-21",
-      "fingerprint": "8dc7314712eae4fc",
-      "why_now": "Anthropic shipped its first dated API version since 2023, and it removes temperature, top_p and top_k from the Messages API. Only one small video covers it, so a clear 'what breaks and how to migrate' guide is open.",
-      "video": {
-        "title": "Claude API 2026-10-21: What Breaks and How to Fix It",
-        "thumbnail_text": "YOUR API CALLS BREAK",
-        "hook": "Anthropic just released its first official API version since 2023, and if you opt in, temperature, top_p and top_k are gone from the Messages API. Old calls that send them can fail. I'll show you what changes, what stays safe, and how to test your code before you switch.",
-        "alt_titles": [
-          "Claude API Breaking Changes: Migrate in 10 Minutes",
-          "Claude Dropped Temperature. Now What?"
-        ],
-        "outline": [
-          "What's new: the first dated version since 2023, with more versions planned",
-          "Good news first: 2023-06-01 is not deprecated, so nothing breaks until you opt in",
-          "The removals: temperature, top_p and top_k on the Messages API",
-          "New 400 errors: documents in assistant turns, citations in user turns",
-          "Admin and Enterprise Analytics fields that were replaced",
-          "Test it: send the same request on both versions and compare what you get"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-3s",
-            "line": "Claude's API just got its first new version since 2023.",
-            "visual": "Headline: API version 2026-10-21"
-          },
-          {
-            "t": "3-10s",
-            "line": "Temperature, top_p and top_k are removed from the Messages API. If your code sends them on the new version, expect trouble.",
-            "visual": "Code with temperature highlighted"
-          },
-          {
-            "t": "10-17s",
-            "line": "Documents in assistant turns and citations in user turns now return a 400 error.",
-            "visual": "400 error response"
-          },
-          {
-            "t": "17-24s",
-            "line": "Relax though. The old 2023-06-01 version is not deprecated, so nothing breaks until you switch.",
-            "visual": "Version header in a request"
-          },
-          {
-            "t": "24-30s",
-            "line": "Test on the new version before you move. I'll show how on the channel.",
-            "visual": "Channel end card"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "Claude API has a new version",
-            "body": "2026-10-21, the first since 2023"
-          },
-          {
-            "heading": "Old version still works",
-            "body": "2023-06-01 is not deprecated"
-          },
-          {
-            "heading": "Sampling params removed",
-            "body": "temperature, top_p, top_k gone from Messages API"
-          },
-          {
-            "heading": "New 400 errors",
-            "body": "Documents in assistant turns, citations in user turns"
-          },
-          {
-            "heading": "Admin API fields replaced",
-            "body": "A few deprecated Admin and Enterprise Analytics fields"
-          },
-          {
-            "heading": "More versions coming",
-            "body": "Anthropic plans to ship them more often"
-          },
-          {
-            "heading": "Test before you switch",
-            "body": "Follow for the migration walkthrough"
-          }
-        ],
-        "caption": "Claude API version 2026-10-21: what's removed, what returns a 400, and why you can test before switching."
-      },
-      "x_post": "Claude API version 2026-10-21 is out, the first since 2023. It removes temperature, top_p and top_k from the Messages API. 2023-06-01 isn't deprecated, so test before you switch. I'll cover the migration.",
-      "x_thread": [
-        "Also new: documents in assistant turns and citations in user turns now return a 400.",
-        "Anthropic plans more frequent versions, so pin your version header and test upgrades on purpose."
-      ]
-    },
-    {
       "story_id": "railway-breach-keys",
-      "fingerprint": "c823ee4ec99aaf1c",
-      "why_now": "Postiz shut down over a feared Railway compromise and says Anthropic and Stripe flagged its keys. Railway hasn't confirmed it in these posts, but the key-rotation advice is useful today either way.",
+      "fingerprint": "5a7e0658622d2e2b",
+      "why_now": "Postiz says it is shutting down over a feared Railway compromise and cites key-compromise emails from Anthropic and Stripe. Railway hasn't confirmed anything in these posts, and nobody on YouTube has covered it. If you deploy on Railway, you need to act today.",
       "video": {
-        "title": "Railway Breach? Lock Down Your AI API Keys Now",
-        "thumbnail_text": "ROTATE THESE KEYS",
-        "hook": "Postiz just shut down for all customers because they fear Railway was compromised. They say Anthropic and Stripe emailed them about compromised keys. Railway hasn't confirmed anything in these posts, so I'll show you what's known, and the five-minute checklist I'd run today if you deploy there.",
+        "title": "Railway Breach? Check Your AI API Keys Now",
+        "thumbnail_text": "ROTATE YOUR KEYS",
+        "hook": "Postiz just shut down for all customers because it fears Railway was compromised, and says Anthropic and Stripe emailed about compromised keys. Railway hasn't confirmed a breach in these posts, but if your AI keys live there, I'll show you how to check and rotate them in the next few minutes.",
         "alt_titles": [
-          "Is Your AI API Key Safe on Railway?",
-          "Tokens Are Cash: Protect Your API Keys"
+          "Is Your Anthropic Key Safe on Railway?",
+          "The Railway Scare: Lock Down Your API Keys"
         ],
         "outline": [
-          "What's been reported so far and what's still unconfirmed",
-          "Why AI API keys are worth stealing: tokens can be resold",
-          "Rotate Anthropic, OpenAI and Stripe keys step by step",
-          "Set spend limits and usage alerts on each provider",
-          "Move secrets out of plain environment variables where you can",
-          "Read your usage logs for calls you didn't make"
+          "What's actually been reported, and what Railway hasn't confirmed",
+          "Why AI API keys are a target: tokens are basically cash",
+          "Check your Anthropic and OpenAI dashboards for odd usage",
+          "Rotate keys and update your Railway variables step by step",
+          "Set spend limits and per-project keys so one leak stays small",
+          "What I'd do differently with secrets going forward"
         ]
       },
       "short": {
@@ -119,27 +29,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "If you deploy on Railway, stop and read this.",
+            "line": "If your AI keys live on Railway, do this today.",
             "visual": "Headline: Railway breach reported"
           },
           {
             "t": "3-10s",
-            "line": "Postiz shut down, saying Anthropic and Stripe emailed them about compromised keys. Railway hasn't confirmed anything yet.",
-            "visual": "Screenshot of the Postiz post"
+            "line": "Postiz shut down for all customers. They fear Railway was compromised and say Anthropic and Stripe emailed them about compromised keys.",
+            "visual": "Postiz post screenshot"
           },
           {
             "t": "10-18s",
-            "line": "Don't wait for confirmation. Rotate your AI keys now. Tokens are basically cash, and they can be resold.",
-            "visual": "Key rotation screen"
+            "line": "Railway hasn't confirmed it in these posts, so treat it as a warning, not a verdict. But stolen AI keys are easy to sell.",
+            "visual": "thdxr post: tokens are basically cash"
           },
           {
-            "t": "18-25s",
-            "line": "Then set spend limits and check your usage logs for anything you didn't run.",
-            "visual": "Usage dashboard"
+            "t": "18-26s",
+            "line": "Open your Anthropic and OpenAI dashboards, look for usage you don't recognize, rotate the keys, and set a spend limit.",
+            "visual": "Console usage page and key rotation"
           },
           {
-            "t": "25-30s",
-            "line": "Full step-by-step walkthrough is on the channel.",
+            "t": "26-30s",
+            "line": "Full walkthrough is on the channel.",
             "visual": "Channel end card"
           }
         ]
@@ -148,39 +58,39 @@
         "slides": [
           {
             "heading": "Railway breach reported",
-            "body": "Unconfirmed, but worth acting on"
+            "body": "Rotate your AI keys today"
           },
           {
-            "heading": "What we know",
-            "body": "Postiz shut down and cites emails from Anthropic and Stripe"
+            "heading": "What happened",
+            "body": "Postiz shut down, fearing Railway was compromised"
           },
           {
-            "heading": "What we don't",
-            "body": "Railway hadn't confirmed it in these posts"
+            "heading": "The signal",
+            "body": "Anthropic and Stripe emailed about compromised keys"
           },
           {
-            "heading": "Rotate your keys",
-            "body": "Anthropic, OpenAI, Stripe, anything stored on the platform"
+            "heading": "Not confirmed yet",
+            "body": "Railway hasn't confirmed it in these posts"
           },
           {
-            "heading": "Set spend limits",
-            "body": "Cap usage so a stolen key costs less"
+            "heading": "Why keys get stolen",
+            "body": "AI tokens are basically cash on the black market"
           },
           {
-            "heading": "Check your usage logs",
-            "body": "Look for calls you didn't make"
+            "heading": "Do this now",
+            "body": "Check usage, rotate keys, set spend limits"
           },
           {
             "heading": "Follow for the walkthrough",
-            "body": "Step-by-step rotation guide coming"
+            "body": "I'll show the full key rotation"
           }
         ],
-        "caption": "Railway breach reports: what's confirmed, what isn't, and how to rotate your AI API keys today."
+        "caption": "Postiz shut down over a feared Railway compromise. Railway hasn't confirmed a breach in these posts, but rotating your AI keys is cheap insurance. Steps in the video."
       },
-      "x_post": "Postiz says it shut down over a feared Railway compromise, citing Anthropic and Stripe emails about compromised keys. Unconfirmed by Railway so far. If you deploy there, rotate your AI keys and set spend limits today.",
+      "x_post": "Postiz shut down, fearing Railway was compromised, and cites Anthropic and Stripe emails about compromised keys. Railway hasn't confirmed it in these posts. If your AI keys are on Railway: check usage, rotate, set spend limits.",
       "x_thread": [
-        "Why keys matter: tokens are basically cash and can be resold, so AI API keys are a target.",
-        "Checklist: rotate keys, set spend caps, review usage logs for calls you didn't make. I'll post a walkthrough."
+        "How to check: look at your Anthropic and OpenAI usage pages for calls you don't recognize.",
+        "Then rotate the keys, update your env vars, and set a monthly spend cap so a leak stays small."
       ]
     },
     {
@@ -354,6 +264,96 @@
         "I'll compare speed and quality on the same task."
       ],
       "fingerprint": "ffbf6613d3243837"
+    },
+    {
+      "story_id": "claude-api-version-2026-10-21",
+      "fingerprint": "07b80fc7ff9e7368",
+      "why_now": "Anthropic shipped its first official API version since 2023, with breaking changes that can 400 your existing code. The one video on YouTube is an explainer with 3 views, so there's room for a hands-on migration angle.",
+      "video": {
+        "title": "I Migrated to Claude API 2026-10-21: What Broke",
+        "thumbnail_text": "API BREAKING CHANGES",
+        "hook": "Anthropic just released API version 2026-10-21, and it removes temperature, top_p and top_k from the Messages API. I'm going to point a real app at it and show you exactly what breaks and how to fix it.",
+        "alt_titles": [
+          "Claude API 2026-10-21: Fix Your 400 Errors",
+          "Do You Need to Upgrade the Claude API Version?"
+        ],
+        "outline": [
+          "What the new version is, and that 2023-06-01 is not deprecated",
+          "Test: send temperature, top_p and top_k and see the error",
+          "Test: documents in assistant turns and citations in user turns",
+          "Fix a real app step by step",
+          "Admin and Enterprise Analytics fields that were replaced",
+          "Should you upgrade now or wait? My take"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "Claude's API just got its first new version since 2023.",
+            "visual": "Headline: API version 2026-10-21"
+          },
+          {
+            "t": "3-10s",
+            "line": "Temperature, top_p and top_k are removed from the Messages API. Send them and I expect you'll hit an error, so I'll test it.",
+            "visual": "Code with temperature highlighted"
+          },
+          {
+            "t": "10-18s",
+            "line": "Documents in assistant turns, and citations in user turns, now return a 400.",
+            "visual": "ClaudeDevs post screenshot"
+          },
+          {
+            "t": "18-26s",
+            "line": "The good news: the old 2023-06-01 version is not deprecated, so nothing breaks until you opt in.",
+            "visual": "Version header in a request"
+          },
+          {
+            "t": "26-30s",
+            "line": "Migration walkthrough is on the channel.",
+            "visual": "Channel end card"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "New Claude API version",
+            "body": "2026-10-21 is live"
+          },
+          {
+            "heading": "First since 2023",
+            "body": "Anthropic plans to release versions more often"
+          },
+          {
+            "heading": "Removed",
+            "body": "temperature, top_p and top_k on Messages API"
+          },
+          {
+            "heading": "Now returns a 400",
+            "body": "Documents in assistant turns, citations in user turns"
+          },
+          {
+            "heading": "Also changed",
+            "body": "Some deprecated Admin and Analytics fields replaced"
+          },
+          {
+            "heading": "Safe for now",
+            "body": "2023-06-01 is not deprecated"
+          },
+          {
+            "heading": "Follow for the migration",
+            "body": "I'll test what breaks"
+          }
+        ],
+        "caption": "Claude API version 2026-10-21 removes sampling params and tightens document and citation handling. The old version isn't deprecated. Migration test coming."
+      },
+      "x_post": "Claude API 2026-10-21 is out: temperature, top_p and top_k are removed from Messages, and documents in assistant turns / citations in user turns return a 400. 2023-06-01 isn't deprecated. I'm testing the migration.",
+      "x_thread": [
+        "You opt in by version, so existing apps on 2023-06-01 keep working for now.",
+        "I'll show what errors you get and the smallest fix for each."
+      ]
     },
     {
       "story_id": "anthropic-pentagon-case",
