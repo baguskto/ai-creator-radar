@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T13:05:32Z",
+  "generated_at": "2026-10-26T22:53:48Z",
   "x_trends_generated_at": "2026-10-21T22:54:02Z",
   "x_trends_sample": false,
   "lookback_hours": 72,
@@ -52,8 +52,8 @@
       "title": "Claude API ships dated version 2026-10-21 with breaking changes",
       "query": "claude api anthropic api api breaking changes",
       "video_count": 2,
-      "total_views": 5,
-      "max_views": 3,
+      "total_views": 8,
+      "max_views": 5,
       "big_channel_videos": 0,
       "coverage": "low",
       "coverage_score": 8,
@@ -61,22 +61,22 @@
       "gap_score": 75,
       "top_videos": [
         {
-          "video_id": "Spf4lS3MukM",
-          "title": "Claude API 2026-10-21: Every Breaking Change Explained",
-          "url": "https://www.youtube.com/watch?v=Spf4lS3MukM",
-          "channel": "Itisjiwan",
-          "channel_subscribers": 451,
-          "published_at": "2026-10-23T23:55:08Z",
-          "views": 3
-        },
-        {
           "video_id": "TTuWaM-bKIg",
           "title": "Claude Just Flipped the $200 Plan War (SemiAnalysis)",
           "url": "https://www.youtube.com/watch?v=TTuWaM-bKIg",
           "channel": "COLDPATH",
           "channel_subscribers": 7,
           "published_at": "2026-10-26T07:00:12Z",
-          "views": 2
+          "views": 5
+        },
+        {
+          "video_id": "Spf4lS3MukM",
+          "title": "Claude API 2026-10-21: Every Breaking Change Explained",
+          "url": "https://www.youtube.com/watch?v=Spf4lS3MukM",
+          "channel": "Itisjiwan",
+          "channel_subscribers": 452,
+          "published_at": "2026-10-23T23:55:08Z",
+          "views": 3
         }
       ]
     },
@@ -98,25 +98,15 @@
       "story_id": "nvidia-agent-announcements",
       "title": "Collaboration with NVIDIA targets AI for industrial engineering",
       "query": "nvidia cae physics ai",
-      "video_count": 1,
-      "total_views": 249,
-      "max_views": 249,
+      "video_count": 0,
+      "total_views": 0,
+      "max_views": 0,
       "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 4,
+      "coverage": "none",
+      "coverage_score": 0,
       "heat": 59.0,
-      "gap_score": 57,
-      "top_videos": [
-        {
-          "video_id": "50te6hMIjpA",
-          "title": "NVIDIA の物理 AI、何がある？ PhysicsNeMo のラインナップを実例つきで解説",
-          "url": "https://www.youtube.com/watch?v=50te6hMIjpA",
-          "channel": "エンジニアの自宅CAE工房",
-          "channel_subscribers": 207,
-          "published_at": "2026-10-23T16:37:31Z",
-          "views": 249
-        }
-      ]
+      "gap_score": 59,
+      "top_videos": []
     },
     {
       "story_id": "claude-sonnet-5-5-arc-agi",
@@ -161,6 +151,126 @@
       "top_videos": []
     },
     {
+      "story_id": "grok-bot-push",
+      "title": "xAI pushes Grok Bot with user demos and adoption claims",
+      "query": "grok bot xai grok",
+      "video_count": 24,
+      "total_views": 41927,
+      "max_views": 28690,
+      "big_channel_videos": 0,
+      "coverage": "medium",
+      "coverage_score": 57,
+      "heat": 100.0,
+      "gap_score": 43,
+      "top_videos": [
+        {
+          "video_id": "ifW-Aj9LOXQ",
+          "title": "The ONLY Grok Bot Tutorial You Need (Beginner to Genius)",
+          "url": "https://www.youtube.com/watch?v=ifW-Aj9LOXQ",
+          "channel": "Founders School ",
+          "channel_subscribers": 2050,
+          "published_at": "2026-10-25T15:52:41Z",
+          "views": 28690
+        },
+        {
+          "video_id": "1NiTo7jdbEI",
+          "title": "Master Grok Bot in 24 Minutes (Ultimate Beginner’s Guide)",
+          "url": "https://www.youtube.com/watch?v=1NiTo7jdbEI",
+          "channel": "Jordan Rafealov",
+          "channel_subscribers": 10400,
+          "published_at": "2026-10-25T21:11:37Z",
+          "views": 5735
+        },
+        {
+          "video_id": "snAj4S4miH4",
+          "title": "How I’m Using Grok Bot to Make Stupid Amounts of Money (Copy These Agents)",
+          "url": "https://www.youtube.com/watch?v=snAj4S4miH4",
+          "channel": "By Joel Blackman",
+          "channel_subscribers": 3700,
+          "published_at": "2026-10-24T08:04:57Z",
+          "views": 3135
+        },
+        {
+          "video_id": "onf8imyAXzY",
+          "title": "スマホを閉じても働くAI「Grok Bot」の特徴3選",
+          "url": "https://www.youtube.com/watch?v=onf8imyAXzY",
+          "channel": "AI活用総研 by AiPHA",
+          "channel_subscribers": 327,
+          "published_at": "2026-10-24T11:30:27Z",
+          "views": 1562
+        },
+        {
+          "video_id": "wpKR4paVL0c",
+          "title": "3 Ways To Make Money With Grok Bot (For Beginners)",
+          "url": "https://www.youtube.com/watch?v=wpKR4paVL0c",
+          "channel": "By Joel Blackman",
+          "channel_subscribers": 3700,
+          "published_at": "2026-10-26T15:45:17Z",
+          "views": 1018
+        }
+      ]
+    },
+    {
+      "story_id": "claude-duet-preview",
+      "title": "Anthropic opens research preview of Claude Duet agent app",
+      "query": "claude duet anthropic claude agent",
+      "video_count": 23,
+      "total_views": 55519,
+      "max_views": 14620,
+      "big_channel_videos": 0,
+      "coverage": "medium",
+      "coverage_score": 59,
+      "heat": 100.0,
+      "gap_score": 41,
+      "top_videos": [
+        {
+          "video_id": "fAKAdFFdsJU",
+          "title": "I Tested Claude Duet. It's Actually Amazing.",
+          "url": "https://www.youtube.com/watch?v=fAKAdFFdsJU",
+          "channel": "In the Loop AI",
+          "channel_subscribers": 75500,
+          "published_at": "2026-10-26T11:00:03Z",
+          "views": 14620
+        },
+        {
+          "video_id": "hAPn4bRxY7E",
+          "title": "Claude Duet vs Hark Pro: Which AI Agent Is Actually Better?",
+          "url": "https://www.youtube.com/watch?v=hAPn4bRxY7E",
+          "channel": "Beyond Tahir",
+          "channel_subscribers": 26300,
+          "published_at": "2026-10-24T15:51:21Z",
+          "views": 12843
+        },
+        {
+          "video_id": "UjBkYBuSNq0",
+          "title": "Claude Duet: WSZYSTKO, co musisz wiedzieć (alternatywa Grok Bot)",
+          "url": "https://www.youtube.com/watch?v=UjBkYBuSNq0",
+          "channel": "Krzysztof Bohaczyk",
+          "channel_subscribers": 4070,
+          "published_at": "2026-10-24T10:05:37Z",
+          "views": 9147
+        },
+        {
+          "video_id": "Zv0juX5QkYM",
+          "title": "Claude diventa un agente: le novità che cambiano tutto!",
+          "url": "https://www.youtube.com/watch?v=Zv0juX5QkYM",
+          "channel": "TechTonic",
+          "channel_subscribers": 4870,
+          "published_at": "2026-10-25T17:00:32Z",
+          "views": 6594
+        },
+        {
+          "video_id": "mvR0Dvs8Rdc",
+          "title": "Anthropic Just Killed ChatGPT Dots With a 5X Cheaper AI Agent (Claude Duet)",
+          "url": "https://www.youtube.com/watch?v=mvR0Dvs8Rdc",
+          "channel": "AI 365",
+          "channel_subscribers": 2610,
+          "published_at": "2026-10-25T17:23:59Z",
+          "views": 3828
+        }
+      ]
+    },
+    {
       "story_id": "webmcp-chatgpt-desktop",
       "title": "WebMCP enabled for MCP Apps in ChatGPT Desktop",
       "query": "webmcp mcp apps chatgpt desktop",
@@ -175,195 +285,15 @@
       "top_videos": []
     },
     {
-      "story_id": "grok-bot-push",
-      "title": "xAI pushes Grok Bot with user demos and adoption claims",
-      "query": "grok bot xai grok",
-      "video_count": 24,
-      "total_views": 100433,
-      "max_views": 31223,
-      "big_channel_videos": 1,
-      "coverage": "high",
-      "coverage_score": 73,
-      "heat": 100.0,
-      "gap_score": 27,
-      "top_videos": [
-        {
-          "video_id": "Bd8-geZPwI4",
-          "title": "My Honest Take on Muse, Grok Bot, Dots & Duet",
-          "url": "https://www.youtube.com/watch?v=Bd8-geZPwI4",
-          "channel": "The AI Advantage",
-          "channel_subscribers": 491000,
-          "published_at": "2026-10-23T16:10:03Z",
-          "views": 31223
-        },
-        {
-          "video_id": "A3-qLhe46Dw",
-          "title": "Team Bots: Grok Bots for your whole team",
-          "url": "https://www.youtube.com/watch?v=A3-qLhe46Dw",
-          "channel": "Matt Palmer",
-          "channel_subscribers": 44200,
-          "published_at": "2026-10-23T14:12:35Z",
-          "views": 27418
-        },
-        {
-          "video_id": "ifW-Aj9LOXQ",
-          "title": "The ONLY Grok Bot Tutorial You Need (Beginner to Genius)",
-          "url": "https://www.youtube.com/watch?v=ifW-Aj9LOXQ",
-          "channel": "Founders School ",
-          "channel_subscribers": 1850,
-          "published_at": "2026-10-25T15:52:41Z",
-          "views": 17743
-        },
-        {
-          "video_id": "JGPizj9iGLM",
-          "title": "How To Easily Make $1,000/Month With Grok Bot (Step by Step)",
-          "url": "https://www.youtube.com/watch?v=JGPizj9iGLM",
-          "channel": "By Joel Blackman",
-          "channel_subscribers": 3610,
-          "published_at": "2026-10-23T15:29:20Z",
-          "views": 15058
-        },
-        {
-          "video_id": "1NiTo7jdbEI",
-          "title": "How to Use Grok Bot for IDIOTS (Ultimate Guide)",
-          "url": "https://www.youtube.com/watch?v=1NiTo7jdbEI",
-          "channel": "Jordan Rafealov",
-          "channel_subscribers": 10300,
-          "published_at": "2026-10-25T21:11:37Z",
-          "views": 3787
-        }
-      ]
-    },
-    {
-      "story_id": "claude-duet-preview",
-      "title": "Anthropic opens research preview of Claude Duet agent app",
-      "query": "claude duet anthropic claude agent",
-      "video_count": 23,
-      "total_views": 142365,
-      "max_views": 94952,
-      "big_channel_videos": 1,
-      "coverage": "high",
-      "coverage_score": 76,
-      "heat": 100.0,
-      "gap_score": 24,
-      "top_videos": [
-        {
-          "video_id": "ZIBI6FiLxgQ",
-          "title": "How I’m Actually Using Claude Duet (After 10 Hours of Testing)",
-          "url": "https://www.youtube.com/watch?v=ZIBI6FiLxgQ",
-          "channel": "Riley Brown",
-          "channel_subscribers": 305000,
-          "published_at": "2026-10-23T20:50:23Z",
-          "views": 94952
-        },
-        {
-          "video_id": "_Ne9hIRh6YY",
-          "title": "Anthropic lanza Claude Duet: su NUEVO agente de IA",
-          "url": "https://www.youtube.com/watch?v=_Ne9hIRh6YY",
-          "channel": "Patricia Palazón | IA",
-          "channel_subscribers": 8260,
-          "published_at": "2026-10-23T16:07:21Z",
-          "views": 12010
-        },
-        {
-          "video_id": "hAPn4bRxY7E",
-          "title": "Claude Duet vs Hark Pro: Which AI Agent Is Actually Better?",
-          "url": "https://www.youtube.com/watch?v=hAPn4bRxY7E",
-          "channel": "Beyond Tahir",
-          "channel_subscribers": 26200,
-          "published_at": "2026-10-24T15:51:21Z",
-          "views": 11303
-        },
-        {
-          "video_id": "UjBkYBuSNq0",
-          "title": "Claude Duet: WSZYSTKO, co musisz wiedzieć (alternatywa Grok Bot)",
-          "url": "https://www.youtube.com/watch?v=UjBkYBuSNq0",
-          "channel": "Krzysztof Bohaczyk",
-          "channel_subscribers": 4060,
-          "published_at": "2026-10-24T10:05:37Z",
-          "views": 7450
-        },
-        {
-          "video_id": "Zv0juX5QkYM",
-          "title": "Claude diventa un agente: le novità che cambiano tutto!",
-          "url": "https://www.youtube.com/watch?v=Zv0juX5QkYM",
-          "channel": "TechTonic",
-          "channel_subscribers": 4850,
-          "published_at": "2026-10-25T17:00:32Z",
-          "views": 4637
-        }
-      ]
-    },
-    {
-      "story_id": "claude-opus-5-5-builds",
-      "title": "Developers share Claude Opus 5.5 coding workflows",
-      "query": "claude opus 5.5 claude code codex review",
-      "video_count": 7,
-      "total_views": 27664,
-      "max_views": 16510,
-      "big_channel_videos": 3,
-      "coverage": "high",
-      "coverage_score": 70,
-      "heat": 54.0,
-      "gap_score": 16,
-      "top_videos": [
-        {
-          "video_id": "OMy4hCP8uSc",
-          "title": "Claude Destroyed ChatGPT: The Only AI You Need in 2026 (Practical Guide)",
-          "url": "https://www.youtube.com/watch?v=OMy4hCP8uSc",
-          "channel": "AI Master",
-          "channel_subscribers": 342000,
-          "published_at": "2026-10-24T11:50:17Z",
-          "views": 16510
-        },
-        {
-          "video_id": "pBhwsd6CHpM",
-          "title": "Vibe coding an app like a senior engineer | GPT Astra + Opus 5.5 🔴 LIVE",
-          "url": "https://www.youtube.com/watch?v=pBhwsd6CHpM",
-          "channel": "Asklog",
-          "channel_subscribers": 193,
-          "published_at": "2026-10-24T05:16:08Z",
-          "views": 5582
-        },
-        {
-          "video_id": "CwP-G-zlvXk",
-          "title": "Vibe coding an app like a senior engineer | GPT Astra + Opus 5.5 🔴 LIVE",
-          "url": "https://www.youtube.com/watch?v=CwP-G-zlvXk",
-          "channel": "Asklog",
-          "channel_subscribers": 193,
-          "published_at": "2026-10-25T22:12:42Z",
-          "views": 1968
-        },
-        {
-          "video_id": "-xErWyfBpY0",
-          "title": "RIP Claude Code: Kimi K3.1 + Kimi Code = INSANE CHEAP CODING SETUP",
-          "url": "https://www.youtube.com/watch?v=-xErWyfBpY0",
-          "channel": "Income stream surfers",
-          "channel_subscribers": 151000,
-          "published_at": "2026-10-25T10:32:05Z",
-          "views": 1782
-        },
-        {
-          "video_id": "RI6nKxfnYKQ",
-          "title": "200$/tháng cho AI: Codex hay Claude Code tối ưu chi phí hơn ?| 200Lab",
-          "url": "https://www.youtube.com/watch?v=RI6nKxfnYKQ",
-          "channel": "200Lab - Level Up Your AI Skills",
-          "channel_subscribers": 6370,
-          "published_at": "2026-10-26T06:14:35Z",
-          "views": 1428
-        }
-      ]
-    },
-    {
       "story_id": "deepseek-deepinfer-open-source",
       "title": "vLLM claims to match DeepSeek serving performance",
       "query": "vllm deepseek deepinfer",
       "video_count": 16,
-      "total_views": 117225,
-      "max_views": 95790,
+      "total_views": 131513,
+      "max_views": 107337,
       "big_channel_videos": 0,
-      "coverage": "medium",
-      "coverage_score": 64,
+      "coverage": "high",
+      "coverage_score": 65,
       "heat": 45.0,
       "gap_score": 16,
       "top_videos": [
@@ -372,9 +302,9 @@
           "title": "DeepSeek Is Free Now but What’s the Catch?",
           "url": "https://www.youtube.com/watch?v=zIWxzkO1nak",
           "channel": "Kai",
-          "channel_subscribers": 60200,
+          "channel_subscribers": 60800,
           "published_at": "2026-10-24T15:30:05Z",
-          "views": 95790
+          "views": 107337
         },
         {
           "video_id": "xSvS6xDQ3xA",
@@ -383,25 +313,25 @@
           "channel": "Squintist",
           "channel_subscribers": 12900,
           "published_at": "2026-10-24T22:50:56Z",
-          "views": 18074
+          "views": 20107
         },
         {
           "video_id": "8gmj6ijyX0Y",
           "title": "DeepInfer vs. The World: Is This The End of Expensive APIs?",
           "url": "https://www.youtube.com/watch?v=8gmj6ijyX0Y",
           "channel": "DIY Smart Code",
-          "channel_subscribers": 35200,
+          "channel_subscribers": 35300,
           "published_at": "2026-10-24T22:01:23Z",
-          "views": 1387
+          "views": 1490
         },
         {
-          "video_id": "QTyt_6stJjM",
-          "title": "DeepSeek open-sourced its production inference engine - DeepInfer LLM serving framework",
-          "url": "https://www.youtube.com/watch?v=QTyt_6stJjM",
-          "channel": "Github Trending Repos",
-          "channel_subscribers": 74,
-          "published_at": "2026-10-23T16:41:06Z",
-          "views": 475
+          "video_id": "h80_TEML3b8",
+          "title": "DeepSeek's $38 a GPU-hour: I got $39.10 #shorts",
+          "url": "https://www.youtube.com/watch?v=h80_TEML3b8",
+          "channel": "Iron Forge Apps",
+          "channel_subscribers": 60,
+          "published_at": "2026-10-26T12:22:54Z",
+          "views": 997
         },
         {
           "video_id": "7GIYlrgba0g",
@@ -410,7 +340,67 @@
           "channel": "Alex Volkov from ThursdAI",
           "channel_subscribers": 54500,
           "published_at": "2026-10-24T20:13:01Z",
-          "views": 311
+          "views": 345
+        }
+      ]
+    },
+    {
+      "story_id": "claude-opus-5-5-builds",
+      "title": "Developers share Claude Opus 5.5 coding workflows",
+      "query": "claude opus 5.5 claude code codex review",
+      "video_count": 9,
+      "total_views": 32502,
+      "max_views": 19088,
+      "big_channel_videos": 2,
+      "coverage": "high",
+      "coverage_score": 75,
+      "heat": 54.0,
+      "gap_score": 14,
+      "top_videos": [
+        {
+          "video_id": "OMy4hCP8uSc",
+          "title": "Claude Destroyed ChatGPT: The Only AI You Need in 2026 (Practical Guide)",
+          "url": "https://www.youtube.com/watch?v=OMy4hCP8uSc",
+          "channel": "AI Master",
+          "channel_subscribers": 342000,
+          "published_at": "2026-10-24T11:50:17Z",
+          "views": 19088
+        },
+        {
+          "video_id": "pBhwsd6CHpM",
+          "title": "Vibe coding an app like a senior engineer | GPT Astra + Opus 5.5 🔴 LIVE",
+          "url": "https://www.youtube.com/watch?v=pBhwsd6CHpM",
+          "channel": "Asklog",
+          "channel_subscribers": 202,
+          "published_at": "2026-10-24T05:16:08Z",
+          "views": 5897
+        },
+        {
+          "video_id": "RI6nKxfnYKQ",
+          "title": "200$/tháng cho AI: Codex hay Claude Code tối ưu chi phí hơn ?| 200Lab",
+          "url": "https://www.youtube.com/watch?v=RI6nKxfnYKQ",
+          "channel": "200Lab - Level Up Your AI Skills",
+          "channel_subscribers": 6390,
+          "published_at": "2026-10-26T06:14:35Z",
+          "views": 2253
+        },
+        {
+          "video_id": "-xErWyfBpY0",
+          "title": "RIP Claude Code: Kimi K3.1 + Kimi Code = INSANE CHEAP CODING SETUP",
+          "url": "https://www.youtube.com/watch?v=-xErWyfBpY0",
+          "channel": "Income stream surfers",
+          "channel_subscribers": 151000,
+          "published_at": "2026-10-25T10:32:05Z",
+          "views": 2145
+        },
+        {
+          "video_id": "CwP-G-zlvXk",
+          "title": "Vibe coding an app like a senior engineer | GPT Astra + Opus 5.5 🔴 LIVE",
+          "url": "https://www.youtube.com/watch?v=CwP-G-zlvXk",
+          "channel": "Asklog",
+          "channel_subscribers": 202,
+          "published_at": "2026-10-25T22:12:42Z",
+          "views": 2040
         }
       ]
     }
