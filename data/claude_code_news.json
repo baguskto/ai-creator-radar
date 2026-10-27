@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T12:57:56Z",
+  "generated_at": "2026-10-27T22:53:56Z",
   "sample": false,
-  "latest_version": "2.1.311",
+  "latest_version": "2.1.312",
   "dist_tags": {
-    "latest": "2.1.311",
+    "latest": "2.1.312",
     "stable": "2.1.308",
-    "next": "2.1.311"
+    "next": "2.1.312"
   },
   "items": [
+    {
+      "version": "2.1.312",
+      "date": "2026-10-27",
+      "title": "4 new features, 4 improvements, 9 changes, 22 fixes",
+      "highlights": [
+        "Added oidc.user_id_claim to the Claude apps gateway, to identify people by an id_token claim other than sub, such as Microsoft Entra ID's…",
+        "Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key does",
+        "Cloud sessions: Added an effort level to the model picker when you create or edit a routine that runs in the cloud",
+        "Cloud sessions: Added a Bash editor with colors, line numbers and a Copy button to the setup script box in cloud environment settings",
+        "Improved the prompt's effort indicator: a change made mid-task now says it may wait for your next message, and the note clears when it no…"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.312",
+      "released_at": "2026-10-27T18:36:10.160Z",
+      "summary": "4 added, 4 improved, 9 changed, 22 fixed",
+      "counts": {
+        "added": 4,
+        "improved": 4,
+        "changed": 9,
+        "fixed": 22,
+        "removed": 0,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.311",
       "date": "2026-10-26",
@@ -160,29 +183,6 @@
         "changed": 6,
         "fixed": 22,
         "removed": 0,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.304",
-      "date": "2026-10-19",
-      "title": "10 new features, 12 improvements, 11 changes, 43 fixes",
-      "highlights": [
-        "Added a transcript line when a plugin that runs first skips one of your mod's hooks, naming the event and the plugin",
-        "Added decider: \"person\" to a mod's tool.check answer: only the permission dialog or a host's callback can approve the ask, and it is…",
-        "Added e.isReadOnly to a mod's tool.check event, set when the tool call is read-only",
-        "Added /auto-mode-setup: a guided setup that reads your project and recent sessions to teach auto mode about your environment, now also…",
-        "Added /claude-api managed-agents-secure, which compares a Managed Agents agent's settings with Anthropic's published security guide…"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.304",
-      "released_at": "2026-10-19T19:47:15.337Z",
-      "summary": "10 added, 12 improved, 9 changed, 43 fixed, 2 removed",
-      "counts": {
-        "added": 10,
-        "improved": 12,
-        "changed": 9,
-        "fixed": 43,
-        "removed": 2,
         "other": 0
       }
     }
