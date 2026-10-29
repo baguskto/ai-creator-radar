@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T13:12:26Z",
+  "generated_at": "2026-10-29T13:02:50Z",
   "sample": false,
   "packs": [
     {
@@ -94,6 +94,96 @@
       ]
     },
     {
+      "story_id": "claude-api-version-2026-10-21",
+      "fingerprint": "8dc7314712eae4fc",
+      "why_now": "Anthropic shipped its first dated API version since 2023, and it removes temperature, top_p and top_k from the Messages API. The post has 124K views and YouTube has almost nothing, so you can be the one who explains what breaks.",
+      "video": {
+        "title": "Claude API 2026-10-21: What Breaks and How to Fix It",
+        "thumbnail_text": "CLAUDE API BREAKS?",
+        "hook": "Anthropic just released its first official API version since 2023, and it removes temperature, top_p and top_k from the Messages API. The old version isn't deprecated, so your code won't die today. But here's what changes, what returns a 400, and how I'd upgrade without breaking anything.",
+        "alt_titles": [
+          "Claude's New API Version: Should You Upgrade?",
+          "Temperature Is Gone: Claude API Changes Explained"
+        ],
+        "outline": [
+          "What Anthropic announced, and the line that 2023-06-01 is not deprecated",
+          "The three changes: sampling params removed, 400s for documents in assistant turns and citations in user turns, Admin API fields replaced",
+          "Test: send the same request on the old and new version and compare what comes back",
+          "How to pin the version header and upgrade one service at a time",
+          "What to do if your prompts relied on temperature",
+          "Why more frequent versions should mean fewer surprises when a new model lands"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "Claude's API just got its first new version since 2023.",
+            "visual": "Headline: API version 2026-10-21"
+          },
+          {
+            "t": "3-10s",
+            "line": "Temperature, top_p and top_k are removed from the Messages API. If you send them on the new version, check what happens.",
+            "visual": "Code with temperature highlighted"
+          },
+          {
+            "t": "10-18s",
+            "line": "Documents in assistant turns and citations in user turns now return a 400. A few old Admin API fields are replaced too.",
+            "visual": "ClaudeDevs post listing changes"
+          },
+          {
+            "t": "18-26s",
+            "line": "The old version isn't deprecated, so nothing breaks today. Pin your version, then upgrade one service at a time.",
+            "visual": "Version header in a request"
+          },
+          {
+            "t": "26-30s",
+            "line": "I'll test it all on the channel.",
+            "visual": "Channel end card"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "Claude API has a new version",
+            "body": "2026-10-21, the first since 2023"
+          },
+          {
+            "heading": "Sampling params removed",
+            "body": "temperature, top_p and top_k are gone from Messages"
+          },
+          {
+            "heading": "New 400 errors",
+            "body": "Documents in assistant turns, citations in user turns"
+          },
+          {
+            "heading": "Admin API cleanup",
+            "body": "A few deprecated fields are replaced"
+          },
+          {
+            "heading": "Nothing breaks today",
+            "body": "2023-06-01 is not deprecated"
+          },
+          {
+            "heading": "Expect more versions",
+            "body": "Anthropic plans to ship them more often"
+          },
+          {
+            "heading": "Follow for the upgrade test",
+            "body": "I'll show what changes in real requests"
+          }
+        ],
+        "caption": "Anthropic released API version 2026-10-21, its first since 2023. Sampling params are removed and a few inputs now return a 400. The old version isn't deprecated. Upgrade test on the channel."
+      },
+      "x_post": "Claude API has a new dated version, 2026-10-21, the first since 2023. temperature, top_p and top_k are removed from Messages, and some document and citation inputs return a 400. 2023-06-01 isn't deprecated. I'm testing the upgrade.",
+      "x_thread": [
+        "Per ClaudeDevs: documents in assistant turns and citations in user turns now return a 400.",
+        "Anthropic says it will release versions more often, so you can handle breaking changes before a new model requires them."
+      ]
+    },
+    {
       "why_now": "A post from the Codex team with about 2.4M views says caching now lasts 12 hours in the API, and Codex keeps cache for logged-in users. No one on YouTube has covered it, and it affects your bill today.",
       "video": {
         "title": "OpenAI's 12-Hour Prompt Cache: Cut Your API Bill",
@@ -181,22 +271,23 @@
     },
     {
       "story_id": "deepseek-v4-1-flash",
-      "why_now": "DeepSeek V4.1 Flash is showing up everywhere at once, with Fireworks, Vercel and Opencode all offering it. No one on YouTube has tested it yet.",
+      "fingerprint": "454e974299dc14be",
+      "why_now": "DeepSeek V4.1 Flash is suddenly everywhere: Fireworks claims 1,500+ tok/s, Vercel's Token Pass includes it, and Opencode offers it free. Only one tiny YouTube video covers it, and builders want to know if it's actually good for coding.",
       "video": {
-        "title": "DeepSeek V4.1 Flash: Is It Really That Fast?",
-        "thumbnail_text": "1,500 TOK/S?",
-        "hook": "Fireworks says DeepSeek V4.1 Flash runs at over 1,500 tokens a second, and it's free on Opencode. That's a provider claim, so I'm going to test it on a real coding task.",
+        "title": "DeepSeek V4.1 Flash Is Free and Fast. Is It Any Good?",
+        "thumbnail_text": "FREE AND FAST",
+        "hook": "DeepSeek V4.1 Flash is free on Opencode, included in Vercel's Token Pass, and Fireworks says it runs over 1,500 tokens a second. Speed claims from the host are just claims. So I'm putting it on real coding tasks to see where it holds up and where it falls apart.",
         "alt_titles": [
-          "I Tested DeepSeek V4.1 Flash for Coding",
-          "Free and Fast: DeepSeek V4.1 Flash on Opencode"
+          "I Tested DeepSeek V4.1 Flash as a Coding Subagent",
+          "1,500 Tokens a Second? Testing DeepSeek V4.1 Flash"
         ],
         "outline": [
-          "What V4.1 Flash is and where you can use it today",
-          "Setting it up in Opencode for free",
-          "Speed test against the Fireworks claim",
-          "Build a small project and compare with a larger model",
-          "Using it as a subagent executor, as Vercel's CEO suggests",
-          "Where it falls short and who should switch"
+          "Where you can use it right now: Opencode, Vercel Token Pass, Fireworks",
+          "Speed check: measure tokens per second myself against the Fireworks claim",
+          "Coding test: a small app build, timed",
+          "The subagent idea: a bigger model plans, Flash executes the plan",
+          "Where it struggled or needed a retry",
+          "Who should switch, and who shouldn't"
         ]
       },
       "short": {
@@ -204,27 +295,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "A fast DeepSeek model is free on Opencode right now.",
+            "line": "A free AI model that's supposedly crazy fast.",
             "visual": "Headline: DeepSeek V4.1 Flash"
           },
           {
             "t": "3-10s",
-            "line": "Fireworks claims over fifteen hundred tokens a second. That's their number, so I'll check it.",
-            "visual": "Fireworks post screenshot"
+            "line": "DeepSeek V4.1 Flash is free on Opencode and included in Vercel's Token Pass.",
+            "visual": "Opencode and Vercel posts"
           },
           {
             "t": "10-18s",
-            "line": "Vercel says it's good for subagents that run plans from bigger models.",
-            "visual": "Vercel Token Pass post"
+            "line": "Fireworks claims over fifteen hundred tokens a second. That's their number, so I'm measuring it myself.",
+            "visual": "Fireworks post, then a terminal timer"
           },
           {
-            "t": "18-25s",
-            "line": "Setup in Opencode takes a minute. I'll show you.",
-            "visual": "Terminal with Opencode"
+            "t": "18-26s",
+            "line": "The pitch is using it as a subagent, where a bigger model plans and Flash does the work. I'll see if that holds up.",
+            "visual": "Planner and subagent diagram"
           },
           {
-            "t": "25-30s",
-            "line": "Full speed test on the channel.",
+            "t": "26-30s",
+            "line": "Results are on the channel.",
             "visual": "Channel end card"
           }
         ]
@@ -233,126 +324,39 @@
         "slides": [
           {
             "heading": "DeepSeek V4.1 Flash is everywhere",
-            "body": "Three providers, one day"
+            "body": "Free, fast and widely hosted"
           },
           {
-            "heading": "Fireworks",
-            "body": "Claims 1,521+ tokens per second"
+            "heading": "Free on Opencode",
+            "body": "Posts say you can use it at no cost"
           },
           {
-            "heading": "Vercel Token Pass",
-            "body": "Included, with zero data retention"
+            "heading": "In Vercel Token Pass",
+            "body": "Served with zero data retention, per Vercel's CEO"
           },
           {
-            "heading": "Opencode",
-            "body": "Available free"
+            "heading": "Fireworks speed claim",
+            "body": "1,521+ tok/s on Ultrafast, per Fireworks"
           },
           {
-            "heading": "Best use",
-            "body": "Subagents that execute plans from larger models"
+            "heading": "Claims are not benchmarks",
+            "body": "Speed numbers come from the provider"
           },
           {
-            "heading": "I'm testing it",
-            "body": "Follow for the results"
+            "heading": "Best use to test",
+            "body": "A cheap subagent running a bigger model's plan"
+          },
+          {
+            "heading": "Follow for my test",
+            "body": "Real speed and real coding results"
           }
         ],
-        "caption": "DeepSeek V4.1 Flash speed claims, tested soon."
+        "caption": "DeepSeek V4.1 Flash is free on Opencode, in Vercel's Token Pass, and Fireworks claims 1,500+ tok/s. Those are provider claims, so I'm testing it on real coding work."
       },
-      "x_post": "DeepSeek V4.1 Flash is on Fireworks (claims 1,521+ tok/s), Vercel Token Pass and free on Opencode. Provider numbers, so I'm running my own coding test. Results soon.",
+      "x_post": "DeepSeek V4.1 Flash is free on Opencode, in Vercel Token Pass, and Fireworks claims 1,500+ tok/s. Provider numbers, so I'm timing it myself on real coding tasks, including as a subagent. Results soon.",
       "x_thread": [
-        "Vercel's pitch: use it for subagents that execute plans from larger models.",
-        "I'll compare speed and quality on the same task."
-      ],
-      "fingerprint": "ffbf6613d3243837"
-    },
-    {
-      "story_id": "claude-api-version-2026-10-21",
-      "fingerprint": "07b80fc7ff9e7368",
-      "why_now": "Anthropic shipped its first dated API version since 2023, and it removes temperature, top_p and top_k from the Messages API. Only two small YouTube videos cover it, so there is room for a practical 'what breaks and how to fix it' video.",
-      "video": {
-        "title": "Claude API 2026-10-21: What Breaks (and the Fix)",
-        "thumbnail_text": "API BREAKING CHANGES",
-        "hook": "Anthropic just shipped its first official API version since 2023, and it removes temperature, top_p and top_k from the Messages API. The old version isn't deprecated, so nothing breaks unless you opt in. Here's what changes, and how to check your code before you do.",
-        "alt_titles": [
-          "Claude's New API Version: Should You Upgrade?",
-          "temperature Is Gone From the Claude API"
-        ],
-        "outline": [
-          "What Anthropic announced: first dated version since 2023, more frequent versions planned",
-          "Why 2023-06-01 not being deprecated matters: you choose when to move",
-          "Removed: temperature, top_p and top_k in the Messages API",
-          "Now a 400: documents in assistant turns and citations in user turns",
-          "Test: call the API with the new version header and see what errors out",
-          "A short migration checklist for your own code"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-3s",
-            "line": "Claude's API just got its first new version since 2023.",
-            "visual": "Headline: API version 2026-10-21"
-          },
-          {
-            "t": "3-10s",
-            "line": "Anthropic says it plans to ship versions more often, so you can handle breaking changes before a new model forces them.",
-            "visual": "ClaudeDevs post"
-          },
-          {
-            "t": "10-18s",
-            "line": "In this version, temperature, top p and top k are removed from the Messages API. Send them and your request can fail.",
-            "visual": "Code diff removing temperature"
-          },
-          {
-            "t": "18-26s",
-            "line": "Documents in assistant turns and citations in user turns now return a 400. The old 2023 version isn't deprecated, so you can upgrade on your schedule.",
-            "visual": "400 error response"
-          },
-          {
-            "t": "26-30s",
-            "line": "I'm testing the migration on the channel.",
-            "visual": "Channel end card"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "New Claude API version",
-            "body": "2026-10-21 is out"
-          },
-          {
-            "heading": "First since 2023",
-            "body": "Anthropic plans to release versions more often"
-          },
-          {
-            "heading": "Sampling params removed",
-            "body": "temperature, top_p and top_k are gone from Messages"
-          },
-          {
-            "heading": "New 400 errors",
-            "body": "Documents in assistant turns, citations in user turns"
-          },
-          {
-            "heading": "Admin fields replaced",
-            "body": "Some deprecated Admin and Analytics fields change"
-          },
-          {
-            "heading": "No forced upgrade",
-            "body": "2023-06-01 is not deprecated"
-          },
-          {
-            "heading": "Check your code before you move",
-            "body": "Follow for the migration walkthrough"
-          }
-        ],
-        "caption": "Claude's API has its first new dated version since 2023. temperature, top_p and top_k are removed from Messages, and a few document and citation cases now return a 400. The old version stays. I'll walk through the migration."
-      },
-      "x_post": "Claude API version 2026-10-21 is out, the first since 2023. It removes temperature, top_p and top_k from Messages, and documents in assistant turns now return a 400. 2023-06-01 isn't deprecated. Checking what it breaks in real code next.",
-      "x_thread": [
-        "Also changed: citations in user turns return a 400, and some deprecated Admin and Enterprise Analytics API fields are replaced.",
-        "Anthropic says more frequent versions are coming, so you can handle breaking changes before a new model requires them."
+        "Vercel's pitch: use it as a cheap subagent that executes plans from a larger model.",
+        "I'll test that setup and report where it needs retries."
       ]
     },
     {
