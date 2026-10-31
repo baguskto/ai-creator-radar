@@ -1,24 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T12:54:17Z",
+  "generated_at": "2026-10-31T22:53:49Z",
   "x_trends_generated_at": "2026-10-21T22:54:02Z",
   "x_trends_sample": false,
   "lookback_hours": 72,
   "stories": [
-    {
-      "story_id": "claude-api-version-2026-10-21",
-      "title": "Claude API ships dated version 2026-10-21 with breaking changes",
-      "query": "claude api anthropic api api breaking changes",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
-      "heat": 82.0,
-      "gap_score": 82,
-      "top_videos": []
-    },
     {
       "story_id": "railway-breach-keys",
       "title": "Railway breach reported, AI API keys said to be compromised",
@@ -34,12 +20,36 @@
       "top_videos": []
     },
     {
+      "story_id": "claude-api-version-2026-10-21",
+      "title": "Claude API ships dated version 2026-10-21 with breaking changes",
+      "query": "claude api anthropic api api breaking changes",
+      "video_count": 1,
+      "total_views": 30,
+      "max_views": 30,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 4,
+      "heat": 82.0,
+      "gap_score": 79,
+      "top_videos": [
+        {
+          "video_id": "aCIme1ziSRQ",
+          "title": "🚨 Flash News:Claude Ultra Removes 5-Hour Limit! But There's a Catch! 😱",
+          "url": "https://www.youtube.com/watch?v=aCIme1ziSRQ",
+          "channel": "Maaran Labs",
+          "channel_subscribers": 64,
+          "published_at": "2026-10-31T16:37:59Z",
+          "views": 30
+        }
+      ]
+    },
+    {
       "story_id": "deepseek-v4-1-flash",
       "title": "DeepSeek V4.1 Flash gets fast hosting and wide availability",
       "query": "deepseek v4.1 flash fireworks opencode",
       "video_count": 1,
-      "total_views": 312,
-      "max_views": 312,
+      "total_views": 327,
+      "max_views": 327,
       "big_channel_videos": 0,
       "coverage": "low",
       "coverage_score": 4,
@@ -53,7 +63,7 @@
           "channel": "Neural Nexus",
           "channel_subscribers": 13,
           "published_at": "2026-10-29T01:08:53Z",
-          "views": 312
+          "views": 327
         }
       ]
     },
@@ -62,31 +72,31 @@
       "title": "OpenAI adds 12-hour prompt cache across API and Codex",
       "query": "codex prompt caching openai api",
       "video_count": 2,
-      "total_views": 91,
-      "max_views": 49,
+      "total_views": 1506,
+      "max_views": 1453,
       "big_channel_videos": 0,
       "coverage": "low",
-      "coverage_score": 8,
+      "coverage_score": 10,
       "heat": 77.0,
-      "gap_score": 71,
+      "gap_score": 69,
       "top_videos": [
         {
           "video_id": "bs0IXxThe3o",
           "title": "AI订阅怎么选？别再乱买",
           "url": "https://www.youtube.com/watch?v=bs0IXxThe3o",
           "channel": "为什么叫QQ",
-          "channel_subscribers": 7720,
+          "channel_subscribers": 7730,
           "published_at": "2026-10-31T12:15:39Z",
-          "views": 49
+          "views": 1453
         },
         {
           "video_id": "-fb-O-7LRB4",
           "title": "Codex Keeps Your Prompt Cache Warm Forever: 95% Cheaper Comebacks",
           "url": "https://www.youtube.com/watch?v=-fb-O-7LRB4",
           "channel": "The Token Desk",
-          "channel_subscribers": 131,
+          "channel_subscribers": 139,
           "published_at": "2026-10-29T21:04:08Z",
-          "views": 42
+          "views": 53
         }
       ]
     },
@@ -119,6 +129,66 @@
       "top_videos": []
     },
     {
+      "story_id": "claude-duet-preview",
+      "title": "Anthropic opens research preview of Claude Duet agent app",
+      "query": "claude duet anthropic claude agent",
+      "video_count": 19,
+      "total_views": 9688,
+      "max_views": 5839,
+      "big_channel_videos": 0,
+      "coverage": "medium",
+      "coverage_score": 46,
+      "heat": 100.0,
+      "gap_score": 54,
+      "top_videos": [
+        {
+          "video_id": "Q3tUrlHRlBU",
+          "title": "I Tried Claude Duet. WE’RE NOT READY",
+          "url": "https://www.youtube.com/watch?v=Q3tUrlHRlBU",
+          "channel": "Slavi Savanovic",
+          "channel_subscribers": 25,
+          "published_at": "2026-10-29T15:19:07Z",
+          "views": 5839
+        },
+        {
+          "video_id": "mUkXtufO3dI",
+          "title": "Claude Duet: وكيل ذكاء اصطناعي يشتغل وأنت نايم",
+          "url": "https://www.youtube.com/watch?v=mUkXtufO3dI",
+          "channel": "Abdallah Khraisat",
+          "channel_subscribers": 31500,
+          "published_at": "2026-10-30T17:53:07Z",
+          "views": 2751
+        },
+        {
+          "video_id": "bQHcW2SszLc",
+          "title": "Claude Duet Is in the Claude App Sidebar Now",
+          "url": "https://www.youtube.com/watch?v=bQHcW2SszLc",
+          "channel": "Leslie Samuel",
+          "channel_subscribers": 18600,
+          "published_at": "2026-10-30T13:00:04Z",
+          "views": 331
+        },
+        {
+          "video_id": "ulkEng6BZaA",
+          "title": "New UPDATE on Claude Duet.",
+          "url": "https://www.youtube.com/watch?v=ulkEng6BZaA",
+          "channel": "Rami AI ",
+          "channel_subscribers": 12,
+          "published_at": "2026-10-29T16:00:05Z",
+          "views": 271
+        },
+        {
+          "video_id": "FlircZGGBQo",
+          "title": "Claude Duet: Anthropic's Background Agent Keeps Working After You Close Your Laptop.",
+          "url": "https://www.youtube.com/watch?v=FlircZGGBQo",
+          "channel": "Aether Agent",
+          "channel_subscribers": 39,
+          "published_at": "2026-10-29T21:03:52Z",
+          "views": 126
+        }
+      ]
+    },
+    {
       "story_id": "claude-sonnet-5-5-arc-agi",
       "title": "Claude Sonnet 5.5 posts ARC-AGI scores",
       "query": "sonnet 5.5 arc-agi claude",
@@ -147,66 +217,6 @@
       "top_videos": []
     },
     {
-      "story_id": "claude-duet-preview",
-      "title": "Anthropic opens research preview of Claude Duet agent app",
-      "query": "claude duet anthropic claude agent",
-      "video_count": 21,
-      "total_views": 27656,
-      "max_views": 20728,
-      "big_channel_videos": 0,
-      "coverage": "medium",
-      "coverage_score": 54,
-      "heat": 100.0,
-      "gap_score": 46,
-      "top_videos": [
-        {
-          "video_id": "aQ8gC58O4l0",
-          "title": "🚀Claude Duet华语区首测！Anthropic的云电脑能否超越Dots、Grok Bot、Meta Muse？最强个人AI助手！从创建频道、设置定时任务到多任务并行不中断，开发者必备！效率倍增",
-          "url": "https://www.youtube.com/watch?v=aQ8gC58O4l0",
-          "channel": "AI超元域",
-          "channel_subscribers": 77600,
-          "published_at": "2026-10-28T13:02:43Z",
-          "views": 20728
-        },
-        {
-          "video_id": "UN46v-SBm00",
-          "title": "Claude Duet வந்துடுச்சு… ஆனா உண்மையான news அது இல்ல | The AI Agent War",
-          "url": "https://www.youtube.com/watch?v=UN46v-SBm00",
-          "channel": "Vignesh Sivakumar ",
-          "channel_subscribers": 751,
-          "published_at": "2026-10-29T06:01:22Z",
-          "views": 3878
-        },
-        {
-          "video_id": "mUkXtufO3dI",
-          "title": "Claude Duet: وكيل ذكاء اصطناعي يشتغل وأنت نايم",
-          "url": "https://www.youtube.com/watch?v=mUkXtufO3dI",
-          "channel": "Abdallah Khraisat",
-          "channel_subscribers": 31400,
-          "published_at": "2026-10-30T17:53:07Z",
-          "views": 2082
-        },
-        {
-          "video_id": "bQHcW2SszLc",
-          "title": "Claude Duet Is in the Claude App Sidebar Now",
-          "url": "https://www.youtube.com/watch?v=bQHcW2SszLc",
-          "channel": "Leslie Samuel",
-          "channel_subscribers": 18600,
-          "published_at": "2026-10-30T13:00:04Z",
-          "views": 317
-        },
-        {
-          "video_id": "ulkEng6BZaA",
-          "title": "New UPDATE on Claude Duet.",
-          "url": "https://www.youtube.com/watch?v=ulkEng6BZaA",
-          "channel": "Rami AI ",
-          "channel_subscribers": 12,
-          "published_at": "2026-10-29T16:00:05Z",
-          "views": 219
-        }
-      ]
-    },
-    {
       "story_id": "anthropic-compute-spend",
       "title": "Analyst questions Anthropic's $9.8bn Q3 compute spend",
       "query": "anthropic compute spacex cursor",
@@ -219,6 +229,66 @@
       "heat": 45.0,
       "gap_score": 45,
       "top_videos": []
+    },
+    {
+      "story_id": "deepseek-deepinfer-open-source",
+      "title": "vLLM claims to match DeepSeek serving performance",
+      "query": "vllm deepseek deepinfer",
+      "video_count": 7,
+      "total_views": 641,
+      "max_views": 253,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 26,
+      "heat": 45.0,
+      "gap_score": 33,
+      "top_videos": [
+        {
+          "video_id": "6j3PhPOeQg8",
+          "title": "开源“算力印钞机”？Deepseek 精打细算的省钱哲学 (DeepInfer)",
+          "url": "https://www.youtube.com/watch?v=6j3PhPOeQg8",
+          "channel": "Magic奈文摩尔",
+          "channel_subscribers": 938,
+          "published_at": "2026-10-29T16:03:12Z",
+          "views": 253
+        },
+        {
+          "video_id": "WjQkGQMt2mw",
+          "title": "Deepinfer explained - How Deepseek serves its model ?",
+          "url": "https://www.youtube.com/watch?v=WjQkGQMt2mw",
+          "channel": "Tech-Practice",
+          "channel_subscribers": 9200,
+          "published_at": "2026-10-30T21:24:41Z",
+          "views": 220
+        },
+        {
+          "video_id": "llqxCo9TA1s",
+          "title": "DeepSeek open-sourced its inference engine",
+          "url": "https://www.youtube.com/watch?v=llqxCo9TA1s",
+          "channel": "RepoCast",
+          "channel_subscribers": 0,
+          "published_at": "2026-10-31T02:43:43Z",
+          "views": 60
+        },
+        {
+          "video_id": "iJ7FpZ0gCo0",
+          "title": "DeepSeek Open-Sourced Its Engine… With One Big Catch",
+          "url": "https://www.youtube.com/watch?v=iJ7FpZ0gCo0",
+          "channel": "Code District",
+          "channel_subscribers": 417,
+          "published_at": "2026-10-29T21:23:49Z",
+          "views": 30
+        },
+        {
+          "video_id": "DDXQkuuhr4M",
+          "title": "DeepSeek Just Open-Sourced Its Secret Sauce 🛠️",
+          "url": "https://www.youtube.com/watch?v=DDXQkuuhr4M",
+          "channel": "The AI Brief",
+          "channel_subscribers": 0,
+          "published_at": "2026-10-31T16:00:27Z",
+          "views": 30
+        }
+      ]
     },
     {
       "story_id": "webmcp-chatgpt-desktop",
@@ -238,12 +308,12 @@
       "story_id": "claude-opus-5-5-builds",
       "title": "Developers share Claude Opus 5.5 coding workflows",
       "query": "claude opus 5.5 claude code codex review",
-      "video_count": 12,
-      "total_views": 11294,
-      "max_views": 6396,
+      "video_count": 11,
+      "total_views": 13913,
+      "max_views": 9203,
       "big_channel_videos": 0,
       "coverage": "medium",
-      "coverage_score": 48,
+      "coverage_score": 49,
       "heat": 54.0,
       "gap_score": 28,
       "top_videos": [
@@ -252,105 +322,45 @@
           "title": "Claude Opus 5.5 baut DIABLO 4 nach … mit nur EINEM Prompt",
           "url": "https://www.youtube.com/watch?v=pqt2yEyQBpM",
           "channel": "Worth Making | KI. Produkt. Business.",
-          "channel_subscribers": 3040,
+          "channel_subscribers": 3160,
           "published_at": "2026-10-30T16:31:31Z",
-          "views": 6396
+          "views": 9203
         },
         {
           "video_id": "sakrimIvy2M",
           "title": "Vibe coding an app like a senior engineer | GPT Astra + Opus 5.5 🔴 LIVE",
           "url": "https://www.youtube.com/watch?v=sakrimIvy2M",
           "channel": "Asklog",
-          "channel_subscribers": 262,
+          "channel_subscribers": 263,
           "published_at": "2026-10-30T23:36:04Z",
-          "views": 1602
-        },
-        {
-          "video_id": "e9YBeABk25Q",
-          "title": "Vibe coding an app like a senior engineer | GPT Astra + Opus 5.5 🔴 LIVE",
-          "url": "https://www.youtube.com/watch?v=e9YBeABk25Q",
-          "channel": "Asklog",
-          "channel_subscribers": 262,
-          "published_at": "2026-10-28T22:39:42Z",
-          "views": 1338
+          "views": 1775
         },
         {
           "video_id": "2aSDihy38wI",
           "title": "Vibe coding an app like a senior engineer | GPT Astra + Opus 5.5 🔴 LIVE",
           "url": "https://www.youtube.com/watch?v=2aSDihy38wI",
           "channel": "Asklog",
-          "channel_subscribers": 262,
+          "channel_subscribers": 263,
           "published_at": "2026-10-29T22:38:44Z",
-          "views": 1067
+          "views": 1080
+        },
+        {
+          "video_id": "T5ZgcFZKgEQ",
+          "title": "Vibe coding an app like a senior engineer | GPT Astra + Opus 5.5 🔴 LIVE",
+          "url": "https://www.youtube.com/watch?v=T5ZgcFZKgEQ",
+          "channel": "Asklog",
+          "channel_subscribers": 263,
+          "published_at": "2026-10-31T17:14:21Z",
+          "views": 718
         },
         {
           "video_id": "_HIeCtFqx1w",
           "title": "Claude Opus 5.5 Reverse Engineering: Why It Hands You Back to Opus 4.8",
           "url": "https://www.youtube.com/watch?v=_HIeCtFqx1w",
           "channel": "Simply AI",
-          "channel_subscribers": 1730,
+          "channel_subscribers": 1740,
           "published_at": "2026-10-30T07:05:54Z",
-          "views": 255
-        }
-      ]
-    },
-    {
-      "story_id": "deepseek-deepinfer-open-source",
-      "title": "vLLM claims to match DeepSeek serving performance",
-      "query": "vllm deepseek deepinfer",
-      "video_count": 9,
-      "total_views": 79586,
-      "max_views": 77769,
-      "big_channel_videos": 1,
-      "coverage": "high",
-      "coverage_score": 72,
-      "heat": 45.0,
-      "gap_score": 13,
-      "top_videos": [
-        {
-          "video_id": "nqFhLLELd4o",
-          "title": "DeepSeek choque encore toute l'industrie de l'IA (actu IA)",
-          "url": "https://www.youtube.com/watch?v=nqFhLLELd4o",
-          "channel": "Eliott Meunier",
-          "channel_subscribers": 58100,
-          "published_at": "2026-10-28T13:02:41Z",
-          "views": 77769
-        },
-        {
-          "video_id": "oECJiez5mGM",
-          "title": "vLLM Just Matched DeepInfer's AI Performance?!",
-          "url": "https://www.youtube.com/watch?v=oECJiez5mGM",
-          "channel": "Julian Goldie SEO",
-          "channel_subscribers": 435000,
-          "published_at": "2026-10-28T18:00:17Z",
-          "views": 1327
-        },
-        {
-          "video_id": "6j3PhPOeQg8",
-          "title": "开源“算力印钞机”？Deepseek 精打细算的省钱哲学 (DeepInfer)",
-          "url": "https://www.youtube.com/watch?v=6j3PhPOeQg8",
-          "channel": "Magic奈文摩尔",
-          "channel_subscribers": 937,
-          "published_at": "2026-10-29T16:03:12Z",
-          "views": 183
-        },
-        {
-          "video_id": "WjQkGQMt2mw",
-          "title": "Deepinfer explained - How Deepseek serves its model ?",
-          "url": "https://www.youtube.com/watch?v=WjQkGQMt2mw",
-          "channel": "Tech-Practice",
-          "channel_subscribers": 9190,
-          "published_at": "2026-10-30T21:24:41Z",
-          "views": 154
-        },
-        {
-          "video_id": "74MrHcMBS8s",
-          "title": "What Is DeepSeek's DeepInfer Replacing? (Nothing Yet)",
-          "url": "https://www.youtube.com/watch?v=74MrHcMBS8s",
-          "channel": "NextMaker",
-          "channel_subscribers": 757,
-          "published_at": "2026-10-28T21:00:51Z",
-          "views": 45
+          "views": 465
         }
       ]
     },
@@ -358,10 +368,10 @@
       "story_id": "grok-bot-push",
       "title": "xAI pushes Grok Bot with user demos and adoption claims",
       "query": "grok bot xai grok",
-      "video_count": 24,
-      "total_views": 214390,
-      "max_views": 94667,
-      "big_channel_videos": 9,
+      "video_count": 23,
+      "total_views": 224896,
+      "max_views": 151614,
+      "big_channel_videos": 6,
       "coverage": "high",
       "coverage_score": 89,
       "heat": 100.0,
@@ -372,18 +382,9 @@
           "title": "The NEW Grok Bot is Here (Biggest Updates Explained in 11 mins)",
           "url": "https://www.youtube.com/watch?v=P_hvEpI0twQ",
           "channel": "Jay E | RoboNuggets",
-          "channel_subscribers": 216000,
+          "channel_subscribers": 217000,
           "published_at": "2026-10-30T21:32:36Z",
-          "views": 94667
-        },
-        {
-          "video_id": "E-d7m6Gn2eE",
-          "title": "Grok Bot Full Tutorial for Beginners: How to Use & Set up Grok Bot",
-          "url": "https://www.youtube.com/watch?v=E-d7m6Gn2eE",
-          "channel": "Mikey No Code",
-          "channel_subscribers": 174000,
-          "published_at": "2026-10-28T14:15:34Z",
-          "views": 37660
+          "views": 151614
         },
         {
           "video_id": "MNiurW07nLs",
@@ -392,25 +393,34 @@
           "channel": "The AI Advantage",
           "channel_subscribers": 492000,
           "published_at": "2026-10-30T19:20:20Z",
-          "views": 14185
+          "views": 18950
+        },
+        {
+          "video_id": "dsf5M7ri4zA",
+          "title": "4 Reasons Why YOU Should Be Using Grok Bot Pages",
+          "url": "https://www.youtube.com/watch?v=dsf5M7ri4zA",
+          "channel": "Van Did This!",
+          "channel_subscribers": 80600,
+          "published_at": "2026-10-30T18:00:25Z",
+          "views": 13902
         },
         {
           "video_id": "jcKcAfJtTlk",
           "title": "Grok Bot for Enterprise Teams: Put AI teammates to work across every department",
           "url": "https://www.youtube.com/watch?v=jcKcAfJtTlk",
           "channel": "Grok",
-          "channel_subscribers": 36200,
+          "channel_subscribers": 36300,
           "published_at": "2026-10-29T21:08:08Z",
-          "views": 11819
+          "views": 12501
         },
         {
-          "video_id": "2kOMHXBszI4",
-          "title": "How To Easily Make $2,500/Month With Grok Bot (COPY THIS!)",
-          "url": "https://www.youtube.com/watch?v=2kOMHXBszI4",
-          "channel": "By Joel Blackman",
-          "channel_subscribers": 4580,
-          "published_at": "2026-10-28T17:49:42Z",
-          "views": 9361
+          "video_id": "Aie_B98fwUw",
+          "title": "NEW Grok Bot is INSANE! (Everything It Can Do)",
+          "url": "https://www.youtube.com/watch?v=Aie_B98fwUw",
+          "channel": "Julian Goldie SEO",
+          "channel_subscribers": 435000,
+          "published_at": "2026-10-29T16:00:04Z",
+          "views": 9393
         }
       ]
     }
