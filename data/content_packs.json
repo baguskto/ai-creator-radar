@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T22:54:14Z",
+  "generated_at": "2026-10-31T12:54:51Z",
   "sample": false,
   "packs": [
     {
@@ -95,23 +95,23 @@
     },
     {
       "story_id": "claude-api-version-2026-10-21",
-      "fingerprint": "8dc7314712eae4fc",
-      "why_now": "Anthropic shipped its first dated API version since 2023, and it removes temperature, top_p and top_k from the Messages API. The post has 124K views and YouTube has almost nothing, so you can be the one who explains what breaks.",
+      "fingerprint": "2e175e6f9fdccabe",
+      "why_now": "Anthropic shipped its first dated API version since 2023, and it removes temperature, top_p and top_k from the Messages API. Nobody on YouTube has covered it, and anyone pinning the new version can break their app.",
       "video": {
-        "title": "Claude API 2026-10-21: What Breaks and How to Fix It",
-        "thumbnail_text": "CLAUDE API BREAKS?",
-        "hook": "Anthropic just released its first official API version since 2023, and it removes temperature, top_p and top_k from the Messages API. The old version isn't deprecated, so your code won't die today. But here's what changes, what returns a 400, and how I'd upgrade without breaking anything.",
+        "title": "Claude API's First New Version Since 2023 Breaks Things",
+        "thumbnail_text": "API BREAKING CHANGES",
+        "hook": "Anthropic just released API version 2026-10-21, its first since 2023. It removes temperature, top_p and top_k, and some requests now return a 400. The old version isn't deprecated, so here's what actually breaks and how to upgrade safely.",
         "alt_titles": [
-          "Claude's New API Version: Should You Upgrade?",
-          "Temperature Is Gone: Claude API Changes Explained"
+          "Claude API 2026-10-21: What Breaks and How to Fix It",
+          "Should You Upgrade to the New Claude API Version?"
         ],
         "outline": [
-          "What Anthropic announced, and the line that 2023-06-01 is not deprecated",
-          "The three changes: sampling params removed, 400s for documents in assistant turns and citations in user turns, Admin API fields replaced",
-          "Test: send the same request on the old and new version and compare what comes back",
-          "How to pin the version header and upgrade one service at a time",
-          "What to do if your prompts relied on temperature",
-          "Why more frequent versions should mean fewer surprises when a new model lands"
+          "What Anthropic announced: first version since 2023, more frequent versions planned",
+          "The 2023-06-01 version is not deprecated, so you can wait",
+          "Sampling params removed: temperature, top_p, top_k and what to do instead",
+          "Documents in assistant turns and citations in user turns now return a 400",
+          "Admin and Enterprise Analytics field replacements",
+          "Test the new version header on a small project and see what fails"
         ]
       },
       "short": {
@@ -124,22 +124,22 @@
           },
           {
             "t": "3-10s",
-            "line": "Temperature, top_p and top_k are removed from the Messages API. If you send them on the new version, check what happens.",
-            "visual": "Code with temperature highlighted"
+            "line": "Anthropic says it will release versions more often, so you can handle breaking changes before a new model forces them on you.",
+            "visual": "ClaudeDevs announcement post"
           },
           {
-            "t": "10-18s",
-            "line": "Documents in assistant turns and citations in user turns now return a 400. A few old Admin API fields are replaced too.",
-            "visual": "ClaudeDevs post listing changes"
+            "t": "10-20s",
+            "line": "This version removes temperature, top_p and top_k from the Messages API. Documents in assistant turns and citations in user turns now return a four hundred.",
+            "visual": "List of changes from the second post"
           },
           {
-            "t": "18-26s",
-            "line": "The old version isn't deprecated, so nothing breaks today. Pin your version, then upgrade one service at a time.",
-            "visual": "Version header in a request"
+            "t": "20-27s",
+            "line": "The old 2023 version is not deprecated, so nothing breaks until you switch. Test it on a small project first.",
+            "visual": "Code diff of the version header"
           },
           {
-            "t": "26-30s",
-            "line": "I'll test it all on the channel.",
+            "t": "27-30s",
+            "line": "Walkthrough is on the channel.",
             "visual": "Channel end card"
           }
         ]
@@ -147,61 +147,61 @@
       "carousel": {
         "slides": [
           {
-            "heading": "Claude API has a new version",
-            "body": "2026-10-21, the first since 2023"
+            "heading": "New Claude API version",
+            "body": "2026-10-21, first since 2023"
+          },
+          {
+            "heading": "Versions come more often",
+            "body": "So breaking changes arrive before new models need them"
+          },
+          {
+            "heading": "Old version stays",
+            "body": "2023-06-01 is not deprecated"
           },
           {
             "heading": "Sampling params removed",
-            "body": "temperature, top_p and top_k are gone from Messages"
+            "body": "temperature, top_p, top_k gone from Messages API"
           },
           {
             "heading": "New 400 errors",
             "body": "Documents in assistant turns, citations in user turns"
           },
           {
-            "heading": "Admin API cleanup",
-            "body": "A few deprecated fields are replaced"
+            "heading": "Admin fields replaced",
+            "body": "Deprecated Admin and Enterprise Analytics fields"
           },
           {
-            "heading": "Nothing breaks today",
-            "body": "2023-06-01 is not deprecated"
-          },
-          {
-            "heading": "Expect more versions",
-            "body": "Anthropic plans to ship them more often"
-          },
-          {
-            "heading": "Follow for the upgrade test",
-            "body": "I'll show what changes in real requests"
+            "heading": "Test before you switch",
+            "body": "Follow for the upgrade walkthrough"
           }
         ],
-        "caption": "Anthropic released API version 2026-10-21, its first since 2023. Sampling params are removed and a few inputs now return a 400. The old version isn't deprecated. Upgrade test on the channel."
+        "caption": "Anthropic released Claude API version 2026-10-21, the first since 2023. It removes temperature, top_p and top_k, and the old version isn't deprecated. Test before you switch."
       },
-      "x_post": "Claude API has a new dated version, 2026-10-21, the first since 2023. temperature, top_p and top_k are removed from Messages, and some document and citation inputs return a 400. 2023-06-01 isn't deprecated. I'm testing the upgrade.",
+      "x_post": "Claude API version 2026-10-21 is out, the first since 2023. It removes temperature, top_p and top_k from the Messages API. 2023-06-01 isn't deprecated, so test before you switch. I'm walking through what breaks.",
       "x_thread": [
-        "Per ClaudeDevs: documents in assistant turns and citations in user turns now return a 400.",
-        "Anthropic says it will release versions more often, so you can handle breaking changes before a new model requires them."
+        "Also new: documents in assistant turns and citations in user turns now return a 400.",
+        "Anthropic says versions will come more often, so pin your version header on purpose."
       ]
     },
     {
       "story_id": "codex-12h-cache",
-      "fingerprint": "75b507e9cb25f6ee",
-      "why_now": "A Codex post about 12-hour prompt caching has 2.4M views and about 15K likes, and the one YouTube video on it has 2 views. Cache hits are where your token bill actually moves, so a test with real numbers lands now.",
+      "fingerprint": "86b35920cff14f19",
+      "why_now": "A post from the Codex team, now at nearly 15,000 likes, says prompt caching lasts 12 hours in the API and persists for logged-in Codex users. Only two small videos exist, so a hands-on cost test is open.",
       "video": {
-        "title": "Codex & OpenAI API Cache Just Changed: Test It",
-        "thumbnail_text": "12-HOUR CACHE",
-        "hook": "OpenAI says you can now cache prompts for 12 hours in the API, and in Codex the cache sticks around so coming back to an old chat costs you no penalty. That's the claim. I'm going to run it, check the usage numbers, and show you where it actually saves money.",
+        "title": "OpenAI's 12-Hour Prompt Cache: Does It Cut Your Bill?",
+        "thumbnail_text": "12H CACHE, CHEAPER?",
+        "hook": "OpenAI says prompt caching now lasts 12 hours in the API, and in Codex you can resume old conversations without a penalty. That's a claim about your bill, so I'm testing it: same long prompt, hours apart, and I'll show you the cached token counts.",
         "alt_titles": [
-          "Stop Paying Twice: Codex's New Prompt Cache",
-          "OpenAI's 12-Hour Cache: Does It Cut Your Bill?"
+          "Codex Cache Test: Resuming Old Chats for Less",
+          "I Tested OpenAI's New 12-Hour Cache"
         ],
         "outline": [
-          "What the post claims: 12h API cache, persistent cache across Codex and Work",
-          "Prompt caching in 60 seconds: why a cache hit is cheaper and faster",
-          "Test: send a long prompt, wait, resume, and read the cached token count",
-          "Resume an old Codex conversation after a few hours and see what you're billed",
-          "Structure your prompts so the stable part comes first and hits the cache",
-          "What I'd verify before trusting it on a real project"
+          "What the post says: 12h in the API, longer for logged-in Codex users",
+          "Why caching matters: repeated context costs less",
+          "Test 1: API call, wait, repeat, and check cached token usage",
+          "Test 2: resume an old Codex conversation and see if it holds",
+          "How to structure prompts so the cache actually hits",
+          "When it won't help, and what I'd change in my workflow"
         ]
       },
       "short": {
@@ -209,27 +209,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "OpenAI just made coming back to old chats cheaper.",
+            "line": "OpenAI just made resuming old chats cheaper.",
             "visual": "Headline: 12-hour prompt cache"
           },
           {
             "t": "3-10s",
-            "line": "The claim: the API now caches prompts for 12 hours, and in Codex the cache is kept for logged-in users, so resuming after a break has no penalty.",
-            "visual": "thsottiaux post screenshot"
+            "line": "A Codex team post says you can cache for twelve hours in the API.",
+            "visual": "thsottiaux post"
           },
           {
-            "t": "10-18s",
-            "line": "Why you care: cached tokens cost less and come back faster, so long coding sessions get cheaper when you pick them back up.",
-            "visual": "Usage page showing cached tokens"
+            "t": "10-19s",
+            "line": "For logged-in users across Codex, the cache is kept, with no penalty for coming back to an old conversation after a few hours.",
+            "visual": "Highlight the cache sentence"
           },
           {
-            "t": "18-26s",
-            "line": "Keep the stable stuff at the top of your prompt, instructions and files, and put the changing part last so it hits the cache.",
-            "visual": "Prompt layout diagram"
+            "t": "19-27s",
+            "line": "Cheaper repeats only happen if your prompt starts the same way each time. I'm testing the real token counts.",
+            "visual": "Usage dashboard with cached tokens"
           },
           {
-            "t": "26-30s",
-            "line": "I'm testing it with real numbers. Full video on the channel.",
+            "t": "27-30s",
+            "line": "Results are on the channel.",
             "visual": "Channel end card"
           }
         ]
@@ -237,40 +237,40 @@
       "carousel": {
         "slides": [
           {
-            "heading": "Codex cache just got longer",
-            "body": "12 hours in the API"
+            "heading": "OpenAI's 12-hour cache",
+            "body": "What the Codex team announced"
           },
           {
-            "heading": "What was announced",
-            "body": "Cache persists for logged-in users across Codex and Work"
+            "heading": "API caching: 12 hours",
+            "body": "Up from a much shorter window"
           },
           {
-            "heading": "No penalty to return",
-            "body": "Resume an old conversation without a cost hit"
+            "heading": "Codex keeps your cache",
+            "body": "For logged-in users, per the post"
           },
           {
-            "heading": "Why caching matters",
-            "body": "Cached tokens are cheaper and faster"
+            "heading": "No old-chat penalty",
+            "body": "Resume after hours without paying to rebuild"
           },
           {
-            "heading": "Prompt order tip",
-            "body": "Stable instructions first, changing input last"
+            "heading": "Keep prompts stable",
+            "body": "Put fixed context first so it can be reused"
           },
           {
-            "heading": "Still worth checking",
-            "body": "Read the cached token count in your own usage"
+            "heading": "Claims need testing",
+            "body": "I'll check cached token counts myself"
           },
           {
-            "heading": "Want the test?",
-            "body": "Follow for the full walkthrough"
+            "heading": "Follow for the test",
+            "body": "Real numbers, no guessing"
           }
         ],
-        "caption": "OpenAI says prompt caching now lasts 12 hours in the API, and Codex keeps cache for logged-in users. I'm testing what it does to real usage. Video soon."
+        "caption": "The Codex team says prompt caching now lasts 12 hours in the API and persists for logged-in users. I'm testing what that does to real costs."
       },
-      "x_post": "OpenAI says the API now caches prompts for 12 hours, and Codex keeps cache for logged-in users so resuming old chats has no penalty. I'm testing it with real usage numbers. Order your prompts stable-first.",
+      "x_post": "OpenAI says prompt caching now lasts 12 hours in the API, and Codex keeps cache for logged-in users so old chats resume without a penalty. I'm testing the cached token counts to see what it saves.",
       "x_thread": [
-        "Why it matters: cached tokens are cheaper and faster, so long sessions cost less when you come back to them.",
-        "Tip: put instructions and reference files at the top, the part that changes at the end. I'll share the test results."
+        "The trick is keeping the start of your prompt identical between calls so the cache can hit.",
+        "I'll post the numbers from my test."
       ]
     },
     {

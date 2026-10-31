@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-30T22:54:01Z",
+  "generated_at": "2026-10-31T12:54:16Z",
   "sample": false,
-  "latest_version": "2.1.314",
+  "latest_version": "2.1.316",
   "dist_tags": {
-    "latest": "2.1.314",
-    "stable": "2.1.308",
-    "next": "2.1.315"
+    "latest": "2.1.316",
+    "stable": "2.1.309",
+    "next": "2.1.316"
   },
   "items": [
+    {
+      "version": "2.1.316",
+      "date": "2026-10-31",
+      "title": "10 new features, 5 improvements, 5 changes, 34 fixes",
+      "highlights": [
+        "Added CLAUDE_CODE_DISABLE_ULTRATHINK, which turns the ultrathink keyword off",
+        "Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit…",
+        "Added CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP to keep system cross-certificates that certify each other in a loop, for servers whose…",
+        "Added CLAUDE_CODE_SUBAGENT_EFFORT to set the effort level subagents run at when nothing else names one, instead of inheriting the session's",
+        "Added managed.policy_mode: layered to the Claude apps gateway: every policy that matches a developer applies, each merged over the ones…"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.316",
+      "released_at": "2026-10-31T00:42:05.743Z",
+      "summary": "10 added, 5 improved, 5 changed, 34 fixed",
+      "counts": {
+        "added": 10,
+        "improved": 5,
+        "changed": 5,
+        "fixed": 34,
+        "removed": 0,
+        "other": 1
+      }
+    },
     {
       "version": "2.1.314",
       "date": "2026-10-30",
@@ -162,26 +185,6 @@
         "improved": 6,
         "changed": 7,
         "fixed": 26,
-        "removed": 0,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.306",
-      "date": "2026-10-21",
-      "title": "2 fixes",
-      "highlights": [
-        "Fixed claude -p inside cloud sessions reporting \"Not logged in\" when started without the session's environment variables",
-        "Fixed an API error being replaced by \"prompt is too long\", and an unneeded compaction, in sessions with many MCP tools"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.306",
-      "released_at": "2026-10-21T02:28:47.495Z",
-      "summary": "2 fixed",
-      "counts": {
-        "added": 0,
-        "improved": 0,
-        "changed": 0,
-        "fixed": 2,
         "removed": 0,
         "other": 0
       }
