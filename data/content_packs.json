@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-01T12:54:52Z",
+  "generated_at": "2026-11-01T22:54:17Z",
   "sample": false,
   "packs": [
     {
@@ -94,96 +94,6 @@
       ]
     },
     {
-      "story_id": "claude-api-version-2026-10-21",
-      "fingerprint": "8dc7314712eae4fc",
-      "why_now": "Anthropic shipped its first dated API version since 2023, and it removes temperature, top_p and top_k from the Messages API. Nobody on YouTube has covered it, and anyone pinning the new version can break their app.",
-      "video": {
-        "title": "Claude API's First New Version Since 2023 Breaks Things",
-        "thumbnail_text": "API BREAKING CHANGES",
-        "hook": "Anthropic just released API version 2026-10-21, its first since 2023. It removes temperature, top_p and top_k, and some requests now return a 400. The old version isn't deprecated, so here's what actually breaks and how to upgrade safely.",
-        "alt_titles": [
-          "Claude API 2026-10-21: What Breaks and How to Fix It",
-          "Should You Upgrade to the New Claude API Version?"
-        ],
-        "outline": [
-          "What Anthropic announced: first version since 2023, more frequent versions planned",
-          "The 2023-06-01 version is not deprecated, so you can wait",
-          "Sampling params removed: temperature, top_p, top_k and what to do instead",
-          "Documents in assistant turns and citations in user turns now return a 400",
-          "Admin and Enterprise Analytics field replacements",
-          "Test the new version header on a small project and see what fails"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-3s",
-            "line": "Claude's API just got its first new version since 2023.",
-            "visual": "Headline: API version 2026-10-21"
-          },
-          {
-            "t": "3-10s",
-            "line": "Anthropic says it will release versions more often, so you can handle breaking changes before a new model forces them on you.",
-            "visual": "ClaudeDevs announcement post"
-          },
-          {
-            "t": "10-20s",
-            "line": "This version removes temperature, top_p and top_k from the Messages API. Documents in assistant turns and citations in user turns now return a four hundred.",
-            "visual": "List of changes from the second post"
-          },
-          {
-            "t": "20-27s",
-            "line": "The old 2023 version is not deprecated, so nothing breaks until you switch. Test it on a small project first.",
-            "visual": "Code diff of the version header"
-          },
-          {
-            "t": "27-30s",
-            "line": "Walkthrough is on the channel.",
-            "visual": "Channel end card"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "New Claude API version",
-            "body": "2026-10-21, first since 2023"
-          },
-          {
-            "heading": "Versions come more often",
-            "body": "So breaking changes arrive before new models need them"
-          },
-          {
-            "heading": "Old version stays",
-            "body": "2023-06-01 is not deprecated"
-          },
-          {
-            "heading": "Sampling params removed",
-            "body": "temperature, top_p, top_k gone from Messages API"
-          },
-          {
-            "heading": "New 400 errors",
-            "body": "Documents in assistant turns, citations in user turns"
-          },
-          {
-            "heading": "Admin fields replaced",
-            "body": "Deprecated Admin and Enterprise Analytics fields"
-          },
-          {
-            "heading": "Test before you switch",
-            "body": "Follow for the upgrade walkthrough"
-          }
-        ],
-        "caption": "Anthropic released Claude API version 2026-10-21, the first since 2023. It removes temperature, top_p and top_k, and the old version isn't deprecated. Test before you switch."
-      },
-      "x_post": "Claude API version 2026-10-21 is out, the first since 2023. It removes temperature, top_p and top_k from the Messages API. 2023-06-01 isn't deprecated, so test before you switch. I'm walking through what breaks.",
-      "x_thread": [
-        "Also new: documents in assistant turns and citations in user turns now return a 400.",
-        "Anthropic says versions will come more often, so pin your version header on purpose."
-      ]
-    },
-    {
       "story_id": "deepseek-v4-1-flash",
       "fingerprint": "ffbf6613d3243837",
       "why_now": "DeepSeek V4.1 Flash is suddenly everywhere: fast on Fireworks, in Vercel Token Pass, free on Opencode. No YouTube video covers it yet, so a hands-on test lands first.",
@@ -274,24 +184,24 @@
       ]
     },
     {
-      "story_id": "codex-12h-cache",
-      "fingerprint": "86b35920cff14f19",
-      "why_now": "A post from the Codex team, now at nearly 15,000 likes, says prompt caching lasts 12 hours in the API and persists for logged-in Codex users. Only two small videos exist, so a hands-on cost test is open.",
+      "story_id": "claude-api-version-2026-10-21",
+      "fingerprint": "07b80fc7ff9e7368",
+      "why_now": "Anthropic shipped its first dated API version since 2023, and it removes temperature, top_p and top_k from the Messages API. Only two small videos cover it, so a clear 'what breaks and how to fix it' walkthrough is open.",
       "video": {
-        "title": "OpenAI's 12-Hour Prompt Cache: Does It Cut Your Bill?",
-        "thumbnail_text": "12H CACHE, CHEAPER?",
-        "hook": "OpenAI says prompt caching now lasts 12 hours in the API, and in Codex you can resume old conversations without a penalty. That's a claim about your bill, so I'm testing it: same long prompt, hours apart, and I'll show you the cached token counts.",
+        "title": "Claude API 2026-10-21: What Breaks in Your Code",
+        "thumbnail_text": "API BREAKING CHANGE",
+        "hook": "Anthropic just shipped its first official API version since 2023, and it removes temperature, top_p and top_k from the Messages API. If your code sets any of those, I'll show you what to check before you bump the version.",
         "alt_titles": [
-          "Codex Cache Test: Resuming Old Chats for Less",
-          "I Tested OpenAI's New 12-Hour Cache"
+          "Claude's New API Version: Should You Upgrade?",
+          "temperature Is Gone: Claude API 2026-10-21 Explained"
         ],
         "outline": [
-          "What the post says: 12h in the API, longer for logged-in Codex users",
-          "Why caching matters: repeated context costs less",
-          "Test 1: API call, wait, repeat, and check cached token usage",
-          "Test 2: resume an old Codex conversation and see if it holds",
-          "How to structure prompts so the cache actually hits",
-          "When it won't help, and what I'd change in my workflow"
+          "What Anthropic announced, and the fact that 2023-06-01 is not deprecated",
+          "The removed parameters: temperature, top_p, top_k",
+          "Documents in assistant turns and citations in user turns now return a 400",
+          "Test an existing app against the new version and see what errors",
+          "Fix the breakages step by step",
+          "Why more frequent versions matter, and when to upgrade"
         ]
       },
       "short": {
@@ -299,27 +209,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "OpenAI just made resuming old chats cheaper.",
-            "visual": "Headline: 12-hour prompt cache"
+            "line": "Claude's API just got its first new version since 2023.",
+            "visual": "Headline: API version 2026-10-21"
           },
           {
             "t": "3-10s",
-            "line": "A Codex team post says you can cache for twelve hours in the API.",
-            "visual": "thsottiaux post"
+            "line": "Temperature, top p and top k are removed from the Messages API. If your code sets them, check it before you upgrade.",
+            "visual": "ClaudeDevs post listing the changes"
           },
           {
-            "t": "10-19s",
-            "line": "For logged-in users across Codex, the cache is kept, with no penalty for coming back to an old conversation after a few hours.",
-            "visual": "Highlight the cache sentence"
+            "t": "10-18s",
+            "line": "Two more changes: documents in assistant turns and citations in user turns now return a 400 error.",
+            "visual": "Code snippet with the 400 response"
           },
           {
-            "t": "19-27s",
-            "line": "Cheaper repeats only happen if your prompt starts the same way each time. I'm testing the real token counts.",
-            "visual": "Usage dashboard with cached tokens"
+            "t": "18-26s",
+            "line": "The old version, 2023 06 01, is not deprecated, so nothing breaks until you opt in. Anthropic says new versions will come more often.",
+            "visual": "Version header in a request"
           },
           {
-            "t": "27-30s",
-            "line": "Results are on the channel.",
+            "t": "26-30s",
+            "line": "I'll test an app against it on the channel.",
             "visual": "Channel end card"
           }
         ]
@@ -327,60 +237,151 @@
       "carousel": {
         "slides": [
           {
-            "heading": "OpenAI's 12-hour cache",
-            "body": "What the Codex team announced"
+            "heading": "Claude API has a new version",
+            "body": "2026-10-21, the first since 2023"
           },
           {
-            "heading": "API caching: 12 hours",
-            "body": "Up from a much shorter window"
+            "heading": "Sampling params removed",
+            "body": "temperature, top_p and top_k leave the Messages API"
           },
           {
-            "heading": "Codex keeps your cache",
-            "body": "For logged-in users, per the post"
+            "heading": "Two new 400 errors",
+            "body": "Documents in assistant turns, citations in user turns"
           },
           {
-            "heading": "No old-chat penalty",
-            "body": "Resume after hours without paying to rebuild"
+            "heading": "Admin API fields replaced",
+            "body": "A few deprecated Admin and Enterprise Analytics fields"
           },
           {
-            "heading": "Keep prompts stable",
-            "body": "Put fixed context first so it can be reused"
+            "heading": "Old version still works",
+            "body": "2023-06-01 is not deprecated"
           },
           {
-            "heading": "Claims need testing",
-            "body": "I'll check cached token counts myself"
+            "heading": "More versions are coming",
+            "body": "So breaking changes arrive before new models need them"
           },
           {
-            "heading": "Follow for the test",
-            "body": "Real numbers, no guessing"
+            "heading": "Test before you bump",
+            "body": "Follow for the walkthrough"
           }
         ],
-        "caption": "The Codex team says prompt caching now lasts 12 hours in the API and persists for logged-in users. I'm testing what that does to real costs."
+        "caption": "Claude API version 2026-10-21 is out: sampling params removed, two new 400 cases, and the old version is still supported. Check your code before opting in."
       },
-      "x_post": "OpenAI says prompt caching now lasts 12 hours in the API, and Codex keeps cache for logged-in users so old chats resume without a penalty. I'm testing the cached token counts to see what it saves.",
+      "x_post": "Claude API version 2026-10-21 is out, the first since 2023. It removes temperature, top_p and top_k from the Messages API and 400s on documents in assistant turns. 2023-06-01 is not deprecated. Check your code before you bump.",
       "x_thread": [
-        "The trick is keeping the start of your prompt identical between calls so the cache can hit.",
-        "I'll post the numbers from my test."
+        "Also changed: citations in user turns return a 400, and a few deprecated Admin and Enterprise Analytics API fields are replaced.",
+        "I'll run an existing app against the new version and post what breaks."
+      ]
+    },
+    {
+      "story_id": "codex-12h-cache",
+      "fingerprint": "75b507e9cb25f6ee",
+      "why_now": "A post from the Codex team with about 15k likes says prompt caching now lasts 12 hours in the API, and Codex keeps cache for logged-in users. That affects cost and speed for anyone building long sessions, and YouTube coverage is thin.",
+      "video": {
+        "title": "OpenAI's 12-Hour Prompt Cache: Cheaper Codex?",
+        "thumbnail_text": "12-HOUR CACHE",
+        "hook": "OpenAI says prompt caching now lasts 12 hours in the API, and in Codex there's no penalty for coming back to an old conversation. I'm going to test whether that actually changes cost and speed when you resume a session.",
+        "alt_titles": [
+          "Codex Cache Change: Does Resuming Sessions Cost Less?",
+          "12-Hour Prompt Caching in the OpenAI API, Tested"
+        ],
+        "outline": [
+          "What the post claims: 12h in the API, longer for logged-in Codex and Work users",
+          "How prompt caching works and why it saves money",
+          "Test: resume a session after a few hours and check cached token counts",
+          "Compare to a cold start",
+          "How to structure prompts to hit the cache",
+          "Verdict: who benefits"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "OpenAI just made prompt caching last twelve hours.",
+            "visual": "Headline: 12-hour cache"
+          },
+          {
+            "t": "3-10s",
+            "line": "That's the API. In Codex, for logged-in users, the cache is kept even longer, per the Codex team.",
+            "visual": "Post from the Codex team"
+          },
+          {
+            "t": "10-18s",
+            "line": "The claim is no penalty for coming back to an old conversation, even after a few hours.",
+            "visual": "Chat resumed after a gap"
+          },
+          {
+            "t": "18-26s",
+            "line": "Cached tokens are cheaper and faster, so long coding sessions should get better. I'm checking the token counts myself.",
+            "visual": "Usage panel showing cached tokens"
+          },
+          {
+            "t": "26-30s",
+            "line": "Results on the channel.",
+            "visual": "Channel end card"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "Prompt cache now lasts 12 hours",
+            "body": "In the OpenAI API"
+          },
+          {
+            "heading": "Codex goes further",
+            "body": "Logged-in users keep cache, per the Codex team"
+          },
+          {
+            "heading": "No resume penalty",
+            "body": "Come back to old chats without a cold start"
+          },
+          {
+            "heading": "Why it matters",
+            "body": "Cached tokens cost less and respond faster"
+          },
+          {
+            "heading": "Who benefits",
+            "body": "Long agent sessions and big shared prompts"
+          },
+          {
+            "heading": "What I'm testing",
+            "body": "Cached token counts after a multi-hour gap"
+          },
+          {
+            "heading": "Follow for results",
+            "body": "I'll share the numbers"
+          }
+        ],
+        "caption": "OpenAI says prompt caching now lasts 12 hours in the API, with a longer cache for logged-in Codex users. I'm testing what that does to resumed sessions."
+      },
+      "x_post": "OpenAI says prompt caching now lasts 12 hours in the API, and Codex keeps cache for logged-in users with no penalty for resuming old chats. I'm testing whether the cached token counts back that up.",
+      "x_thread": [
+        "Test: start a session, leave it a few hours, resume, and compare cached tokens to a cold start.",
+        "I'll post what I find, including if it doesn't hold."
       ]
     },
     {
       "story_id": "anthropic-pentagon-case",
-      "why_now": "149 former judges are asking the full D.C. Circuit to rehear Anthropic's case. It's a live story that affects whether builders can count on Claude in government work, and there's no YouTube coverage.",
+      "fingerprint": "2f32a44e37998813",
+      "why_now": "A post says 149 former judges are asking the full D.C. Circuit to rehear Anthropic's case against a Pentagon national security decision. It's early, with little engagement on X, and only one tiny YouTube video, so a plain-English explainer is open.",
       "video": {
-        "title": "Anthropic vs the Pentagon: What Builders Should Know",
+        "title": "Anthropic vs the Pentagon: What the Case Is About",
         "thumbnail_text": "ANTHROPIC VS PENTAGON",
-        "hook": "149 former judges just asked the full D.C. Circuit to rehear Anthropic's case against the Pentagon. If you build on Claude, here's what's actually going on and what it could mean for you.",
+        "hook": "149 former judges are asking the full D.C. Circuit to rehear Anthropic's case against the Pentagon. If you build on Claude, here's what's being argued, in plain English, and what I can't tell you yet.",
         "alt_titles": [
-          "Anthropic's Court Fight Explained for Builders",
-          "Why 149 Former Judges Backed Anthropic"
+          "Why 149 Former Judges Backed Anthropic",
+          "Anthropic's Pentagon Case, Explained for Builders"
         ],
         "outline": [
-          "What the post says and who filed it",
-          "The core argument: national security labels and court review",
-          "Timeline of the case so far, from the public record",
-          "What I can and can't confirm",
-          "What it could mean for Claude users and API builders",
-          "Where to follow updates"
+          "What the post reports: the rehearing request and who filed it",
+          "The argument: national security labels and court review",
+          "What the case concerns, using only confirmed sources",
+          "What it could mean for Claude users and builders",
+          "What we don't know yet",
+          "What I'm watching next"
         ]
       },
       "short": {
@@ -388,27 +389,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "149 former judges just stepped into Anthropic's court case.",
-            "visual": "Headline: Anthropic case"
+            "line": "149 former judges just stepped into Anthropic's Pentagon case.",
+            "visual": "Headline: Anthropic case, D.C. Circuit"
           },
           {
             "t": "3-10s",
-            "line": "They want the full D.C. Circuit to rehear it.",
-            "visual": "Court filing screenshot"
+            "line": "They're asking the full D.C. Circuit to rehear it.",
+            "visual": "Post from the filing side"
           },
           {
             "t": "10-18s",
-            "line": "Their argument: the Pentagon can't stamp national security on a decision and put it beyond court review.",
-            "visual": "Quote card"
+            "line": "Their argument is that the Pentagon can't stamp national security on a decision and put it out of reach of the courts.",
+            "visual": "Quote on screen"
           },
           {
-            "t": "18-25s",
-            "line": "I'll keep to what's public. Whether it affects Claude users is still unclear.",
-            "visual": "Claude logo"
+            "t": "18-26s",
+            "line": "I'm still reading the filings, so I won't guess at the outcome. I'll explain what it could mean if you build on Claude.",
+            "visual": "Document pages"
           },
           {
-            "t": "25-30s",
-            "line": "Follow for updates as the court responds.",
+            "t": "26-30s",
+            "line": "Explainer on the channel.",
             "visual": "Channel end card"
           }
         ]
@@ -416,37 +417,41 @@
       "carousel": {
         "slides": [
           {
-            "heading": "149 former judges back Anthropic",
-            "body": "Rehearing requested"
+            "heading": "Anthropic's Pentagon case",
+            "body": "A new filing at the D.C. Circuit"
           },
           {
-            "heading": "The ask",
-            "body": "Full D.C. Circuit rehears the case"
+            "heading": "149 former judges",
+            "body": "Ask the full court to rehear the case"
           },
           {
-            "heading": "The argument",
-            "body": "National security labels shouldn't put decisions beyond courts"
+            "heading": "Their argument",
+            "body": "A national security label shouldn't block court review"
           },
           {
-            "heading": "What's unknown",
-            "body": "Whether the court will agree"
+            "heading": "Early days",
+            "body": "This is one post, not a ruling"
           },
           {
             "heading": "Why builders care",
-            "body": "Anthropic's government standing"
+            "body": "Claude's relationship with government work"
           },
           {
-            "heading": "Follow along",
-            "body": "Updates as filings land"
+            "heading": "What we don't know",
+            "body": "Whether the court will agree to rehear"
+          },
+          {
+            "heading": "Follow for updates",
+            "body": "I'll track the case"
           }
         ],
-        "caption": "Former judges ask for a rehearing in Anthropic's case."
+        "caption": "149 former judges are asking the full D.C. Circuit to rehear Anthropic's case against a Pentagon decision. Early reporting, so I'm sticking to what's confirmed."
       },
-      "x_post": "149 former judges are asking the full D.C. Circuit to rehear Anthropic's case. Their argument: the Pentagon can't label a decision national security and put it out of reach of the courts. Breaking it down for builders.",
+      "x_post": "149 former judges are asking the full D.C. Circuit to rehear Anthropic's case. Their point: the Pentagon can't stamp \"national security\" on a decision and put it out of reach of the courts. I'm reading the filings.",
       "x_thread": [
-        "I'll stick to the public filings and flag what's unconfirmed."
-      ],
-      "fingerprint": "80e12510a232f707"
+        "This is early and from one post, so I'm not guessing at the outcome.",
+        "I'll post a plain-English explainer once I've read the filings."
+      ]
     }
   ]
 }
