@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-31T22:54:12Z",
+  "generated_at": "2026-11-01T12:54:52Z",
   "sample": false,
   "packs": [
     {
@@ -185,23 +185,23 @@
     },
     {
       "story_id": "deepseek-v4-1-flash",
-      "fingerprint": "454e974299dc14be",
-      "why_now": "DeepSeek V4.1 Flash is suddenly everywhere: Fireworks claims 1,500+ tok/s, Vercel's Token Pass includes it, and Opencode offers it free. Only one tiny YouTube video covers it, and builders want to know if it's actually good for coding.",
+      "fingerprint": "ffbf6613d3243837",
+      "why_now": "DeepSeek V4.1 Flash is suddenly everywhere: fast on Fireworks, in Vercel Token Pass, free on Opencode. No YouTube video covers it yet, so a hands-on test lands first.",
       "video": {
-        "title": "DeepSeek V4.1 Flash Is Free and Fast. Is It Any Good?",
-        "thumbnail_text": "FREE AND FAST",
-        "hook": "DeepSeek V4.1 Flash is free on Opencode, included in Vercel's Token Pass, and Fireworks says it runs over 1,500 tokens a second. Speed claims from the host are just claims. So I'm putting it on real coding tasks to see where it holds up and where it falls apart.",
+        "title": "DeepSeek V4.1 Flash: Free, Fast, and Worth Using?",
+        "thumbnail_text": "FREE AND FAST?",
+        "hook": "DeepSeek V4.1 Flash is showing up free on Opencode, inside Vercel's Token Pass, and Fireworks claims over 1,500 tokens a second. I'm going to test whether any of that holds up for real coding work, and where it breaks.",
         "alt_titles": [
           "I Tested DeepSeek V4.1 Flash as a Coding Subagent",
-          "1,500 Tokens a Second? Testing DeepSeek V4.1 Flash"
+          "DeepSeek V4.1 Flash on Opencode: Setup and Honest Results"
         ],
         "outline": [
-          "Where you can use it right now: Opencode, Vercel Token Pass, Fireworks",
-          "Speed check: measure tokens per second myself against the Fireworks claim",
-          "Coding test: a small app build, timed",
-          "The subagent idea: a bigger model plans, Flash executes the plan",
-          "Where it struggled or needed a retry",
-          "Who should switch, and who shouldn't"
+          "What the posts claim: Fireworks speed, Token Pass, free on Opencode, and which claims come from the provider",
+          "Set it up on Opencode in a few minutes",
+          "Run the same coding task and time it against your usual model",
+          "Try the subagent idea: a bigger model plans, Flash executes",
+          "Where it fell short and what it costs",
+          "Verdict: who should switch and who shouldn't"
         ]
       },
       "short": {
@@ -209,27 +209,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "A free AI model that's supposedly crazy fast.",
-            "visual": "Headline: DeepSeek V4.1 Flash"
+            "line": "DeepSeek V4.1 Flash is free right now. Is it any good?",
+            "visual": "Opencode screen with the model selected"
           },
           {
             "t": "3-10s",
-            "line": "DeepSeek V4.1 Flash is free on Opencode and included in Vercel's Token Pass.",
-            "visual": "Opencode and Vercel posts"
+            "line": "Fireworks says it runs over fifteen hundred tokens a second. That's their number, so I'm timing it myself.",
+            "visual": "Stopwatch beside a running generation"
           },
           {
-            "t": "10-18s",
-            "line": "Fireworks claims over fifteen hundred tokens a second. That's their number, so I'm measuring it myself.",
-            "visual": "Fireworks post, then a terminal timer"
+            "t": "10-20s",
+            "line": "Vercel also added it to Token Pass, and people are using it as a cheap subagent that carries out plans from bigger models.",
+            "visual": "Diagram: big model plans, Flash executes"
           },
           {
-            "t": "18-26s",
-            "line": "The pitch is using it as a subagent, where a bigger model plans and Flash does the work. I'll see if that holds up.",
-            "visual": "Planner and subagent diagram"
+            "t": "20-27s",
+            "line": "I gave it a real coding task. It was quick, and I'll show you where it slipped.",
+            "visual": "Code diff on screen"
           },
           {
-            "t": "26-30s",
-            "line": "Results are on the channel.",
+            "t": "27-30s",
+            "line": "Full test is on the channel. Follow for more.",
             "visual": "Channel end card"
           }
         ]
@@ -238,39 +238,39 @@
         "slides": [
           {
             "heading": "DeepSeek V4.1 Flash is everywhere",
-            "body": "Free, fast and widely hosted"
-          },
-          {
-            "heading": "Free on Opencode",
-            "body": "Posts say you can use it at no cost"
-          },
-          {
-            "heading": "In Vercel Token Pass",
-            "body": "Served with zero data retention, per Vercel's CEO"
+            "body": "Free, fast, and cheap. Here's what's real."
           },
           {
             "heading": "Fireworks speed claim",
-            "body": "1,521+ tok/s on Ultrafast, per Fireworks"
+            "body": "1,500+ tokens per second. That's the provider's number."
           },
           {
-            "heading": "Claims are not benchmarks",
-            "body": "Speed numbers come from the provider"
+            "heading": "Free on Opencode",
+            "body": "Try it without paying anything."
           },
           {
-            "heading": "Best use to test",
-            "body": "A cheap subagent running a bigger model's plan"
+            "heading": "Included in Vercel Token Pass",
+            "body": "Zero data retention, per Vercel's CEO."
           },
           {
-            "heading": "Follow for my test",
-            "body": "Real speed and real coding results"
+            "heading": "Best use: cheap subagent",
+            "body": "Let a bigger model plan. Let Flash execute."
+          },
+          {
+            "heading": "Test it before you trust it",
+            "body": "Run your own task and time it."
+          },
+          {
+            "heading": "Full test on my channel",
+            "body": "Follow for the results."
           }
         ],
-        "caption": "DeepSeek V4.1 Flash is free on Opencode, in Vercel's Token Pass, and Fireworks claims 1,500+ tok/s. Those are provider claims, so I'm testing it on real coding work."
+        "caption": "DeepSeek V4.1 Flash is free on Opencode, in Vercel Token Pass, and claimed at 1,500+ tok/s on Fireworks. I'm testing whether it holds up. Speed numbers are the provider's claims."
       },
-      "x_post": "DeepSeek V4.1 Flash is free on Opencode, in Vercel Token Pass, and Fireworks claims 1,500+ tok/s. Provider numbers, so I'm timing it myself on real coding tasks, including as a subagent. Results soon.",
+      "x_post": "DeepSeek V4.1 Flash is free on Opencode, in Vercel Token Pass, and Fireworks claims 1,500+ tok/s. Those speed numbers come from the provider. I'm running my own coding test and will share what holds up.",
       "x_thread": [
-        "Vercel's pitch: use it as a cheap subagent that executes plans from a larger model.",
-        "I'll test that setup and report where it needs retries."
+        "Plan: same coding task, timed, then try it as a subagent executing a bigger model's plan.",
+        "I'll post where it works and where it breaks."
       ]
     },
     {
