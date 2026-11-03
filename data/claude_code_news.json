@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-02T22:54:10Z",
+  "generated_at": "2026-11-03T12:54:24Z",
   "sample": false,
-  "latest_version": "2.1.316",
+  "latest_version": "2.1.317",
   "dist_tags": {
-    "latest": "2.1.316",
-    "stable": "2.1.309",
-    "next": "2.1.316"
+    "latest": "2.1.317",
+    "stable": "2.1.311",
+    "next": "2.1.317"
   },
   "items": [
+    {
+      "version": "2.1.317",
+      "date": "2026-11-02",
+      "title": "10 new features, 8 improvements, 7 changes, 62 fixes",
+      "highlights": [
+        "Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them",
+        "Added a check that asks before a web or shell tool call sends your account email address to the network",
+        "Added onFailure: \"block\" for Agent SDK hook callbacks, so a callback that fails blocks the action instead of letting it run",
+        "Added a notice in Claude Desktop's Code tab when your organization's remote managed settings haven't loaded for the session, and another…",
+        "Added a notice when auto mode's check has no answer for a subagent's tool call, which used to leave nothing in the main view"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.317",
+      "released_at": "2026-11-02T23:57:53.069Z",
+      "summary": "10 added, 8 improved, 6 changed, 62 fixed, 1 removed",
+      "counts": {
+        "added": 10,
+        "improved": 8,
+        "changed": 6,
+        "fixed": 62,
+        "removed": 1,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.316",
       "date": "2026-10-31",
@@ -164,29 +187,6 @@
         "fixed": 0,
         "removed": 0,
         "other": 1
-      }
-    },
-    {
-      "version": "2.1.307",
-      "date": "2026-10-21",
-      "title": "4 new features, 6 improvements, 7 changes, 26 fixes",
-      "highlights": [
-        "Added /claude-api api-version to move Claude API code to API version 2026-10-21",
-        "Added the claude_code.safety_event OpenTelemetry event for each tool call a permission rule, auto mode, a safety check, a hook or the…",
-        "VSCode: Added a notice on the microphone button when voice dictation stops by itself (15 seconds without recognized speech, or the 2-minute…",
-        "Code Review: Added @claude review stop (also off and pause) to Code Review, ending an @claude review always subscription on a pull request…",
-        "Improved recovery from unparseable tool calls: Claude Code now retries the call up to twice before ending the turn with an error"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.307",
-      "released_at": "2026-10-21T20:47:18.383Z",
-      "summary": "4 added, 6 improved, 7 changed, 26 fixed",
-      "counts": {
-        "added": 4,
-        "improved": 6,
-        "changed": 7,
-        "fixed": 26,
-        "removed": 0,
-        "other": 0
       }
     }
   ]
