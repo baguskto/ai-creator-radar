@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-04T22:55:09Z",
+  "generated_at": "2026-11-05T12:54:43Z",
   "sample": false,
   "packs": [
     {
@@ -275,23 +275,23 @@
     },
     {
       "story_id": "claude-api-version-2026-10-21",
-      "fingerprint": "8dc7314712eae4fc",
-      "why_now": "Anthropic shipped its first official API version since 2023 and it has breaking changes: temperature, top_p and top_k are removed from the Messages API. Only one small video covers it, and anyone upgrading needs to know what breaks.",
+      "fingerprint": "07b80fc7ff9e7368",
+      "why_now": "Anthropic's first official API version since 2023 is out, with sampling params removed. Two videos exist, but one is about a CPU claim and the other is a tiny error-fix clip. Nobody has shown a full migration walkthrough yet.",
       "video": {
-        "title": "Claude API Breaking Changes: What to Fix Before You Upgrade",
-        "thumbnail_text": "API BREAKING CHANGES",
-        "hook": "Anthropic just released a new Claude API version, the first since 2023, and it removes temperature, top_p and top_k from the Messages API. The old version isn't deprecated, so you don't have to panic. Here's what breaks, what doesn't, and how to upgrade safely.",
+        "title": "Claude API 2026-10-21: Migrate Without Breaking Prod",
+        "thumbnail_text": "TEMPERATURE IS GONE",
+        "hook": "Anthropic shipped its first official Claude API version since 2023. It removes temperature, top_p and top_k, and some requests now return a 400. The old version isn't deprecated, so here's how to test the new one safely before you switch.",
         "alt_titles": [
-          "Claude API 2026-10-21: Should You Upgrade?",
-          "Temperature Is Gone From the Claude API"
+          "Claude API Version Update: What Actually Breaks",
+          "Do You Need to Upgrade the Claude API Version?"
         ],
         "outline": [
-          "What's new: first official version since 2023, and more versions planned",
-          "The changes: sampling params removed, documents in assistant turns and citations in user turns return a 400, some Admin and Enterprise Analytics fields replaced",
-          "The key point: 2023-06-01 is not deprecated",
-          "Demo: send the same request on both versions and compare the errors",
-          "Fix your code: remove sampling params and check document and citation handling",
-          "Upgrade checklist and when to wait"
+          "What Anthropic announced: first version since 2023, more frequent versions planned, 2023-06-01 not deprecated",
+          "The three changes: sampling params removed, documents in assistant turns and citations in user turns return 400, some Admin and Enterprise Analytics fields replaced",
+          "Run the same request on both versions and show the errors",
+          "Fix the code: drop sampling params, check document and citation handling",
+          "How to pin a version per environment and roll out gradually",
+          "Verdict: upgrade now or wait"
         ]
       },
       "short": {
@@ -299,27 +299,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "The Claude API just got its first new version since 2023.",
-            "visual": "Headline: API version 2026-10-21"
+            "line": "Claude's API just got its first new version since 2023.",
+            "visual": "ClaudeDevs post: API version 2026-10-21"
           },
           {
             "t": "3-10s",
-            "line": "Temperature, top_p and top_k are removed from the Messages API on the new version.",
-            "visual": "Code with those params crossed out"
+            "line": "Temperature, top_p and top_k are gone from the Messages API. Send them on the new version and you should expect trouble.",
+            "visual": "Code with sampling params highlighted"
           },
           {
             "t": "10-18s",
-            "line": "Documents in assistant turns and citations in user turns now return a 400 error.",
-            "visual": "Terminal showing a 400 response"
+            "line": "Documents in assistant turns and citations in user turns now return a 400. A few Admin and Analytics fields were replaced too.",
+            "visual": "400 error in terminal"
           },
           {
             "t": "18-26s",
-            "line": "The good news: the 2023 version is not deprecated, so nothing breaks until you opt in. Test on the new one before you switch.",
-            "visual": "Version header in a request"
+            "line": "The good news: the 2023 version is not deprecated. So test the new one in staging, fix the params, then switch.",
+            "visual": "Version header diff"
           },
           {
             "t": "26-30s",
-            "line": "Upgrade checklist is on the channel.",
+            "line": "Full migration walkthrough on the channel.",
             "visual": "Channel end card"
           }
         ]
@@ -328,39 +328,39 @@
         "slides": [
           {
             "heading": "New Claude API version",
-            "body": "2026-10-21, first since 2023"
+            "body": "2026-10-21 is the first since 2023"
           },
           {
-            "heading": "Sampling params removed",
-            "body": "temperature, top_p, top_k gone"
+            "heading": "What's removed",
+            "body": "temperature, top_p and top_k leave the Messages API"
           },
           {
-            "heading": "New 400 errors",
-            "body": "Documents in assistant turns, citations in user turns"
+            "heading": "What now errors",
+            "body": "Documents in assistant turns and citations in user turns return a 400"
           },
           {
-            "heading": "Admin API changes",
-            "body": "Some deprecated fields replaced"
+            "heading": "Also replaced",
+            "body": "A few deprecated Admin and Enterprise Analytics fields"
           },
           {
             "heading": "Not forced yet",
             "body": "2023-06-01 is not deprecated"
           },
           {
-            "heading": "Upgrade safely",
-            "body": "Test on the new version first"
+            "heading": "Safe upgrade path",
+            "body": "Test in staging, fix params, then switch"
           },
           {
-            "heading": "Follow for the checklist",
-            "body": "Full walkthrough on the channel"
+            "heading": "Get the walkthrough",
+            "body": "Full migration steps on the channel"
           }
         ],
-        "caption": "Anthropic released Claude API version 2026-10-21 with breaking changes, and more versions are planned. The old version isn't deprecated. Checklist in the video."
+        "caption": "Anthropic released Claude API version 2026-10-21 with breaking changes. The old version isn't deprecated, so test before you switch. Migration steps in the video."
       },
-      "x_post": "Claude API version 2026-10-21 is out, the first since 2023. It removes temperature, top_p and top_k from the Messages API. 2023-06-01 isn't deprecated, so test before you switch. Upgrade checklist coming.",
+      "x_post": "Claude API version 2026-10-21 is out: first official version since 2023. temperature, top_p and top_k are removed from the Messages API, and some document and citation patterns now return a 400. 2023-06-01 isn't deprecated. Test in staging first.",
       "x_thread": [
-        "Also on the new version: documents in assistant turns and citations in user turns return a 400.",
-        "I'll run the same requests on both versions and show exactly what breaks."
+        "What to check: any request sending temperature, top_p or top_k, documents in assistant turns, and citations in user turns.",
+        "Pin the version per environment, move staging first, and switch prod once the 400s are gone."
       ]
     },
     {
