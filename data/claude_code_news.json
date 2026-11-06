@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T12:54:21Z",
+  "generated_at": "2026-11-06T22:53:57Z",
   "sample": false,
-  "latest_version": "2.1.318",
+  "latest_version": "2.1.319",
   "dist_tags": {
-    "latest": "2.1.318",
+    "latest": "2.1.319",
     "stable": "2.1.311",
     "next": "2.1.319"
   },
   "items": [
+    {
+      "version": "2.1.319",
+      "date": "2026-11-06",
+      "title": "18 new features, 16 improvements, 22 changes, 90 fixes",
+      "highlights": [
+        "Added support for MCP tasks in the terminal: when an MCP server runs a tool call as a task, Claude Code moves it to the background right…",
+        "Added the CLAUDE_CODE_DISABLE_MCP_TASK_BACKGROUND environment variable to make Claude Code wait for an MCP task inside its tool call…",
+        "Added permissions.denyInsteadOfPrompting setting: a tool call that would wait on a permission prompt is denied and the turn continues, in…",
+        "Added /claude-api latency-optimize to find where your Claude API code makes people wait and try faster settings against your eval",
+        "Added the CLAUDE_CODE_DISABLE_FEATURE_FLAGS environment variable, which stops feature-flag fetching without turning off telemetry; every…"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.319",
+      "released_at": "2026-11-06T00:58:56.366Z",
+      "summary": "18 added, 16 improved, 20 changed, 90 fixed, 2 removed",
+      "counts": {
+        "added": 18,
+        "improved": 16,
+        "changed": 20,
+        "fixed": 90,
+        "removed": 2,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.318",
       "date": "2026-11-03",
@@ -166,29 +189,6 @@
         "improved": 6,
         "changed": 3,
         "fixed": 14,
-        "removed": 0,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.309",
-      "date": "2026-10-22",
-      "title": "1 new feature, 8 improvements, 8 changes, 62 fixes",
-      "highlights": [
-        "VSCode: Added a log warning that says what to do when dictation or the extension's own requests fail certificate verification, such as…",
-        "Improved the speed of many git commands Claude Code runs for itself on Windows; on every platform, errors from those commands now show in…",
-        "Improved the error when a hooks module is nested too deep to load: it now names the file instead of showing a bare stack-overflow message",
-        "Improved disk-full handling: a Bash command cut off by a full disk now says so and names the folder to free up, and starting on a full temp…",
-        "Improved the /claude-api skill to offer API tracing alongside SDK tracing when asked to add OpenTelemetry"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.309",
-      "released_at": "2026-10-22T20:34:13.713Z",
-      "summary": "1 added, 8 improved, 8 changed, 62 fixed",
-      "counts": {
-        "added": 1,
-        "improved": 8,
-        "changed": 8,
-        "fixed": 62,
         "removed": 0,
         "other": 0
       }
