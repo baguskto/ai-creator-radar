@@ -1,14 +1,56 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T22:53:56Z",
+  "generated_at": "2026-11-10T12:55:29Z",
   "sample": false,
-  "latest_version": "2.1.319",
+  "latest_version": "2.1.322",
   "dist_tags": {
-    "latest": "2.1.319",
+    "latest": "2.1.322",
     "stable": "2.1.311",
-    "next": "2.1.319"
+    "next": "2.1.322"
   },
   "items": [
+    {
+      "version": "2.1.322",
+      "date": "2026-11-10",
+      "title": "1 new feature",
+      "highlights": [
+        "Added fast mode on Vertex in the global, us and eu regions, falling back to standard speed if Vertex refuses it"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.322",
+      "released_at": "2026-11-10T01:58:41.811Z",
+      "summary": "1 added",
+      "counts": {
+        "added": 1,
+        "improved": 0,
+        "changed": 0,
+        "fixed": 0,
+        "removed": 0,
+        "other": 0
+      }
+    },
+    {
+      "version": "2.1.321",
+      "date": "2026-11-09",
+      "title": "3 new features, 15 improvements, 26 changes, 74 fixes",
+      "highlights": [
+        "Added Claude Fable 5.2 (claude-fable-5-2), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads",
+        "Added --settings <file> to claude remote-control, which applies a settings file to every session it starts; if the file changes, no new…",
+        "VSCode: Added a warning above the prompt box when both an auth token and an API key are set, matching the terminal's startup warning",
+        "Improved the /model picker: \"More models\" is now an unnumbered row below every other, and older models open under it without renumbering…",
+        "Gateway: Improved spend limits on a busy replica, which now skips fewer checks and records spend sooner"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.321",
+      "released_at": "2026-11-09T19:02:47.641Z",
+      "summary": "3 added, 15 improved, 26 changed, 74 fixed",
+      "counts": {
+        "added": 3,
+        "improved": 15,
+        "changed": 26,
+        "fixed": 74,
+        "removed": 0,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.319",
       "date": "2026-11-06",
@@ -143,52 +185,6 @@
         "improved": 4,
         "changed": 9,
         "fixed": 22,
-        "removed": 0,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.311",
-      "date": "2026-10-26",
-      "title": "5 new features, 16 improvements, 15 changes, 56 fixes",
-      "highlights": [
-        "Added --hold-idle-file and --max-hold-min to self-hosted-runner, to keep an idle session while your host reports processes it left running",
-        "Added a tip for the Explanatory output style, shown when you ask Claude for explanations",
-        "VSCode: Added syntax coloring to code blocks in Claude's replies, in light, dark and high contrast dark themes",
-        "VSCode: Added a \"Running UserPromptSubmit hooks\" spinner status and screen reader announcement for slow UserPromptSubmit hooks",
-        "Claude Tag: Added a Skills view to Claude Tag analytics showing how often Claude runs each attached skill in Slack channels and which go…"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.311",
-      "released_at": "2026-10-26T19:47:57.395Z",
-      "summary": "5 added, 16 improved, 15 changed, 56 fixed",
-      "counts": {
-        "added": 5,
-        "improved": 16,
-        "changed": 15,
-        "fixed": 56,
-        "removed": 0,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.310",
-      "date": "2026-10-23",
-      "title": "3 new features, 6 improvements, 3 changes, 14 fixes",
-      "highlights": [
-        "Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long…",
-        "Cloud sessions: Added Claude Code cloud sessions and Remote Control permissions to Enterprise custom roles, so Owners can control access to…",
-        "Cloud sessions: Added a Choose file button to load a cloud environment's setup script from a file",
-        "Improved auto mode's prompt before the first read outside the working directories: it now says when blocking those reads makes shell…",
-        "Improved memory use of non-interactive sessions (-p, Agent SDK) during compaction when the transcript file is very large"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.310",
-      "released_at": "2026-10-23T21:20:46.540Z",
-      "summary": "3 added, 6 improved, 3 changed, 14 fixed",
-      "counts": {
-        "added": 3,
-        "improved": 6,
-        "changed": 3,
-        "fixed": 14,
         "removed": 0,
         "other": 0
       }
