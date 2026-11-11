@@ -1,24 +1,10 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T22:53:47Z",
+  "generated_at": "2026-11-11T12:55:17Z",
   "x_trends_generated_at": "2026-10-21T22:54:02Z",
   "x_trends_sample": false,
   "lookback_hours": 72,
   "stories": [
-    {
-      "story_id": "claude-api-version-2026-10-21",
-      "title": "Claude API ships dated version 2026-10-21 with breaking changes",
-      "query": "claude api anthropic api api breaking changes",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
-      "heat": 82.0,
-      "gap_score": 82,
-      "top_videos": []
-    },
     {
       "story_id": "railway-breach-keys",
       "title": "Railway breach reported, AI API keys said to be compromised",
@@ -51,23 +37,46 @@
       "story_id": "deepseek-v4-1-flash",
       "title": "DeepSeek V4.1 Flash gets fast hosting and wide availability",
       "query": "deepseek v4.1 flash fireworks opencode",
-      "video_count": 1,
-      "total_views": 1295,
-      "max_views": 1295,
+      "video_count": 0,
+      "total_views": 0,
+      "max_views": 0,
+      "big_channel_videos": 0,
+      "coverage": "none",
+      "coverage_score": 0,
+      "heat": 76.0,
+      "gap_score": 76,
+      "top_videos": []
+    },
+    {
+      "story_id": "claude-api-version-2026-10-21",
+      "title": "Claude API ships dated version 2026-10-21 with breaking changes",
+      "query": "claude api anthropic api api breaking changes",
+      "video_count": 2,
+      "total_views": 9,
+      "max_views": 7,
       "big_channel_videos": 0,
       "coverage": "low",
-      "coverage_score": 6,
-      "heat": 76.0,
-      "gap_score": 71,
+      "coverage_score": 8,
+      "heat": 82.0,
+      "gap_score": 75,
       "top_videos": [
         {
-          "video_id": "PVjiTOXNSaw",
-          "title": "Qwen-3.8-Max For Free (No Subscription)",
-          "url": "https://www.youtube.com/watch?v=PVjiTOXNSaw",
-          "channel": "Om Pathak ",
-          "channel_subscribers": 5260,
-          "published_at": "2026-11-08T10:03:36Z",
-          "views": 1295
+          "video_id": "vRBKJBRLl5E",
+          "title": "Claude Fable 5.2 & Mythos 5.2 Explained: Benchmarks, Pricing, API Changes",
+          "url": "https://www.youtube.com/watch?v=vRBKJBRLl5E",
+          "channel": "Contexified",
+          "channel_subscribers": 7,
+          "published_at": "2026-11-10T20:34:42Z",
+          "views": 7
+        },
+        {
+          "video_id": "FSDIry7reNs",
+          "title": "LLM API Tutorial 1 – Your First OpenAI, Claude and Gemini API Call in Python | Full Course 2026",
+          "url": "https://www.youtube.com/watch?v=FSDIry7reNs",
+          "channel": "iTV",
+          "channel_subscribers": 6660,
+          "published_at": "2026-11-11T09:30:29Z",
+          "views": 2
         }
       ]
     },
@@ -145,14 +154,14 @@
       "story_id": "deepseek-deepinfer-open-source",
       "title": "vLLM claims to match DeepSeek serving performance",
       "query": "vllm deepseek deepinfer",
-      "video_count": 3,
-      "total_views": 251,
-      "max_views": 210,
+      "video_count": 2,
+      "total_views": 215,
+      "max_views": 211,
       "big_channel_videos": 0,
       "coverage": "low",
-      "coverage_score": 11,
+      "coverage_score": 8,
       "heat": 45.0,
-      "gap_score": 40,
+      "gap_score": 41,
       "top_videos": [
         {
           "video_id": "KgvNELSZ7d4",
@@ -161,16 +170,7 @@
           "channel": "AI Info",
           "channel_subscribers": 5,
           "published_at": "2026-11-10T02:53:50Z",
-          "views": 210
-        },
-        {
-          "video_id": "UXq_1S_0gWU",
-          "title": "DeepSeek open sourced its production inference engine",
-          "url": "https://www.youtube.com/watch?v=UXq_1S_0gWU",
-          "channel": "Prosper Flow IO",
-          "channel_subscribers": 7,
-          "published_at": "2026-11-08T04:31:39Z",
-          "views": 37
+          "views": 211
         },
         {
           "video_id": "SnpEe9T0gvY",
@@ -187,14 +187,14 @@
       "story_id": "claude-duet-preview",
       "title": "Anthropic opens research preview of Claude Duet agent app",
       "query": "claude duet anthropic claude agent",
-      "video_count": 19,
-      "total_views": 25023,
-      "max_views": 12779,
+      "video_count": 18,
+      "total_views": 19601,
+      "max_views": 13808,
       "big_channel_videos": 1,
       "coverage": "medium",
-      "coverage_score": 63,
+      "coverage_score": 62,
       "heat": 100.0,
-      "gap_score": 37,
+      "gap_score": 38,
       "top_videos": [
         {
           "video_id": "76ZjsoxfF5Y",
@@ -203,34 +203,25 @@
           "channel": "最佳拍档",
           "channel_subscribers": 250000,
           "published_at": "2026-11-09T12:03:06Z",
-          "views": 12779
-        },
-        {
-          "video_id": "PQ01sj1MF-A",
-          "title": "Master SHARED Agent Memory: Claude Duet, Grok Bot + GitHub Workflow",
-          "url": "https://www.youtube.com/watch?v=PQ01sj1MF-A",
-          "channel": "Blazing Zebra",
-          "channel_subscribers": 75800,
-          "published_at": "2026-11-08T12:45:25Z",
-          "views": 6958
+          "views": 13808
         },
         {
           "video_id": "xfNcuLj_Qx0",
           "title": "Claude Duet Just Launched",
           "url": "https://www.youtube.com/watch?v=xfNcuLj_Qx0",
           "channel": "The Manav Podcast",
-          "channel_subscribers": 63300,
+          "channel_subscribers": 63400,
           "published_at": "2026-11-08T21:57:42Z",
-          "views": 3820
+          "views": 4230
         },
         {
           "video_id": "ok-ZUNR6nDs",
           "title": "Claude Duet: Anthropic's AI Agent That Works While Your Laptop Sleeps #Claude #Anthropic #Shorts #ai",
           "url": "https://www.youtube.com/watch?v=ok-ZUNR6nDs",
           "channel": "Odd Crate",
-          "channel_subscribers": 74,
+          "channel_subscribers": 78,
           "published_at": "2026-11-09T08:43:12Z",
-          "views": 366
+          "views": 443
         },
         {
           "video_id": "jhqn-ihAG1A",
@@ -239,7 +230,16 @@
           "channel": "Nomaditsu",
           "channel_subscribers": 2180,
           "published_at": "2026-11-09T21:46:27Z",
-          "views": 332
+          "views": 362
+        },
+        {
+          "video_id": "StO4eUcTT-M",
+          "title": "Claude Code Is Finally on Your Phone With Claude Duet",
+          "url": "https://www.youtube.com/watch?v=StO4eUcTT-M",
+          "channel": "The Token Desk",
+          "channel_subscribers": 356,
+          "published_at": "2026-11-09T03:24:17Z",
+          "views": 290
         }
       ]
     },
@@ -261,15 +261,33 @@
       "story_id": "claude-opus-5-5-builds",
       "title": "Developers share Claude Opus 5.5 coding workflows",
       "query": "claude opus 5.5 claude code codex review",
-      "video_count": 8,
-      "total_views": 11437,
-      "max_views": 8143,
-      "big_channel_videos": 0,
-      "coverage": "medium",
-      "coverage_score": 48,
+      "video_count": 11,
+      "total_views": 38406,
+      "max_views": 14481,
+      "big_channel_videos": 1,
+      "coverage": "high",
+      "coverage_score": 66,
       "heat": 54.0,
-      "gap_score": 28,
+      "gap_score": 18,
       "top_videos": [
+        {
+          "video_id": "Q6nF46lS8CA",
+          "title": "Por que eu não vou trocar o Claude Opus 5.5 pelo novo Fable 5.2",
+          "url": "https://www.youtube.com/watch?v=Q6nF46lS8CA",
+          "channel": "Rafael Quintanilha – QuantBrasil",
+          "channel_subscribers": 45300,
+          "published_at": "2026-11-10T23:30:07Z",
+          "views": 14481
+        },
+        {
+          "video_id": "CgiD34aJJmY",
+          "title": "Opus 5.5 думает, Haiku пишет код: настройка Claude Code",
+          "url": "https://www.youtube.com/watch?v=CgiD34aJJmY",
+          "channel": "Владилен Минин",
+          "channel_subscribers": 311000,
+          "published_at": "2026-11-10T14:02:43Z",
+          "views": 10457
+        },
         {
           "video_id": "ENrugVPLU90",
           "title": "Vibe Coding With Claude FABLE 5.2 & Opus 5.5",
@@ -277,16 +295,16 @@
           "channel": "Rounieee",
           "channel_subscribers": 9410,
           "published_at": "2026-11-10T21:35:53Z",
-          "views": 8143
+          "views": 8473
         },
         {
           "video_id": "k9rWnRZYcGI",
           "title": "Vibe coding an app like a senior engineer | Fable 5.2 + Opus 5.5 🔴 LIVE",
           "url": "https://www.youtube.com/watch?v=k9rWnRZYcGI",
           "channel": "Asklog",
-          "channel_subscribers": 373,
-          "published_at": "2026-11-10T17:17:43Z",
-          "views": 1961
+          "channel_subscribers": 378,
+          "published_at": "2026-11-10T23:16:23Z",
+          "views": 2292
         },
         {
           "video_id": "jPW1PrTOV10",
@@ -295,25 +313,7 @@
           "channel": "Daniel Morgan",
           "channel_subscribers": 1950,
           "published_at": "2026-11-10T08:00:12Z",
-          "views": 1124
-        },
-        {
-          "video_id": "2_k7dwns__k",
-          "title": "The Ultimate Beginner's Guide to Claude Code",
-          "url": "https://www.youtube.com/watch?v=2_k7dwns__k",
-          "channel": "Aditya Perswal",
-          "channel_subscribers": 317,
-          "published_at": "2026-11-08T16:00:02Z",
-          "views": 89
-        },
-        {
-          "video_id": "qZiL8ni0vGI",
-          "title": "Claude Fable 5.2 vs Opus 5.5: I Built 2 Games and the Results Are INSANE!",
-          "url": "https://www.youtube.com/watch?v=qZiL8ni0vGI",
-          "channel": "WolfByte Studios",
-          "channel_subscribers": 122,
-          "published_at": "2026-11-10T14:45:15Z",
-          "views": 60
+          "views": 1727
         }
       ]
     },
@@ -321,15 +321,33 @@
       "story_id": "grok-bot-push",
       "title": "xAI pushes Grok Bot with user demos and adoption claims",
       "query": "grok bot xai grok",
-      "video_count": 25,
-      "total_views": 182485,
-      "max_views": 44664,
-      "big_channel_videos": 7,
+      "video_count": 24,
+      "total_views": 244172,
+      "max_views": 54145,
+      "big_channel_videos": 9,
       "coverage": "high",
-      "coverage_score": 88,
+      "coverage_score": 90,
       "heat": 100.0,
-      "gap_score": 12,
+      "gap_score": 10,
       "top_videos": [
+        {
+          "video_id": "vNpJz-K644k",
+          "title": "Grok Bot Cut My Limits... So I Built My Own (Open Source)",
+          "url": "https://www.youtube.com/watch?v=vNpJz-K644k",
+          "channel": "Nick Vasilescu",
+          "channel_subscribers": 11100,
+          "published_at": "2026-11-09T16:00:36Z",
+          "views": 54145
+        },
+        {
+          "video_id": "t9h9nZycPqQ",
+          "title": "What's new in Grok Bot - Nov 10, 2026",
+          "url": "https://www.youtube.com/watch?v=t9h9nZycPqQ",
+          "channel": "Matt Palmer",
+          "channel_subscribers": 50500,
+          "published_at": "2026-11-10T17:20:00Z",
+          "views": 49562
+        },
         {
           "video_id": "WRqZktcjJl8",
           "title": "Grok Bot Just Fixed it's Usage Problem (Explained)",
@@ -337,16 +355,7 @@
           "channel": "Brock Mesarich | AI for Non Techies",
           "channel_subscribers": 155000,
           "published_at": "2026-11-09T17:58:53Z",
-          "views": 44664
-        },
-        {
-          "video_id": "vNpJz-K644k",
-          "title": "Grok Bot Cut My Limits... So I Built My Own (Open Source)",
-          "url": "https://www.youtube.com/watch?v=vNpJz-K644k",
-          "channel": "Nick Vasilescu",
-          "channel_subscribers": 10900,
-          "published_at": "2026-11-09T16:00:36Z",
-          "views": 42536
+          "views": 47384
         },
         {
           "video_id": "xHYp3LvPCTA",
@@ -355,25 +364,16 @@
           "channel": "Parker Prompts",
           "channel_subscribers": 135000,
           "published_at": "2026-11-08T13:51:37Z",
-          "views": 36945
+          "views": 40838
         },
         {
-          "video_id": "t9h9nZycPqQ",
-          "title": "What's new in Grok Bot - Nov 10, 2026",
-          "url": "https://www.youtube.com/watch?v=t9h9nZycPqQ",
+          "video_id": "b_gpQ5ifZmw",
+          "title": "Why have more than one Grok Bot?",
+          "url": "https://www.youtube.com/watch?v=b_gpQ5ifZmw",
           "channel": "Matt Palmer",
-          "channel_subscribers": 49900,
-          "published_at": "2026-11-10T17:20:00Z",
-          "views": 20365
-        },
-        {
-          "video_id": "cvxKFkoTthM",
-          "title": "สร้างพนักงาน AI ตั้งแต่เริ่มต้น แบบง่ายๆ ด้วย Grok Bot | ผู้หญิงแก้มกลม",
-          "url": "https://www.youtube.com/watch?v=cvxKFkoTthM",
-          "channel": "Chubbie me (ผู้หญิงแก้มกลม)",
-          "channel_subscribers": 183000,
-          "published_at": "2026-11-08T13:00:22Z",
-          "views": 8524
+          "channel_subscribers": 50500,
+          "published_at": "2026-11-09T23:00:25Z",
+          "views": 8809
         }
       ]
     }
