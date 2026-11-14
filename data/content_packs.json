@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T12:54:14Z",
+  "generated_at": "2026-11-14T22:54:32Z",
   "sample": false,
   "packs": [
     {
@@ -270,23 +270,23 @@
     },
     {
       "story_id": "claude-api-version-2026-10-21",
-      "fingerprint": "4cb6f62558e4927b",
-      "why_now": "Anthropic shipped API version 2026-10-21, its first official version since 2023, and it removes temperature, top_p and top_k from the Messages API. The few YouTube videos nearby don't walk through the migration, and anyone who hard-codes sampling params needs to know before they bump the header.",
+      "fingerprint": "07b80fc7ff9e7368",
+      "why_now": "Anthropic shipped its first dated Claude API version since 2023, and it removes temperature, top_p and top_k from the Messages API. Two small YouTube videos touch Claude APIs, and neither walks builders through what this version breaks in their code.",
       "video": {
         "title": "Claude API 2026-10-21: What Breaks and How to Upgrade",
         "thumbnail_text": "TEMPERATURE IS GONE",
-        "hook": "Anthropic just shipped its first official API version since 2023, and it removes temperature, top_p and top_k from the Messages API. Your old code isn't broken today, because 2023-06-01 isn't deprecated. But if you switch to the new version, I'll show you exactly what returns an error and how to fix it.",
+        "hook": "Anthropic just shipped a new Claude API version, and if you opt into it, temperature, top_p and top_k are gone. The old 2023 version still works, so nothing breaks today. But they say versions are coming more often now. So I'm going to show you exactly what changes, and how to test your app against it before you have to.",
         "alt_titles": [
-          "Anthropic Removed Temperature. Here's What To Do",
-          "Upgrading to Claude API 2026-10-21, Step by Step"
+          "Claude Removed Temperature. Here's What to Do",
+          "The First Claude API Version Since 2023, Explained"
         ],
         "outline": [
-          "What a dated API version is and why Anthropic says more are coming",
-          "The changes: sampling params removed, document and citation turns now return 400",
-          "Does 2023-06-01 still work? What not being deprecated means for you",
-          "Live test: bump the version header in a real app and see what errors",
-          "Fixing the errors: strip sampling params and move documents to user turns",
-          "My take: when to upgrade now and when to wait"
+          "What a dated API version is, and why 2023-06-01 still works and isn't deprecated",
+          "Change 1: temperature, top_p and top_k removed from the Messages API, and what I'll test as a replacement for controlling output",
+          "Change 2: documents in assistant turns and citations in user turns now return a 400, with a quick check for your message history",
+          "Change 3: a few deprecated Admin and Enterprise Analytics API fields replaced, and who needs to care",
+          "Live upgrade: switch one project to the new version and fix what fails",
+          "Why more frequent versions matter: getting ahead of breaking changes before a new model requires them"
         ]
       },
       "short": {
@@ -294,68 +294,68 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Anthropic just removed temperature from the Claude API.",
-            "visual": "Headline: API version 2026-10-21"
+            "line": "Claude's new API version drops temperature, top_p and top_k.",
+            "visual": "Code line 'temperature: 0.7' getting struck out"
           },
           {
             "t": "3-10s",
-            "line": "The new API version, 2026-10-21, drops temperature, top_p and top_k from the Messages API. It's their first official version since 2023.",
-            "visual": "ClaudeDevs post screenshot"
+            "line": "Anthropic released version 2026-10-21, their first official API version since 2023.",
+            "visual": "The @ClaudeDevs announcement post on screen"
           },
           {
-            "t": "10-17s",
-            "line": "Documents in assistant turns and citations in user turns now return a 400 error.",
-            "visual": "Error response on screen"
+            "t": "10-18s",
+            "line": "In it, temperature, top_p and top_k are removed from the Messages API. Documents in assistant turns and citations in user turns now return a 400.",
+            "visual": "Three bullet list with a red 400 error"
           },
           {
-            "t": "17-25s",
-            "line": "Good news: 2023-06-01 is not deprecated, so nothing breaks until you change the version header.",
-            "visual": "Code: anthropic-version header highlighted"
+            "t": "18-25s",
+            "line": "Good news: the 2023 version is not deprecated, so your app still runs today.",
+            "visual": "Green check next to 2023-06-01"
           },
           {
             "t": "25-30s",
-            "line": "Full upgrade walkthrough is on the channel.",
-            "visual": "Channel end card"
+            "line": "But Anthropic says more versions are coming. Pick one project and test the new version this week.",
+            "visual": "Terminal switching the version header, follow prompt"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "Claude API has a new version",
-            "body": "2026-10-21, with breaking changes"
+            "heading": "Claude's new API version, explained",
+            "body": "Version 2026-10-21 is out. Here's what breaks."
           },
           {
             "heading": "First official version since 2023",
-            "body": "Anthropic plans to ship versions more often"
+            "body": "Anthropic plans to ship versions more often now."
           },
           {
-            "heading": "Sampling params removed",
-            "body": "temperature, top_p and top_k are gone from Messages"
+            "heading": "Sampling knobs are removed",
+            "body": "temperature, top_p and top_k are gone from the Messages API."
           },
           {
-            "heading": "New 400 errors",
-            "body": "Documents in assistant turns, citations in user turns"
+            "heading": "Some message shapes now fail",
+            "body": "Documents in assistant turns and citations in user turns return a 400."
           },
           {
-            "heading": "Your old code still runs",
-            "body": "2023-06-01 is not deprecated"
+            "heading": "Admin fields swapped out",
+            "body": "A few deprecated Admin and Enterprise Analytics fields are replaced."
           },
           {
-            "heading": "Before you upgrade",
-            "body": "Search your code for sampling params and test on a branch"
+            "heading": "Nothing breaks today",
+            "body": "2023-06-01 is not deprecated. You opt in when ready."
           },
           {
-            "heading": "Follow for the walkthrough",
-            "body": "I'll upgrade a real app step by step"
+            "heading": "Test it before you have to",
+            "body": "Follow for the full upgrade walkthrough."
           }
         ],
-        "caption": "Anthropic shipped Claude API version 2026-10-21. Temperature, top_p and top_k are removed, and some document and citation turns now return 400. 2023-06-01 still works. Here's what to check before you upgrade."
+        "caption": "Claude's first new API version since 2023 drops temperature, top_p and top_k. Your app still runs on 2023-06-01, but here's what to check before you upgrade."
       },
-      "x_post": "Claude API version 2026-10-21 is out, the first official version since 2023.\n\nIf you upgrade:\n- temperature, top_p, top_k are removed\n- documents in assistant turns and citations in user turns return 400\n\n2023-06-01 is not deprecated, so nothing breaks until you bump the header.",
+      "x_post": "Claude API version 2026-10-21 is out, the first since 2023.\n\nIf you opt in:\n- temperature, top_p, top_k are removed\n- documents in assistant turns and citations in user turns return a 400\n\n2023-06-01 isn't deprecated, so nothing breaks today. Test it on one project first.",
       "x_thread": [
-        "Quick check before you upgrade: grep your codebase for temperature, top_p and top_k on Messages calls. Those are the first things that will error.",
-        "I'm testing the upgrade on a real app and will post what broke and how I fixed it."
+        "Why this matters: Anthropic says it will ship versions more often so you can handle breaking changes before a new model requires them. Pinning your version header is now worth doing on purpose.",
+        "I'm upgrading one of my projects to the new version on video and fixing whatever fails. Full walkthrough coming."
       ]
     },
     {
