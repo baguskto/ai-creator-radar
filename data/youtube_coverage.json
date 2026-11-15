@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T12:54:09Z",
+  "generated_at": "2026-11-15T22:53:25Z",
   "x_trends_generated_at": "2026-10-21T22:54:02Z",
   "x_trends_sample": false,
   "lookback_hours": 72,
@@ -136,8 +136,8 @@
       "title": "vLLM claims to match DeepSeek serving performance",
       "query": "vllm deepseek deepinfer",
       "video_count": 3,
-      "total_views": 24,
-      "max_views": 17,
+      "total_views": 33,
+      "max_views": 24,
       "big_channel_videos": 0,
       "coverage": "low",
       "coverage_score": 11,
@@ -151,7 +151,7 @@
           "channel": "ClipFlowTH",
           "channel_subscribers": 18,
           "published_at": "2026-11-14T13:02:30Z",
-          "views": 17
+          "views": 24
         },
         {
           "video_id": "0kfk6GwN83o",
@@ -160,7 +160,7 @@
           "channel": "Tengs Penkwe",
           "channel_subscribers": 0,
           "published_at": "2026-11-13T23:23:02Z",
-          "views": 7
+          "views": 9
         },
         {
           "video_id": "2bXWnaYYrgU",
@@ -202,13 +202,13 @@
       "title": "Anthropic opens research preview of Claude Duet agent app",
       "query": "claude duet anthropic claude agent",
       "video_count": 14,
-      "total_views": 23395,
-      "max_views": 11672,
+      "total_views": 17429,
+      "max_views": 13375,
       "big_channel_videos": 2,
       "coverage": "high",
-      "coverage_score": 73,
+      "coverage_score": 71,
       "heat": 100.0,
-      "gap_score": 27,
+      "gap_score": 29,
       "top_videos": [
         {
           "video_id": "3kcGWkoFiCU",
@@ -217,16 +217,7 @@
           "channel": "Jose A. Rubio",
           "channel_subscribers": 157000,
           "published_at": "2026-11-13T15:00:01Z",
-          "views": 11672
-        },
-        {
-          "video_id": "kizFeEoJMTg",
-          "title": "Claude Duet - první dojmy z proaktivního AI agenta od Anthropic",
-          "url": "https://www.youtube.com/watch?v=kizFeEoJMTg",
-          "channel": "Filip Oborník | AI s rozumem",
-          "channel_subscribers": 11300,
-          "published_at": "2026-11-12T17:00:16Z",
-          "views": 8158
+          "views": 13375
         },
         {
           "video_id": "2jkfjIV5fz4",
@@ -235,16 +226,7 @@
           "channel": "corbin",
           "channel_subscribers": 193000,
           "published_at": "2026-11-13T15:00:38Z",
-          "views": 3199
-        },
-        {
-          "video_id": "kn0ud-egvTA",
-          "title": "I Got Early Access to Claude Duet and it's Amazing 🤯 #claude #ai",
-          "url": "https://www.youtube.com/watch?v=kn0ud-egvTA",
-          "channel": "CloudAI",
-          "channel_subscribers": 14,
-          "published_at": "2026-11-12T14:00:18Z",
-          "views": 130
+          "views": 3766
         },
         {
           "video_id": "kVNq91VuxlY",
@@ -253,7 +235,25 @@
           "channel": "Task-Q",
           "channel_subscribers": 689,
           "published_at": "2026-11-13T10:55:15Z",
-          "views": 87
+          "views": 100
+        },
+        {
+          "video_id": "NnruY7X4riI",
+          "title": "Claude Duet: Anthropics neuer KI Agent drängt sich im Büro auf #Shorts",
+          "url": "https://www.youtube.com/watch?v=NnruY7X4riI",
+          "channel": "FlowStateSystems",
+          "channel_subscribers": 23,
+          "published_at": "2026-11-13T18:42:52Z",
+          "views": 43
+        },
+        {
+          "video_id": "TLMIyftLOFA",
+          "title": "Claude Duet: Anthropic's AI That Messages You First #Shorts",
+          "url": "https://www.youtube.com/watch?v=TLMIyftLOFA",
+          "channel": "AI at Hand",
+          "channel_subscribers": 17,
+          "published_at": "2026-11-14T12:30:16Z",
+          "views": 41
         }
       ]
     },
@@ -261,32 +261,32 @@
       "story_id": "claude-opus-5-5-builds",
       "title": "Developers share Claude Opus 5.5 coding workflows",
       "query": "claude opus 5.5 claude code codex review",
-      "video_count": 13,
-      "total_views": 19501,
-      "max_views": 13083,
+      "video_count": 11,
+      "total_views": 22710,
+      "max_views": 16009,
       "big_channel_videos": 0,
       "coverage": "medium",
-      "coverage_score": 52,
+      "coverage_score": 53,
       "heat": 54.0,
-      "gap_score": 26,
+      "gap_score": 25,
       "top_videos": [
         {
           "video_id": "tDVYz8oNmeA",
           "title": "What's a $2,299 Mac Mini For If Claude Does the Coding?",
           "url": "https://www.youtube.com/watch?v=tDVYz8oNmeA",
           "channel": "Priced Out",
-          "channel_subscribers": 87,
+          "channel_subscribers": 91,
           "published_at": "2026-11-13T04:18:52Z",
-          "views": 13083
+          "views": 16009
         },
         {
           "video_id": "wGJL2KzkRM0",
           "title": "Vibe coding an app like a senior engineer | Fable 5.2 + Opus 5.5 🔴 LIVE",
           "url": "https://www.youtube.com/watch?v=wGJL2KzkRM0",
           "channel": "Asklog",
-          "channel_subscribers": 416,
+          "channel_subscribers": 418,
           "published_at": "2026-11-13T05:05:46Z",
-          "views": 2939
+          "views": 2981
         },
         {
           "video_id": "-Rp2jh1gJsw",
@@ -295,16 +295,16 @@
           "channel": "YAHA学堂",
           "channel_subscribers": 15700,
           "published_at": "2026-11-14T05:57:08Z",
-          "views": 1743
+          "views": 1914
         },
         {
           "video_id": "TZhVaMHYnQg",
           "title": "Vibe coding an app like a senior engineer | Fable 5.2 + Opus 5.5 🔴 LIVE",
           "url": "https://www.youtube.com/watch?v=TZhVaMHYnQg",
           "channel": "Asklog",
-          "channel_subscribers": 416,
+          "channel_subscribers": 418,
           "published_at": "2026-11-13T21:38:45Z",
-          "views": 1203
+          "views": 1207
         },
         {
           "video_id": "vo4QEUOdV3s",
@@ -313,7 +313,7 @@
           "channel": "Ahmad | AI Automation",
           "channel_subscribers": 16100,
           "published_at": "2026-11-13T13:00:20Z",
-          "views": 178
+          "views": 199
         }
       ]
     },
@@ -322,31 +322,40 @@
       "title": "xAI pushes Grok Bot with user demos and adoption claims",
       "query": "grok bot xai grok",
       "video_count": 24,
-      "total_views": 111012,
-      "max_views": 38051,
-      "big_channel_videos": 7,
+      "total_views": 114060,
+      "max_views": 24397,
+      "big_channel_videos": 6,
       "coverage": "high",
       "coverage_score": 84,
       "heat": 100.0,
       "gap_score": 16,
       "top_videos": [
         {
-          "video_id": "B-2yDmwe2uw",
-          "title": "Trusting Grok Bot",
-          "url": "https://www.youtube.com/watch?v=B-2yDmwe2uw",
-          "channel": "Matt Palmer",
-          "channel_subscribers": 51500,
-          "published_at": "2026-11-12T17:01:23Z",
-          "views": 38051
-        },
-        {
           "video_id": "_cVWs9pPFDI",
           "title": "Agentic Engineering in Grok Bot",
           "url": "https://www.youtube.com/watch?v=_cVWs9pPFDI",
           "channel": "Kun Chen",
-          "channel_subscribers": 67600,
+          "channel_subscribers": 67700,
           "published_at": "2026-11-13T16:00:13Z",
-          "views": 21828
+          "views": 24397
+        },
+        {
+          "video_id": "kjlDV-vf0-A",
+          "title": "Grok Bot 1.0 - What's new in Grok Bot",
+          "url": "https://www.youtube.com/watch?v=kjlDV-vf0-A",
+          "channel": "Matt Palmer",
+          "channel_subscribers": 51900,
+          "published_at": "2026-11-15T17:28:25Z",
+          "views": 20222
+        },
+        {
+          "video_id": "hes5e4dCH9Q",
+          "title": "Grok Bot Is Finally Out of Beta (7 INSANE Use Cases!)",
+          "url": "https://www.youtube.com/watch?v=hes5e4dCH9Q",
+          "channel": "Pat Simmons",
+          "channel_subscribers": 31900,
+          "published_at": "2026-11-12T23:47:35Z",
+          "views": 17173
         },
         {
           "video_id": "3kcGWkoFiCU",
@@ -355,16 +364,7 @@
           "channel": "Jose A. Rubio",
           "channel_subscribers": 157000,
           "published_at": "2026-11-13T15:00:01Z",
-          "views": 11672
-        },
-        {
-          "video_id": "e6pckx1AUws",
-          "title": "Grok Bot 1.0 Is a HUGE Upgrade!",
-          "url": "https://www.youtube.com/watch?v=e6pckx1AUws",
-          "channel": "Julian Goldie SEO",
-          "channel_subscribers": 440000,
-          "published_at": "2026-11-13T16:30:27Z",
-          "views": 10708
+          "views": 13375
         },
         {
           "video_id": "9PEVcRB-D54",
@@ -373,7 +373,7 @@
           "channel": "Vagner Mazzeo",
           "channel_subscribers": 47200,
           "published_at": "2026-11-13T16:30:35Z",
-          "views": 10142
+          "views": 11802
         }
       ]
     }
