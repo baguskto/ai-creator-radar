@@ -1,10 +1,24 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T22:53:55Z",
+  "generated_at": "2026-11-15T12:54:09Z",
   "x_trends_generated_at": "2026-10-21T22:54:02Z",
   "x_trends_sample": false,
   "lookback_hours": 72,
   "stories": [
+    {
+      "story_id": "claude-api-version-2026-10-21",
+      "title": "Claude API ships dated version 2026-10-21 with breaking changes",
+      "query": "claude api anthropic api api breaking changes",
+      "video_count": 0,
+      "total_views": 0,
+      "max_views": 0,
+      "big_channel_videos": 0,
+      "coverage": "none",
+      "coverage_score": 0,
+      "heat": 82.0,
+      "gap_score": 82,
+      "top_videos": []
+    },
     {
       "story_id": "railway-breach-keys",
       "title": "Railway breach reported, AI API keys said to be compromised",
@@ -46,39 +60,6 @@
       "heat": 76.0,
       "gap_score": 76,
       "top_videos": []
-    },
-    {
-      "story_id": "claude-api-version-2026-10-21",
-      "title": "Claude API ships dated version 2026-10-21 with breaking changes",
-      "query": "claude api anthropic api api breaking changes",
-      "video_count": 2,
-      "total_views": 283,
-      "max_views": 240,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 8,
-      "heat": 82.0,
-      "gap_score": 75,
-      "top_videos": [
-        {
-          "video_id": "OCcPRUI0PU0",
-          "title": "Claude Opus 4.8 Fast Mode Stops on November 30 — Change One Line #shorts",
-          "url": "https://www.youtube.com/watch?v=OCcPRUI0PU0",
-          "channel": "Outright Systems",
-          "channel_subscribers": 29200,
-          "published_at": "2026-11-12T12:29:22Z",
-          "views": 240
-        },
-        {
-          "video_id": "PQ47Dkx70IQ",
-          "title": "LLM API Tutorial 2 – Messages, Roles, System Prompts: OpenAI, Claude, Gemini | Full Course 2026",
-          "url": "https://www.youtube.com/watch?v=PQ47Dkx70IQ",
-          "channel": "iTV",
-          "channel_subscribers": 6670,
-          "published_at": "2026-11-12T10:30:00Z",
-          "views": 43
-        }
-      ]
     },
     {
       "story_id": "anthropic-pentagon-case",
@@ -155,8 +136,8 @@
       "title": "vLLM claims to match DeepSeek serving performance",
       "query": "vllm deepseek deepinfer",
       "video_count": 3,
-      "total_views": 8,
-      "max_views": 7,
+      "total_views": 24,
+      "max_views": 17,
       "big_channel_videos": 0,
       "coverage": "low",
       "coverage_score": 11,
@@ -164,22 +145,22 @@
       "gap_score": 40,
       "top_videos": [
         {
-          "video_id": "0kfk6GwN83o",
-          "title": "Is DeepSeek's DeepInfer really faster than vLLM? Fact-checking a viral chart",
-          "url": "https://www.youtube.com/watch?v=0kfk6GwN83o",
-          "channel": "Tengs Penkwe",
-          "channel_subscribers": 1,
-          "published_at": "2026-11-13T23:23:02Z",
-          "views": 7
-        },
-        {
           "video_id": "LOFS8WVEuLQ",
           "title": "DeepInfer คือเอนจินที่วิ่งอยู่หลังบ้านของ API ของ DeepSeek ตอนนี้เปิดซอร์สแบบ Apache 2.0 แล้ว แต่สิ่",
           "url": "https://www.youtube.com/watch?v=LOFS8WVEuLQ",
           "channel": "ClipFlowTH",
-          "channel_subscribers": 17,
+          "channel_subscribers": 18,
           "published_at": "2026-11-14T13:02:30Z",
-          "views": 1
+          "views": 17
+        },
+        {
+          "video_id": "0kfk6GwN83o",
+          "title": "Is DeepSeek's DeepInfer really faster than vLLM? Fact-checking a viral chart",
+          "url": "https://www.youtube.com/watch?v=0kfk6GwN83o",
+          "channel": "Tengs Penkwe",
+          "channel_subscribers": 0,
+          "published_at": "2026-11-13T23:23:02Z",
+          "views": 7
         },
         {
           "video_id": "2bXWnaYYrgU",
@@ -217,77 +198,17 @@
       ]
     },
     {
-      "story_id": "claude-opus-5-5-builds",
-      "title": "Developers share Claude Opus 5.5 coding workflows",
-      "query": "claude opus 5.5 claude code codex review",
-      "video_count": 13,
-      "total_views": 7418,
-      "max_views": 2931,
-      "big_channel_videos": 0,
-      "coverage": "medium",
-      "coverage_score": 45,
-      "heat": 54.0,
-      "gap_score": 30,
-      "top_videos": [
-        {
-          "video_id": "wGJL2KzkRM0",
-          "title": "Vibe coding an app like a senior engineer | Fable 5.2 + Opus 5.5 🔴 LIVE",
-          "url": "https://www.youtube.com/watch?v=wGJL2KzkRM0",
-          "channel": "Asklog",
-          "channel_subscribers": 416,
-          "published_at": "2026-11-13T05:05:46Z",
-          "views": 2931
-        },
-        {
-          "video_id": "tDVYz8oNmeA",
-          "title": "What's a $2,299 Mac Mini For If Claude Does the Coding?",
-          "url": "https://www.youtube.com/watch?v=tDVYz8oNmeA",
-          "channel": "Priced Out",
-          "channel_subscribers": 75,
-          "published_at": "2026-11-13T04:18:52Z",
-          "views": 1680
-        },
-        {
-          "video_id": "-Rp2jh1gJsw",
-          "title": "Fable 5.2 vs Opus 5.5：多付一倍值得嗎？Claude Code 四項實測，拆解分數、速度與費用",
-          "url": "https://www.youtube.com/watch?v=-Rp2jh1gJsw",
-          "channel": "YAHA学堂",
-          "channel_subscribers": 15700,
-          "published_at": "2026-11-14T05:57:08Z",
-          "views": 1298
-        },
-        {
-          "video_id": "TZhVaMHYnQg",
-          "title": "Vibe coding an app like a senior engineer | Fable 5.2 + Opus 5.5 🔴 LIVE",
-          "url": "https://www.youtube.com/watch?v=TZhVaMHYnQg",
-          "channel": "Asklog",
-          "channel_subscribers": 416,
-          "published_at": "2026-11-13T21:38:45Z",
-          "views": 1192
-        },
-        {
-          "video_id": "vo4QEUOdV3s",
-          "title": "Claude Haiku 5.5 vs Sonnet 5.5 vs Opus 5.5: Same Website Prompt",
-          "url": "https://www.youtube.com/watch?v=vo4QEUOdV3s",
-          "channel": "Ahmad | AI Automation",
-          "channel_subscribers": 16100,
-          "published_at": "2026-11-13T13:00:20Z",
-          "views": 148
-        }
-      ]
-    },
-    {
       "story_id": "claude-duet-preview",
       "title": "Anthropic opens research preview of Claude Duet agent app",
       "query": "claude duet anthropic claude agent",
       "video_count": 14,
-      "total_views": 19067,
-      "max_views": 8537,
+      "total_views": 23395,
+      "max_views": 11672,
       "big_channel_videos": 2,
       "coverage": "high",
-      "coverage_score": 71,
+      "coverage_score": 73,
       "heat": 100.0,
-      "gap_score": 29,
+      "gap_score": 27,
       "top_videos": [
         {
           "video_id": "3kcGWkoFiCU",
@@ -296,7 +217,7 @@
           "channel": "Jose A. Rubio",
           "channel_subscribers": 157000,
           "published_at": "2026-11-13T15:00:01Z",
-          "views": 8537
+          "views": 11672
         },
         {
           "video_id": "kizFeEoJMTg",
@@ -305,7 +226,7 @@
           "channel": "Filip Oborník | AI s rozumem",
           "channel_subscribers": 11300,
           "published_at": "2026-11-12T17:00:16Z",
-          "views": 7668
+          "views": 8158
         },
         {
           "video_id": "2jkfjIV5fz4",
@@ -314,7 +235,7 @@
           "channel": "corbin",
           "channel_subscribers": 193000,
           "published_at": "2026-11-13T15:00:38Z",
-          "views": 2440
+          "views": 3199
         },
         {
           "video_id": "kn0ud-egvTA",
@@ -330,9 +251,69 @@
           "title": "Claude Duet пишет мне ПЕРВЫМ — честный тест нового агента",
           "url": "https://www.youtube.com/watch?v=kVNq91VuxlY",
           "channel": "Task-Q",
-          "channel_subscribers": 690,
+          "channel_subscribers": 689,
           "published_at": "2026-11-13T10:55:15Z",
           "views": 87
+        }
+      ]
+    },
+    {
+      "story_id": "claude-opus-5-5-builds",
+      "title": "Developers share Claude Opus 5.5 coding workflows",
+      "query": "claude opus 5.5 claude code codex review",
+      "video_count": 13,
+      "total_views": 19501,
+      "max_views": 13083,
+      "big_channel_videos": 0,
+      "coverage": "medium",
+      "coverage_score": 52,
+      "heat": 54.0,
+      "gap_score": 26,
+      "top_videos": [
+        {
+          "video_id": "tDVYz8oNmeA",
+          "title": "What's a $2,299 Mac Mini For If Claude Does the Coding?",
+          "url": "https://www.youtube.com/watch?v=tDVYz8oNmeA",
+          "channel": "Priced Out",
+          "channel_subscribers": 87,
+          "published_at": "2026-11-13T04:18:52Z",
+          "views": 13083
+        },
+        {
+          "video_id": "wGJL2KzkRM0",
+          "title": "Vibe coding an app like a senior engineer | Fable 5.2 + Opus 5.5 🔴 LIVE",
+          "url": "https://www.youtube.com/watch?v=wGJL2KzkRM0",
+          "channel": "Asklog",
+          "channel_subscribers": 416,
+          "published_at": "2026-11-13T05:05:46Z",
+          "views": 2939
+        },
+        {
+          "video_id": "-Rp2jh1gJsw",
+          "title": "Fable 5.2 vs Opus 5.5：多付一倍值得嗎？Claude Code 四項實測，拆解分數、速度與費用",
+          "url": "https://www.youtube.com/watch?v=-Rp2jh1gJsw",
+          "channel": "YAHA学堂",
+          "channel_subscribers": 15700,
+          "published_at": "2026-11-14T05:57:08Z",
+          "views": 1743
+        },
+        {
+          "video_id": "TZhVaMHYnQg",
+          "title": "Vibe coding an app like a senior engineer | Fable 5.2 + Opus 5.5 🔴 LIVE",
+          "url": "https://www.youtube.com/watch?v=TZhVaMHYnQg",
+          "channel": "Asklog",
+          "channel_subscribers": 416,
+          "published_at": "2026-11-13T21:38:45Z",
+          "views": 1203
+        },
+        {
+          "video_id": "vo4QEUOdV3s",
+          "title": "Claude Haiku 5.5 vs Sonnet 5.5 vs Opus 5.5: Same Website Prompt",
+          "url": "https://www.youtube.com/watch?v=vo4QEUOdV3s",
+          "channel": "Ahmad | AI Automation",
+          "channel_subscribers": 16100,
+          "published_at": "2026-11-13T13:00:20Z",
+          "views": 178
         }
       ]
     },
@@ -341,8 +322,8 @@
       "title": "xAI pushes Grok Bot with user demos and adoption claims",
       "query": "grok bot xai grok",
       "video_count": 24,
-      "total_views": 110828,
-      "max_views": 37212,
+      "total_views": 111012,
+      "max_views": 38051,
       "big_channel_videos": 7,
       "coverage": "high",
       "coverage_score": 84,
@@ -354,27 +335,18 @@
           "title": "Trusting Grok Bot",
           "url": "https://www.youtube.com/watch?v=B-2yDmwe2uw",
           "channel": "Matt Palmer",
-          "channel_subscribers": 51400,
+          "channel_subscribers": 51500,
           "published_at": "2026-11-12T17:01:23Z",
-          "views": 37212
+          "views": 38051
         },
         {
           "video_id": "_cVWs9pPFDI",
           "title": "Agentic Engineering in Grok Bot",
           "url": "https://www.youtube.com/watch?v=_cVWs9pPFDI",
           "channel": "Kun Chen",
-          "channel_subscribers": 67500,
+          "channel_subscribers": 67600,
           "published_at": "2026-11-13T16:00:13Z",
-          "views": 18071
-        },
-        {
-          "video_id": "e6pckx1AUws",
-          "title": "Grok Bot 1.0 Is a HUGE Upgrade!",
-          "url": "https://www.youtube.com/watch?v=e6pckx1AUws",
-          "channel": "Julian Goldie SEO",
-          "channel_subscribers": 440000,
-          "published_at": "2026-11-13T16:30:27Z",
-          "views": 9729
+          "views": 21828
         },
         {
           "video_id": "3kcGWkoFiCU",
@@ -383,7 +355,16 @@
           "channel": "Jose A. Rubio",
           "channel_subscribers": 157000,
           "published_at": "2026-11-13T15:00:01Z",
-          "views": 8537
+          "views": 11672
+        },
+        {
+          "video_id": "e6pckx1AUws",
+          "title": "Grok Bot 1.0 Is a HUGE Upgrade!",
+          "url": "https://www.youtube.com/watch?v=e6pckx1AUws",
+          "channel": "Julian Goldie SEO",
+          "channel_subscribers": 440000,
+          "published_at": "2026-11-13T16:30:27Z",
+          "views": 10708
         },
         {
           "video_id": "9PEVcRB-D54",
@@ -392,7 +373,7 @@
           "channel": "Vagner Mazzeo",
           "channel_subscribers": 47200,
           "published_at": "2026-11-13T16:30:35Z",
-          "views": 8188
+          "views": 10142
         }
       ]
     }
