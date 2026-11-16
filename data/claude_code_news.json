@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T12:56:35Z",
+  "generated_at": "2026-11-16T22:54:06Z",
   "sample": false,
-  "latest_version": "2.1.325",
+  "latest_version": "2.1.326",
   "dist_tags": {
-    "latest": "2.1.325",
+    "latest": "2.1.326",
     "stable": "2.1.311",
-    "next": "2.1.325"
+    "next": "2.1.326"
   },
   "items": [
+    {
+      "version": "2.1.326",
+      "date": "2026-11-16",
+      "title": "11 new features, 59 improvements, 64 changes, 233 fixes",
+      "highlights": [
+        "Added support for turning on Code Mode while agent teams are enabled; if you already turned it on, sessions with teams on now start in Code…",
+        "Added a startup warning when an --allowedTools, --disallowedTools or --tools value has an entry that doesn't look like a complete rule",
+        "Added a message explaining why MCP servers stop loading when an administrator adds managed-mcp.json during a session",
+        "Added a row to /status that says when your provider or an environment variable such as DISABLE_TELEMETRY turns features off",
+        "Added a note in /plugin and claude plugin list when a malformed plugin.json field such as author or homepage is ignored"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.326",
+      "released_at": "2026-11-16T18:43:39.005Z",
+      "summary": "11 added, 59 improved, 62 changed, 233 fixed, 2 removed",
+      "counts": {
+        "added": 11,
+        "improved": 59,
+        "changed": 62,
+        "fixed": 233,
+        "removed": 2,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.325",
       "date": "2026-11-13",
@@ -164,29 +187,6 @@
         "fixed": 62,
         "removed": 1,
         "other": 0
-      }
-    },
-    {
-      "version": "2.1.316",
-      "date": "2026-10-31",
-      "title": "10 new features, 5 improvements, 5 changes, 34 fixes",
-      "highlights": [
-        "Added CLAUDE_CODE_DISABLE_ULTRATHINK, which turns the ultrathink keyword off",
-        "Added pooled group budgets to the Claude apps gateway: one monthly budget that a group's members share, on top of each member's own limit…",
-        "Added CLAUDE_CODE_DISABLE_LOOPED_CROSS_CERT_DROP to keep system cross-certificates that certify each other in a loop, for servers whose…",
-        "Added CLAUDE_CODE_SUBAGENT_EFFORT to set the effort level subagents run at when nothing else names one, instead of inheriting the session's",
-        "Added managed.policy_mode: layered to the Claude apps gateway: every policy that matches a developer applies, each merged over the ones…"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.316",
-      "released_at": "2026-10-31T00:42:05.743Z",
-      "summary": "10 added, 5 improved, 5 changed, 34 fixed",
-      "counts": {
-        "added": 10,
-        "improved": 5,
-        "changed": 5,
-        "fixed": 34,
-        "removed": 0,
-        "other": 1
       }
     }
   ]

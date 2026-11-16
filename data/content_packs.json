@@ -1,94 +1,8 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T12:56:50Z",
+  "generated_at": "2026-11-16T22:54:44Z",
   "sample": false,
   "packs": [
-    {
-      "story_id": "claude-api-version-2026-10-21",
-      "fingerprint": "2e175e6f9fdccabe",
-      "why_now": "Anthropic shipped its first official Claude API version since 2023, and it drops temperature, top_p and top_k from the Messages API. Nobody on YouTube has walked builders through what breaks and what doesn't, and 2023-06-01 still works, so there's time to migrate calmly.",
-      "video": {
-        "title": "Claude API 2026-10-21: What Breaks in Your Code",
-        "thumbnail_text": "NO MORE TEMPERATURE",
-        "hook": "Anthropic just put out its first official Claude API version since 2023, and it removes temperature, top_p and top_k from the Messages API. If your code sets any of those, you need to know what happens when you switch. The old version isn't deprecated, so nothing breaks today. I'll show you exactly what to change.",
-        "alt_titles": [
-          "Claude API Removed Temperature. Now What?",
-          "Migrating to Claude API Version 2026-10-21"
-        ],
-        "outline": [
-          "What a dated API version is and why Anthropic says it will ship them more often",
-          "The changes: temperature, top_p and top_k removed, plus new 400 errors for documents in assistant turns and citations in user turns",
-          "Live test: the same request on 2023-06-01 vs 2026-10-21, and what the error looks like",
-          "Finding these params in your own code and SDK calls",
-          "If you relied on temperature, how I'd steer output with prompts instead, and where that falls short",
-          "Should you migrate now or wait? My take, since 2023-06-01 isn't deprecated"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-3s",
-            "line": "Claude's API just dropped temperature.",
-            "visual": "Text: temperature removed"
-          },
-          {
-            "t": "3-10s",
-            "line": "Anthropic released API version 2026-10-21, its first official version since 2023, and it removes temperature, top_p and top_k from the Messages API.",
-            "visual": "@ClaudeDevs announcement post"
-          },
-          {
-            "t": "10-18s",
-            "line": "It also returns a 400 for documents in assistant turns and citations in user turns.",
-            "visual": "Changelog list highlighted"
-          },
-          {
-            "t": "18-26s",
-            "line": "The good news: 2023-06-01 isn't deprecated, so nothing breaks until you switch. Search your code for those params first.",
-            "visual": "Code search for temperature"
-          },
-          {
-            "t": "26-30s",
-            "line": "Full migration walkthrough is on the channel.",
-            "visual": "Channel end card"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "Claude API's first new version since 2023",
-            "body": "Version 2026-10-21 is out"
-          },
-          {
-            "heading": "Temperature is gone",
-            "body": "temperature, top_p and top_k are removed from the Messages API"
-          },
-          {
-            "heading": "New 400 errors",
-            "body": "Documents in assistant turns and citations in user turns now fail"
-          },
-          {
-            "heading": "Admin fields changed too",
-            "body": "Some deprecated Admin and Analytics API fields are replaced"
-          },
-          {
-            "heading": "No rush, but plan",
-            "body": "2023-06-01 isn't deprecated. Versions will come more often"
-          },
-          {
-            "heading": "Your move",
-            "body": "Search your code for these params. Full walkthrough on YouTube"
-          }
-        ],
-        "caption": "Anthropic shipped Claude API version 2026-10-21 and removed temperature, top_p and top_k from the Messages API. The old version still works, so here's what to check before you switch."
-      },
-      "x_post": "Claude API version 2026-10-21 removes temperature, top_p and top_k from the Messages API.\n\n2023-06-01 isn't deprecated, so nothing breaks until you switch. But grep your code for those params now.\n\nI'm testing the migration on camera.",
-      "x_thread": [
-        "Also in this version: documents in assistant turns and citations in user turns return a 400, and a few deprecated Admin and Enterprise Analytics API fields are replaced.",
-        "Anthropic says it plans to ship versions more often so you can handle breaking changes before a new model requires them. Worth pinning your version explicitly."
-      ]
-    },
     {
       "story_id": "railway-breach-keys",
       "fingerprint": "5a7e0658622d2e2b",
@@ -177,6 +91,92 @@
       "x_thread": [
         "How to check: look at your Anthropic and OpenAI usage pages for calls you don't recognize.",
         "Then rotate the keys, update your env vars, and set a monthly spend cap so a leak stays small."
+      ]
+    },
+    {
+      "story_id": "claude-api-version-2026-10-21",
+      "fingerprint": "8dc7314712eae4fc",
+      "why_now": "Anthropic shipped its first official Claude API version since 2023, and it drops temperature, top_p and top_k from the Messages API. The only YouTube video touching it is exam prep, so nobody has shown builders what actually breaks, and 2023-06-01 still works, so there's time to migrate calmly.",
+      "video": {
+        "title": "Claude API 2026-10-21: What Breaks in Your Code",
+        "thumbnail_text": "NO MORE TEMPERATURE",
+        "hook": "Anthropic just put out its first official Claude API version since 2023, and it removes temperature, top_p and top_k from the Messages API. If your code sets any of those, you need to know what happens when you switch. The old version isn't deprecated, so nothing breaks today. I'll show you exactly what to change.",
+        "alt_titles": [
+          "Claude API Removed Temperature. Now What?",
+          "Migrating to Claude API Version 2026-10-21"
+        ],
+        "outline": [
+          "What a dated API version is and why Anthropic says it will ship them more often",
+          "The changes: temperature, top_p and top_k removed, plus new 400 errors for documents in assistant turns and citations in user turns",
+          "Live test: the same request on 2023-06-01 vs 2026-10-21, and what the error looks like",
+          "Finding these params in your own code and SDK calls",
+          "If you relied on temperature, how I'd steer output with prompts instead, and where that falls short",
+          "Should you migrate now or wait? My take, since 2023-06-01 isn't deprecated"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "Claude's API just dropped temperature.",
+            "visual": "Text: temperature removed"
+          },
+          {
+            "t": "3-10s",
+            "line": "Anthropic released API version 2026-10-21, its first official version since 2023, and it removes temperature, top_p and top_k from the Messages API.",
+            "visual": "@ClaudeDevs announcement post"
+          },
+          {
+            "t": "10-18s",
+            "line": "It also returns a 400 for documents in assistant turns and citations in user turns.",
+            "visual": "Changelog list highlighted"
+          },
+          {
+            "t": "18-26s",
+            "line": "The good news: 2023-06-01 isn't deprecated, so nothing breaks until you switch. Search your code for those params first.",
+            "visual": "Code search for temperature"
+          },
+          {
+            "t": "26-30s",
+            "line": "Full migration walkthrough is on the channel.",
+            "visual": "Channel end card"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "Claude API's first new version since 2023",
+            "body": "Version 2026-10-21 is out"
+          },
+          {
+            "heading": "Temperature is gone",
+            "body": "temperature, top_p and top_k are removed from the Messages API"
+          },
+          {
+            "heading": "New 400 errors",
+            "body": "Documents in assistant turns and citations in user turns now fail"
+          },
+          {
+            "heading": "Admin fields changed too",
+            "body": "Some deprecated Admin and Analytics API fields are replaced"
+          },
+          {
+            "heading": "No rush, but plan",
+            "body": "2023-06-01 isn't deprecated. Versions will come more often"
+          },
+          {
+            "heading": "Your move",
+            "body": "Search your code for these params. Full walkthrough on YouTube"
+          }
+        ],
+        "caption": "Anthropic shipped Claude API version 2026-10-21 and removed temperature, top_p and top_k from the Messages API. The old version still works, so here's what to check before you switch."
+      },
+      "x_post": "Claude API version 2026-10-21 removes temperature, top_p and top_k from the Messages API.\n\n2023-06-01 isn't deprecated, so nothing breaks until you switch. But grep your code for those params now.\n\nI'm testing the migration on camera.",
+      "x_thread": [
+        "Also in this version: documents in assistant turns and citations in user turns return a 400, and a few deprecated Admin and Enterprise Analytics API fields are replaced.",
+        "Anthropic says it plans to ship versions more often so you can handle breaking changes before a new model requires them. Worth pinning your version explicitly."
       ]
     },
     {
@@ -355,24 +355,24 @@
       ]
     },
     {
-      "story_id": "anthropic-pentagon-case",
-      "fingerprint": "80e12510a232f707",
-      "why_now": "A post says 149 former judges are asking the full D.C. Circuit to rehear Anthropic's case over a Pentagon national security decision. No YouTube video covers it, and it matters for anyone building on Claude.",
+      "story_id": "claude-duet-preview",
+      "fingerprint": "79973aebef484410",
+      "why_now": "Anthropic's Claude Duet research preview pulled millions of views on X, but YouTube coverage is a handful of shorts and quick reactions. Nobody has done a real hands-on setup showing what it watches, when it pings you, and where the check-before-acting step holds up.",
       "video": {
-        "title": "149 Former Judges Back Anthropic in Pentagon Case",
-        "thumbnail_text": "ANTHROPIC VS PENTAGON",
-        "hook": "A post says 149 former judges are asking the full D.C. Circuit to rehear Anthropic's case against a Pentagon decision. Their argument is that the government can't stamp national security on a decision and put it out of reach of the courts. Here's what's reported, what's still unclear, and what it could mean if you build on Claude.",
+        "title": "I Let Claude Duet Watch My Inbox: Honest Test",
+        "thumbnail_text": "IT PINGS ME FIRST",
+        "hook": "Anthropic just opened a research preview of Claude Duet, an app where Claude works as a proactive agent. It comes to you with what needs attention, does tasks you hand it, keeps working when you step away, and checks with you before it acts for you. I set it up on my real work to see if it actually cuts the noise.",
         "alt_titles": [
-          "Why Former Judges Are Stepping Into Anthropic's Court Case",
-          "Anthropic's Pentagon Case: What Builders Should Know"
+          "Claude Duet Setup: Make It Only Ping You When It Matters",
+          "Claude Duet After a Real Workday: Worth It?"
         ],
         "outline": [
-          "What the post reports: the rehearing request and who filed it",
-          "The argument as stated: national security labels and court review",
-          "What's not clear from the posts, and which details to verify in the filing",
-          "What it could mean for people building on Claude",
-          "What to watch next: whether the court grants a rehearing",
-          "How I'd plan around the uncertainty"
+          "What Claude Duet is, per Anthropic: a proactive agent that surfaces what needs you and keeps working while you're away",
+          "Getting into the research preview and what you connect it to",
+          "My setup: watching Slack, email and calendar and only pinging me when it matters, the way early users describe it",
+          "Handing it real tasks and testing the 'checks with you before it acts' step",
+          "Where it helped, where it got noisy or wrong, and what I'd change in the setup",
+          "Who should try it now and who should wait for it to leave preview"
         ]
       },
       "short": {
@@ -380,27 +380,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "149 former judges just weighed in on Anthropic's court case.",
-            "visual": "Headline: Anthropic and the D.C. Circuit"
+            "line": "This Claude app messages you first.",
+            "visual": "Phone notification from Claude Duet"
           },
           {
-            "t": "3-10s",
-            "line": "They're asking the full D.C. Circuit to rehear the case over a Pentagon national security decision.",
-            "visual": "Screenshot of the post"
+            "t": "3-11s",
+            "line": "Claude Duet is Anthropic's new research preview. Claude works as a proactive agent: it brings you what needs attention and keeps working when you step away.",
+            "visual": "@claudeai announcement post"
           },
           {
-            "t": "10-18s",
-            "line": "Their point is that the government can't stamp national security on a decision and keep courts from reviewing it.",
-            "visual": "Quote card"
+            "t": "11-19s",
+            "line": "Before it acts on your behalf, it checks with you. So you approve, it does the work.",
+            "visual": "Approval prompt on screen"
           },
           {
-            "t": "18-26s",
-            "line": "I'm still reading the filing, so I'll flag what's confirmed and what isn't. If you build on Claude, this is worth watching.",
-            "visual": "Document on screen"
+            "t": "19-26s",
+            "line": "Early users have it watch Slack, email and calendar and only ping them when it matters. I'm testing that setup on my own workday.",
+            "visual": "Slack, email, calendar icons feeding into Duet"
           },
           {
             "t": "26-30s",
-            "line": "Follow for the breakdown.",
+            "line": "Full results on the channel.",
             "visual": "Channel end card"
           }
         ]
@@ -408,40 +408,40 @@
       "carousel": {
         "slides": [
           {
-            "heading": "Judges back Anthropic",
-            "body": "149 former judges filed"
+            "heading": "Claude Duet is here",
+            "body": "Anthropic's research preview of a proactive agent app"
           },
           {
-            "heading": "What they want",
-            "body": "Full D.C. Circuit to rehear the case"
+            "heading": "It comes to you",
+            "body": "Surfaces what needs your attention instead of waiting for a prompt"
           },
           {
-            "heading": "The case",
-            "body": "Anthropic vs a Pentagon national security decision"
+            "heading": "It keeps working",
+            "body": "Finishes tasks you hand it, even when you step away"
           },
           {
-            "heading": "Their argument",
-            "body": "National security can't put a decision beyond court review"
+            "heading": "It asks first",
+            "body": "Checks with you before it acts on your behalf"
           },
           {
-            "heading": "What's unconfirmed",
-            "body": "I'm checking the filing for details"
+            "heading": "A setup worth copying",
+            "body": "Watch Slack, email and calendar. Ping only when it matters"
           },
           {
-            "heading": "Why builders care",
-            "body": "Claude is the tool you ship on"
+            "heading": "The real question",
+            "body": "Does it cut noise or add a new inbox? I'm testing it"
           },
           {
-            "heading": "Follow for updates",
-            "body": "Breakdown coming"
+            "heading": "See the full test",
+            "body": "Hands-on setup and results on YouTube"
           }
         ],
-        "caption": "149 former judges are asking the full D.C. Circuit to rehear Anthropic's case over a Pentagon decision, per a post. I'm reading the filing and will separate what's confirmed from what isn't."
+        "caption": "Anthropic opened a research preview of Claude Duet, where Claude works as a proactive agent that checks with you before acting. I'm setting it up on a real workday to see if it actually reduces context switching."
       },
-      "x_post": "149 former judges are asking the full D.C. Circuit to rehear Anthropic's case over a Pentagon national security decision, per a post. Their argument: that label can't put a decision beyond court review. Reading the filing now.",
+      "x_post": "Claude Duet flips the usual setup: Claude comes to you with what needs attention, keeps working when you step away, and checks with you before acting.\n\nI'm wiring it to Slack, email and calendar to see if it cuts noise or just adds another inbox.",
       "x_thread": [
-        "I'll separate what's confirmed in the filing from what's only in the posts.",
-        "If you build on Claude, this is one to watch."
+        "The setup early users describe: let it watch your channels and only ping you when it matters, ideally with a doc or design attached for context. That's what I'm testing first.",
+        "It's a research preview, so I'll be checking how often it pings for nothing and how the approve-before-acting step feels in practice."
       ]
     }
   ]
