@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T12:54:49Z",
+  "generated_at": "2026-11-17T22:54:04Z",
   "sample": false,
   "packs": [
     {
@@ -180,96 +180,6 @@
       ]
     },
     {
-      "story_id": "codex-12h-cache",
-      "fingerprint": "163128e3562d1611",
-      "why_now": "A post from the Codex team has passed 2.3 million views: prompt caching now lasts 12 hours in the API, and logged-in Codex users keep cache with no penalty for resuming old chats. No YouTube video covers it, and it changes how you run long sessions and what you pay.",
-      "video": {
-        "title": "OpenAI's 12-Hour Prompt Cache: What It Saves You",
-        "thumbnail_text": "12-HOUR CACHE",
-        "hook": "OpenAI says prompt caching now lasts 12 hours in the API, and in Codex you can resume an old conversation without a penalty. If you pay for tokens, that could change how you work. I'm going to test what it actually does to your costs.",
-        "alt_titles": [
-          "Codex Cache Change: Resume Old Chats Free?",
-          "Prompt Caching Just Got 12 Hours Longer"
-        ],
-        "outline": [
-          "What the Codex team announced, word for word, and what it doesn't say",
-          "Prompt caching in plain words: why repeated context costs less",
-          "Run the same long prompt in the API now and again hours later, and compare usage",
-          "Resume an old Codex conversation and check whether it hits the cache",
-          "How to structure prompts so the cache works for you",
-          "Where this helps, and where you should still check your bill"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-3s",
-            "line": "OpenAI just made prompt caching last 12 hours.",
-            "visual": "Headline: 12-hour cache"
-          },
-          {
-            "t": "3-10s",
-            "line": "That's in the API. Same long prompt, hours later, and it can still hit the cache instead of billing you full price again.",
-            "visual": "API usage screen with cached tokens"
-          },
-          {
-            "t": "10-18s",
-            "line": "In Codex, logged-in users keep cache and can resume an old conversation without a penalty, according to the team.",
-            "visual": "Codex session resuming"
-          },
-          {
-            "t": "18-26s",
-            "line": "So long sessions and coming back after lunch may get cheaper. I'm testing it, because claims like this need a receipt.",
-            "visual": "Before and after usage numbers"
-          },
-          {
-            "t": "26-30s",
-            "line": "Results are on the channel.",
-            "visual": "Channel end card"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "Prompt cache now lasts 12 hours",
-            "body": "Announced by the Codex team for the OpenAI API."
-          },
-          {
-            "heading": "What caching does",
-            "body": "Repeated context costs less than fresh input."
-          },
-          {
-            "heading": "API: 12 hours",
-            "body": "Come back later and the same prompt can still hit."
-          },
-          {
-            "heading": "Codex: no penalty to resume",
-            "body": "Logged-in users keep cache across Codex and Work."
-          },
-          {
-            "heading": "Why builders care",
-            "body": "Long sessions and agent loops reuse big context."
-          },
-          {
-            "heading": "Test it before you trust it",
-            "body": "Compare cached tokens on your own usage page."
-          },
-          {
-            "heading": "Follow for the cost test",
-            "body": "I'm measuring the real savings."
-          }
-        ],
-        "caption": "The Codex team says prompt caching now lasts 12 hours in the OpenAI API, and logged-in Codex users can resume old conversations without a cache penalty. That could cut costs on long sessions. I'm testing it, so check your own cached-token numbers before you count on it."
-      },
-      "x_post": "OpenAI says prompt caching now lasts 12 hours in the API, and logged-in Codex users can resume old chats with no cache penalty. If true, long sessions just got cheaper. I'm running the same prompt hours apart to check. #Codex",
-      "x_thread": [
-        "Source: the Codex team's post, 2.3M views and counting. It's a claim until we see cached-token counts.",
-        "Test plan: send one long prompt, wait, send it again, compare cached tokens in the usage data."
-      ]
-    },
-    {
       "story_id": "deepseek-v4-1-flash",
       "fingerprint": "ffbf6613d3243837",
       "why_now": "DeepSeek V4.1 Flash is suddenly everywhere: fast on Fireworks, in Vercel Token Pass, free on Opencode. There are no YouTube videos on it yet, so a hands-on test puts you first.",
@@ -352,6 +262,95 @@
       "x_post": "DeepSeek V4.1 Flash is free on Opencode, in Vercel Token Pass, and Fireworks claims 1,500+ tok/s. That's their number, so I'm testing it myself as a cheap subagent. Results soon.",
       "x_thread": [
         "Plan: run the same coding tasks on Flash and a bigger model, time both, and note where Flash falls over."
+      ]
+    },
+    {
+      "story_id": "codex-12h-cache",
+      "fingerprint": "75b507e9cb25f6ee",
+      "why_now": "A 12-hour API cache and 'cache forever' for logged-in Codex users got over 2 million views on X, and YouTube has barely touched it. If you build agents or long coding sessions, this changes what you pay to come back to old work.",
+      "video": {
+        "title": "OpenAI's 12-Hour Prompt Cache: What It Saves You (Tested)",
+        "thumbnail_text": "Cache for 12 hours",
+        "hook": "OpenAI says prompt caching now lasts 12 hours in the API, and if you're logged into Codex, your cache basically never expires. That means coming back to an old session shouldn't cost you a full re-read. I'm going to check what that actually saves you, and where it doesn't.",
+        "alt_titles": [
+          "Codex Now Keeps Your Cache Forever. Here's What That Means",
+          "The OpenAI Cache Change Every Agent Builder Should Know"
+        ],
+        "outline": [
+          "What was announced: 12-hour caching in the API, persistent cache for logged-in Codex and Work users, per the X post",
+          "Quick refresher: what prompt caching is and why it cuts cost and latency on long contexts",
+          "Test: resume a Codex session after a few hours and see whether it hits the cache",
+          "API side: how to structure prompts so the stable prefix actually gets cached",
+          "Where it won't help: changing prefixes, short prompts, and anything the post doesn't spell out",
+          "Who should care most: agent builders, long-running coding sessions, and teams paying big context bills"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-4s",
+            "line": "OpenAI just made prompt caching last twelve hours in the API.",
+            "visual": "Chase on camera, '12H CACHE' text"
+          },
+          {
+            "t": "4-11s",
+            "line": "And if you're logged into Codex, the post says your cache is kept forever, so resuming an old conversation shouldn't cost you a full re-read.",
+            "visual": "Screenshot of the X post, highlight 'keep cache forever'"
+          },
+          {
+            "t": "11-20s",
+            "line": "Why it matters: long coding sessions and agents resend the same huge context again and again. Cached tokens are cheaper and faster.",
+            "visual": "Simple diagram: same prefix, cached vs. uncached"
+          },
+          {
+            "t": "20-27s",
+            "line": "I'm testing it by coming back to a Codex session hours later and checking if it really hits the cache.",
+            "visual": "Codex session with a clock jump"
+          },
+          {
+            "t": "27-30s",
+            "line": "Full breakdown on the channel.",
+            "visual": "Subscribe end card"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "OpenAI's cache now lasts 12 hours",
+            "body": "Here's what changed and who it helps."
+          },
+          {
+            "heading": "The announcement",
+            "body": "12-hour prompt caching in the API. Logged-in Codex and Work users keep cache with no expiry, per the post."
+          },
+          {
+            "heading": "Why caching matters",
+            "body": "Reused context costs less and returns faster. Long sessions resend a lot of context."
+          },
+          {
+            "heading": "The real win: resuming",
+            "body": "Come back to an old conversation hours later and still hit the cache, the post says."
+          },
+          {
+            "heading": "How to benefit in the API",
+            "body": "Keep the stable part of your prompt first. Put changing parts at the end."
+          },
+          {
+            "heading": "What I'm still checking",
+            "body": "Exact pricing and limits. I'm testing it before calling it a win."
+          },
+          {
+            "heading": "Want the test results?",
+            "body": "Full video on Chase AI. Follow for the breakdown."
+          }
+        ],
+        "caption": "OpenAI says prompt caching now lasts 12 hours in the API, and logged-in Codex users keep their cache with no expiry. If you run long coding sessions or agents, that's a real cost and speed change. I'm testing whether resuming an old session actually hits the cache. Full breakdown on the channel."
+      },
+      "x_post": "OpenAI: prompt caching now lasts 12 hours in the API, and logged-in Codex users keep cache with no expiry.\n\nIf you resume long coding sessions, that should mean no full re-read cost. I'm testing whether it actually hits the cache hours later. Results soon.",
+      "x_thread": [
+        "Quick tip while you wait: put the stable part of your prompt first (system prompt, docs, tools) and the changing part last. That's what lets caching do its job."
       ]
     },
     {

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T12:54:35Z",
+  "generated_at": "2026-11-17T22:53:32Z",
   "x_trends_generated_at": "2026-10-21T22:54:02Z",
   "x_trends_sample": false,
   "lookback_hours": 72,
@@ -24,8 +24,8 @@
       "title": "Claude API ships dated version 2026-10-21 with breaking changes",
       "query": "claude api anthropic api api breaking changes",
       "video_count": 1,
-      "total_views": 62,
-      "max_views": 62,
+      "total_views": 79,
+      "max_views": 79,
       "big_channel_videos": 0,
       "coverage": "low",
       "coverage_score": 4,
@@ -39,23 +39,9 @@
           "channel": "TechLover",
           "channel_subscribers": 527,
           "published_at": "2026-11-16T17:31:17Z",
-          "views": 62
+          "views": 79
         }
       ]
-    },
-    {
-      "story_id": "codex-12h-cache",
-      "title": "OpenAI adds 12-hour prompt cache across API and Codex",
-      "query": "codex prompt caching openai api",
-      "video_count": 0,
-      "total_views": 0,
-      "max_views": 0,
-      "big_channel_videos": 0,
-      "coverage": "none",
-      "coverage_score": 0,
-      "heat": 77.0,
-      "gap_score": 77,
-      "top_videos": []
     },
     {
       "story_id": "deepseek-v4-1-flash",
@@ -72,18 +58,51 @@
       "top_videos": []
     },
     {
+      "story_id": "codex-12h-cache",
+      "title": "OpenAI adds 12-hour prompt cache across API and Codex",
+      "query": "codex prompt caching openai api",
+      "video_count": 1,
+      "total_views": 206,
+      "max_views": 206,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 4,
+      "heat": 77.0,
+      "gap_score": 74,
+      "top_videos": [
+        {
+          "video_id": "Jc53rLUtPiI",
+          "title": "GPT-6.2 Astra and Sol Explained: Price, Benchmarks, Risks",
+          "url": "https://www.youtube.com/watch?v=Jc53rLUtPiI",
+          "channel": "Signal Spike",
+          "channel_subscribers": 4,
+          "published_at": "2026-11-17T19:47:55Z",
+          "views": 206
+        }
+      ]
+    },
+    {
       "story_id": "claude-duet-preview",
       "title": "Anthropic opens research preview of Claude Duet agent app",
       "query": "claude duet anthropic claude agent",
       "video_count": 13,
-      "total_views": 573,
-      "max_views": 196,
+      "total_views": 1006,
+      "max_views": 311,
       "big_channel_videos": 0,
       "coverage": "low",
       "coverage_score": 30,
       "heat": 100.0,
       "gap_score": 70,
       "top_videos": [
+        {
+          "video_id": "k_MKZB2O80Q",
+          "title": "Meta, OpenAI and Anthropic just launched AI agents. Check this first",
+          "url": "https://www.youtube.com/watch?v=k_MKZB2O80Q",
+          "channel": "Jaydeepp Sikdar",
+          "channel_subscribers": 178,
+          "published_at": "2026-11-15T08:33:28Z",
+          "views": 311
+        },
         {
           "video_id": "59yoJV6LSjk",
           "title": "Claude Duet: ये AI खुद तुम्हें मैसेज करता है 🤯",
@@ -98,36 +117,27 @@
           "title": "Claude Duet's Morning Brief: 27 Wrong Orders, Refunds Drafted",
           "url": "https://www.youtube.com/watch?v=CjC1ryPFgvk",
           "channel": "Marty AI",
-          "channel_subscribers": 1950,
+          "channel_subscribers": 1960,
           "published_at": "2026-11-16T11:00:37Z",
-          "views": 166
+          "views": 190
         },
         {
           "video_id": "gaAp5CMgwpk",
           "title": "Claude Duet vs n8n Nod: The Free Open-Source Alternative - Daily AI Pulse",
           "url": "https://www.youtube.com/watch?v=gaAp5CMgwpk",
           "channel": "Joe Builds Systems",
-          "channel_subscribers": 159,
+          "channel_subscribers": 160,
           "published_at": "2026-11-15T19:56:37Z",
-          "views": 115
+          "views": 180
         },
         {
-          "video_id": "BFN9nmRMhG0",
-          "title": "What if an AI helper noticed the things you forgot? Claude Duet explained",
-          "url": "https://www.youtube.com/watch?v=BFN9nmRMhG0",
-          "channel": "avatar leo chun",
-          "channel_subscribers": 8,
-          "published_at": "2026-11-14T13:44:55Z",
-          "views": 26
-        },
-        {
-          "video_id": "6Y_dpSmhiK0",
-          "title": "Which AI Agent Knows You Best?",
-          "url": "https://www.youtube.com/watch?v=6Y_dpSmhiK0",
-          "channel": "Apex AI",
-          "channel_subscribers": 12,
-          "published_at": "2026-11-14T13:30:05Z",
-          "views": 19
+          "video_id": "A44G34f9eYE",
+          "title": "Anthropic Claude Can Now Run Inside YOUR Network! 🔥 Private AI Agents Explained",
+          "url": "https://www.youtube.com/watch?v=A44G34f9eYE",
+          "channel": "Duo Talks AI",
+          "channel_subscribers": 9460,
+          "published_at": "2026-11-17T14:30:39Z",
+          "views": 53
         }
       ]
     },
@@ -205,14 +215,14 @@
       "story_id": "deepseek-deepinfer-open-source",
       "title": "vLLM claims to match DeepSeek serving performance",
       "query": "vllm deepseek deepinfer",
-      "video_count": 2,
-      "total_views": 1824,
-      "max_views": 1799,
+      "video_count": 1,
+      "total_views": 4613,
+      "max_views": 4613,
       "big_channel_videos": 0,
       "coverage": "low",
-      "coverage_score": 12,
+      "coverage_score": 15,
       "heat": 45.0,
-      "gap_score": 40,
+      "gap_score": 38,
       "top_videos": [
         {
           "video_id": "dFavv-VDXJM",
@@ -221,16 +231,67 @@
           "channel": "The Stack",
           "channel_subscribers": 15000,
           "published_at": "2026-11-16T15:30:14Z",
-          "views": 1799
+          "views": 4613
+        }
+      ]
+    },
+    {
+      "story_id": "claude-opus-5-5-builds",
+      "title": "Developers share Claude Opus 5.5 coding workflows",
+      "query": "claude opus 5.5 claude code codex review",
+      "video_count": 5,
+      "total_views": 7114,
+      "max_views": 4616,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 33,
+      "heat": 54.0,
+      "gap_score": 36,
+      "top_videos": [
+        {
+          "video_id": "NSxb0XGy4Y8",
+          "title": "Claude Code + Codex: AI s nekonečným limitom?",
+          "url": "https://www.youtube.com/watch?v=NSxb0XGy4Y8",
+          "channel": "Martyx Academy",
+          "channel_subscribers": 2030,
+          "published_at": "2026-11-16T11:00:02Z",
+          "views": 4616
         },
         {
-          "video_id": "LOFS8WVEuLQ",
-          "title": "DeepInfer คือเอนจินที่วิ่งอยู่หลังบ้านของ API ของ DeepSeek ตอนนี้เปิดซอร์สแบบ Apache 2.0 แล้ว แต่สิ่",
-          "url": "https://www.youtube.com/watch?v=LOFS8WVEuLQ",
-          "channel": "ClipFlowTH",
-          "channel_subscribers": 20,
-          "published_at": "2026-11-14T13:02:30Z",
-          "views": 25
+          "video_id": "Pjsi5GSjiS8",
+          "title": "Vibe coding an app like a senior engineer | Opus 5.5 🔴 LIVE",
+          "url": "https://www.youtube.com/watch?v=Pjsi5GSjiS8",
+          "channel": "Asklog",
+          "channel_subscribers": 432,
+          "published_at": "2026-11-16T21:59:12Z",
+          "views": 1485
+        },
+        {
+          "video_id": "udx5VdcznwQ",
+          "title": "Qwen 4 Max Review: Beats Claude Opus 5.5? (Honest Benchmarks)",
+          "url": "https://www.youtube.com/watch?v=udx5VdcznwQ",
+          "channel": "The Learn Up",
+          "channel_subscribers": 19500,
+          "published_at": "2026-11-17T06:42:54Z",
+          "views": 557
+        },
+        {
+          "video_id": "4R5DLQcjQ0g",
+          "title": "Claude Code Video Editing: Before vs After",
+          "url": "https://www.youtube.com/watch?v=4R5DLQcjQ0g",
+          "channel": "Edita Visuals",
+          "channel_subscribers": 97,
+          "published_at": "2026-11-15T15:00:22Z",
+          "views": 337
+        },
+        {
+          "video_id": "3lM8ql8kg08",
+          "title": "how to ACTUALLY build with claude code #claudecode #vibecoding",
+          "url": "https://www.youtube.com/watch?v=3lM8ql8kg08",
+          "channel": "Rich Kuo",
+          "channel_subscribers": 4530,
+          "published_at": "2026-11-17T21:47:04Z",
+          "views": 119
         }
       ]
     },
@@ -249,77 +310,17 @@
       "top_videos": []
     },
     {
-      "story_id": "claude-opus-5-5-builds",
-      "title": "Developers share Claude Opus 5.5 coding workflows",
-      "query": "claude opus 5.5 claude code codex review",
-      "video_count": 8,
-      "total_views": 5910,
-      "max_views": 3881,
-      "big_channel_videos": 0,
-      "coverage": "medium",
-      "coverage_score": 43,
-      "heat": 54.0,
-      "gap_score": 31,
-      "top_videos": [
-        {
-          "video_id": "NSxb0XGy4Y8",
-          "title": "Claude Code + Codex: AI s nekonečným limitom?",
-          "url": "https://www.youtube.com/watch?v=NSxb0XGy4Y8",
-          "channel": "Martyx Academy",
-          "channel_subscribers": 2010,
-          "published_at": "2026-11-16T11:00:02Z",
-          "views": 3881
-        },
-        {
-          "video_id": "Pjsi5GSjiS8",
-          "title": "Vibe coding an app like a senior engineer | Opus 5.5 🔴 LIVE",
-          "url": "https://www.youtube.com/watch?v=Pjsi5GSjiS8",
-          "channel": "Asklog",
-          "channel_subscribers": 432,
-          "published_at": "2026-11-16T21:59:12Z",
-          "views": 1464
-        },
-        {
-          "video_id": "4R5DLQcjQ0g",
-          "title": "Claude Code Video Editing: Before vs After",
-          "url": "https://www.youtube.com/watch?v=4R5DLQcjQ0g",
-          "channel": "Edita Visuals",
-          "channel_subscribers": 95,
-          "published_at": "2026-11-15T15:00:22Z",
-          "views": 313
-        },
-        {
-          "video_id": "udx5VdcznwQ",
-          "title": "Qwen 4 Max Review: Beats Claude Opus 5.5? (Honest Benchmarks)",
-          "url": "https://www.youtube.com/watch?v=udx5VdcznwQ",
-          "channel": "The Learn Up",
-          "channel_subscribers": 19500,
-          "published_at": "2026-11-17T06:42:54Z",
-          "views": 132
-        },
-        {
-          "video_id": "L8iA5lHEcE4",
-          "title": "Claude Code vs Codex: Stop Approving Plans You Haven't Read",
-          "url": "https://www.youtube.com/watch?v=L8iA5lHEcE4",
-          "channel": "Byte Receipts",
-          "channel_subscribers": 11,
-          "published_at": "2026-11-14T15:00:12Z",
-          "views": 71
-        }
-      ]
-    },
-    {
       "story_id": "grok-bot-push",
       "title": "xAI pushes Grok Bot with user demos and adoption claims",
       "query": "grok bot xai grok",
       "video_count": 24,
-      "total_views": 194943,
-      "max_views": 94079,
-      "big_channel_videos": 5,
+      "total_views": 218879,
+      "max_views": 99868,
+      "big_channel_videos": 4,
       "coverage": "high",
-      "coverage_score": 88,
+      "coverage_score": 89,
       "heat": 100.0,
-      "gap_score": 12,
+      "gap_score": 11,
       "top_videos": [
         {
           "video_id": "kjlDV-vf0-A",
@@ -328,7 +329,7 @@
           "channel": "Matt Palmer",
           "channel_subscribers": 52800,
           "published_at": "2026-11-15T17:28:25Z",
-          "views": 94079
+          "views": 99868
         },
         {
           "video_id": "1pVIyxfWDLY",
@@ -337,34 +338,34 @@
           "channel": "The AI Nexus",
           "channel_subscribers": 42900,
           "published_at": "2026-11-16T03:08:46Z",
-          "views": 41091
+          "views": 43984
         },
         {
           "video_id": "tYQDkYyIjxA",
           "title": "The Best Ways to Make Money With Grok Bot",
           "url": "https://www.youtube.com/watch?v=tYQDkYyIjxA",
           "channel": "Dylan Sigley Business",
-          "channel_subscribers": 75300,
+          "channel_subscribers": 75400,
           "published_at": "2026-11-15T15:24:54Z",
-          "views": 26091
+          "views": 32871
         },
         {
           "video_id": "CODaDnHwe2M",
           "title": "Grok Bot 101",
           "url": "https://www.youtube.com/watch?v=CODaDnHwe2M",
           "channel": "Grok",
-          "channel_subscribers": 41300,
+          "channel_subscribers": 41500,
           "published_at": "2026-11-16T21:15:12Z",
-          "views": 11879
+          "views": 17817
         },
         {
           "video_id": "DNEdKxmVxuE",
           "title": "You Have 3 Months Left to Get Rich with Grok Bot",
           "url": "https://www.youtube.com/watch?v=DNEdKxmVxuE",
           "channel": "By Joel Blackman",
-          "channel_subscribers": 7500,
+          "channel_subscribers": 7670,
           "published_at": "2026-11-15T18:05:45Z",
-          "views": 9467
+          "views": 10388
         }
       ]
     }
