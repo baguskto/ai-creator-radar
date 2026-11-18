@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T12:54:42Z",
+  "generated_at": "2026-11-18T22:54:37Z",
   "sample": false,
   "packs": [
     {
@@ -358,23 +358,23 @@
     },
     {
       "story_id": "claude-duet-preview",
-      "fingerprint": "dc5de8def6ac640e",
-      "why_now": "Claude Duet's research preview drew millions of views on X, but YouTube coverage is small and mostly overviews. A real hands-on setup video is still open.",
+      "fingerprint": "d4b7f0025a5c0c59",
+      "why_now": "Claude Duet's announcement passed 2.8 million views on X, yet the 15 YouTube videos on it share about 1,600 views. Nobody has tested its biggest claim yet: that it keeps working when you step away.",
       "video": {
-        "title": "I Let Claude Duet Watch My Inbox. Here's What Happened",
-        "thumbnail_text": "IT PINGS ME FIRST",
-        "hook": "Anthropic's new app, Claude Duet, is supposed to work while you're away and only come to you when something needs your attention. It checks with you before it acts on your behalf. That sounds great, but does it actually cut the noise or just add another inbox? I set it up to find out.",
+        "title": "I Stepped Away for a Day. Here's What Claude Duet Got Done",
+        "thumbnail_text": "WHILE I WAS GONE",
+        "hook": "Anthropic says Claude Duet keeps working when you step away, and checks with you before it acts for you. So I gave it a real to-do list, closed my laptop for a day, and came back to see what was actually done, what was waiting for my OK, and what it got wrong.",
         "alt_titles": [
-          "Claude Duet Setup: A Proactive Agent That Checks In",
-          "Claude Duet Hands-On: Worth It for Solo Builders?"
+          "Claude Duet Away Test: Real Work or Just Notifications?",
+          "Can Claude Duet Run Your Day Without You? I Checked"
         ],
         "outline": [
-          "What Claude Duet is: a research preview of Claude as a proactive agent",
-          "Setup: connecting it to email, Slack and calendar (the setup early users describe)",
-          "Test: does it only ping me when it matters, or is it noisy?",
-          "How the check-before-acting step works in practice",
-          "Where it fell short and who should wait",
-          "Verdict for solo creators and small teams"
+          "Quick setup: what Duet is and which accounts I connected",
+          "The task list I handed it before stepping away",
+          "Coming back: what it finished, what it held for approval",
+          "The approval step: useful guardrail or one more inbox?",
+          "Mistakes and misses, shown on screen",
+          "Who should try the preview now and who should wait"
         ]
       },
       "short": {
@@ -382,27 +382,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Claude now has an app that comes to you first.",
-            "visual": "Chase holding phone with Duet notification"
+            "line": "I gave Claude Duet my to-do list and walked away.",
+            "visual": "Chase closing laptop"
           },
           {
             "t": "3-10s",
-            "line": "It's called Claude Duet, a research preview. It surfaces what needs your attention and keeps working when you step away.",
-            "visual": "The @claudeai announcement"
+            "line": "Duet is Anthropic's new research preview. The pitch: it keeps working when you step away and brings you what needs attention.",
+            "visual": "The @claudeai announcement post"
           },
           {
             "t": "10-18s",
-            "line": "The key part: it checks with you before it acts on your behalf. So no surprise emails sent in your name.",
-            "visual": "Approval prompt on screen"
+            "line": "But it checks with you before it acts on your behalf. So when I came back, some tasks were done and some were waiting for my OK.",
+            "visual": "Duet summary with approval queue"
           },
           {
-            "t": "18-25s",
-            "line": "Early users have it watch Slack, email and calendar and only ping them when it matters. I'm testing whether that holds up.",
-            "visual": "Split screen: inbox vs Duet summary"
+            "t": "18-26s",
+            "line": "The real question is whether that queue saves you time or just becomes another inbox. I counted.",
+            "visual": "Tally on screen: done vs waiting"
           },
           {
-            "t": "25-30s",
-            "line": "Full hands-on test is on the channel.",
+            "t": "26-30s",
+            "line": "Full away test is on the channel.",
             "visual": "End card"
           }
         ]
@@ -410,39 +410,39 @@
       "carousel": {
         "slides": [
           {
-            "heading": "Claude Duet: an agent that comes to you",
-            "body": "Anthropic's new research preview, explained."
+            "heading": "I walked away from Claude Duet",
+            "body": "A one-day away test of Anthropic's new agent app."
           },
           {
-            "heading": "What it does",
-            "body": "Surfaces what needs your attention and completes tasks you ask for."
+            "heading": "The claim",
+            "body": "It keeps working when you step away and asks before acting for you."
           },
           {
-            "heading": "Keeps working when you step away",
-            "body": "It runs in the background instead of waiting for a prompt."
+            "heading": "The setup",
+            "body": "A real task list, connected accounts, laptop closed."
           },
           {
-            "heading": "Asks before it acts",
-            "body": "It checks with you before acting on your behalf."
+            "heading": "What I came back to",
+            "body": "Tasks done, plus a queue waiting for my approval."
           },
           {
-            "heading": "How early users set it up",
-            "body": "Watching Slack, email and calendar, pinging only when it matters."
+            "heading": "Does the queue help?",
+            "body": "Guardrail or one more inbox. I counted both sides."
           },
           {
-            "heading": "The open question",
-            "body": "Does it cut context switching or add another feed? I'm testing it."
+            "heading": "What early users report",
+            "body": "Less context switching when it only pings on what matters."
           },
           {
-            "heading": "See the hands-on test",
-            "body": "Full video on YouTube: Chase AI."
+            "heading": "Watch the full test",
+            "body": "Results and mistakes on YouTube: Chase AI."
           }
         ],
-        "caption": "Claude Duet is Anthropic's new proactive agent app. It works while you're away and asks before it acts. I'm testing whether it actually reduces the noise."
+        "caption": "Claude Duet says it keeps working while you're away. I tested that literally: gave it a task list, stepped away for a day, and checked what was done when I got back."
       },
-      "x_post": "Claude Duet is out as a research preview: Claude as a proactive agent that brings you what needs attention, keeps working when you step away, and asks before acting for you.\n\nI'm setting it up on my inbox, Slack and calendar to see if it really cuts the noise.",
+      "x_post": "Claude Duet's big claim: it keeps working when you step away, and checks with you before acting for you.\n\nSo I'm testing it literally. Real task list, laptop closed for a day, then I count what got done vs. what sat waiting for my OK.",
       "x_thread": [
-        "What I'm testing: how often it pings, whether the pings are worth it, and how the approval step feels day to day."
+        "Early users say the win is less context switching: it watches Slack, email and calendar and only pings when it matters. I want to see if that holds when you're fully offline."
       ]
     }
   ]
