@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T22:53:32Z",
+  "generated_at": "2026-11-18T12:54:02Z",
   "sample": false,
-  "latest_version": "2.1.326",
+  "latest_version": "2.1.327",
   "dist_tags": {
-    "latest": "2.1.326",
+    "latest": "2.1.327",
     "stable": "2.1.311",
     "next": "2.1.327"
   },
   "items": [
+    {
+      "version": "2.1.327",
+      "date": "2026-11-17",
+      "title": "9 new features, 26 improvements, 37 changes, 100 fixes",
+      "highlights": [
+        "Added a confirmation before /install-github-app changes a repository",
+        "Added claude mcp add-json <name> - to read the server's JSON from stdin, so tokens can stay off the command line; not available inside a…",
+        "Added a line when a resumed session's earlier messages can't be loaded",
+        "Added a list in /status of broken agent, skill, command and output style files, keybinding errors, an unavailable sandbox, ignored…",
+        "Added a note in /config when other settings override a row"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.327",
+      "released_at": "2026-11-17T20:33:19.976Z",
+      "summary": "9 added, 26 improved, 36 changed, 100 fixed, 1 removed",
+      "counts": {
+        "added": 9,
+        "improved": 26,
+        "changed": 36,
+        "fixed": 100,
+        "removed": 1,
+        "other": 1
+      }
+    },
     {
       "version": "2.1.326",
       "date": "2026-11-16",
@@ -162,29 +185,6 @@
         "improved": 15,
         "changed": 10,
         "fixed": 47,
-        "removed": 1,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.317",
-      "date": "2026-11-02",
-      "title": "10 new features, 8 improvements, 7 changes, 62 fixes",
-      "highlights": [
-        "Added a warning to /schedule when a new cloud scheduled task gets connectors you did not ask for, with how to remove them",
-        "Added a check that asks before a web or shell tool call sends your account email address to the network",
-        "Added onFailure: \"block\" for Agent SDK hook callbacks, so a callback that fails blocks the action instead of letting it run",
-        "Added a notice in Claude Desktop's Code tab when your organization's remote managed settings haven't loaded for the session, and another…",
-        "Added a notice when auto mode's check has no answer for a subagent's tool call, which used to leave nothing in the main view"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.317",
-      "released_at": "2026-11-02T23:57:53.069Z",
-      "summary": "10 added, 8 improved, 6 changed, 62 fixed, 1 removed",
-      "counts": {
-        "added": 10,
-        "improved": 8,
-        "changed": 6,
-        "fixed": 62,
         "removed": 1,
         "other": 0
       }
