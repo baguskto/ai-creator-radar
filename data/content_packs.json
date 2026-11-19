@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T22:54:37Z",
+  "generated_at": "2026-11-19T12:54:44Z",
   "sample": false,
   "packs": [
     {
@@ -269,112 +269,23 @@
     },
     {
       "story_id": "codex-12h-cache",
-      "fingerprint": "75b507e9cb25f6ee",
-      "why_now": "A 12-hour API cache and 'cache forever' for logged-in Codex users got over 2 million views on X, and YouTube has barely touched it. If you build agents or long coding sessions, this changes what you pay to come back to old work.",
+      "fingerprint": "86b35920cff14f19",
+      "why_now": "OpenAI's Codex lead says API prompt caching now lasts 12 hours and Codex sessions keep their cache, and the post has 2M+ views with almost no YouTube coverage. Builders want to know what it does to their bill.",
       "video": {
         "title": "OpenAI's 12-Hour Prompt Cache: What It Saves You (Tested)",
-        "thumbnail_text": "Cache for 12 hours",
-        "hook": "OpenAI says prompt caching now lasts 12 hours in the API, and if you're logged into Codex, your cache basically never expires. That means coming back to an old session shouldn't cost you a full re-read. I'm going to check what that actually saves you, and where it doesn't.",
+        "thumbnail_text": "CACHE FOR 12 HOURS",
+        "hook": "OpenAI just said prompt caching in the API now lasts 12 hours, and in Codex your old conversations stay cached. If you run agents or long coding sessions, that could be a real cut to your bill. So I'm going to test it: same prompt, hours apart, and see if the cache actually hits.",
         "alt_titles": [
-          "Codex Now Keeps Your Cache Forever. Here's What That Means",
-          "The OpenAI Cache Change Every Agent Builder Should Know"
+          "Codex Now Remembers Your Old Sessions (Prompt Cache Test)",
+          "12-Hour Prompt Caching: Does It Actually Cut Your API Bill?"
         ],
         "outline": [
-          "What was announced: 12-hour caching in the API, persistent cache for logged-in Codex and Work users, per the X post",
-          "Quick refresher: what prompt caching is and why it cuts cost and latency on long contexts",
-          "Test: resume a Codex session after a few hours and see whether it hits the cache",
-          "API side: how to structure prompts so the stable prefix actually gets cached",
-          "Where it won't help: changing prefixes, short prompts, and anything the post doesn't spell out",
-          "Who should care most: agent builders, long-running coding sessions, and teams paying big context bills"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-4s",
-            "line": "OpenAI just made prompt caching last twelve hours in the API.",
-            "visual": "Chase on camera, '12H CACHE' text"
-          },
-          {
-            "t": "4-11s",
-            "line": "And if you're logged into Codex, the post says your cache is kept forever, so resuming an old conversation shouldn't cost you a full re-read.",
-            "visual": "Screenshot of the X post, highlight 'keep cache forever'"
-          },
-          {
-            "t": "11-20s",
-            "line": "Why it matters: long coding sessions and agents resend the same huge context again and again. Cached tokens are cheaper and faster.",
-            "visual": "Simple diagram: same prefix, cached vs. uncached"
-          },
-          {
-            "t": "20-27s",
-            "line": "I'm testing it by coming back to a Codex session hours later and checking if it really hits the cache.",
-            "visual": "Codex session with a clock jump"
-          },
-          {
-            "t": "27-30s",
-            "line": "Full breakdown on the channel.",
-            "visual": "Subscribe end card"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "OpenAI's cache now lasts 12 hours",
-            "body": "Here's what changed and who it helps."
-          },
-          {
-            "heading": "The announcement",
-            "body": "12-hour prompt caching in the API. Logged-in Codex and Work users keep cache with no expiry, per the post."
-          },
-          {
-            "heading": "Why caching matters",
-            "body": "Reused context costs less and returns faster. Long sessions resend a lot of context."
-          },
-          {
-            "heading": "The real win: resuming",
-            "body": "Come back to an old conversation hours later and still hit the cache, the post says."
-          },
-          {
-            "heading": "How to benefit in the API",
-            "body": "Keep the stable part of your prompt first. Put changing parts at the end."
-          },
-          {
-            "heading": "What I'm still checking",
-            "body": "Exact pricing and limits. I'm testing it before calling it a win."
-          },
-          {
-            "heading": "Want the test results?",
-            "body": "Full video on Chase AI. Follow for the breakdown."
-          }
-        ],
-        "caption": "OpenAI says prompt caching now lasts 12 hours in the API, and logged-in Codex users keep their cache with no expiry. If you run long coding sessions or agents, that's a real cost and speed change. I'm testing whether resuming an old session actually hits the cache. Full breakdown on the channel."
-      },
-      "x_post": "OpenAI: prompt caching now lasts 12 hours in the API, and logged-in Codex users keep cache with no expiry.\n\nIf you resume long coding sessions, that should mean no full re-read cost. I'm testing whether it actually hits the cache hours later. Results soon.",
-      "x_thread": [
-        "Quick tip while you wait: put the stable part of your prompt first (system prompt, docs, tools) and the changing part last. That's what lets caching do its job."
-      ]
-    },
-    {
-      "story_id": "claude-duet-preview",
-      "fingerprint": "d4b7f0025a5c0c59",
-      "why_now": "Claude Duet's announcement passed 2.8 million views on X, yet the 15 YouTube videos on it share about 1,600 views. Nobody has tested its biggest claim yet: that it keeps working when you step away.",
-      "video": {
-        "title": "I Stepped Away for a Day. Here's What Claude Duet Got Done",
-        "thumbnail_text": "WHILE I WAS GONE",
-        "hook": "Anthropic says Claude Duet keeps working when you step away, and checks with you before it acts for you. So I gave it a real to-do list, closed my laptop for a day, and came back to see what was actually done, what was waiting for my OK, and what it got wrong.",
-        "alt_titles": [
-          "Claude Duet Away Test: Real Work or Just Notifications?",
-          "Can Claude Duet Run Your Day Without You? I Checked"
-        ],
-        "outline": [
-          "Quick setup: what Duet is and which accounts I connected",
-          "The task list I handed it before stepping away",
-          "Coming back: what it finished, what it held for approval",
-          "The approval step: useful guardrail or one more inbox?",
-          "Mistakes and misses, shown on screen",
-          "Who should try the preview now and who should wait"
+          "What was announced, in plain words: 12h cache in the API, persistent cache in Codex and Work for logged-in users",
+          "Quick refresher: what prompt caching is and why cached tokens cost less",
+          "Test 1: send a long prompt, wait a few hours, resend, check the cached token count in the usage response",
+          "Test 2: resume an old Codex session and see if it picks up where it left off without a cold start",
+          "What to change in your own setup: keep stable prefixes, put changing content last",
+          "Limits and open questions: what we couldn't confirm, and who this matters most for"
         ]
       },
       "short": {
@@ -382,27 +293,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "I gave Claude Duet my to-do list and walked away.",
-            "visual": "Chase closing laptop"
+            "line": "OpenAI just made prompt caching last 12 hours.",
+            "visual": "Screenshot of the announcement post"
           },
           {
             "t": "3-10s",
-            "line": "Duet is Anthropic's new research preview. The pitch: it keeps working when you step away and brings you what needs attention.",
-            "visual": "The @claudeai announcement post"
+            "line": "Before, the cache expired fast, so if you came back after lunch you paid full price to resend the same context.",
+            "visual": "Timeline graphic: cache expiring"
           },
           {
             "t": "10-18s",
-            "line": "But it checks with you before it acts on your behalf. So when I came back, some tasks were done and some were waiting for my OK.",
-            "visual": "Duet summary with approval queue"
+            "line": "Now the API can cache for 12 hours, and in Codex your old conversations are supposed to stay cached.",
+            "visual": "Codex resuming an old session"
           },
           {
-            "t": "18-26s",
-            "line": "The real question is whether that queue saves you time or just becomes another inbox. I counted.",
-            "visual": "Tally on screen: done vs waiting"
+            "t": "18-25s",
+            "line": "I'm testing it: same prompt, hours apart, and checking the cached token count.",
+            "visual": "Usage JSON with cached_tokens highlighted"
           },
           {
-            "t": "26-30s",
-            "line": "Full away test is on the channel.",
+            "t": "25-30s",
+            "line": "Full results in the video. Follow so you don't miss it.",
             "visual": "End card"
           }
         ]
@@ -410,40 +321,119 @@
       "carousel": {
         "slides": [
           {
-            "heading": "I walked away from Claude Duet",
-            "body": "A one-day away test of Anthropic's new agent app."
+            "heading": "OpenAI's cache now lasts 12 hours",
+            "body": "What it means for your API bill."
           },
           {
-            "heading": "The claim",
-            "body": "It keeps working when you step away and asks before acting for you."
+            "heading": "What changed",
+            "body": "API prompts can stay cached for 12 hours. Codex and Work keep cache for logged-in users."
           },
           {
-            "heading": "The setup",
-            "body": "A real task list, connected accounts, laptop closed."
+            "heading": "Why it matters",
+            "body": "Cached tokens are cheaper. Long agent runs and coding sessions resend a lot of context."
           },
           {
-            "heading": "What I came back to",
-            "body": "Tasks done, plus a queue waiting for my approval."
+            "heading": "Who wins most",
+            "body": "Agents, coding assistants, and anyone who comes back to the same long prompt."
           },
           {
-            "heading": "Does the queue help?",
-            "body": "Guardrail or one more inbox. I counted both sides."
+            "heading": "How to benefit",
+            "body": "Keep your system prompt and docs at the start. Put the parts that change last."
           },
           {
-            "heading": "What early users report",
-            "body": "Less context switching when it only pings on what matters."
-          },
-          {
-            "heading": "Watch the full test",
-            "body": "Results and mistakes on YouTube: Chase AI."
+            "heading": "I'm testing it",
+            "body": "Same prompt, hours apart. Does the cache hit? Video coming. Follow for results."
           }
         ],
-        "caption": "Claude Duet says it keeps working while you're away. I tested that literally: gave it a task list, stepped away for a day, and checked what was done when I got back."
+        "caption": "OpenAI says prompt caching now lasts 12 hours in the API, and Codex keeps your old sessions cached. I'm testing whether it actually hits and what it saves."
       },
-      "x_post": "Claude Duet's big claim: it keeps working when you step away, and checks with you before acting for you.\n\nSo I'm testing it literally. Real task list, laptop closed for a day, then I count what got done vs. what sat waiting for my OK.",
+      "x_post": "OpenAI says API prompt caching now lasts 12 hours, and Codex keeps old sessions cached for logged-in users.\n\nIf you run agents or long coding sessions, that's a real cost lever.\n\nTesting it today: same prompt, hours apart, checking cached tokens. Results soon.",
       "x_thread": [
-        "Early users say the win is less context switching: it watches Slack, email and calendar and only pings when it matters. I want to see if that holds when you're fully offline."
+        "Quick tip while you wait: caching works on the prefix. Keep your system prompt and reference docs first, and put the stuff that changes at the end."
       ]
+    },
+    {
+      "story_id": "anthropic-pentagon-case",
+      "fingerprint": "80e12510a232f707",
+      "why_now": "149 former judges are asking the full D.C. Circuit to rehear Anthropic's case against a Pentagon national security decision, and YouTube has no coverage yet. It's a question about who checks government decisions on AI companies.",
+      "video": {
+        "title": "149 Former Judges Back Anthropic Against the Pentagon",
+        "thumbnail_text": "JUDGES vs PENTAGON",
+        "hook": "149 former judges just asked a federal appeals court to rehear Anthropic's case against the Pentagon. Their argument: the government can't label a decision national security and put it out of reach of the courts. Here's what's actually going on and why it matters if you build on Claude.",
+        "alt_titles": [
+          "Anthropic vs the Pentagon: Why Former Judges Stepped In",
+          "Can the Pentagon Block Courts on AI? The Anthropic Case"
+        ],
+        "outline": [
+          "What happened: 149 former judges filed asking the full D.C. Circuit to rehear the case",
+          "Background: what we know about Anthropic's dispute with the Pentagon, and what's still unclear",
+          "What rehearing en banc means in plain words",
+          "The core argument: can a national security label shut out court review",
+          "What this could mean for AI companies and for people building on Claude",
+          "What to watch next, without guessing the outcome"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-4s",
+            "line": "149 former judges just stepped into Anthropic's fight with the Pentagon.",
+            "visual": "Headline card"
+          },
+          {
+            "t": "4-12s",
+            "line": "They're asking the full D.C. Circuit to rehear Anthropic's case, not just a three-judge panel.",
+            "visual": "Courthouse graphic"
+          },
+          {
+            "t": "12-20s",
+            "line": "Their point: the Pentagon can't stamp national security on a decision and put it out of reach of the courts.",
+            "visual": "Quote on screen"
+          },
+          {
+            "t": "20-26s",
+            "line": "This is about who gets to check the government when it acts against an AI company.",
+            "visual": "Anthropic and Pentagon logos split screen"
+          },
+          {
+            "t": "26-30s",
+            "line": "Full breakdown on the channel. Follow so you catch the next ruling.",
+            "visual": "End card"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "Former judges back Anthropic",
+            "body": "149 of them, asking for a rehearing."
+          },
+          {
+            "heading": "What they asked for",
+            "body": "The full D.C. Circuit to rehear Anthropic's case against a Pentagon decision."
+          },
+          {
+            "heading": "Their argument",
+            "body": "A national security label shouldn't put a decision beyond the courts."
+          },
+          {
+            "heading": "Why it's unusual",
+            "body": "Full-court rehearings are rare. A filing from 149 former judges gets noticed."
+          },
+          {
+            "heading": "Why builders should care",
+            "body": "Government action against an AI lab can affect the tools you depend on."
+          },
+          {
+            "heading": "What's next",
+            "body": "The court decides whether to rehear. Follow for the breakdown."
+          }
+        ],
+        "caption": "149 former judges are asking the full D.C. Circuit to rehear Anthropic's case against the Pentagon. Here's what that means in plain words."
+      },
+      "x_post": "149 former judges are asking the full D.C. Circuit to rehear Anthropic's case against the Pentagon.\n\nTheir argument: a \"national security\" label shouldn't put a decision out of reach of the courts.\n\nBreaking down what it means for AI builders.",
+      "x_thread": []
     }
   ]
 }

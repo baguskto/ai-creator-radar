@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T22:54:06Z",
+  "generated_at": "2026-11-19T12:54:02Z",
   "sample": false,
-  "latest_version": "2.1.327",
+  "latest_version": "2.1.328",
   "dist_tags": {
-    "latest": "2.1.327",
+    "latest": "2.1.328",
     "stable": "2.1.311",
-    "next": "2.1.327"
+    "next": "2.1.328"
   },
   "items": [
+    {
+      "version": "2.1.328",
+      "date": "2026-11-18",
+      "title": "14 new features, 19 improvements, 20 changes, 91 fixes",
+      "highlights": [
+        "Added auto mode for Claude Opus 4.6 and Sonnet 4.6 on Amazon Bedrock, Google Cloud's Agent Platform, Microsoft Foundry and Claude apps…",
+        "Added \"onFailure\": \"block\" for mcp_tool hooks, as for command and HTTP hooks: a hook whose call fails blocks the action",
+        "Added a warning when a message from a session that skips permission prompts may be held and dropped by a cloud session",
+        "Added a notice in /status and claude doctor when an OpenTelemetry exporter has no endpoint and its data would likely be lost",
+        "Added CLAUDE_CODE_DISABLE_DEFERRED_TOOL_RESUME, which lets a host stop claude -p --resume and --continue from running a tool call that a…"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.328",
+      "released_at": "2026-11-18T23:09:39.159Z",
+      "summary": "14 added, 19 improved, 20 changed, 91 fixed",
+      "counts": {
+        "added": 14,
+        "improved": 19,
+        "changed": 20,
+        "fixed": 91,
+        "removed": 0,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.327",
       "date": "2026-11-17",
@@ -163,29 +186,6 @@
         "changed": 20,
         "fixed": 90,
         "removed": 2,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.318",
-      "date": "2026-11-03",
-      "title": "11 new features, 15 improvements, 11 changes, 47 fixes",
-      "highlights": [
-        "Added a record of your answer when Claude Code asks to turn on the mods it writes in a session",
-        "Added assume_role on mantle upstreams of the Claude apps gateway, for a role in another AWS account and for per-developer AWS cost…",
-        "Added an effort option to a mod's $.model.fork, so a quick side job can run at low whatever effort the session uses; the result reports the…",
-        "Added the date a stored claude.ai sign-in ends to claude auth status (loginExpiresAt) and to claude -p JSON results (credential_expires_at)",
-        "Added a one-line stderr warning to claude -p text output, starting 10 days before a stored claude.ai sign-in ends"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.318",
-      "released_at": "2026-11-03T21:55:17.247Z",
-      "summary": "11 added, 15 improved, 10 changed, 47 fixed, 1 removed",
-      "counts": {
-        "added": 11,
-        "improved": 15,
-        "changed": 10,
-        "fixed": 47,
-        "removed": 1,
         "other": 0
       }
     }
