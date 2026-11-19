@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T12:54:02Z",
+  "generated_at": "2026-11-19T22:53:45Z",
   "sample": false,
-  "latest_version": "2.1.328",
+  "latest_version": "2.1.329",
   "dist_tags": {
-    "latest": "2.1.328",
+    "latest": "2.1.329",
     "stable": "2.1.311",
-    "next": "2.1.328"
+    "next": "2.1.329"
   },
   "items": [
+    {
+      "version": "2.1.329",
+      "date": "2026-11-19",
+      "title": "7 new features, 10 improvements, 22 changes, 91 fixes",
+      "highlights": [
+        "Added a trust dialog warning that says where a folder's hooks are declared",
+        "Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load",
+        "Added this session's scheduled tasks, /loop wakeups, the goal and this conversation's forks to /tasks; x stops one after asking",
+        "Added a \"Server message\" row to a server's page in /mcp that shows the JSON-RPC error message of a remote HTTP MCP server that refuses the…",
+        "Added a \"Marketplace auto-update\" row to /status that names managed marketplaces that get no automatic updates, and why"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.329",
+      "released_at": "2026-11-19T18:40:25.219Z",
+      "summary": "7 added, 10 improved, 21 changed, 91 fixed, 1 removed",
+      "counts": {
+        "added": 7,
+        "improved": 10,
+        "changed": 21,
+        "fixed": 91,
+        "removed": 1,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.328",
       "date": "2026-11-18",
@@ -163,29 +186,6 @@
         "changed": 26,
         "fixed": 74,
         "removed": 0,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.319",
-      "date": "2026-11-06",
-      "title": "18 new features, 16 improvements, 22 changes, 90 fixes",
-      "highlights": [
-        "Added support for MCP tasks in the terminal: when an MCP server runs a tool call as a task, Claude Code moves it to the background right…",
-        "Added the CLAUDE_CODE_DISABLE_MCP_TASK_BACKGROUND environment variable to make Claude Code wait for an MCP task inside its tool call…",
-        "Added permissions.denyInsteadOfPrompting setting: a tool call that would wait on a permission prompt is denied and the turn continues, in…",
-        "Added /claude-api latency-optimize to find where your Claude API code makes people wait and try faster settings against your eval",
-        "Added the CLAUDE_CODE_DISABLE_FEATURE_FLAGS environment variable, which stops feature-flag fetching without turning off telemetry; every…"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.319",
-      "released_at": "2026-11-06T00:58:56.366Z",
-      "summary": "18 added, 16 improved, 20 changed, 90 fixed, 2 removed",
-      "counts": {
-        "added": 18,
-        "improved": 16,
-        "changed": 20,
-        "fixed": 90,
-        "removed": 2,
         "other": 0
       }
     }
