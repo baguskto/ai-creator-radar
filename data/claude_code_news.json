@@ -1,14 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T12:54:48Z",
+  "generated_at": "2026-11-20T22:53:49Z",
   "sample": false,
-  "latest_version": "2.1.329",
+  "latest_version": "2.1.330",
   "dist_tags": {
-    "latest": "2.1.329",
-    "stable": "2.1.311",
-    "next": "2.1.329"
+    "latest": "2.1.330",
+    "stable": "2.1.323",
+    "next": "2.1.330"
   },
   "items": [
+    {
+      "version": "2.1.330",
+      "date": "2026-11-20",
+      "title": "16 new features, 14 improvements, 14 changes, 98 fixes",
+      "highlights": [
+        "Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after claude auth login, Claude Code applies the…",
+        "Added easel, a built-in mod that draws charts when asked and under MCP metrics results, on Pro, Max and, where available, Team and…",
+        "Added CLAUDE_CODE_FULL_SIGN_IN_LINK=1 to print the full sign-in link, if the short one shows an error or a script reads values from it",
+        "Self-hosted runner: Added --start-dir / SELF_HOSTED_RUNNER_START_DIR to have Claude start its work in a folder of a repository, while…",
+        "Added a notice in cloud and self-hosted runner sessions when a plugin marketplace can't be fetched because its repository isn't one of the…"
+      ],
+      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.330",
+      "released_at": "2026-11-20T19:16:01.070Z",
+      "summary": "16 added, 14 improved, 14 changed, 98 fixed",
+      "counts": {
+        "added": 16,
+        "improved": 14,
+        "changed": 14,
+        "fixed": 98,
+        "removed": 0,
+        "other": 0
+      }
+    },
     {
       "version": "2.1.329",
       "date": "2026-11-19",
@@ -162,29 +185,6 @@
         "improved": 0,
         "changed": 0,
         "fixed": 0,
-        "removed": 0,
-        "other": 0
-      }
-    },
-    {
-      "version": "2.1.321",
-      "date": "2026-11-09",
-      "title": "3 new features, 15 improvements, 26 changes, 74 fixes",
-      "highlights": [
-        "Added Claude Fable 5.2 (claude-fable-5-2), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads",
-        "Added --settings <file> to claude remote-control, which applies a settings file to every session it starts; if the file changes, no new…",
-        "VSCode: Added a warning above the prompt box when both an auth token and an API key are set, matching the terminal's startup warning",
-        "Improved the /model picker: \"More models\" is now an unnumbered row below every other, and older models open under it without renumbering…",
-        "Gateway: Improved spend limits on a busy replica, which now skips fewer checks and records spend sooner"
-      ],
-      "url": "https://www.npmjs.com/package/@anthropic-ai/claude-code/v/2.1.321",
-      "released_at": "2026-11-09T19:02:47.641Z",
-      "summary": "3 added, 15 improved, 26 changed, 74 fixed",
-      "counts": {
-        "added": 3,
-        "improved": 15,
-        "changed": 26,
-        "fixed": 74,
         "removed": 0,
         "other": 0
       }
