@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T22:53:49Z",
+  "generated_at": "2026-11-21T12:53:42Z",
   "x_trends_generated_at": "2026-10-21T22:54:02Z",
   "x_trends_sample": false,
   "lookback_hours": 72,
@@ -34,59 +34,35 @@
       "top_videos": []
     },
     {
-      "story_id": "claude-api-version-2026-10-21",
-      "title": "Claude API ships dated version 2026-10-21 with breaking changes",
-      "query": "claude api anthropic api api breaking changes",
-      "video_count": 2,
-      "total_views": 623,
-      "max_views": 576,
-      "big_channel_videos": 0,
-      "coverage": "low",
-      "coverage_score": 8,
-      "heat": 82.0,
-      "gap_score": 75,
-      "top_videos": [
-        {
-          "video_id": "1z6UnpkvL3Q",
-          "title": "Anthropic's IPO Filing Shows What Your Claude Plan Really Costs",
-          "url": "https://www.youtube.com/watch?v=1z6UnpkvL3Q",
-          "channel": "Vasko",
-          "channel_subscribers": 34,
-          "published_at": "2026-11-19T17:00:37Z",
-          "views": 576
-        },
-        {
-          "video_id": "_CAQjcEnBrM",
-          "title": "LLM API Tutorial 3 – Tokens, Context Windows, Cost: OpenAI, Claude, Gemini | Full Course 2026",
-          "url": "https://www.youtube.com/watch?v=_CAQjcEnBrM",
-          "channel": "iTV",
-          "channel_subscribers": 6680,
-          "published_at": "2026-11-18T02:30:37Z",
-          "views": 47
-        }
-      ]
-    },
-    {
       "story_id": "codex-12h-cache",
       "title": "OpenAI adds 12-hour prompt cache across API and Codex",
       "query": "codex prompt caching openai api",
-      "video_count": 1,
-      "total_views": 32,
-      "max_views": 32,
+      "video_count": 2,
+      "total_views": 46,
+      "max_views": 44,
       "big_channel_videos": 0,
       "coverage": "low",
-      "coverage_score": 4,
+      "coverage_score": 8,
       "heat": 77.0,
-      "gap_score": 74,
+      "gap_score": 71,
       "top_videos": [
         {
           "video_id": "qaKTx7HgkD4",
           "title": "Codex Agentic Coding: The Loop, Memory and Fence Explained",
           "url": "https://www.youtube.com/watch?v=qaKTx7HgkD4",
           "channel": "AI Engineering Topics",
-          "channel_subscribers": 246,
+          "channel_subscribers": 252,
           "published_at": "2026-11-19T12:30:32Z",
-          "views": 32
+          "views": 44
+        },
+        {
+          "video_id": "t39D8P494K8",
+          "title": "Cached Prompts Cut GPT-6.2 Astra Input Cost 95% #Shorts",
+          "url": "https://www.youtube.com/watch?v=t39D8P494K8",
+          "channel": "Brix AI",
+          "channel_subscribers": 9,
+          "published_at": "2026-11-19T23:09:37Z",
+          "views": 2
         }
       ]
     },
@@ -94,24 +70,15 @@
       "story_id": "claude-duet-preview",
       "title": "Anthropic opens research preview of Claude Duet agent app",
       "query": "claude duet anthropic claude agent",
-      "video_count": 13,
-      "total_views": 1479,
-      "max_views": 895,
+      "video_count": 14,
+      "total_views": 975,
+      "max_views": 380,
       "big_channel_videos": 0,
       "coverage": "low",
-      "coverage_score": 33,
+      "coverage_score": 30,
       "heat": 100.0,
-      "gap_score": 67,
+      "gap_score": 70,
       "top_videos": [
-        {
-          "video_id": "ZLIX6FakeXo",
-          "title": "Claude Duet  Is The BIGGEST Upgrade In Anthropic History!",
-          "url": "https://www.youtube.com/watch?v=ZLIX6FakeXo",
-          "channel": "Tech Meets East",
-          "channel_subscribers": 29100,
-          "published_at": "2026-11-18T08:30:39Z",
-          "views": 895
-        },
         {
           "video_id": "5q0ragnMzHw",
           "title": "Claude Duet vs Dots vs Muse : lequel est le plus sûr ?",
@@ -119,25 +86,7 @@
           "channel": "L'Académie Hostinger",
           "channel_subscribers": 35000,
           "published_at": "2026-11-20T13:27:19Z",
-          "views": 177
-        },
-        {
-          "video_id": "33C6aGzNtLg",
-          "title": "Claude Duet, le nouvel outil présenté par Anthropic",
-          "url": "https://www.youtube.com/watch?v=33C6aGzNtLg",
-          "channel": "Gemlia",
-          "channel_subscribers": 31,
-          "published_at": "2026-11-19T14:04:07Z",
-          "views": 151
-        },
-        {
-          "video_id": "6PXvZQ18tBI",
-          "title": "I Tried Claude Duet in My Business. Here's Why I'm Not Staying",
-          "url": "https://www.youtube.com/watch?v=6PXvZQ18tBI",
-          "channel": "Kotash Builds",
-          "channel_subscribers": 2040,
-          "published_at": "2026-11-18T05:00:33Z",
-          "views": 56
+          "views": 380
         },
         {
           "video_id": "Ygbs1C3LakA",
@@ -146,7 +95,58 @@
           "channel": "Superintelligence, Explored",
           "channel_subscribers": 169,
           "published_at": "2026-11-20T10:30:26Z",
-          "views": 46
+          "views": 176
+        },
+        {
+          "video_id": "33C6aGzNtLg",
+          "title": "Claude Duet, le nouvel outil présenté par Anthropic",
+          "url": "https://www.youtube.com/watch?v=33C6aGzNtLg",
+          "channel": "Gemlia",
+          "channel_subscribers": 31,
+          "published_at": "2026-11-19T14:04:07Z",
+          "views": 152
+        },
+        {
+          "video_id": "69VuQEyF7nk",
+          "title": "n8n Nod: The Free Claude Duet Alternative You Can Use Today (Full Setup)",
+          "url": "https://www.youtube.com/watch?v=69VuQEyF7nk",
+          "channel": "ZinZinTech | AI Automation",
+          "channel_subscribers": 3,
+          "published_at": "2026-11-20T09:45:10Z",
+          "views": 57
+        },
+        {
+          "video_id": "caAA74vsVFQ",
+          "title": "The one thing Claude Duet won't do: move your money",
+          "url": "https://www.youtube.com/watch?v=caAA74vsVFQ",
+          "channel": "FasterFold",
+          "channel_subscribers": 36,
+          "published_at": "2026-11-20T16:30:15Z",
+          "views": 48
+        }
+      ]
+    },
+    {
+      "story_id": "claude-api-version-2026-10-21",
+      "title": "Claude API ships dated version 2026-10-21 with breaking changes",
+      "query": "claude api anthropic api api breaking changes",
+      "video_count": 1,
+      "total_views": 4729,
+      "max_views": 4729,
+      "big_channel_videos": 0,
+      "coverage": "low",
+      "coverage_score": 15,
+      "heat": 82.0,
+      "gap_score": 70,
+      "top_videos": [
+        {
+          "video_id": "1z6UnpkvL3Q",
+          "title": "Anthropic's IPO Filing Shows What Your Claude Plan Really Costs",
+          "url": "https://www.youtube.com/watch?v=1z6UnpkvL3Q",
+          "channel": "Vasko",
+          "channel_subscribers": 44,
+          "published_at": "2026-11-19T17:00:37Z",
+          "views": 4729
         }
       ]
     },
@@ -169,8 +169,8 @@
       "title": "Collaboration with NVIDIA targets AI for industrial engineering",
       "query": "nvidia cae physics ai",
       "video_count": 1,
-      "total_views": 188,
-      "max_views": 188,
+      "total_views": 201,
+      "max_views": 201,
       "big_channel_videos": 0,
       "coverage": "low",
       "coverage_score": 4,
@@ -184,7 +184,7 @@
           "channel": "SimScale",
           "channel_subscribers": 31800,
           "published_at": "2026-11-18T13:33:48Z",
-          "views": 188
+          "views": 201
         }
       ]
     },
@@ -259,87 +259,18 @@
       "top_videos": []
     },
     {
-      "story_id": "grok-bot-push",
-      "title": "xAI pushes Grok Bot with user demos and adoption claims",
-      "query": "grok bot xai grok",
-      "video_count": 25,
-      "total_views": 150437,
-      "max_views": 48007,
-      "big_channel_videos": 3,
-      "coverage": "high",
-      "coverage_score": 86,
-      "heat": 100.0,
-      "gap_score": 14,
-      "top_videos": [
-        {
-          "video_id": "KEsvSIa9GEA",
-          "title": "SpaceXSI Grok Bot AI Agent Goes Rogue - Local AI Agents Are Dangerous",
-          "url": "https://www.youtube.com/watch?v=KEsvSIa9GEA",
-          "channel": "Eli the Computer Guy",
-          "channel_subscribers": 1140000,
-          "published_at": "2026-11-19T13:00:26Z",
-          "views": 48007
-        },
-        {
-          "video_id": "k59c_4UURb8",
-          "title": "Phone calls in Grok Bot",
-          "url": "https://www.youtube.com/watch?v=k59c_4UURb8",
-          "channel": "Matt Palmer",
-          "channel_subscribers": 53500,
-          "published_at": "2026-11-19T08:00:19Z",
-          "views": 45666
-        },
-        {
-          "video_id": "aEK0bvZDNFg",
-          "title": "Grok Bot 201",
-          "url": "https://www.youtube.com/watch?v=aEK0bvZDNFg",
-          "channel": "Grok",
-          "channel_subscribers": 43000,
-          "published_at": "2026-11-18T22:28:27Z",
-          "views": 28003
-        },
-        {
-          "video_id": "rQmu_PxHtkI",
-          "title": "The Smartest Way to Manage Your Grok Bots",
-          "url": "https://www.youtube.com/watch?v=rQmu_PxHtkI",
-          "channel": "Van Did This!",
-          "channel_subscribers": 81200,
-          "published_at": "2026-11-20T02:37:27Z",
-          "views": 11326
-        },
-        {
-          "video_id": "fpLcicAwEgw",
-          "title": "Elon Says Grok Bot Can Do Your Accounting. I Tested It",
-          "url": "https://www.youtube.com/watch?v=fpLcicAwEgw",
-          "channel": "Jordan Rafealov",
-          "channel_subscribers": 20700,
-          "published_at": "2026-11-18T20:36:41Z",
-          "views": 5839
-        }
-      ]
-    },
-    {
       "story_id": "claude-opus-5-5-builds",
       "title": "Developers share Claude Opus 5.5 coding workflows",
       "query": "claude opus 5.5 claude code codex review",
       "video_count": 14,
-      "total_views": 149632,
-      "max_views": 102375,
-      "big_channel_videos": 2,
+      "total_views": 52329,
+      "max_views": 25775,
+      "big_channel_videos": 1,
       "coverage": "high",
-      "coverage_score": 86,
+      "coverage_score": 69,
       "heat": 54.0,
-      "gap_score": 8,
+      "gap_score": 17,
       "top_videos": [
-        {
-          "video_id": "q8iHsdzd94U",
-          "title": "Claude Fable 5.5 or Opus 5.6?! GPT-6.2 Astra & Sol, Gemini 4 Neon TODAY! & Microsoft MAI! AI NEWS",
-          "url": "https://www.youtube.com/watch?v=q8iHsdzd94U",
-          "channel": "WorldofAI",
-          "channel_subscribers": 255000,
-          "published_at": "2026-11-18T09:27:00Z",
-          "views": 102375
-        },
         {
           "video_id": "o1vr-A4_uo0",
           "title": "Gemini 4 Neon vs GPT-6.2 vs Claude (Same Tests, Side by Side)",
@@ -347,7 +278,7 @@
           "channel": "Mark Santos",
           "channel_subscribers": 207000,
           "published_at": "2026-11-19T04:52:20Z",
-          "views": 24726
+          "views": 25775
         },
         {
           "video_id": "Qwu8gbFWNE8",
@@ -356,7 +287,7 @@
           "channel": "Devsplainers",
           "channel_subscribers": 23600,
           "published_at": "2026-11-20T08:00:36Z",
-          "views": 8711
+          "views": 10691
         },
         {
           "video_id": "Ibv1YHgjeZk",
@@ -365,7 +296,7 @@
           "channel": "Solostack",
           "channel_subscribers": 15900,
           "published_at": "2026-11-19T12:54:27Z",
-          "views": 7179
+          "views": 8182
         },
         {
           "video_id": "dh4if5M8JKo",
@@ -374,7 +305,76 @@
           "channel": "AI WITH Rithesh",
           "channel_subscribers": 51900,
           "published_at": "2026-11-19T11:30:33Z",
-          "views": 5625
+          "views": 5913
+        },
+        {
+          "video_id": "RgADLS_xoTc",
+          "title": "My Tests Never Noticed What Claude Changed",
+          "url": "https://www.youtube.com/watch?v=RgADLS_xoTc",
+          "channel": "Beckon AI",
+          "channel_subscribers": 92,
+          "published_at": "2026-11-18T17:00:06Z",
+          "views": 559
+        }
+      ]
+    },
+    {
+      "story_id": "grok-bot-push",
+      "title": "xAI pushes Grok Bot with user demos and adoption claims",
+      "query": "grok bot xai grok",
+      "video_count": 25,
+      "total_views": 182428,
+      "max_views": 48567,
+      "big_channel_videos": 3,
+      "coverage": "high",
+      "coverage_score": 88,
+      "heat": 100.0,
+      "gap_score": 12,
+      "top_videos": [
+        {
+          "video_id": "k59c_4UURb8",
+          "title": "Phone calls in Grok Bot",
+          "url": "https://www.youtube.com/watch?v=k59c_4UURb8",
+          "channel": "Matt Palmer",
+          "channel_subscribers": 53700,
+          "published_at": "2026-11-19T08:00:19Z",
+          "views": 48567
+        },
+        {
+          "video_id": "KEsvSIa9GEA",
+          "title": "SpaceXSI Grok Bot AI Agent Goes Rogue - Local AI Agents Are Dangerous",
+          "url": "https://www.youtube.com/watch?v=KEsvSIa9GEA",
+          "channel": "Eli the Computer Guy",
+          "channel_subscribers": 1140000,
+          "published_at": "2026-11-19T13:00:26Z",
+          "views": 48513
+        },
+        {
+          "video_id": "aEK0bvZDNFg",
+          "title": "Grok Bot 201",
+          "url": "https://www.youtube.com/watch?v=aEK0bvZDNFg",
+          "channel": "Grok",
+          "channel_subscribers": 43200,
+          "published_at": "2026-11-18T22:28:27Z",
+          "views": 29713
+        },
+        {
+          "video_id": "doLKqG8TefU",
+          "title": "Grok Bot Q&A with Lauren Tan",
+          "url": "https://www.youtube.com/watch?v=doLKqG8TefU",
+          "channel": "Matt Palmer",
+          "channel_subscribers": 53700,
+          "published_at": "2026-11-20T18:32:35Z",
+          "views": 17633
+        },
+        {
+          "video_id": "rQmu_PxHtkI",
+          "title": "The Smartest Way to Manage Your Grok Bots",
+          "url": "https://www.youtube.com/watch?v=rQmu_PxHtkI",
+          "channel": "Van Did This!",
+          "channel_subscribers": 81300,
+          "published_at": "2026-11-20T02:37:27Z",
+          "views": 15584
         }
       ]
     }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T22:54:32Z",
+  "generated_at": "2026-11-21T12:54:36Z",
   "sample": false,
   "packs": [
     {
@@ -179,24 +179,24 @@
       ]
     },
     {
-      "story_id": "claude-api-version-2026-10-21",
-      "fingerprint": "07b80fc7ff9e7368",
-      "why_now": "Anthropic shipped its first dated API version since 2023 and it removes temperature, top_p and top_k. Almost nobody on YouTube has explained what breaks and what doesn't yet.",
+      "story_id": "codex-12h-cache",
+      "fingerprint": "86b35920cff14f19",
+      "why_now": "OpenAI's Codex lead says API prompt caching now lasts 12 hours, and logged-in Codex and Work users keep their cache indefinitely. The post has over 2 million views, and YouTube has only two tiny videos on it.",
       "video": {
-        "title": "Claude API 2026-10-21: What Breaks in Your Code",
-        "thumbnail_text": "NO MORE TEMPERATURE?",
-        "hook": "Anthropic just put out its first new API version since 2023, and it removes temperature, top_p and top_k from the Messages API. If you build on Claude, you need to know what that means for your code. The good news: your old version isn't deprecated. Let me show you what changes, and how I'd plan the switch.",
+        "title": "OpenAI's 12-Hour Prompt Cache: What It Saves You",
+        "thumbnail_text": "CACHE FOR 12 HOURS",
+        "hook": "OpenAI just stretched prompt caching to 12 hours in the API. In Codex, if you're logged in, they say your cache never expires. That means you can come back to a long coding session hours later and not pay full price to reload all that context. I'm going to show you what that actually saves and where it doesn't help.",
         "alt_titles": [
-          "Anthropic Removed Temperature From the Claude API",
-          "Claude's First API Version Since 2023, Explained"
+          "Codex Now Keeps Your Cache Forever. Here's Why It Matters",
+          "The Quiet OpenAI Update That Cuts Your API Bill"
         ],
         "outline": [
-          "What a dated API version is and why Anthropic says it will ship them more often",
-          "Change 1: temperature, top_p and top_k removed from the Messages API, and what I'll test in place of them",
-          "Change 2: documents in assistant turns and citations in user turns now return a 400",
-          "Change 3: a few deprecated Admin and Enterprise Analytics fields replaced",
-          "2023-06-01 is not deprecated: how to pin your version and upgrade on your schedule",
-          "My checklist for testing an app on the new version before switching"
+          "What prompt caching is, in one minute: reusing a prompt prefix you already sent",
+          "What changed: 12-hour cache in the API, cache kept for logged-in Codex and Work users",
+          "Test: resume an old Codex session after a few hours and check whether it picks up fast",
+          "API side: how to structure prompts so the stable part gets cached",
+          "Where it won't help: prompts that change at the top, short one-off calls",
+          "Who should care most: long agent runs, big codebases, chat apps with long histories"
         ]
       },
       "short": {
@@ -204,27 +204,27 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Anthropic just removed temperature from the Claude API.",
-            "visual": "Chase to camera, code snippet with temperature crossed out"
+            "line": "OpenAI just made prompt caching last 12 hours.",
+            "visual": "Chase to camera, '12 HOURS' text"
           },
           {
             "t": "3-10s",
-            "line": "It's in API version 2026-10-21, their first new version since 2023. Temperature, top_p and top_k are gone from the Messages API.",
-            "visual": "The @ClaudeDevs announcement on screen"
+            "line": "Before, if you stepped away from a long session, the cache could expire and you'd pay to reload everything.",
+            "visual": "Timer graphic running out"
           },
           {
             "t": "10-18s",
-            "line": "Also, documents in assistant turns and citations in user turns now throw a 400 error.",
-            "visual": "Terminal showing a 400 response"
+            "line": "Now the API holds it for 12 hours, and logged-in Codex users keep it with no penalty for coming back later.",
+            "visual": "Screenshot of the announcement post"
           },
           {
             "t": "18-25s",
-            "line": "But don't panic. The old 2023-06-01 version is not deprecated, so your app keeps working until you switch.",
-            "visual": "Version header in a request, highlighted"
+            "line": "The trick: keep the stable stuff, like system prompts and docs, at the top so it gets reused.",
+            "visual": "Prompt diagram, stable block highlighted"
           },
           {
             "t": "25-30s",
-            "line": "Full breakdown and my upgrade checklist is on the channel.",
+            "line": "Full breakdown and my resume test are on the channel.",
             "visual": "End card"
           }
         ]
@@ -232,150 +232,61 @@
       "carousel": {
         "slides": [
           {
-            "heading": "Claude API's first new version since 2023",
-            "body": "Version 2026-10-21 is out. Here's what changes."
+            "heading": "Prompt caching now lasts 12 hours",
+            "body": "OpenAI's API and Codex both got an upgrade."
           },
           {
-            "heading": "Sampling knobs removed",
-            "body": "temperature, top_p and top_k are gone from the Messages API."
+            "heading": "What caching does",
+            "body": "Reuses the part of your prompt you already sent, so it's cheaper and faster."
           },
           {
-            "heading": "New 400 errors",
-            "body": "Documents in assistant turns and citations in user turns now fail."
+            "heading": "The old problem",
+            "body": "Step away from a long session and the cache could expire."
           },
           {
-            "heading": "Admin fields swapped",
-            "body": "Some deprecated Admin and Enterprise Analytics fields are replaced."
+            "heading": "What changed",
+            "body": "12 hours in the API. Logged-in Codex and Work users keep cache indefinitely."
           },
           {
-            "heading": "Your old version still works",
-            "body": "2023-06-01 is not deprecated. Pin it until you've tested."
+            "heading": "How to benefit",
+            "body": "Put stable content first: system prompt, docs, tool definitions."
           },
           {
-            "heading": "More versions are coming",
-            "body": "Anthropic plans to ship versions more often, ahead of new models."
+            "heading": "Where it won't help",
+            "body": "Prompts that change at the top, or quick one-off calls."
           },
           {
-            "heading": "Want the upgrade checklist?",
-            "body": "Full walkthrough on YouTube: Chase AI."
+            "heading": "Follow for the full test",
+            "body": "I'm checking how much it actually saves."
           }
         ],
-        "caption": "Claude API version 2026-10-21 removes temperature, top_p and top_k. Your old version still works, but here's what to check before you switch."
+        "caption": "OpenAI stretched prompt caching to 12 hours in the API, and Codex now keeps your cache when you come back to an old session. Here's how to set up your prompts to actually benefit."
       },
-      "x_post": "Claude API 2026-10-21 is the first new version since 2023.\n\n- temperature, top_p, top_k removed from Messages\n- docs in assistant turns / citations in user turns now 400\n- 2023-06-01 is NOT deprecated\n\nPin your version, test, then switch.",
+      "x_post": "OpenAI now caches prompts for 12 hours in the API, and logged-in Codex users keep their cache with no penalty for resuming an old session.\n\nIf you run long agent sessions, put your stable context first. That's the part that gets reused.",
       "x_thread": [
-        "Anthropic says it will ship versions more often so you can handle breaking changes before a new model forces them. Good reason to pin the version header explicitly in every app now."
-      ]
-    },
-    {
-      "story_id": "codex-12h-cache",
-      "fingerprint": "75b507e9cb25f6ee",
-      "why_now": "OpenAI says API prompt cache now lasts 12 hours and Codex keeps cache for logged-in users with no penalty for resuming old sessions. Over 2M views on X and basically zero YouTube coverage of what it means for your bill.",
-      "video": {
-        "title": "OpenAI's 12-Hour Prompt Cache: What It Saves You (Tested)",
-        "thumbnail_text": "12 HOUR CACHE",
-        "hook": "OpenAI just stretched prompt caching to 12 hours in the API, and says Codex now keeps your cache when you come back to an old session. If you build with long prompts or leave coding sessions open, that could cut your costs. I'm going to check how much, and where it doesn't help.",
-        "alt_titles": [
-          "Codex Now Remembers Your Session: The 12-Hour Cache Explained",
-          "Prompt Caching Just Got Longer. Here's What Changes for Builders"
-        ],
-        "outline": [
-          "What prompt caching is in plain words, and why cache hits are cheaper and faster",
-          "What changed: 12 hours in the API, persistent cache in Codex for logged-in users",
-          "Test: resume an old Codex session after a few hours and look at the cache behavior",
-          "API side: structure your prompts so the stable part sits up front and gets cached",
-          "Who this actually helps (long system prompts, agents, big repos) and who won't notice",
-          "Limits and open questions: what to check in the docs before you count on it"
-        ]
-      },
-      "short": {
-        "duration_s": 30,
-        "beats": [
-          {
-            "t": "0-3s",
-            "line": "OpenAI just made prompt caching last twelve hours.",
-            "visual": "Big text: 12 HOUR CACHE"
-          },
-          {
-            "t": "3-10s",
-            "line": "Cached tokens are cheaper and faster. Before, the cache went cold fast, so a lunch break meant paying full price again.",
-            "visual": "Simple timeline: cache expiring"
-          },
-          {
-            "t": "10-18s",
-            "line": "Now the API can hold it for twelve hours, and Codex says it keeps your cache when you come back to an old conversation.",
-            "visual": "Codex session resumed after hours"
-          },
-          {
-            "t": "18-25s",
-            "line": "Big win if you use long system prompts, agents, or work in a big repo all day.",
-            "visual": "Checklist of who benefits"
-          },
-          {
-            "t": "25-30s",
-            "line": "Put the stable stuff at the top of your prompt so it gets cached. Full test on my channel.",
-            "visual": "Prompt layout diagram, channel card"
-          }
-        ]
-      },
-      "carousel": {
-        "slides": [
-          {
-            "heading": "Prompt cache now lasts 12 hours",
-            "body": "OpenAI's update for API and Codex users."
-          },
-          {
-            "heading": "Why caching matters",
-            "body": "Cached tokens cost less and come back faster."
-          },
-          {
-            "heading": "What changed in the API",
-            "body": "Cache can now last up to 12 hours."
-          },
-          {
-            "heading": "What changed in Codex",
-            "body": "Logged-in users keep cache when resuming old sessions."
-          },
-          {
-            "heading": "Who benefits most",
-            "body": "Long system prompts, agents, big codebases, all-day sessions."
-          },
-          {
-            "heading": "How to get the hits",
-            "body": "Keep the stable part of your prompt first. Put changing input last."
-          },
-          {
-            "heading": "Test it yourself",
-            "body": "Full breakdown and test on Chase AI. Follow for more."
-          }
-        ],
-        "caption": "OpenAI stretched prompt caching to 12 hours in the API, and Codex now keeps your cache when you resume an old session. Here's who it helps and how to set your prompts up to get the cache hits."
-      },
-      "x_post": "OpenAI's prompt cache now lasts 12h in the API, and Codex keeps cache for logged-in users when you resume old sessions.\n\nIf you run long system prompts or agents, put the stable stuff first so it actually gets cached. Testing the real savings next.",
-      "x_thread": [
-        "Quick refresher: cached input tokens are cheaper and faster. The problem used to be the cache going cold while you stepped away.",
-        "What I'm checking: how cache hits show up when resuming a Codex session after a few hours, and how much a long-prompt agent saves over a workday."
+        "Where it won't help: anything that changes at the top of the prompt, or short one-off calls. Caching only reuses an identical prefix.",
+        "I'm going to test resuming a Codex session after a few hours and see what actually changes. Video coming."
       ]
     },
     {
       "story_id": "claude-duet-preview",
-      "fingerprint": "79973aebef484410",
-      "why_now": "Anthropic's Claude Duet research preview pulled almost 3M views on X, but YouTube so far is hype titles and one quick business take. Nobody has shown a practical setup walkthrough with honest limits.",
+      "fingerprint": "dc5de8def6ac640e",
+      "why_now": "Anthropic opened a research preview of Claude Duet, a proactive agent app, and the announcement passed 30,000 likes. The YouTube videos so far are mostly comparisons and alternatives with low views. Nobody has done a clear hands-on setup walkthrough yet.",
       "video": {
-        "title": "Claude Duet: My Setup to Stop Checking Slack All Day",
-        "thumbnail_text": "CLAUDE WATCHES MY INBOX",
-        "hook": "Anthropic just opened a research preview of Claude Duet, an app where Claude works as a proactive agent. It watches what needs your attention, does tasks, keeps going when you step away, and checks with you before acting. I set it up for my own work. Here's what it caught, what it missed, and where I don't trust it yet.",
+        "title": "Claude Duet: I Set Up Anthropic's Proactive Agent",
+        "thumbnail_text": "CLAUDE WORKS WHILE YOU'RE AWAY",
+        "hook": "Anthropic just opened a preview of Claude Duet. It's not a chat box. It's an agent that comes to you with what needs your attention, does tasks you hand it, and keeps working when you step away. And it's supposed to check with you before it acts for you. I'm setting it up on my real workflow to see if that holds up.",
         "alt_titles": [
-          "I Let Claude Duet Watch My Slack, Email and Calendar",
-          "Claude Duet Setup Guide: What a Proactive Agent Actually Does"
+          "Claude Duet Hands-On: Is a Proactive AI Agent Worth It?",
+          "I Let Claude Duet Watch My Inbox. Here's What Happened"
         ],
         "outline": [
-          "What Duet is per Anthropic's announcement, and how it differs from chat and Projects",
-          "Setup: connecting the sources you want it to watch and setting when it should ping you",
-          "Test run: what it surfaced, what tasks it finished, how the check-in before acting works",
-          "Where it fell short or was noisy, and what to tune",
-          "Trust and privacy: what to let it touch and what to keep manual",
-          "Who should try the preview now and who should wait"
+          "What Claude Duet is, from Anthropic's announcement, and how it differs from regular Claude chat",
+          "Setup: what you connect and what access it asks for",
+          "A real workflow test: watching messages and calendar, pinging only when something matters",
+          "Hand it a task and step away: what it finishes and where it stops to ask",
+          "The 'checks with you before it acts' part: how much control you actually keep",
+          "Verdict: who should try the preview now and who should wait"
         ]
       },
       "short": {
@@ -383,68 +294,157 @@
         "beats": [
           {
             "t": "0-3s",
-            "line": "Claude can now come to you instead of you going to it.",
-            "visual": "Claude Duet app open"
+            "line": "Anthropic just launched an agent that works while you're away.",
+            "visual": "Chase to camera, Claude Duet logo"
           },
           {
             "t": "3-10s",
-            "line": "Claude Duet is a research preview from Anthropic. It's a proactive agent that tells you what needs your attention.",
-            "visual": "Announcement screenshot"
+            "line": "It's called Claude Duet. Instead of waiting for you to type, it brings you what needs your attention.",
+            "visual": "Screenshot of the announcement"
           },
           {
             "t": "10-18s",
-            "line": "It completes tasks you give it, keeps working when you step away, and checks with you before acting for you.",
-            "visual": "Approval prompt on screen"
+            "line": "You hand it tasks, step away, and it keeps going. Before it acts on your behalf, it checks with you first.",
+            "visual": "Flow diagram: task, work, check-in"
           },
           {
             "t": "18-25s",
-            "line": "Early users have it watch Slack, email and calendar and only ping them when it matters.",
-            "visual": "Notification example"
+            "line": "Early users say the big win is less context switching. I'm testing whether that's true on my setup.",
+            "visual": "Inbox and calendar on screen"
           },
           {
             "t": "25-30s",
-            "line": "I'm testing whether it actually cuts the noise. Full setup on my channel.",
-            "visual": "Channel card"
+            "line": "My full hands-on setup is on the channel.",
+            "visual": "End card"
           }
         ]
       },
       "carousel": {
         "slides": [
           {
-            "heading": "Claude Duet is here (preview)",
-            "body": "Anthropic's new app turns Claude into a proactive agent."
+            "heading": "Claude Duet is in preview",
+            "body": "Anthropic's new app where Claude acts as a proactive agent."
           },
           {
-            "heading": "It comes to you",
-            "body": "Surfaces what needs your attention instead of waiting for a prompt."
+            "heading": "Not another chat box",
+            "body": "It comes to you with what needs your attention."
           },
           {
-            "heading": "It does the task",
-            "body": "Completes work you ask for and keeps going when you step away."
+            "heading": "Hand off tasks",
+            "body": "Ask it to do something, then step away. It keeps working."
           },
           {
-            "heading": "It asks first",
-            "body": "Checks with you before acting on your behalf."
+            "heading": "You stay in control",
+            "body": "Anthropic says it checks with you before acting on your behalf."
           },
           {
-            "heading": "A setup worth copying",
-            "body": "Watch Slack, email and calendar. Ping only when it matters."
+            "heading": "The early-user take",
+            "body": "Less context switching, fewer pings that don't matter."
           },
           {
-            "heading": "Watch-outs",
-            "body": "It's a research preview. Start with low-risk sources and review its actions."
+            "heading": "What I'm testing",
+            "body": "Setup, real tasks, and how often it asks before acting."
           },
           {
-            "heading": "Full setup walkthrough",
-            "body": "Watch the test on Chase AI. Follow for more."
+            "heading": "Want the results?",
+            "body": "Follow for the full hands-on video."
           }
         ],
-        "caption": "Claude Duet is Anthropic's new research preview where Claude acts as a proactive agent. Here's what it does, a setup that cuts context switching, and what to be careful with."
+        "caption": "Anthropic opened a research preview of Claude Duet, an agent that surfaces what needs your attention and keeps working when you step away. I'm putting it on my real workflow to see how it holds up."
       },
-      "x_post": "Claude Duet (research preview) flips the model: Claude comes to you with what needs attention, works while you're away, and checks before acting.\n\nSetting it up to watch Slack, email and calendar and only ping me when it matters. Results soon.",
+      "x_post": "Anthropic just opened a preview of Claude Duet: Claude as a proactive agent that brings you what needs attention, finishes tasks while you're away, and checks before acting for you.\n\nI'm setting it up on my real inbox and calendar. Results soon.",
       "x_thread": [
-        "The part I care about: the check-in before it acts. That's what decides whether I'd let it near real accounts.",
-        "What I'll report: what it caught, what it missed, how noisy it is, and what I'd keep manual."
+        "The question I care about: does it actually cut the noise, or just add another thing pinging me? Early users say less context switching. Testing that."
+      ]
+    },
+    {
+      "story_id": "claude-api-version-2026-10-21",
+      "fingerprint": "8dc7314712eae4fc",
+      "why_now": "Anthropic shipped API version 2026-10-21, its first official version since 2023, and it removes temperature, top_p and top_k from the Messages API. Builders need to know what breaks before they switch, and YouTube has nothing on it yet.",
+      "video": {
+        "title": "Claude API 2026-10-21: What Breaks Before You Upgrade",
+        "thumbnail_text": "NO MORE TEMPERATURE?",
+        "hook": "Anthropic just shipped a new Claude API version, the first official one since 2023. And it removes temperature, top_p and top_k from the Messages API. If your code sets any of those, you need to know this before you bump the version header. The good news: the old version isn't deprecated, so nothing breaks today. Let me walk you through what changes.",
+        "alt_titles": [
+          "The Claude API Just Removed Temperature. Here's What to Do",
+          "New Claude API Version: Upgrade Checklist for Builders"
+        ],
+        "outline": [
+          "What an API version is and why Anthropic says it will release them more often",
+          "Change 1: temperature, top_p and top_k removed from the Messages API",
+          "Change 2: documents in assistant turns and citations in user turns now return a 400",
+          "Change 3: some deprecated Admin and Enterprise Analytics fields replaced",
+          "Upgrade checklist: search your code, test on the new version, keep 2023-06-01 until ready",
+          "Why versioning ahead of new models matters for your apps"
+        ]
+      },
+      "short": {
+        "duration_s": 30,
+        "beats": [
+          {
+            "t": "0-3s",
+            "line": "Heads up if you build on Claude: the API just dropped temperature.",
+            "visual": "Chase to camera, 'temperature' crossed out"
+          },
+          {
+            "t": "3-10s",
+            "line": "Anthropic released API version 2026-10-21, the first official version since 2023.",
+            "visual": "Screenshot of the announcement"
+          },
+          {
+            "t": "10-18s",
+            "line": "It removes temperature, top_p and top_k, and documents in assistant turns or citations in user turns now error out.",
+            "visual": "Code snippet with those params highlighted"
+          },
+          {
+            "t": "18-25s",
+            "line": "Don't panic. The old 2023-06-01 version isn't deprecated, so nothing breaks today. Search your code for those params, test on the new version, then switch.",
+            "visual": "Checklist graphic"
+          },
+          {
+            "t": "25-30s",
+            "line": "Full upgrade checklist is on the channel.",
+            "visual": "End card"
+          }
+        ]
+      },
+      "carousel": {
+        "slides": [
+          {
+            "heading": "New Claude API version is out",
+            "body": "2026-10-21, the first official version since 2023."
+          },
+          {
+            "heading": "Sampling params removed",
+            "body": "temperature, top_p and top_k are gone from the Messages API."
+          },
+          {
+            "heading": "Two new 400 errors",
+            "body": "Documents in assistant turns and citations in user turns."
+          },
+          {
+            "heading": "Admin field changes",
+            "body": "Some deprecated Admin and Enterprise Analytics fields are replaced."
+          },
+          {
+            "heading": "Nothing breaks today",
+            "body": "2023-06-01 is not deprecated. You upgrade when you're ready."
+          },
+          {
+            "heading": "Your upgrade checklist",
+            "body": "Search your code for those params, test on the new version, then switch."
+          },
+          {
+            "heading": "More versions coming",
+            "body": "Follow for the walkthrough each time one lands."
+          }
+        ],
+        "caption": "Anthropic shipped Claude API version 2026-10-21 and it removes temperature, top_p and top_k. The old version still works, so here's how to check your code before you switch."
+      },
+      "x_post": "New Claude API version 2026-10-21 is out, first official version since 2023.\n\nIt removes temperature, top_p and top_k from the Messages API. 2023-06-01 isn't deprecated, so nothing breaks today, but grep your code before you bump the header.",
+      "x_thread": [
+        "Also changing: documents in assistant turns and citations in user turns now return a 400, and some deprecated Admin and Enterprise Analytics fields are replaced.",
+        "Anthropic says it'll ship versions more often so you can handle breaking changes before a new model needs them. Good habit to pin your version now."
       ]
     }
   ]
